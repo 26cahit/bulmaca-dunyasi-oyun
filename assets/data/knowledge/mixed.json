@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "Dünyanın en büyük okyanusu hangisidir?",
+    "a": "Atlas Okyanusu",
+    "b": "Hint Okyanusu",
+    "c": "Büyük Okyanus",
+    "d": "Arktik Okyanusu",
+    "cevap": "C",
+    "aciklama": "Pasifik Okyanusu yani Büyük Okyanus, yüzölçümü bakımından dünyanın en büyük okyanusudur."
+  },
+  {
+    "id": 2,
+    "soru": "7 x 8 kaç eder?",
+    "a": "54",
+    "b": "56",
+    "c": "64",
+    "d": "72",
+    "cevap": "B",
+    "aciklama": "7 ile 8'in çarpımı 56'dır."
+  },
+  {
+    "id": 3,
+    "soru": "'Mona Lisa' tablosunun ressamı kimdir?",
+    "a": "Van Gogh",
+    "b": "Leonardo da Vinci",
+    "c": "Pablo Picasso",
+    "d": "Michelangelo",
+    "cevap": "B",
+    "aciklama": "Mona Lisa, Leonardo da Vinci tarafından 1503-1506 yılları arasında yapılmıştır."
+  },
+  {
+    "id": 4,
+    "soru": "Türkiye'nin en uzun nehri hangisidir?",
+    "a": "Fırat",
+    "b": "Dicle",
+    "c": "Kızılırmak",
+    "d": "Sakarya",
+    "cevap": "C",
+    "aciklama": "Kızılırmak 1355 km uzunluğu ile Türkiye'nin en uzun nehridir."
+  },
+  {
+    "id": 5,
+    "soru": "Bir yıl kaç haftadır?",
+    "a": "48",
+    "b": "50",
+    "c": "52",
+    "d": "54",
+    "cevap": "C",
+    "aciklama": "1 yıl 365 gündür. 365 / 7 = 52 hafta + 1 gün."
+  },
+  {
+    "id": 6,
+    "soru": "İnsan vücudunda en büyük organ hangisidir?",
+    "a": "Karaciğer",
+    "b": "Beyin",
+    "c": "Akciğer",
+    "d": "Deri",
+    "cevap": "D",
+    "aciklama": "Deri, yüzey alanı ve ağırlık bakımından insan vücudunun en büyük organıdır."
+  },
+  {
+    "id": 7,
+    "soru": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+    "a": "Venüs",
+    "b": "Mars",
+    "c": "Jüpiter",
+    "d": "Satürn",
+    "cevap": "B",
+    "aciklama": "Mars, yüzeyindeki demir oksit nedeniyle kırmızımsı görünür."
+  },
+  {
+    "id": 8,
+    "soru": "İstiklal Marşı kaç kıtadan oluşur?",
+    "a": "8",
+    "b": "9",
+    "c": "10",
+    "d": "12",
+    "cevap": "C",
+    "aciklama": "Mehmet Akif Ersoy'un yazdığı İstiklal Marşı 10 kıtadır."
+  },
+  {
+    "id": 9,
+    "soru": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+    "a": "90",
+    "b": "180",
+    "c": "270",
+    "d": "360",
+    "cevap": "B",
+    "aciklama": "Her üçgenin iç açıları toplamı 180 derecedir."
+  },
+  {
+    "id": 10,
+    "soru": "DNA'nın açılımı nedir?",
+    "a": "Deoksiribonükleik Asit",
+    "b": "Dinükleik Asit",
+    "c": "Diribonükleik Asit",
+    "d": "Denatüre Nükleik Asit",
+    "cevap": "A",
+    "aciklama": "DNA: Deoksiribonükleik Asit, genetik bilgiyi taşır."
+  },
+  {
+    "id": 11,
+    "soru": "Hangi ülkenin başkenti Tokyo'dur?",
+    "a": "Çin",
+    "b": "Güney Kore",
+    "c": "Japonya",
+    "d": "Tayland",
+    "cevap": "C",
+    "aciklama": "Tokyo, Japonya'nın başkentidir."
+  },
+  {
+    "id": 12,
+    "soru": "12'nin karekökü yaklaşık kaçtır?",
+    "a": "2.46",
+    "b": "3.46",
+    "c": "4.46",
+    "d": "5.46",
+    "cevap": "B",
+    "aciklama": "√12 ≈ 3.46'dır."
+  },
+  {
+    "id": 13,
+    "soru": "Nutuk hangi olayla sona erer?",
+    "a": "Cumhuriyetin İlanı",
+    "b": "Gençliğe Hitabe",
+    "c": "İzmir'in Kurtuluşu",
+    "d": "Lozan Antlaşması",
+    "cevap": "B",
+    "aciklama": "Atatürk'ün Nutuk'u 'Gençliğe Hitabe' ile sona erer."
+  },
+  {
+    "id": 14,
+    "soru": "Futbolda penaltı kaç metreden kullanılır?",
+    "a": "9",
+    "b": "11",
+    "c": "12",
+    "d": "16",
+    "cevap": "B",
+    "aciklama": "Penaltı noktası kale çizgisine 11 metre uzaklıktadır."
+  },
+  {
+    "id": 15,
+    "soru": "'Safahat' adlı eserin yazarı kimdir?",
+    "a": "Tevfik Fikret",
+    "b": "Namık Kemal",
+    "c": "Mehmet Akif Ersoy",
+    "d": "Yahya Kemal",
+    "cevap": "C",
+    "aciklama": "Safahat, Mehmet Akif Ersoy'un şiirlerini topladığı eseridir."
+  },
+  {
+    "id": 16,
+    "soru": "1 GB kaç MB'dir?",
+    "a": "100",
+    "b": "512",
+    "c": "1000",
+    "d": "1024",
+    "cevap": "D",
+    "aciklama": "1 Gigabyte = 1024 Megabyte'dır."
+  },
+  {
+    "id": 17,
+    "soru": "Hangi elementin sembolü 'Au'dur?",
+    "a": "Gümüş",
+    "b": "Altın",
+    "c": "Alüminyum",
+    "d": "Argon",
+    "cevap": "B",
+    "aciklama": "Au, Latince 'Aurum' kelimesinden gelir ve Altın elementidir."
+  },
+  {
+    "id": 18,
+    "soru": "Türkiye'de kaç coğrafi bölge vardır?",
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "8",
+    "cevap": "C",
+    "aciklama": "Türkiye 7 coğrafi bölgeye ayrılmıştır."
+  },
+  {
+    "id": 19,
+    "soru": "Bir deste kaç adettir?",
+    "a": "6",
+    "b": "10",
+    "c": "12",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "Bir deste 10 adet anlamına gelir. 12'ye düzine denir."
+  },
+  {
+    "id": 20,
+    "soru": "Hangi vitamin güneş ışığı ile vücutta sentezlenir?",
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D",
+    "cevap": "D",
+    "aciklama": "D vitamini güneş ışığı ile deride sentezlenir."
+  },
+  {
+    "id": 21,
+    "soru": "100'ün %20'si kaçtır?",
+    "a": "10",
+    "b": "20",
+    "c": "25",
+    "d": "40",
+    "cevap": "B",
+    "aciklama": "100 x 0.20 = 20"
+  },
+  {
+    "id": 22,
+    "soru": "'Kürk Mantolu Madonna' romanının yazarı?",
+    "a": "Sabahattin Ali",
+    "b": "Orhan Pamuk",
+    "c": "Yaşar Kemal",
+    "d": "Oğuz Atay",
+    "cevap": "A",
+    "aciklama": "Kürk Mantolu Madonna, Sabahattin Ali'nin 1943 tarihli romanıdır."
+  },
+  {
+    "id": 23,
+    "soru": "Türkiye'nin en yüksek dağı hangisidir?",
+    "a": "Erciyes",
+    "b": "Kaçkar",
+    "c": "Ağrı Dağı",
+    "d": "Uludağ",
+    "cevap": "C",
+    "aciklama": "Ağrı Dağı 5137 metre ile Türkiye'nin en yüksek dağıdır."
+  },
+  {
+    "id": 24,
+    "soru": "Satrançta en değerli taş hangisidir?",
+    "a": "Vezir",
+    "b": "Kale",
+    "c": "Şah",
+    "d": "At",
+    "cevap": "C",
+    "aciklama": "Şah yenirse oyun biter, bu yüzden en değerli taştır. Vezir en güçlü taştır."
+  },
+  {
+    "id": 25,
+    "soru": "Bir saat kaç saniyedir?",
+    "a": "3000",
+    "b": "3600",
+    "c": "4000",
+    "d": "6000",
+    "cevap": "B",
+    "aciklama": "1 saat = 60 dakika, 1 dakika = 60 saniye. 60x60=3600 saniye."
+  },
+  {
+    "id": 26,
+    "soru": "Hangi renk gökkuşağında yoktur?",
+    "a": "Kırmızı",
+    "b": "Pembe",
+    "c": "Mavi",
+    "d": "Mor",
+    "cevap": "B",
+    "aciklama": "Gökkuşağı: Kırmızı, turuncu, sarı, yeşil, mavi, lacivert, mor. Pembe yoktur."
+  },
+  {
+    "id": 27,
+    "soru": "15 ile 25 arasında kaç asal sayı vardır?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "B",
+    "aciklama": "17, 19, 23 olmak üzere 3 adet asal sayı vardır."
+  },
+  {
+    "id": 28,
+    "soru": "Nobel Ödülü alan ilk Türk kimdir?",
+    "a": "Orhan Pamuk",
+    "b": "Aziz Sancar",
+    "c": "Nazım Hikmet",
+    "d": "Yaşar Kemal",
+    "cevap": "A",
+    "aciklama": "Orhan Pamuk 2006'da Nobel Edebiyat Ödülü'nü almıştır."
+  },
+  {
+    "id": 29,
+    "soru": "Dünyanın uydusu hangisidir?",
+    "a": "Güneş",
+    "b": "Mars",
+    "c": "Ay",
+    "d": "Venüs",
+    "cevap": "C",
+    "aciklama": "Ay, Dünya'nın tek doğal uydusudur."
+  },
+  {
+    "id": 30,
+    "soru": "Hangi hayvan memeli değildir?",
+    "a": "Yunus",
+    "b": "Yarasa",
+    "c": "Penguen",
+    "d": "Balina",
+    "cevap": "C",
+    "aciklama": "Penguen kuştur. Yunus, yarasa ve balina memelidir."
+  },
+  {
+    "id": 31,
+    "soru": "Eğer bugün Çarşamba ise 50 gün sonra hangi gün olur?",
+    "a": "Pazartesi",
+    "b": "Salı",
+    "c": "Çarşamba",
+    "d": "Perşembe",
+    "cevap": "D",
+    "aciklama": "50 mod 7 = 1. Çarşamba + 1 gün = Perşembe."
+  },
+  {
+    "id": 32,
+    "soru": "Türkiye'de kaç il vardır?",
+    "a": "79",
+    "b": "80",
+    "c": "81",
+    "d": "82",
+    "cevap": "C",
+    "aciklama": "Türkiye'de 81 il bulunmaktadır."
+  },
+  {
+    "id": 33,
+    "soru": "Hangi organ kanı temizler?",
+    "a": "Kalp",
+    "b": "Akciğer",
+    "c": "Böbrek",
+    "d": "Mide",
+    "cevap": "C",
+    "aciklama": "Böbrekler kanı süzerek atık maddeleri idrarla atar."
+  },
+  {
+    "id": 34,
+    "soru": "9'un küpü kaçtır?",
+    "a": "81",
+    "b": "729",
+    "c": "921",
+    "d": "999",
+    "cevap": "B",
+    "aciklama": "9 x 9 x 9 = 729"
+  },
+  {
+    "id": 35,
+    "soru": "'Suç ve Ceza' hangi yazara aittir?",
+    "a": "Tolstoy",
+    "b": "Dostoyevski",
+    "c": "Çehov",
+    "d": "Puşkin",
+    "cevap": "B",
+    "aciklama": "Suç ve Ceza, Fyodor Dostoyevski'nin romanıdır."
+  },
+  {
+    "id": 36,
+    "soru": "Türkiye'nin yüzölçümü en büyük ili?",
+    "a": "Ankara",
+    "b": "Sivas",
+    "c": "Konya",
+    "d": "Erzurum",
+    "cevap": "C",
+    "aciklama": "Konya 38.873 km² ile en büyük yüzölçümüne sahiptir."
+  },
+  {
+    "id": 37,
+    "soru": "Bir bakkal 5 tanesi 20 TL olan kalemden 1 tane kaça satar?",
+    "a": "2 TL",
+    "b": "3 TL",
+    "c": "4 TL",
+    "d": "5 TL",
+    "cevap": "C",
+    "aciklama": "20 / 5 = 4 TL"
+  },
+  {
+    "id": 38,
+    "soru": "Hangi spor dalında 'smash' terimi kullanılır?",
+    "a": "Futbol",
+    "b": "Voleybol",
+    "c": "Basketbol",
+    "d": "Tenis",
+    "cevap": "B",
+    "aciklama": "Voleybolda sert vuruşa smaç yani smash denir. Teniste de vardır ama voleybol daha yaygın."
+  },
+  {
+    "id": 39,
+    "soru": "En küçük asal sayı kaçtır?",
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "3",
+    "cevap": "C",
+    "aciklama": "2, çift olan tek asal sayıdır ve en küçük asal sayıdır."
+  },
+  {
+    "id": 40,
+    "soru": "Türkiye hangi kıtadadır?",
+    "a": "Sadece Asya",
+    "b": "Sadece Avrupa",
+    "c": "Asya ve Avrupa",
+    "d": "Afrika",
+    "cevap": "C",
+    "aciklama": "Türkiye topraklarının %97'si Asya, %3'ü Avrupa kıtasındadır."
+  },
+  {
+    "id": 41,
+    "soru": "3, 6, 9, 12, ? Sıradaki sayı?",
+    "a": "14",
+    "b": "15",
+    "c": "16",
+    "d": "18",
+    "cevap": "B",
+    "aciklama": "Üçer üçer artıyor. 12 + 3 = 15"
+  },
+  {
+    "id": 42,
+    "soru": "Hangi gezegen Güneş'e en yakındır?",
+    "a": "Venüs",
+    "b": "Dünya",
+    "c": "Merkür",
+    "d": "Mars",
+    "cevap": "C",
+    "aciklama": "Merkür Güneş'e en yakın gezegendir."
+  },
+  {
+    "id": 43,
+    "soru": "Türkiye'de ilk kadın pilot kimdir?",
+    "a": "Sabiha Gökçen",
+    "b": "Afife Jale",
+    "c": "Halide Edip",
+    "d": "Türkan Saylan",
+    "cevap": "A",
+    "aciklama": "Sabiha Gökçen dünyanın ilk kadın savaş pilotudur."
+  },
+  {
+    "id": 44,
+    "soru": "Bir düzinede kaç yumurta vardır?",
+    "a": "6",
+    "b": "10",
+    "c": "12",
+    "d": "24",
+    "cevap": "C",
+    "aciklama": "1 düzine = 12 adettir."
+  },
+  {
+    "id": 45,
+    "soru": "Hangi şehir 'Yedi Tepeli Şehir' olarak anılır?",
+    "a": "Ankara",
+    "b": "İzmir",
+    "c": "İstanbul",
+    "d": "Roma",
+    "cevap": "C",
+    "aciklama": "İstanbul tarihte 'Yedi Tepeli Şehir' olarak anılmıştır."
+  },
+  {
+    "id": 46,
+    "soru": "25'in %40'ı kaçtır?",
+    "a": "5",
+    "b": "8",
+    "c": "10",
+    "d": "15",
+    "cevap": "C",
+    "aciklama": "25 x 0.40 = 10"
+  },
+  {
+    "id": 47,
+    "soru": "Elektriği kim buldu? En doğru ifade?",
+    "a": "Edison",
+    "b": "Tesla",
+    "c": "Kimse bulmadı, doğada vardı",
+    "d": "Faraday",
+    "cevap": "C",
+    "aciklama": "Elektrik doğada zaten vardır. İnsanlar kullanmayı keşfetmiştir."
+  },
+  {
+    "id": 48,
+    "soru": "Bir dikdörtgenin alanı nasıl hesaplanır?",
+    "a": "Kısa + Uzun",
+    "b": "Kısa x Uzun",
+    "c": "2(Kısa + Uzun)",
+    "d": "Kısa / Uzun",
+    "cevap": "B",
+    "aciklama": "Dikdörtgen alanı = Kısa kenar x Uzun kenar."
+  },
+  {
+    "id": 49,
+    "soru": "Hangi maden 'siyah altın' olarak bilinir?",
+    "a": "Kömür",
+    "b": "Petrol",
+    "c": "Demir",
+    "d": "Bakır",
+    "cevap": "B",
+    "aciklama": "Petrol, ekonomik değeri nedeniyle siyah altın olarak anılır."
+  },
+  {
+    "id": 50,
+    "soru": "Türkiye'nin para birimi nedir?",
+    "a": "Lira",
+    "b": "Türk Lirası",
+    "c": "Kuruş",
+    "d": "Dinar",
+    "cevap": "B",
+    "aciklama": "Türkiye'nin resmi para birimi Türk Lirası'dır. Sembol: ₺"
+  },
+  {
+    "id": 51,
+    "soru": "4 kardeşin yaş ortalaması 10 ise yaşları toplamı?",
+    "a": "20",
+    "b": "30",
+    "c": "40",
+    "d": "50",
+    "cevap": "C",
+    "aciklama": "Ortalama x kişi sayısı = 10 x 4 = 40"
+  },
+  {
+    "id": 52,
+    "soru": "Hangi hayvan en uzun yaşar?",
+    "a": "Fil",
+    "b": "Kaplumbağa",
+    "c": "Grönland Köpekbalığı",
+    "d": "Papağan",
+    "cevap": "C",
+    "aciklama": "Grönland köpekbalığı 400+ yıl yaşayabilir."
+  },
+  {
+    "id": 53,
+    "soru": "İngilizcede 'Hello' ne demektir?",
+    "a": "Güle güle",
+    "b": "Merhaba",
+    "c": "Teşekkürler",
+    "d": "Lütfen",
+    "cevap": "B",
+    "aciklama": "Hello = Merhaba"
+  },
+  {
+    "id": 54,
+    "soru": "Bir otomobilin 4 tekeri patlarsa kaç teker kalır?",
+    "a": "0",
+    "b": "1",
+    "c": "4",
+    "d": "5",
+    "cevap": "A",
+    "aciklama": "4 teker de patlarsa sağlam teker kalmaz. Stepne sayılmaz."
+  },
+  {
+    "id": 55,
+    "soru": "Türkiye'de ilk televizyon yayını hangi yıl başladı?",
+    "a": "1958",
+    "b": "1968",
+    "c": "1978",
+    "d": "1988",
+    "cevap": "B",
+    "aciklama": "TRT deneme yayınları 31 Ocak 1968'de başladı."
+  },
+  {
+    "id": 56,
+    "soru": "Hangisi programlama dili değildir?",
+    "a": "Python",
+    "b": "Java",
+    "c": "HTML",
+    "d": "C++",
+    "cevap": "C",
+    "aciklama": "HTML işaretleme dilidir, programlama dili değildir."
+  },
+  {
+    "id": 57,
+    "soru": "Suyun donma noktası kaç derecedir?",
+    "a": "0",
+    "b": "32",
+    "c": "100",
+    "d": "212",
+    "cevap": "A",
+    "aciklama": "Saf su 0°C'de donar, 100°C'de kaynar."
+  },
+  {
+    "id": 58,
+    "soru": "Türkiye'nin en kalabalık şehri?",
+    "a": "Ankara",
+    "b": "İzmir",
+    "c": "Bursa",
+    "d": "İstanbul",
+    "cevap": "D",
+    "aciklama": "İstanbul 15+ milyon nüfusla en kalabalıktır."
+  },
+  {
+    "id": 59,
+    "soru": "Bir sayının 0'a bölümü?",
+    "a": "0",
+    "b": "1",
+    "c": "Sonsuz",
+    "d": "Tanımsız",
+    "cevap": "D",
+    "aciklama": "Matematikte bir sayının sıfıra bölümü tanımsızdır."
+  },
+  {
+    "id": 60,
+    "soru": "Hangi ülkenin para birimi 'Euro' değildir?",
+    "a": "Almanya",
+    "b": "Fransa",
+    "c": "İngiltere",
+    "d": "İspanya",
+    "cevap": "C",
+    "aciklama": "İngiltere'nin para birimi Sterlin'dir."
+  },
+  {
+    "id": 61,
+    "soru": "Kediler günde ortalama kaç saat uyur?",
+    "a": "8",
+    "b": "12",
+    "c": "16",
+    "d": "20",
+    "cevap": "C",
+    "aciklama": "Kediler günde 13-16 saat uyuyabilir."
+  },
+  {
+    "id": 62,
+    "soru": "Türkiye'de 'Anayasa Mahkemesi' kaç üyeden oluşur?",
+    "a": "11",
+    "b": "13",
+    "c": "15",
+    "d": "17",
+    "cevap": "C",
+    "aciklama": "AYM 15 üyeden oluşur."
+  },
+  {
+    "id": 63,
+    "soru": "Hangi sayı hem çift hem asaldır?",
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "4",
+    "cevap": "C",
+    "aciklama": "2, çift olan tek asal sayıdır."
+  },
+  {
+    "id": 64,
+    "soru": "'Çalıkuşu' romanının yazarı?",
+    "a": "Halide Edip",
+    "b": "Reşat Nuri Güntekin",
+    "c": "Yakup Kadri",
+    "d": "Peyami Safa",
+    "cevap": "B",
+    "aciklama": "Çalıkuşu, Reşat Nuri Güntekin'in 1922 tarihli romanıdır."
+  },
+  {
+    "id": 65,
+    "soru": "Bir hafta kaç saattir?",
+    "a": "148",
+    "b": "158",
+    "c": "168",
+    "d": "178",
+    "cevap": "C",
+    "aciklama": "7 gün x 24 saat = 168 saat"
+  },
+  {
+    "id": 66,
+    "soru": "Hangi elementin atom numarası 1'dir?",
+    "a": "Helyum",
+    "b": "Hidrojen",
+    "c": "Lityum",
+    "d": "Oksijen",
+    "cevap": "B",
+    "aciklama": "Hidrojen periyodik tabloda 1. elementtir."
+  },
+  {
+    "id": 67,
+    "soru": "Türkiye'de ilk nüfus sayımı ne zaman yapıldı?",
+    "a": "1923",
+    "b": "1927",
+    "c": "1935",
+    "d": "1940",
+    "cevap": "B",
+    "aciklama": "Cumhuriyet dönemi ilk nüfus sayımı 28 Ekim 1927'de yapıldı."
+  },
+  {
+    "id": 68,
+    "soru": "Hangi gezegenin halkası vardır?",
+    "a": "Merkür",
+    "b": "Venüs",
+    "c": "Satürn",
+    "d": "Mars",
+    "cevap": "C",
+    "aciklama": "Satürn'ün belirgin halkaları vardır."
+  },
+  {
+    "id": 69,
+    "soru": "2, 4, 8, 16, ? Sıradaki sayı?",
+    "a": "20",
+    "b": "24",
+    "c": "32",
+    "d": "64",
+    "cevap": "C",
+    "aciklama": "Her sayı 2 ile çarpılıyor. 16 x 2 = 32"
+  },
+  {
+    "id": 70,
+    "soru": "Türkiye'de ilk kadın bakan kimdir?",
+    "a": "Tansu Çiller",
+    "b": "Türkan Akyol",
+    "c": "Meral Akşener",
+    "d": "İmren Aykut",
+    "cevap": "B",
+    "aciklama": "Türkan Akyol 1971'de Sağlık Bakanı olmuştur."
+  },
+  {
+    "id": 71,
+    "soru": "Bir kilogram kaç gramdır?",
+    "a": "10",
+    "b": "100",
+    "c": "1000",
+    "d": "10000",
+    "cevap": "C",
+    "aciklama": "1 kg = 1000 gram"
+  },
+  {
+    "id": 72,
+    "soru": "Hangi renk ana renk değildir?",
+    "a": "Kırmızı",
+    "b": "Mavi",
+    "c": "Yeşil",
+    "d": "Sarı",
+    "cevap": "D",
+    "aciklama": "Işıkta ana renkler: Kırmızı, Yeşil, Mavi. Boyada: Kırmızı, Mavi, Sarı."
+  },
+  {
+    "id": 73,
+    "soru": "Türkiye'de yerel saat hangi meridyenden alınır?",
+    "a": "26° Doğu",
+    "b": "30° Doğu",
+    "c": "45° Doğu",
+    "d": "36° Doğu",
+    "cevap": "B",
+    "aciklama": "Türkiye 30° Doğu meridyeninin saatini kullanır. GMT+3"
+  },
+  {
+    "id": 74,
+    "soru": "Hangi organ insülin hormonu üretir?",
+    "a": "Karaciğer",
+    "b": "Pankreas",
+    "c": "Böbrek",
+    "d": "Mide",
+    "cevap": "B",
+    "aciklama": "İnsülin pankreasta üretilir ve kan şekerini düzenler."
+  },
+  {
+    "id": 75,
+    "soru": "Bir insan iskeletinde kaç kemik vardır?",
+    "a": "186",
+    "b": "206",
+    "c": "226",
+    "d": "306",
+    "cevap": "B",
+    "aciklama": "Yetişkin insan iskeletinde 206 kemik bulunur."
+  },
+  {
+    "id": 76,
+    "soru": "Hangi sayı 'mükemmel sayı' değildir?",
+    "a": "6",
+    "b": "28",
+    "c": "36",
+    "d": "496",
+    "cevap": "C",
+    "aciklama": "Mükemmel sayı, kendisi hariç bölenleri toplamı kendisine eşittir. 6=1+2+3. 36 değildir."
+  },
+  {
+    "id": 77,
+    "soru": "Türkiye'de 'Altın Portakal' hangi şehirdedir?",
+    "a": "İzmir",
+    "b": "Antalya",
+    "c": "Adana",
+    "d": "Muğla",
+    "cevap": "B",
+    "aciklama": "Altın Portakal Film Festivali Antalya'da düzenlenir."
+  },
+  {
+    "id": 78,
+    "soru": "Hangi hayvanın 3 kalbi vardır?",
+    "a": "Ahtapot",
+    "b": "Balina",
+    "c": "Köpekbalığı",
+    "d": "Yunus",
+    "cevap": "A",
+    "aciklama": "Ahtapotun 3 kalbi ve mavi kanı vardır."
+  },
+  {
+    "id": 79,
+    "soru": "Bir tavla oyununda kaç pul vardır?",
+    "a": "15",
+    "b": "20",
+    "c": "30",
+    "d": "32",
+    "cevap": "C",
+    "aciklama": "Tavlada her oyuncunun 15 pulu, toplam 30 pul vardır."
+  },
+  {
+    "id": 80,
+    "soru": "Hangi ülke Ay'a ilk insan gönderen ülkedir?",
+    "a": "Rusya",
+    "b": "Çin",
+    "c": "ABD",
+    "d": "İngiltere",
+    "cevap": "C",
+    "aciklama": "ABD, 1969 Apollo 11 ile Ay'a ilk insanı gönderdi."
+  },
+  {
+    "id": 81,
+    "soru": "Türkiye'de en çok konuşulan dil hangisidir?",
+    "a": "İngilizce",
+    "b": "Kürtçe",
+    "c": "Türkçe",
+    "d": "Arapça",
+    "cevap": "C",
+    "aciklama": "Türkçe, Türkiye'nin resmi dili ve en çok konuşulan dildir."
+  },
+  {
+    "id": 82,
+    "soru": "0,1,1,2,3,5,8,? Fibonacci dizisinde sonraki?",
+    "a": "11",
+    "b": "13",
+    "c": "15",
+    "d": "21",
+    "cevap": "B",
+    "aciklama": "5+8=13. Fibonacci'de her sayı önceki iki sayının toplamıdır."
+  },
+  {
+    "id": 83,
+    "soru": "Hangi meyve vitamin C açısından en zengindir?",
+    "a": "Elma",
+    "b": "Portakal",
+    "c": "Kuşburnu",
+    "d": "Muz",
+    "cevap": "C",
+    "aciklama": "Kuşburnu, portakaldan çok daha fazla C vitamini içerir."
+  },
+  {
+    "id": 84,
+    "soru": "Türkiye'de kaç tane büyükşehir belediyesi vardır?",
+    "a": "16",
+    "b": "30",
+    "c": "51",
+    "d": "81",
+    "cevap": "B",
+    "aciklama": "2024 itibariyle Türkiye'de 30 büyükşehir belediyesi vardır."
+  },
+  {
+    "id": 85,
+    "soru": "Bir yumurtayı haşlamak için ideal süre?",
+    "a": "3 dk",
+    "b": "7 dk",
+    "c": "10 dk",
+    "d": "15 dk",
+    "cevap": "C",
+    "aciklama": "Katı yumurta için ortalama 9-10 dakika gerekir."
+  },
+  {
+    "id": 86,
+    "soru": "Hangi gezegen en büyüktür?",
+    "a": "Dünya",
+    "b": "Mars",
+    "c": "Satürn",
+    "d": "Jüpiter",
+    "cevap": "D",
+    "aciklama": "Jüpiter Güneş Sistemi'nin en büyük gezegenidir."
+  },
+  {
+    "id": 87,
+    "soru": "Türkiye'de trafik hangi şeritten akar?",
+    "a": "Sol",
+    "b": "Sağ",
+    "c": "Orta",
+    "d": "Değişir",
+    "cevap": "B",
+    "aciklama": "Türkiye'de trafik sağdan akar."
+  },
+  {
+    "id": 88,
+    "soru": "Hangi sayı rasyonel sayı değildir?",
+    "a": "1/2",
+    "b": "0.75",
+    "c": "√2",
+    "d": "-3",
+    "cevap": "C",
+    "aciklama": "√2 irrasyonel sayıdır, kesir olarak yazılamaz."
+  },
+  {
+    "id": 89,
+    "soru": "Kediler günde ortalama kaç saat uyur?",
+    "a": "8",
+    "b": "12",
+    "c": "16",
+    "d": "20",
+    "cevap": "C",
+    "aciklama": "Kediler günde 13-16 saat uyuyabilir."
+  },
+  {
+    "id": 90,
+    "soru": "Türkiye'de 'Anayasa Mahkemesi' kaç üyeden oluşur?",
+    "a": "11",
+    "b": "13",
+    "c": "15",
+    "d": "17",
+    "cevap": "C",
+    "aciklama": "AYM 15 üyeden oluşur."
+  },
+  {
+    "id": 91,
+    "soru": "Hangi sayı hem çift hem asaldır?",
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "4",
+    "cevap": "C",
+    "aciklama": "2, çift olan tek asal sayıdır."
+  },
+  {
+    "id": 92,
+    "soru": "'Çalıkuşu' romanının yazarı?",
+    "a": "Halide Edip",
+    "b": "Reşat Nuri Güntekin",
+    "c": "Yakup Kadri",
+    "d": "Peyami Safa",
+    "cevap": "B",
+    "aciklama": "Çalıkuşu, Reşat Nuri Güntekin'in 1922 tarihli romanıdır."
+  },
+  {
+    "id": 93,
+    "soru": "Bir hafta kaç saattir?",
+    "a": "148",
+    "b": "158",
+    "c": "168",
+    "d": "178",
+    "cevap": "C",
+    "aciklama": "7 gün x 24 saat = 168 saat"
+  },
+  {
+    "id": 94,
+    "soru": "Hangi elementin atom numarası 1'dir?",
+    "a": "Helyum",
+    "b": "Hidrojen",
+    "c": "Lityum",
+    "d": "Oksijen",
+    "cevap": "B",
+    "aciklama": "Hidrojen periyodik tabloda 1. elementtir."
+  },
+  {
+    "id": 95,
+    "soru": "Türkiye'de ilk nüfus sayımı ne zaman yapıldı?",
+    "a": "1923",
+    "b": "1927",
+    "c": "1935",
+    "d": "1940",
+    "cevap": "B",
+    "aciklama": "Cumhuriyet dönemi ilk nüfus sayımı 28 Ekim 1927'de yapıldı."
+  },
+  {
+    "id": 96,
+    "soru": "Hangi gezegenin halkası vardır?",
+    "a": "Merkür",
+    "b": "Venüs",
+    "c": "Satürn",
+    "d": "Mars",
+    "cevap": "C",
+    "aciklama": "Satürn'ün belirgin halkaları vardır."
+  },
+  {
+    "id": 97,
+    "soru": "2, 4, 8, 16, ? Sıradaki sayı?",
+    "a": "20",
+    "b": "24",
+    "c": "32",
+    "d": "64",
+    "cevap": "C",
+    "aciklama": "Her sayı 2 ile çarpılıyor. 16 x 2 = 32"
+  },
+  {
+    "id": 98,
+    "soru": "Türkiye'de ilk kadın bakan kimdir?",
+    "a": "Tansu Çiller",
+    "b": "Türkan Akyol",
+    "c": "Meral Akşener",
+    "d": "İmren Aykut",
+    "cevap": "B",
+    "aciklama": "Türkan Akyol 1971'de Sağlık Bakanı olmuştur."
+  },
+  {
+    "id": 99,
+    "soru": "Bir kilogram kaç gramdır?",
+    "a": "10",
+    "b": "100",
+    "c": "1000",
+    "d": "10000",
+    "cevap": "C",
+    "aciklama": "1 kg = 1000 gram"
+  },
+  {
+    "id": 100,
+    "soru": "Hangi renk ana renk değildir?",
+    "a": "Kırmızı",
+    "b": "Mavi",
+    "c": "Yeşil",
+    "d": "Sarı",
+    "cevap": "D",
+    "aciklama": "Işıkta ana renkler: Kırmızı, Yeşil, Mavi. Boyada: Kırmızı, Mavi, Sarı."
+  }
+]

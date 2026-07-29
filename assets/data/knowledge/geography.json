@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "Türkiye'nin başkenti neresidir?",
+    "a": "İstanbul",
+    "b": "İzmir",
+    "c": "Ankara",
+    "d": "Bursa",
+    "cevap": "C",
+    "aciklama": "Türkiye Cumhuriyeti'nin başkenti Ankara'dır."
+  },
+  {
+    "id": 2,
+    "soru": "Dünyanın en büyük okyanusu hangisidir?",
+    "a": "Atlas Okyanusu",
+    "b": "Hint Okyanusu",
+    "c": "Pasifik Okyanusu",
+    "d": "Arktik Okyanusu",
+    "cevap": "C",
+    "aciklama": "Pasifik Okyanusu dünyanın en büyük okyanusudur."
+  },
+  {
+    "id": 3,
+    "soru": "Türkiye'nin en uzun nehri hangisidir?",
+    "a": "Kızılırmak",
+    "b": "Fırat",
+    "c": "Dicle",
+    "d": "Sakarya",
+    "cevap": "A",
+    "aciklama": "Kızılırmak tamamen Türkiye sınırları içindeki en uzun nehirdir."
+  },
+  {
+    "id": 4,
+    "soru": "Aşağıdakilerden hangisi Avrupa kıtasındadır?",
+    "a": "Kanada",
+    "b": "İspanya",
+    "c": "Çin",
+    "d": "Brezilya",
+    "cevap": "B",
+    "aciklama": "İspanya Avrupa kıtasında yer alır."
+  },
+  {
+    "id": 5,
+    "soru": "Ekvator Dünya'yı nasıl böler?",
+    "a": "Doğu-Batı",
+    "b": "Kuzey-Güney",
+    "c": "Yaz-Kış",
+    "d": "Kara-Deniz",
+    "cevap": "B",
+    "aciklama": "Ekvator Dünya'yı Kuzey ve Güney Yarım Küre olarak ikiye ayırır."
+  },
+  {
+    "id": 6,
+    "soru": "Dünyanın en yüksek dağı hangisidir?",
+    "a": "K2",
+    "b": "Everest",
+    "c": "Ağrı",
+    "d": "Elbruz",
+    "cevap": "B",
+    "aciklama": "Everest Dağı 8.849 metre yüksekliğe sahiptir."
+  },
+  {
+    "id": 7,
+    "soru": "Akdeniz'e kıyısı olmayan ülke hangisidir?",
+    "a": "Tunus",
+    "b": "Libya",
+    "c": "Irak",
+    "d": "İspanya",
+    "cevap": "C",
+    "aciklama": "Irak'ın Akdeniz'e kıyısı yoktur."
+  },
+  {
+    "id": 8,
+    "soru": "Aşağıdakilerden hangisi bir kıta değildir?",
+    "a": "Avrupa",
+    "b": "Afrika",
+    "c": "Grönland",
+    "d": "Asya",
+    "cevap": "C",
+    "aciklama": "Grönland dünyanın en büyük adasıdır."
+  },
+  {
+    "id": 9,
+    "soru": "Türkiye kaç denizle çevrilidir?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "Karadeniz, Marmara, Ege ve Akdeniz olmak üzere dört deniz vardır."
+  },
+  {
+    "id": 10,
+    "soru": "Nil Nehri hangi kıtadadır?",
+    "a": "Avrupa",
+    "b": "Afrika",
+    "c": "Asya",
+    "d": "Amerika",
+    "cevap": "B",
+    "aciklama": "Nil Nehri Afrika kıtasındadır."
+  },
+  {
+    "id": 11,
+    "soru": "En büyük çöl hangisidir?",
+    "a": "Sahra",
+    "b": "Gobi",
+    "c": "Kalahari",
+    "d": "Atacama",
+    "cevap": "A",
+    "aciklama": "Sahra Çölü sıcak çöller arasında en büyük alana sahiptir."
+  },
+  {
+    "id": 12,
+    "soru": "Karadeniz hangi boğaz ile Marmara Denizi'ne bağlanır?",
+    "a": "Çanakkale",
+    "b": "İstanbul",
+    "c": "Hürmüz",
+    "d": "Cebelitarık",
+    "cevap": "B",
+    "aciklama": "İstanbul Boğazı Karadeniz'i Marmara Denizi'ne bağlar."
+  },
+  {
+    "id": 13,
+    "soru": "Japonya hangi okyanusa kıyıdır?",
+    "a": "Atlas",
+    "b": "Hint",
+    "c": "Pasifik",
+    "d": "Arktik",
+    "cevap": "C",
+    "aciklama": "Japonya Pasifik Okyanusu kıyısındadır."
+  },
+  {
+    "id": 14,
+    "soru": "Türkiye'nin en büyük gölü hangisidir?",
+    "a": "Beyşehir",
+    "b": "Van",
+    "c": "Tuz",
+    "d": "İznik",
+    "cevap": "B",
+    "aciklama": "Van Gölü Türkiye'nin en büyük gölüdür."
+  },
+  {
+    "id": 15,
+    "soru": "Hangi ülke iki kıta üzerinde yer alır?",
+    "a": "İtalya",
+    "b": "Türkiye",
+    "c": "Mısır",
+    "d": "Yunanistan",
+    "cevap": "B",
+    "aciklama": "Türkiye'nin toprakları Avrupa ve Asya kıtalarındadır."
+  },
+  {
+    "id": 16,
+    "soru": "Aşağıdakilerden hangisi ada ülkesidir?",
+    "a": "İngiltere",
+    "b": "İsviçre",
+    "c": "Avusturya",
+    "d": "Macaristan",
+    "cevap": "A",
+    "aciklama": "Birleşik Krallık bir ada ülkesidir."
+  },
+  {
+    "id": 17,
+    "soru": "Dünyanın en kalabalık ülkesi hangisidir?",
+    "a": "Hindistan",
+    "b": "ABD",
+    "c": "Rusya",
+    "d": "Endonezya",
+    "cevap": "A",
+    "aciklama": "Hindistan nüfus bakımından dünyanın en kalabalık ülkesidir."
+  },
+  {
+    "id": 18,
+    "soru": "Hangi şehir Boğaziçi üzerinde yer alır?",
+    "a": "Ankara",
+    "b": "İstanbul",
+    "c": "İzmir",
+    "d": "Bursa",
+    "cevap": "B",
+    "aciklama": "İstanbul Boğaziçi'nin iki yakasında kurulmuştur."
+  },
+  {
+    "id": 19,
+    "soru": "Amazon Ormanları hangi kıtadadır?",
+    "a": "Afrika",
+    "b": "Avrupa",
+    "c": "Güney Amerika",
+    "d": "Asya",
+    "cevap": "C",
+    "aciklama": "Amazon Yağmur Ormanları Güney Amerika'dadır."
+  },
+  {
+    "id": 20,
+    "soru": "Dünyanın en büyük adası hangisidir?",
+    "a": "Madagaskar",
+    "b": "Grönland",
+    "c": "Borneo",
+    "d": "Yeni Gine",
+    "cevap": "B",
+    "aciklama": "Grönland dünyanın en büyük adasıdır."
+  },
+  {
+    "id": 21,
+    "soru": "Aşağıdaki ülkelerden hangisi Güney Amerika'dadır?",
+    "a": "Meksika",
+    "b": "Arjantin",
+    "c": "Kanada",
+    "d": "İspanya",
+    "cevap": "B",
+    "aciklama": "Arjantin Güney Amerika kıtasındadır."
+  },
+  {
+    "id": 22,
+    "soru": "Türkiye'nin batısında hangi deniz bulunur?",
+    "a": "Karadeniz",
+    "b": "Akdeniz",
+    "c": "Ege Denizi",
+    "d": "Marmara Denizi",
+    "cevap": "C",
+    "aciklama": "Türkiye'nin batısında Ege Denizi yer alır."
+  },
+  {
+    "id": 23,
+    "soru": "Kutup Noktaları hangi enlemde bulunur?",
+    "a": "0°",
+    "b": "23,5°",
+    "c": "66,5°",
+    "d": "90°",
+    "cevap": "D",
+    "aciklama": "Kutup noktaları 90° enlemindedir."
+  },
+  {
+    "id": 24,
+    "soru": "Aşağıdakilerden hangisi volkanik bir dağdır?",
+    "a": "Uludağ",
+    "b": "Erciyes",
+    "c": "Ilgaz",
+    "d": "Yıldız",
+    "cevap": "B",
+    "aciklama": "Erciyes Dağı sönmüş volkanik dağlardan biridir."
+  },
+  {
+    "id": 25,
+    "soru": "Türkiye'nin en doğusunda bulunan bölgesi hangisidir?",
+    "a": "Karadeniz",
+    "b": "Doğu Anadolu",
+    "c": "Marmara",
+    "d": "Ege",
+    "cevap": "B",
+    "aciklama": "Doğu Anadolu Bölgesi Türkiye'nin en doğusunda yer alır."
+  },
+  {
+    "id": 26,
+    "soru": "Avrupa'nın en uzun nehri hangisidir?",
+    "a": "Tuna",
+    "b": "Volga",
+    "c": "Ren",
+    "d": "Po",
+    "cevap": "B",
+    "aciklama": "Volga Nehri Avrupa'nın en uzun nehridir."
+  },
+  {
+    "id": 27,
+    "soru": "Dünyanın en büyük kıtası hangisidir?",
+    "a": "Afrika",
+    "b": "Avrupa",
+    "c": "Asya",
+    "d": "Kuzey Amerika",
+    "cevap": "C",
+    "aciklama": "Asya kıtası yüzölçümü bakımından en büyük kıtadır."
+  },
+  {
+    "id": 28,
+    "soru": "Türkiye'nin güneyinde hangi deniz bulunur?",
+    "a": "Karadeniz",
+    "b": "Ege Denizi",
+    "c": "Marmara Denizi",
+    "d": "Akdeniz",
+    "cevap": "D",
+    "aciklama": "Türkiye'nin güney kıyıları Akdeniz'e uzanır."
+  },
+  {
+    "id": 29,
+    "soru": "Aşağıdakilerden hangisi bir yarımadadır?",
+    "a": "Anadolu",
+    "b": "Grönland",
+    "c": "Madagaskar",
+    "d": "Japonya",
+    "cevap": "A",
+    "aciklama": "Anadolu büyük bir yarımadadır."
+  },
+  {
+    "id": 30,
+    "soru": "Dünya'nın en büyük gölü hangisidir?",
+    "a": "Van Gölü",
+    "b": "Baykal Gölü",
+    "c": "Hazar Denizi",
+    "d": "Superior Gölü",
+    "cevap": "C",
+    "aciklama": "Hazar Denizi yüzölçümü bakımından dünyanın en büyük gölüdür."
+  },
+  {
+    "id": 31,
+    "soru": "Aşağıdaki şehirlerden hangisi Ege Bölgesi'ndedir?",
+    "a": "Samsun",
+    "b": "İzmir",
+    "c": "Adana",
+    "d": "Erzurum",
+    "cevap": "B",
+    "aciklama": "İzmir Ege Bölgesi'nin en büyük şehridir."
+  },
+  {
+    "id": 32,
+    "soru": "Dünyanın en büyük çayı hangisidir?",
+    "a": "Amazon",
+    "b": "Mississippi",
+    "c": "Volga",
+    "d": "Nil",
+    "cevap": "A",
+    "aciklama": "Amazon Nehri debi bakımından dünyanın en büyük nehridir."
+  },
+  {
+    "id": 33,
+    "soru": "Hangi kıta tamamen Güney Yarım Küre'dedir?",
+    "a": "Avrupa",
+    "b": "Afrika",
+    "c": "Avustralya",
+    "d": "Asya",
+    "cevap": "C",
+    "aciklama": "Avustralya kıtası tamamen Güney Yarım Küre'dedir."
+  },
+  {
+    "id": 34,
+    "soru": "Türkiye'nin en kuzeyindeki bölgesi hangisidir?",
+    "a": "İç Anadolu",
+    "b": "Karadeniz",
+    "c": "Doğu Anadolu",
+    "d": "Marmara",
+    "cevap": "B",
+    "aciklama": "Karadeniz Bölgesi Türkiye'nin kuzeyinde yer alır."
+  },
+  {
+    "id": 35,
+    "soru": "Aşağıdakilerden hangisi Asya kıtasında yer almaz?",
+    "a": "Çin",
+    "b": "Hindistan",
+    "c": "Japonya",
+    "d": "Arjantin",
+    "cevap": "D",
+    "aciklama": "Arjantin Güney Amerika kıtasındadır."
+  },
+  {
+    "id": 36,
+    "soru": "Dünyanın en büyük sıcak çölü hangisidir?",
+    "a": "Gobi",
+    "b": "Atacama",
+    "c": "Sahra",
+    "d": "Kalahari",
+    "cevap": "C",
+    "aciklama": "Sahra dünyanın en büyük sıcak çölüdür."
+  },
+  {
+    "id": 37,
+    "soru": "Aşağıdakilerden hangisi ada değildir?",
+    "a": "Kıbrıs",
+    "b": "Sicilya",
+    "c": "Balkan",
+    "d": "Girit",
+    "cevap": "C",
+    "aciklama": "Balkan bir yarımadadır."
+  },
+  {
+    "id": 38,
+    "soru": "Türkiye'nin en büyük ili hangisidir?",
+    "a": "Konya",
+    "b": "Sivas",
+    "c": "Ankara",
+    "d": "Erzurum",
+    "cevap": "A",
+    "aciklama": "Konya yüzölçümü bakımından en büyük ildir."
+  },
+  {
+    "id": 39,
+    "soru": "Aşağıdakilerden hangisi Karadeniz'e kıyısı olan bir ülkedir?",
+    "a": "İtalya",
+    "b": "Bulgaristan",
+    "c": "Fransa",
+    "d": "İspanya",
+    "cevap": "B",
+    "aciklama": "Bulgaristan Karadeniz'e kıyısı olan ülkelerden biridir."
+  },
+  {
+    "id": 40,
+    "soru": "Hangi ülke 'Yükselen Güneşin Ülkesi' olarak bilinir?",
+    "a": "Çin",
+    "b": "Japonya",
+    "c": "Kore",
+    "d": "Tayland",
+    "cevap": "B",
+    "aciklama": "Japonya bu unvanla bilinir."
+  },
+  {
+    "id": 41,
+    "soru": "Aşağıdakilerden hangisi Afrika kıtasındadır?",
+    "a": "Peru",
+    "b": "Kenya",
+    "c": "Pakistan",
+    "d": "Norveç",
+    "cevap": "B",
+    "aciklama": "Kenya Doğu Afrika'da yer alır."
+  },
+  {
+    "id": 42,
+    "soru": "Türkiye'nin en batısındaki ili hangisidir?",
+    "a": "Çanakkale",
+    "b": "İzmir",
+    "c": "Edirne",
+    "d": "Muğla",
+    "cevap": "C",
+    "aciklama": "Edirne Türkiye'nin en batıdaki ilidir."
+  },
+  {
+    "id": 43,
+    "soru": "Aşağıdakilerden hangisi kutup bölgesinde bulunur?",
+    "a": "Antarktika",
+    "b": "Sahra",
+    "c": "Amazon",
+    "d": "Alpler",
+    "cevap": "A",
+    "aciklama": "Antarktika Güney Kutbu çevresinde yer alır."
+  },
+  {
+    "id": 44,
+    "soru": "Dünyanın en derin gölü hangisidir?",
+    "a": "Van",
+    "b": "Baykal",
+    "c": "Tuz",
+    "d": "Hazar",
+    "cevap": "B",
+    "aciklama": "Baykal Gölü dünyanın en derin gölüdür."
+  },
+  {
+    "id": 45,
+    "soru": "Türkiye'nin hangi bölgesi fındık üretimiyle ünlüdür?",
+    "a": "Akdeniz",
+    "b": "Karadeniz",
+    "c": "Ege",
+    "d": "Marmara",
+    "cevap": "B",
+    "aciklama": "Fındık üretiminin büyük kısmı Karadeniz Bölgesi'nde yapılır."
+  },
+  {
+    "id": 46,
+    "soru": "En fazla ülkeye sahip kıta hangisidir?",
+    "a": "Asya",
+    "b": "Afrika",
+    "c": "Avrupa",
+    "d": "Güney Amerika",
+    "cevap": "B",
+    "aciklama": "Afrika kıtasında 50'den fazla ülke bulunmaktadır."
+  },
+  {
+    "id": 47,
+    "soru": "Hangi boğaz Asya ile Avrupa'yı birbirinden ayırır?",
+    "a": "Çanakkale",
+    "b": "İstanbul",
+    "c": "Cebelitarık",
+    "d": "Hürmüz",
+    "cevap": "B",
+    "aciklama": "İstanbul Boğazı Asya ile Avrupa'yı ayırır."
+  },
+  {
+    "id": 48,
+    "soru": "Türkiye'nin en yüksek dağı hangisidir?",
+    "a": "Erciyes",
+    "b": "Süphan",
+    "c": "Ağrı",
+    "d": "Kaçkar",
+    "cevap": "C",
+    "aciklama": "Ağrı Dağı Türkiye'nin en yüksek dağıdır."
+  },
+  {
+    "id": 49,
+    "soru": "Aşağıdakilerden hangisi Okyanus değildir?",
+    "a": "Atlas",
+    "b": "Hint",
+    "c": "Pasifik",
+    "d": "Karadeniz",
+    "cevap": "D",
+    "aciklama": "Karadeniz bir iç denizdir."
+  },
+  {
+    "id": 50,
+    "soru": "Dünya üzerinde kaç kıta bulunmaktadır?",
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "8",
+    "cevap": "C",
+    "aciklama": "Genel kabul gören sınıflandırmaya göre Dünya'da 7 kıta vardır."
+  },
+  {
+    "id": 51,
+    "soru": "Türkiye'nin en büyük adası hangisidir?",
+    "a": "Bozcaada",
+    "b": "Gökçeada",
+    "c": "Marmara Adası",
+    "d": "Cunda",
+    "cevap": "B",
+    "aciklama": "Gökçeada, Türkiye'nin yüzölçümü bakımından en büyük adasıdır."
+  },
+  {
+    "id": 52,
+    "soru": "Aşağıdaki ülkelerden hangisi Ekvator üzerinde yer alır?",
+    "a": "Ekvador",
+    "b": "İtalya",
+    "c": "Kanada",
+    "d": "Japonya",
+    "cevap": "A",
+    "aciklama": "Ekvador ülkesi adını Ekvator çizgisinden alır."
+  },
+  {
+    "id": 53,
+    "soru": "Aşağıdakilerden hangisi Kuzey Amerika kıtasındadır?",
+    "a": "Şili",
+    "b": "Meksika",
+    "c": "Arjantin",
+    "d": "Peru",
+    "cevap": "B",
+    "aciklama": "Meksika, Kuzey Amerika kıtasında yer alır."
+  },
+  {
+    "id": 54,
+    "soru": "Türkiye'nin en büyük bölgesi hangisidir?",
+    "a": "Karadeniz",
+    "b": "İç Anadolu",
+    "c": "Doğu Anadolu",
+    "d": "Akdeniz",
+    "cevap": "C",
+    "aciklama": "Doğu Anadolu Bölgesi yüzölçümü bakımından en büyük bölgedir."
+  },
+  {
+    "id": 55,
+    "soru": "Dünyanın en yüksek şelalesi hangisidir?",
+    "a": "Niagara",
+    "b": "Victoria",
+    "c": "Angel",
+    "d": "Iguazu",
+    "cevap": "C",
+    "aciklama": "Venezuela'daki Angel Şelalesi dünyanın en yüksek şelalesidir."
+  },
+  {
+    "id": 56,
+    "soru": "Hangi ülke hem Avrupa hem Asya kıtasında yer alır?",
+    "a": "Portekiz",
+    "b": "Türkiye",
+    "c": "Hindistan",
+    "d": "Fas",
+    "cevap": "B",
+    "aciklama": "Türkiye'nin toprakları iki kıtaya yayılmıştır."
+  },
+  {
+    "id": 57,
+    "soru": "Dünyanın en büyük yarımadası hangisidir?",
+    "a": "Anadolu",
+    "b": "İber",
+    "c": "Arap",
+    "d": "İskandinav",
+    "cevap": "C",
+    "aciklama": "Arap Yarımadası dünyanın en büyük yarımadasıdır."
+  },
+  {
+    "id": 58,
+    "soru": "Türkiye'nin en büyük baraj gölü hangisidir?",
+    "a": "Atatürk Baraj Gölü",
+    "b": "Keban Baraj Gölü",
+    "c": "Hirfanlı Baraj Gölü",
+    "d": "Altınkaya Baraj Gölü",
+    "cevap": "A",
+    "aciklama": "Atatürk Baraj Gölü Türkiye'nin en büyük yapay gölüdür."
+  },
+  {
+    "id": 59,
+    "soru": "Aşağıdakilerden hangisi bir iç denizdir?",
+    "a": "Karadeniz",
+    "b": "Ege Denizi",
+    "c": "Akdeniz",
+    "d": "Hint Okyanusu",
+    "cevap": "A",
+    "aciklama": "Karadeniz bir iç denizdir."
+  },
+  {
+    "id": 60,
+    "soru": "En fazla komşusu olan Türkiye bölgesi hangisidir?",
+    "a": "Marmara",
+    "b": "Doğu Anadolu",
+    "c": "Karadeniz",
+    "d": "Akdeniz",
+    "cevap": "B",
+    "aciklama": "Doğu Anadolu Bölgesi birçok ülkeye sınır komşusudur."
+  },
+  {
+    "id": 61,
+    "soru": "Hangi kıta buzullarla büyük ölçüde kaplıdır?",
+    "a": "Afrika",
+    "b": "Avrupa",
+    "c": "Antarktika",
+    "d": "Asya",
+    "cevap": "C",
+    "aciklama": "Antarktika'nın büyük bölümü buzullarla kaplıdır."
+  },
+  {
+    "id": 62,
+    "soru": "Türkiye'nin en fazla nüfusa sahip ili hangisidir?",
+    "a": "Ankara",
+    "b": "İzmir",
+    "c": "İstanbul",
+    "d": "Bursa",
+    "cevap": "C",
+    "aciklama": "İstanbul Türkiye'nin en kalabalık ilidir."
+  },
+  {
+    "id": 63,
+    "soru": "Aşağıdakilerden hangisi Avrupa Birliği üyesidir?",
+    "a": "Norveç",
+    "b": "İsviçre",
+    "c": "Fransa",
+    "d": "Türkiye",
+    "cevap": "C",
+    "aciklama": "Fransa Avrupa Birliği'nin kurucu üyelerindendir."
+  },
+  {
+    "id": 64,
+    "soru": "Türkiye'nin en uzun kıyı şeridine sahip bölgesi hangisidir?",
+    "a": "Karadeniz",
+    "b": "Ege",
+    "c": "Akdeniz",
+    "d": "Marmara",
+    "cevap": "C",
+    "aciklama": "Akdeniz Bölgesi Türkiye'nin en uzun kıyı şeridine sahiptir."
+  },
+  {
+    "id": 65,
+    "soru": "Dünyanın en büyük körfezi hangisidir?",
+    "a": "Meksika",
+    "b": "Basra",
+    "c": "Hudson",
+    "d": "Bengal",
+    "cevap": "D",
+    "aciklama": "Bengal Körfezi dünyanın en büyük körfezidir."
+  },
+  {
+    "id": 66,
+    "soru": "Aşağıdakilerden hangisi Balkan ülkesi değildir?",
+    "a": "Sırbistan",
+    "b": "Bulgaristan",
+    "c": "Yunanistan",
+    "d": "İsveç",
+    "cevap": "D",
+    "aciklama": "İsveç İskandinavya'da yer alır."
+  },
+  {
+    "id": 67,
+    "soru": "En fazla nüfusa sahip şehir hangisidir?",
+    "a": "Tokyo",
+    "b": "Paris",
+    "c": "Berlin",
+    "d": "Madrid",
+    "cevap": "A",
+    "aciklama": "Tokyo dünyanın en kalabalık metropol alanlarından biridir."
+  },
+  {
+    "id": 68,
+    "soru": "Aşağıdakilerden hangisi Ege Denizi'ne dökülür?",
+    "a": "Meriç",
+    "b": "Kızılırmak",
+    "c": "Çoruh",
+    "d": "Sakarya",
+    "cevap": "A",
+    "aciklama": "Meriç Nehri Ege Denizi'ne dökülür."
+  },
+  {
+    "id": 69,
+    "soru": "Aşağıdaki ülkelerden hangisi Afrika'dadır?",
+    "a": "Kenya",
+    "b": "Nepal",
+    "c": "Peru",
+    "d": "Kanada",
+    "cevap": "A",
+    "aciklama": "Kenya Doğu Afrika'da yer alır."
+  },
+  {
+    "id": 70,
+    "soru": "Hangi okyanus Amerika ile Avrupa arasında yer alır?",
+    "a": "Hint",
+    "b": "Atlas",
+    "c": "Pasifik",
+    "d": "Arktik",
+    "cevap": "B",
+    "aciklama": "Atlas Okyanusu Amerika ile Avrupa kıtalarını ayırır."
+  },
+  {
+    "id": 71,
+    "soru": "Dünyanın en büyük takımadası hangisidir?",
+    "a": "Japonya",
+    "b": "Endonezya",
+    "c": "Filipinler",
+    "d": "Maldivler",
+    "cevap": "B",
+    "aciklama": "Endonezya binlerce adadan oluşan dünyanın en büyük takımadasıdır."
+  },
+  {
+    "id": 72,
+    "soru": "Türkiye'nin en kuzey ucu hangi il sınırları içerisindedir?",
+    "a": "Sinop",
+    "b": "Samsun",
+    "c": "Trabzon",
+    "d": "Zonguldak",
+    "cevap": "A",
+    "aciklama": "İnceburun, Sinop ilinde bulunur ve Türkiye'nin en kuzey noktasıdır."
+  },
+  {
+    "id": 73,
+    "soru": "Aşağıdaki ülkelerden hangisinin başkenti Kahire'dir?",
+    "a": "Cezayir",
+    "b": "Mısır",
+    "c": "Libya",
+    "d": "Sudan",
+    "cevap": "B",
+    "aciklama": "Kahire, Mısır'ın başkentidir."
+  },
+  {
+    "id": 74,
+    "soru": "Dünyanın en büyük mercan resifi hangisidir?",
+    "a": "Büyük Set Resifi",
+    "b": "Belize Resifi",
+    "c": "Kızıldeniz Resifi",
+    "d": "Florida Resifi",
+    "cevap": "A",
+    "aciklama": "Büyük Set Resifi Avustralya açıklarında yer alır."
+  },
+  {
+    "id": 75,
+    "soru": "Aşağıdaki şehirlerden hangisi Karadeniz kıyısındadır?",
+    "a": "Antalya",
+    "b": "Samsun",
+    "c": "Aydın",
+    "d": "Denizli",
+    "cevap": "B",
+    "aciklama": "Samsun Karadeniz kıyısında yer alır."
+  },
+  {
+    "id": 76,
+    "soru": "Dünyanın en büyük yarımküresi hangisidir?",
+    "a": "Kuzey Yarımküre",
+    "b": "Güney Yarımküre",
+    "c": "Doğu Yarımküre",
+    "d": "Batı Yarımküre",
+    "cevap": "C",
+    "aciklama": "Doğu Yarımküre daha fazla kara parçası içerir."
+  },
+  {
+    "id": 77,
+    "soru": "Hangi ülke hem Atlas Okyanusu'na hem Akdeniz'e kıyıdır?",
+    "a": "İtalya",
+    "b": "Fas",
+    "c": "Yunanistan",
+    "d": "Türkiye",
+    "cevap": "B",
+    "aciklama": "Fas hem Atlas Okyanusu'na hem Akdeniz'e kıyısı olan ülkedir."
+  },
+  {
+    "id": 78,
+    "soru": "Türkiye'nin en büyük deltası hangisidir?",
+    "a": "Bafra Deltası",
+    "b": "Çukurova",
+    "c": "Gediz Deltası",
+    "d": "Meriç Deltası",
+    "cevap": "B",
+    "aciklama": "Çukurova Türkiye'nin en büyük delta ovasıdır."
+  },
+  {
+    "id": 79,
+    "soru": "Hangi ülke 'Bin Göller Ülkesi' olarak bilinir?",
+    "a": "Norveç",
+    "b": "Finlandiya",
+    "c": "İsveç",
+    "d": "Kanada",
+    "cevap": "B",
+    "aciklama": "Finlandiya çok sayıdaki gölü nedeniyle bu adla anılır."
+  },
+  {
+    "id": 80,
+    "soru": "Dünyanın en uzun sıradağları hangisidir?",
+    "a": "Alpler",
+    "b": "And Dağları",
+    "c": "Himalayalar",
+    "d": "Kayalık Dağları",
+    "cevap": "B",
+    "aciklama": "And Dağları yaklaşık 7.000 km uzunluğundadır."
+  },
+  {
+    "id": 81,
+    "soru": "Aşağıdaki illerden hangisi Akdeniz Bölgesi'nde değildir?",
+    "a": "Mersin",
+    "b": "Adana",
+    "c": "Hatay",
+    "d": "Manisa",
+    "cevap": "D",
+    "aciklama": "Manisa Ege Bölgesi'nde yer alır."
+  },
+  {
+    "id": 82,
+    "soru": "Dünyanın en büyük kapalı havzası hangisidir?",
+    "a": "Aral",
+    "b": "Hazar",
+    "c": "Van",
+    "d": "Baykal",
+    "cevap": "B",
+    "aciklama": "Hazar Havzası dünyanın en büyük kapalı havzasıdır."
+  },
+  {
+    "id": 83,
+    "soru": "Türkiye'nin en uzun sahil şeridine sahip ili hangisidir?",
+    "a": "Muğla",
+    "b": "Antalya",
+    "c": "Mersin",
+    "d": "İzmir",
+    "cevap": "A",
+    "aciklama": "Muğla, girintili çıkıntılı kıyılarıyla en uzun sahil şeridine sahiptir."
+  },
+  {
+    "id": 84,
+    "soru": "Aşağıdaki ülkelerden hangisi Güney Kutbu'na en yakın kıtadadır?",
+    "a": "Avustralya",
+    "b": "Arjantin",
+    "c": "Güney Afrika",
+    "d": "Şili",
+    "cevap": "B",
+    "aciklama": "Arjantin, Antarktika'ya en yakın ülkelerden biridir."
+  },
+  {
+    "id": 85,
+    "soru": "Türkiye'nin en büyük milli parkı hangisidir?",
+    "a": "Yedigöller",
+    "b": "Kaçkar",
+    "c": "Beydağları",
+    "d": "Munzur Vadisi",
+    "cevap": "D",
+    "aciklama": "Munzur Vadisi Milli Parkı Türkiye'nin en büyük milli parkıdır."
+  },
+  {
+    "id": 86,
+    "soru": "Aşağıdakilerden hangisi Baltık Denizi'ne kıyısı olan ülkedir?",
+    "a": "Polonya",
+    "b": "İtalya",
+    "c": "Romanya",
+    "d": "Bulgaristan",
+    "cevap": "A",
+    "aciklama": "Polonya Baltık Denizi kıyısındadır."
+  },
+  {
+    "id": 87,
+    "soru": "Dünyanın en büyük körfezi hangisidir?",
+    "a": "Bengal",
+    "b": "Meksika",
+    "c": "Basra",
+    "d": "Hudson",
+    "cevap": "A",
+    "aciklama": "Bengal Körfezi yüzölçümü bakımından en büyük körfezdir."
+  },
+  {
+    "id": 88,
+    "soru": "Aşağıdaki ülkelerden hangisinin denize kıyısı yoktur?",
+    "a": "Bolivya",
+    "b": "Şili",
+    "c": "Peru",
+    "d": "Norveç",
+    "cevap": "A",
+    "aciklama": "Bolivya'nın denize kıyısı bulunmamaktadır."
+  },
+  {
+    "id": 89,
+    "soru": "Türkiye'nin en doğu ili hangisidir?",
+    "a": "Van",
+    "b": "Iğdır",
+    "c": "Hakkâri",
+    "d": "Ağrı",
+    "cevap": "B",
+    "aciklama": "Iğdır, Türkiye'nin en doğusunda yer alan ilidir."
+  },
+  {
+    "id": 90,
+    "soru": "Aşağıdakilerden hangisi bir boğaz değildir?",
+    "a": "Amazon",
+    "b": "Çanakkale",
+    "c": "İstanbul",
+    "d": "Cebelitarık",
+    "cevap": "A",
+    "aciklama": "Amazon bir nehirdir. Diğer seçenekler boğazdır."
+  },
+  {
+    "id": 91,
+    "soru": "Aşağıdakilerden hangisi Türkiye'nin komşusu değildir?",
+    "a": "İran",
+    "b": "Gürcistan",
+    "c": "Macaristan",
+    "d": "Irak",
+    "cevap": "C",
+    "aciklama": "Macaristan'ın Türkiye ile kara sınırı yoktur."
+  },
+  {
+    "id": 92,
+    "soru": "Dünyanın en büyük ikinci kıtası hangisidir?",
+    "a": "Afrika",
+    "b": "Avrupa",
+    "c": "Asya",
+    "d": "Kuzey Amerika",
+    "cevap": "A",
+    "aciklama": "Afrika, yüzölçümü bakımından Asya'dan sonra ikinci büyük kıtadır."
+  },
+  {
+    "id": 93,
+    "soru": "Türkiye'nin en yüksek yaylası hangi bölgede yer alır?",
+    "a": "Karadeniz",
+    "b": "Doğu Anadolu",
+    "c": "Akdeniz",
+    "d": "Ege",
+    "cevap": "B",
+    "aciklama": "Doğu Anadolu Bölgesi yüksek rakımlı yaylalarıyla bilinir."
+  },
+  {
+    "id": 94,
+    "soru": "Aşağıdakilerden hangisi bir iç göldür?",
+    "a": "Van Gölü",
+    "b": "Karadeniz",
+    "c": "Ege Denizi",
+    "d": "Akdeniz",
+    "cevap": "A",
+    "aciklama": "Van Gölü kapalı havzada bulunan bir göldür."
+  },
+  {
+    "id": 95,
+    "soru": "Hangi ülke 'Çizme' şeklindeki yarımadasıyla tanınır?",
+    "a": "İspanya",
+    "b": "İtalya",
+    "c": "Yunanistan",
+    "d": "Portekiz",
+    "cevap": "B",
+    "aciklama": "İtalya harita üzerinde çizmeye benzer şekliyle tanınır."
+  },
+  {
+    "id": 96,
+    "soru": "Aşağıdakilerden hangisi Türkiye'nin yedi coğrafi bölgesinden biri değildir?",
+    "a": "İç Anadolu",
+    "b": "Güneydoğu Anadolu",
+    "c": "Batı Anadolu",
+    "d": "Doğu Anadolu",
+    "cevap": "C",
+    "aciklama": "Batı Anadolu resmi coğrafi bölge değildir."
+  },
+  {
+    "id": 97,
+    "soru": "Dünyanın en uzun kıyı şeridine sahip ülkesi hangisidir?",
+    "a": "Rusya",
+    "b": "Kanada",
+    "c": "ABD",
+    "d": "Avustralya",
+    "cevap": "B",
+    "aciklama": "Kanada dünyanın en uzun kıyı şeridine sahiptir."
+  },
+  {
+    "id": 98,
+    "soru": "Aşağıdaki ülkelerden hangisi ada ülkesi değildir?",
+    "a": "Japonya",
+    "b": "İzlanda",
+    "c": "Sri Lanka",
+    "d": "Nepal",
+    "cevap": "D",
+    "aciklama": "Nepal denize kıyısı olmayan kara ülkesidir."
+  },
+  {
+    "id": 99,
+    "soru": "Aşağıdaki dağlardan hangisi Himalaya Dağları'nda yer alır?",
+    "a": "Everest",
+    "b": "Ağrı",
+    "c": "Elbruz",
+    "d": "Erciyes",
+    "cevap": "A",
+    "aciklama": "Everest Himalaya Dağları üzerindedir."
+  },
+  {
+    "id": 100,
+    "soru": "Aşağıdakilerden hangisi Türkiye'nin doğal göllerinden biridir?",
+    "a": "Atatürk Baraj Gölü",
+    "b": "Keban Baraj Gölü",
+    "c": "Van Gölü",
+    "d": "Hirfanlı Baraj Gölü",
+    "cevap": "C",
+    "aciklama": "Van Gölü doğal oluşumlu bir göldür."
+  }
+]

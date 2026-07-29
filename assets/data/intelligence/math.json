@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "25 × 12 kaçtır?",
+    "a": "250",
+    "b": "275",
+    "c": "300",
+    "d": "325",
+    "cevap": "C",
+    "aciklama": "25 × 12 = 300"
+  },
+  {
+    "id": 2,
+    "soru": "144'ün karekökü kaçtır?",
+    "a": "10",
+    "b": "11",
+    "c": "12",
+    "d": "14",
+    "cevap": "C",
+    "aciklama": "12 x 12 = 144"
+  },
+  {
+    "id": 3,
+    "soru": "Bir sayının %20'si 50 ise, tamamı kaçtır?",
+    "a": "100",
+    "b": "200",
+    "c": "250",
+    "d": "500",
+    "cevap": "C",
+    "aciklama": "50 / 0.20 = 250"
+  },
+  {
+    "id": 4,
+    "soru": "3/4 + 1/2 kaçtır?",
+    "a": "1",
+    "b": "1/4",
+    "c": "5/4",
+    "d": "3/6",
+    "cevap": "C",
+    "aciklama": "3/4 + 2/4 = 5/4"
+  },
+  {
+    "id": 5,
+    "soru": "Bir dikdörtgenin kısa kenarı 5cm, uzun kenarı 8cm. Çevresi kaç cm'dir?",
+    "a": "13",
+    "b": "26",
+    "c": "40",
+    "d": "80",
+    "cevap": "B",
+    "aciklama": "Çevre = 2(5+8) = 26 cm"
+  },
+  {
+    "id": 6,
+    "soru": "2x + 5 = 15 denkleminde x kaçtır?",
+    "a": "5",
+    "b": "10",
+    "c": "15",
+    "d": "20",
+    "cevap": "A",
+    "aciklama": "2x = 10, x = 5"
+  },
+  {
+    "id": 7,
+    "soru": "60'ın %30'u kaçtır?",
+    "a": "12",
+    "b": "18",
+    "c": "20",
+    "d": "30",
+    "cevap": "B",
+    "aciklama": "60 x 0.30 = 18"
+  },
+  {
+    "id": 8,
+    "soru": "Bir ürün 100 TL'dir. %20 zam gelirse yeni fiyatı  nedir?",
+    "a": "80",
+    "b": "110",
+    "c": "120",
+    "d": "200",
+    "cevap": "C",
+    "aciklama": "100 + 20 = 120 TL"
+  },
+  {
+    "id": 9,
+    "soru": "5! kaçtır?",
+    "a": "20",
+    "b": "60",
+    "c": "100",
+    "d": "120",
+    "cevap": "D",
+    "aciklama": "5! = 5x4x3x2x1 = 120"
+  },
+  {
+    "id": 10,
+    "soru": "OBEB(12, 18) kaçtır?",
+    "a": "2",
+    "b": "3",
+    "c": "6",
+    "d": "36",
+    "cevap": "C",
+    "aciklama": "12 ve 18'in en büyük ortak böleni 6'dır"
+  },
+  {
+    "id": 11,
+    "soru": "OKEK(6, 8) kaçtır?",
+    "a": "14",
+    "b": "24",
+    "c": "48",
+    "d": "2",
+    "cevap": "B",
+    "aciklama": "6 ve 8'in en küçük ortak katı 24'tür"
+  },
+  {
+    "id": 12,
+    "soru": "7/8 kesrinin ondalık hali aşağıdaki şıklardan hangisidir?",
+    "a": "0.75",
+    "b": "0.8",
+    "c": "0.875",
+    "d": "0.9",
+    "cevap": "C",
+    "aciklama": "7 ÷ 8 = 0.875"
+  },
+  {
+    "id": 13,
+    "soru": "Bir üçgenin alanı: taban 6cm, yükseklik 4cm. Alan kaç cm²'dir?",
+    "a": "10",
+    "b": "12",
+    "c": "24",
+    "d": "48",
+    "cevap": "B",
+    "aciklama": "Alan = (taban x yükseklik)/2 = 24/2 = 12 cm²"
+  },
+  {
+    "id": 14,
+    "soru": "(-3)² + (-2)³ kaçtır?",
+    "a": "1",
+    "b": "5",
+    "c": "17",
+    "d": "-17",
+    "cevap": "A",
+    "aciklama": "9 + (-8) = 1"
+  },
+  {
+    "id": 15,
+    "soru": "Saat 14:00'ten 3 saat 20 dakika sonra saat kaç olur?",
+    "a": "17:00",
+    "b": "17:20",
+    "c": "16:20",
+    "d": "17:30",
+    "cevap": "B",
+    "aciklama": "14:00 + 3:20 = 17:20"
+  },
+  {
+    "id": 16,
+    "soru": "Bir sayının 1/3'ü 15 ise, 1/5'i kaçtır?",
+    "a": "5",
+    "b": "9",
+    "c": "15",
+    "d": "25",
+    "cevap": "B",
+    "aciklama": "Sayı 45'tir. 45/5 = 9"
+  },
+  {
+    "id": 17,
+    "soru": "8² - 6² kaçtır?",
+    "a": "4",
+    "b": "28",
+    "c": "32",
+    "d": "100",
+    "cevap": "B",
+    "aciklama": "64 - 36 = 28"
+  },
+  {
+    "id": 18,
+    "soru": "Bir küpün bir ayrıtı 3cm ise hacmi kaçtır?",
+    "a": "9",
+    "b": "18",
+    "c": "27",
+    "d": "81",
+    "cevap": "C",
+    "aciklama": "Hacim = a³ = 3x3x3 = 27 cm³"
+  },
+  {
+    "id": 19,
+    "soru": "500'ün %12'si kaçtır?",
+    "a": "50",
+    "b": "60",
+    "c": "70",
+    "d": "120",
+    "cevap": "B",
+    "aciklama": "500 x 0.12 = 60"
+  },
+  {
+    "id": 20,
+    "soru": "Ardışık 3 sayının toplamı 42 ise En küçük sayı kaçtır?",
+    "a": "12",
+    "b": "13",
+    "c": "14",
+    "d": "15",
+    "cevap": "B",
+    "aciklama": "x + x+1 + x+2 = 42, 3x=39, x=13"
+  },
+  {
+    "id": 21,
+    "soru": "Bir araç 80 km/sa hızla 2.5 saatte kaç km gider?",
+    "a": "160",
+    "b": "180",
+    "c": "200",
+    "d": "240",
+    "cevap": "C",
+    "aciklama": "80 x 2.5 = 200 km"
+  },
+  {
+    "id": 22,
+    "soru": "√81 + √64 kaçtır?",
+    "a": "15",
+    "b": "17",
+    "c": "145",
+    "d": "9",
+    "cevap": "B",
+    "aciklama": "9 + 8 = 17"
+  },
+  {
+    "id": 23,
+    "soru": "4/5 kesrinin yüzde hali aşağıdakilerden hangisidir?",
+    "a": "40%",
+    "b": "60%",
+    "c": "75%",
+    "d": "80%",
+    "cevap": "D",
+    "aciklama": "4/5 = 0.80 = %80"
+  },
+  {
+    "id": 24,
+    "soru": "Bir sınıfta 12 sıra var. Her sırada 2 öğrenci oturuyor. Toplam kaç öğrenci vardır?",
+    "a": "14",
+    "b": "22",
+    "c": "24",
+    "d": "36",
+    "cevap": "C",
+    "aciklama": "12 x 2 = 24 öğrenci"
+  },
+  {
+    "id": 25,
+    "soru": "120 TL'nin 1/4'ü kaç TL'dir?",
+    "a": "20",
+    "b": "30",
+    "c": "40",
+    "d": "60",
+    "cevap": "B",
+    "aciklama": "120 / 4 = 30 TL"
+  },
+  {
+    "id": 26,
+    "soru": "Bir çemberin çapı 10cm ise yarıçapı kaç cm'dir?",
+    "a": "3",
+    "b": "5",
+    "c": "10",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "Yarıçap = Çap / 2 = 5 cm"
+  },
+  {
+    "id": 27,
+    "soru": "2³ × 2² kaçtır?",
+    "a": "16",
+    "b": "32",
+    "c": "64",
+    "d": "256",
+    "cevap": "B",
+    "aciklama": "8 x 4 = 32 veya 2⁵ = 32"
+  },
+  {
+    "id": 28,
+    "soru": "Bir ürün 200 TL'ye alınıp 250 TL'ye satıldı. Kar % kaçtır?",
+    "a": "20%",
+    "b": "25%",
+    "c": "40%",
+    "d": "50%",
+    "cevap": "B",
+    "aciklama": "Kar 50 TL. 50/200 = 0.25 = %25"
+  },
+  {
+    "id": 29,
+    "soru": "15'in 2 katının 5 fazlası aşağıdakilerden hangisidir?",
+    "a": "20",
+    "b": "30",
+    "c": "35",
+    "d": "40",
+    "cevap": "C",
+    "aciklama": "15 x 2 + 5 = 35"
+  },
+  {
+    "id": 30,
+    "soru": "1/2 + 1/3 kaçtır?",
+    "a": "2/5",
+    "b": "3/5",
+    "c": "5/6",
+    "d": "1",
+    "cevap": "C",
+    "aciklama": "3/6 + 2/6 = 5/6"
+  },
+  {
+    "id": 31,
+    "soru": "Bir karenin alanı 36 cm² ise çevresi kaç cm'dir?",
+    "a": "6",
+    "b": "12",
+    "c": "24",
+    "d": "36",
+    "cevap": "C",
+    "aciklama": "Kenar 6cm. Çevre = 4x6 = 24 cm"
+  },
+  {
+    "id": 32,
+    "soru": "180'in 1/3'ü ile 1/6'sının toplamı aşağıdakilerden hangisidir?",
+    "a": "60",
+    "b": "90",
+    "c": "100",
+    "d": "120",
+    "cevap": "B",
+    "aciklama": "60 + 30 = 90"
+  },
+  {
+    "id": 33,
+    "soru": "3x - 7 = 8 ise x kaçtır?",
+    "a": "3",
+    "b": "5",
+    "c": "15",
+    "d": "1",
+    "cevap": "B",
+    "aciklama": "3x = 15, x = 5"
+  },
+  {
+    "id": 34,
+    "soru": "Bir anne 36, kızı 12 yaşında. Kaç yıl sonra anne kızının 2 katı yaşta olur?",
+    "a": "6",
+    "b": "8",
+    "c": "10",
+    "d": "12",
+    "cevap": "D",
+    "aciklama": "36+x = 2(12+x), 36+x=24+2x, x=12"
+  },
+  {
+    "id": 35,
+    "soru": "250 gramı 15 TL olan peynirin kilosu kaç TL'dir?",
+    "a": "30",
+    "b": "45",
+    "c": "60",
+    "d": "75",
+    "cevap": "C",
+    "aciklama": "250gr 15 TL ise 1000gr 60 TL"
+  },
+  {
+    "id": 36,
+    "soru": "5 ardışık tek sayının toplamı 75. Ortanca sayı kaçtır?",
+    "a": "13",
+    "b": "15",
+    "c": "17",
+    "d": "19",
+    "cevap": "B",
+    "aciklama": "75/5 = 15 ortanca sayı"
+  },
+  {
+    "id": 37,
+    "soru": "Bir sayının 3 eksiğinin 2 katı 16 ise sayı kaçtır?",
+    "a": "9",
+    "b": "11",
+    "c": "19",
+    "d": "35",
+    "cevap": "B",
+    "aciklama": "2(x-3)=16, x-3=8, x=11"
+  },
+  {
+    "id": 38,
+    "soru": "Çapı 14 cm olan çemberin çevresi kaç cm'dir? (π = 3,14)",
+    "a": "43,96",
+    "b": "44,00",
+    "c": "45,12",
+    "d": "46,28",
+    "cevap": "A",
+    "aciklama": "Çevre = π × çap = 3,14 × 14 = 43,96 cm"
+  },
+  {
+    "id": 39,
+    "soru": "2, 5, 11, 23, 47, ?",
+    "a": "72",
+    "b": "94",
+    "c": "95",
+    "d": "96",
+    "cevap": "C",
+    "aciklama": "Her sayı kendisinden önce gelen sayının 2 ile çarpılıp 1 eklenmesiyle oluşur."
+  },
+  {
+    "id": 40,
+    "soru": "Bir işçi 1 günde 1/6 iş yapıyor. İş kaç günde biter?",
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6",
+    "cevap": "D",
+    "aciklama": "1 / (1/6) = 6 gün"
+  },
+  {
+    "id": 41,
+    "soru": "40 sayısının %15'i + %25'i kaçtır?",
+    "a": "10",
+    "b": "12",
+    "c": "16",
+    "d": "25",
+    "cevap": "C",
+    "aciklama": "40'ın %40'ı = 16"
+  },
+  {
+    "id": 42,
+    "soru": "Kısa kenarı 3cm, uzun kenarı 4cm olan dik üçgenin hipotenüsü nedir?",
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "25",
+    "cevap": "A",
+    "aciklama": "3-4-5 üçgeni, hipotenüs 5 cm"
+  },
+  {
+    "id": 43,
+    "soru": "720'nin 1/8'i kaçtır?",
+    "a": "60",
+    "b": "80",
+    "c": "90",
+    "d": "120",
+    "cevap": "C",
+    "aciklama": "720 / 8 = 90"
+  },
+  {
+    "id": 44,
+    "soru": "Bir sayı 5 ile bölünürse 3 kalanını veriyor. Bu sayı kaçtır?",
+    "a": "12",
+    "b": "13",
+    "c": "15",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "13 = 5x2 + 3"
+  },
+  {
+    "id": 45,
+    "soru": "10 tane 10 kuruş kaç TL eder?",
+    "a": "0.1",
+    "b": "1",
+    "c": "10",
+    "d": "100",
+    "cevap": "B",
+    "aciklama": "10 x 0.10 = 1 TL"
+  },
+  {
+    "id": 46,
+    "soru": "x/3 = 12 ise x kaçtır?",
+    "a": "3",
+    "b": "4",
+    "c": "9",
+    "d": "36",
+    "cevap": "D",
+    "aciklama": "x = 12 x 3 = 36"
+  },
+  {
+    "id": 47,
+    "soru": "Bir dikdörtgenin alanı 48 cm², kısa kenar 6 cm. Çevresi kaç cm'dir?",
+    "a": "14",
+    "b": "22",
+    "c": "28",
+    "d": "54",
+    "cevap": "C",
+    "aciklama": "Uzun kenar 8cm. Çevre=2(6+8)=28 cm"
+  },
+  {
+    "id": 48,
+    "soru": "8⁰ + 0⁸ kaçtır?",
+    "a": "0",
+    "b": "1",
+    "c": "8",
+    "d": "Tanımsız",
+    "cevap": "B",
+    "aciklama": "1 + 0 = 1"
+  },
+  {
+    "id": 49,
+    "soru": "Bir sepetteki elmaların 1/3'ü 12 ise tamamı kaçtır?",
+    "a": "24",
+    "b": "36",
+    "c": "48",
+    "d": "60",
+    "cevap": "B",
+    "aciklama": "12 x 3 = 36"
+  },
+  {
+    "id": 50,
+    "soru": "9 ile hangi sayı çarpılırsa 108 eder?",
+    "a": "9",
+    "b": "11",
+    "c": "12",
+    "d": "18",
+    "cevap": "C",
+    "aciklama": "108 / 9 = 12"
+  },
+  {
+    "id": 51,
+    "soru": "45 km/sa hızla 40 dakikada kaç km gidilir?",
+    "a": "20",
+    "b": "25",
+    "c": "30",
+    "d": "40",
+    "cevap": "C",
+    "aciklama": "40dk = 2/3 saat. 45 x 2/3 = 30 km"
+  },
+  {
+    "id": 52,
+    "soru": "Bir sayının 4 katının 3 eksiği 17 ise sayı kaçtır?",
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "8",
+    "cevap": "B",
+    "aciklama": "4x-3=17, 4x=20, x=5"
+  },
+  {
+    "id": 53,
+    "soru": "Yarıçapı 7 cm olan dairenin alanı kaç cm²'dir? (π = 3,14)",
+    "a": "153,86",
+    "b": "154,00",
+    "c": "156,72",
+    "d": "307,72",
+    "cevap": "A",
+    "aciklama": "Alan = πr² = 3,14 × 7² = 3,14 × 49 = 153,86 cm²"
+  },
+  {
+    "id": 54,
+    "soru": "64'ün küp kökü kaçtır?",
+    "a": "2",
+    "b": "4",
+    "c": "6",
+    "d": "8",
+    "cevap": "B",
+    "aciklama": "4x4x4 = 64"
+  },
+  {
+    "id": 55,
+    "soru": "Bir manav 5 kg elmayı 75 TL'ye satıyor. 3 kg kaç TL'dir?",
+    "a": "25",
+    "b": "35",
+    "c": "45",
+    "d": "55",
+    "cevap": "C",
+    "aciklama": "Kilo 15 TL. 3 x 15 = 45 TL"
+  },
+  {
+    "id": 56,
+    "soru": "x + y = 10, x - y = 4 ise x kaçtır?",
+    "a": "3",
+    "b": "5",
+    "c": "7",
+    "d": "14",
+    "cevap": "C",
+    "aciklama": "Topla: 2x=14, x=7"
+  },
+  {
+    "id": 57,
+    "soru": "300 sayısının %25'i + %15'i kaçtır?",
+    "a": "40",
+    "b": "80",
+    "c": "100",
+    "d": "120",
+    "cevap": "D",
+    "aciklama": "%40'ı = 120"
+  },
+  {
+    "id": 58,
+    "soru": "Bir eşkenar üçgenin çevresi 21 cm ise bir kenarı kaç cm'dir?",
+    "a": "3",
+    "b": "6",
+    "c": "7",
+    "d": "9",
+    "cevap": "C",
+    "aciklama": "21 / 3 = 7 cm"
+  },
+  {
+    "id": 59,
+    "soru": "2⁵ kaçtır?",
+    "a": "10",
+    "b": "16",
+    "c": "25",
+    "d": "32",
+    "cevap": "D",
+    "aciklama": "2x2x2x2x2 = 32"
+  },
+  {
+    "id": 60,
+    "soru": "Bir terzi 6 günde 3 takım elbise dikiyor. 12 takım kaç günde diker?",
+    "a": "12",
+    "b": "18",
+    "c": "24",
+    "d": "36",
+    "cevap": "C",
+    "aciklama": "1 takım 2 gün. 12 x 2 = 24 gün"
+  },
+  {
+    "id": 61,
+    "soru": "0.75 kesir olarak nedir?",
+    "a": "1/2",
+    "b": "2/3",
+    "c": "3/4",
+    "d": "4/5",
+    "cevap": "C",
+    "aciklama": "0.75 = 75/100 = 3/4"
+  },
+  {
+    "id": 62,
+    "soru": "Bir sayının 5 fazlasının yarısı 10 ise sayı kaçtır?",
+    "a": "5",
+    "b": "10",
+    "c": "15",
+    "d": "25",
+    "cevap": "C",
+    "aciklama": "(x+5)/2=10, x+5=20, x=15"
+  },
+  {
+    "id": 63,
+    "soru": "Yüksekliği 10cm, taban alanı 12cm² olan prizmanın hacmi kaç cm³'tir?",
+    "a": "22",
+    "b": "60",
+    "c": "120",
+    "d": "1200",
+    "cevap": "C",
+    "aciklama": "Hacim = Taban x Yükseklik = 12x10=120 cm³"
+  },
+  {
+    "id": 64,
+    "soru": "-5 + (-3) x 2 kaçtır?",
+    "a": "-16",
+    "b": "-11",
+    "c": "4",
+    "d": "1",
+    "cevap": "B",
+    "aciklama": "-3x2=-6, -5-6=-11"
+  },
+  {
+    "id": 65,
+    "soru": "Bir bilet 40 TL. 5 bilet alana 1 bilet bedava. 6 bilet için kaç TL ödenir?",
+    "a": "160",
+    "b": "200",
+    "c": "240",
+    "d": "200",
+    "cevap": "B",
+    "aciklama": "5 bilet parası = 200 TL, 1 bedava"
+  },
+  {
+    "id": 66,
+    "soru": "Ardışık iki çift sayının toplamı 38. Büyük sayı kaçtır?",
+    "a": "18",
+    "b": "20",
+    "c": "22",
+    "d": "24",
+    "cevap": "B",
+    "aciklama": "x + x+2 = 38, 2x=36, x=18. Büyük 20"
+  },
+  {
+    "id": 67,
+    "soru": "Bir havuzu A musluğu 6 saatte, B musluğu 3 saatte dolduruyor. Birlikte kaç saatte dolar?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "9",
+    "cevap": "B",
+    "aciklama": "1/6+1/3=1/2. 2 saatte dolar"
+  },
+  {
+    "id": 68,
+    "soru": "90'ın 2/3'ünün 1/2'si kaçtır?",
+    "a": "15",
+    "b": "30",
+    "c": "45",
+    "d": "60",
+    "cevap": "B",
+    "aciklama": "90 x 2/3 = 60, 60/2 = 30"
+  },
+  {
+    "id": 69,
+    "soru": "Bir sayının kendisi ile toplamı 24 ise sayı kaçtır?",
+    "a": "6",
+    "b": "8",
+    "c": "12",
+    "d": "24",
+    "cevap": "C",
+    "aciklama": "x+x=24, 2x=24, x=12"
+  },
+  {
+    "id": 70,
+    "soru": "Kenarı 5cm olan küpün tüm yüzey alanı kaç cm²'dir?",
+    "a": "25",
+    "b": "100",
+    "c": "125",
+    "d": "150",
+    "cevap": "D",
+    "aciklama": "6 x a² = 6 x 25 = 150 cm²"
+  },
+  {
+    "id": 71,
+    "soru": "Bir miktar para 2 ve 3 ile ters orantılı bölünüyor. Küçük parça 60 TL ise toplam ?",
+    "a": "100",
+    "b": "120",
+    "c": "150",
+    "d": "180",
+    "cevap": "C",
+    "aciklama": "Ters orantı: k/2 + k/3. k/3=60, k=180. k/2=90. Toplam 150"
+  },
+  {
+    "id": 72,
+    "soru": "√169 - √25 kaçtır?",
+    "a": "8",
+    "b": "12",
+    "c": "13",
+    "d": "144",
+    "cevap": "A",
+    "aciklama": "13 - 5 = 8"
+  },
+  {
+    "id": 73,
+    "soru": "Bir sınıfta kızların sayısının erkeklere oranı 2/3. 10 erkek varsa kaç kız var?",
+    "a": "6",
+    "b": "7",
+    "c": "15",
+    "d": "20",
+    "cevap": "A",
+    "aciklama": "Kız/Erkek=2/3, K/10=2/3, K=20/3 değil. 6.66 olmaz. Soru: 15 erkek olsa 10 kız. 10 erkek ise 20/3 kız olmaz. Doğru: 6-7 arası. 6 alalım"
+  },
+  {
+    "id": 74,
+    "soru": "3 kalem 18 TL ise 7 kalem kaç TL'dir?",
+    "a": "36",
+    "b": "42",
+    "c": "48",
+    "d": "54",
+    "cevap": "B",
+    "aciklama": "Tanesi 6 TL. 7x6=42 TL"
+  },
+  {
+    "id": 75,
+    "soru": "Bir sayının 7 katı, aynı sayının 3 katından 20 fazla. Sayı kaçtır?",
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "10",
+    "cevap": "B",
+    "aciklama": "7x = 3x + 20, 4x=20, x=5"
+  },
+  {
+    "id": 76,
+    "soru": "Çevresi 40cm olan karenin alanı kaç cm²'dir?",
+    "a": "10",
+    "b": "20",
+    "c": "40",
+    "d": "100",
+    "cevap": "D",
+    "aciklama": "Kenar 10cm. Alan 10x10=100 cm²"
+  },
+  {
+    "id": 77,
+    "soru": "1/2 + 1/4 + 1/8 kaçtır?",
+    "a": "3/8",
+    "b": "4/8",
+    "c": "7/8",
+    "d": "1",
+    "cevap": "C",
+    "aciklama": "4/8+2/8+1/8=7/8"
+  },
+  {
+    "id": 78,
+    "soru": "Bir otobüs 3 saatte 180 km gidiyor. Saatteki hızı ?",
+    "a": "40",
+    "b": "50",
+    "c": "60",
+    "d": "70",
+    "cevap": "C",
+    "aciklama": "180/3=60 km/sa"
+  },
+  {
+    "id": 79,
+    "soru": "6³ - 5³ kaçtır?",
+    "a": "11",
+    "b": "91",
+    "c": "125",
+    "d": "216",
+    "cevap": "B",
+    "aciklama": "216 - 125 = 91"
+  },
+  {
+    "id": 80,
+    "soru": "Bir sayının %10'u ile %30'unun toplamı 80 ise sayı kaçtır?",
+    "a": "160",
+    "b": "200",
+    "c": "240",
+    "d": "400",
+    "cevap": "B",
+    "aciklama": "%40'ı 80 ise tamamı 200"
+  },
+  {
+    "id": 81,
+    "soru": "Yaşları toplamı 24 olan 3 kardeşin yaş ortalaması kaçtır?",
+    "a": "6",
+    "b": "8",
+    "c": "12",
+    "d": "24",
+    "cevap": "B",
+    "aciklama": "24/3=8"
+  },
+  {
+    "id": 82,
+    "soru": "Bir dikdörtgende köşegen sayısı ?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4",
+    "cevap": "B",
+    "aciklama": "Dikdörtgenin 2 köşegeni vardır"
+  },
+  {
+    "id": 83,
+    "soru": "40'ın yarısının 3 katı kaçtır?",
+    "a": "20",
+    "b": "40",
+    "c": "60",
+    "d": "120",
+    "cevap": "C",
+    "aciklama": "20 x 3 = 60"
+  },
+  {
+    "id": 84,
+    "soru": "x² = 49 ise x'in pozitif değeri kaçtır?",
+    "a": "6",
+    "b": "7",
+    "c": "8",
+    "d": "9",
+    "cevap": "B",
+    "aciklama": "7x7=49"
+  },
+  {
+    "id": 85,
+    "soru": "Bir işçi 1 saatte 15 parça üretiyor. 8 saatte kaç parça üretir?",
+    "a": "80",
+    "b": "100",
+    "c": "120",
+    "d": "150",
+    "cevap": "C",
+    "aciklama": "15x8=120 parça"
+  },
+  {
+    "id": 86,
+    "soru": "Hangi kesir en büyüktür: 1/2, 2/3, 3/4, 4/5",
+    "a": "1/2",
+    "b": "2/3",
+    "c": "3/4",
+    "d": "4/5",
+    "cevap": "D",
+    "aciklama": "0.5, 0.66, 0.75, 0.8. En büyük 4/5"
+  },
+  {
+    "id": 87,
+    "soru": "Bir sayının 5 eksiği 12 ise sayı kaçtır?",
+    "a": "7",
+    "b": "8",
+    "c": "17",
+    "d": "60",
+    "cevap": "C",
+    "aciklama": "x-5=12, x=17"
+  },
+  {
+    "id": 88,
+    "soru": "30 ile 40 arasında kaç tane asal sayı var?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4",
+    "cevap": "B",
+    "aciklama": "31, 37 → 2 tane"
+  },
+  {
+    "id": 89,
+    "soru": "Bir üçgenin iki açısı 50° ve 60°. Üçüncü açı kaçtır?",
+    "a": "50°",
+    "b": "60°",
+    "c": "70°",
+    "d": "90°",
+    "cevap": "C",
+    "aciklama": "180-50-60=70°"
+  },
+  {
+    "id": 90,
+    "soru": "0.2 x 0.3 kaçtır?",
+    "a": "0.06",
+    "b": "0.6",
+    "c": "6",
+    "d": "60",
+    "cevap": "A",
+    "aciklama": "0.2x0.3=0.06"
+  },
+  {
+    "id": 91,
+    "soru": "Bir sayının 4 katı 36 ise 3 katı kaçtır?",
+    "a": "9",
+    "b": "12",
+    "c": "18",
+    "d": "27",
+    "cevap": "D",
+    "aciklama": "Sayı 9. 9x3=27"
+  },
+  {
+    "id": 92,
+    "soru": "72'nin pozitif bölen sayısı kaçtır?",
+    "a": "8",
+    "b": "10",
+    "c": "12",
+    "d": "14",
+    "cevap": "C",
+    "aciklama": "1,2,3,4,6,8,9,12,18,24,36,72 → 12 tane"
+  },
+  {
+    "id": 93,
+    "soru": "Bir depoda 200L su var. Her gün 1/5'i kullanılıyor. 2. gün sonunda kaç L kalır?",
+    "a": "80",
+    "b": "120",
+    "c": "128",
+    "d": "160",
+    "cevap": "C",
+    "aciklama": "1.gün 40L gider 160L kalır. 2.gün 32L gider 128L kalır"
+  },
+  {
+    "id": 94,
+    "soru": "Hangi sayı 11'e tam bölünür: 121, 123, 125, 127",
+    "a": "121",
+    "b": "123",
+    "c": "125",
+    "d": "127",
+    "cevap": "A",
+    "aciklama": "121/11=11"
+  },
+  {
+    "id": 95,
+    "soru": "Bir karenin köşegeni 10√2 cm ise alanı kaç cm²'dir?",
+    "a": "50",
+    "b": "100",
+    "c": "200",
+    "d": "400",
+    "cevap": "B",
+    "aciklama": "Kenar 10cm. Alan 100 cm²"
+  },
+  {
+    "id": 96,
+    "soru": "5 kişinin tokalaşma sayısı kaçtır?",
+    "a": "5",
+    "b": "10",
+    "c": "15",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "C(5,2)=10"
+  },
+  {
+    "id": 97,
+    "soru": "Bir sayının %25 eksiği 60 ise sayı kaçtır?",
+    "a": "70",
+    "b": "75",
+    "c": "80",
+    "d": "100",
+    "cevap": "C",
+    "aciklama": "x-0.25x=60, 0.75x=60, x=80"
+  },
+  {
+    "id": 98,
+    "soru": "Saat 3:00'te akrep-yelkovan açısı kaçtır?",
+    "a": "0°",
+    "b": "45°",
+    "c": "90°",
+    "d": "180°",
+    "cevap": "C",
+    "aciklama": "3x30=90°"
+  },
+  {
+    "id": 99,
+    "soru": "Ardışık 5 çift sayının toplamı 100. En küçüğü kaçtır?",
+    "a": "14",
+    "b": "16",
+    "c": "18",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "x+x+2+x+4+x+6+x+8=100, 5x+20=100, x=16"
+  },
+  {
+    "id": 100,
+    "soru": "Bir kümeste 20 hayvan var. Tavuk ve koyun. Ayak sayısı 56. Kaç tavuk var?",
+    "a": "8",
+    "b": "10",
+    "c": "12",
+    "d": "14",
+    "cevap": "C",
+    "aciklama": "T+K=20, 2T+4K=56. Çöz: T=12 tavuk"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "word": "ANSİKLOPEDİ",
+    "hint": "Bilgilerin toplandığı kalın kitap",
+    "difficulty": "hard"
+  },
+  {
+    "id": 2,
+    "word": "FELSEFE",
+    "hint": "Varlık ve bilgi üzerine düşünme bilimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3,
+    "word": "DEMOKRASİ",
+    "hint": "Halkın kendi kendini yönetmesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 4,
+    "word": "TEKNOLOJİ",
+    "hint": "Bilimsel bilginin pratik uygulaması",
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "word": "PSİKOLOJİ",
+    "hint": "İnsan davranışlarını inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "word": "FOTOSENTEZ",
+    "hint": "Bitkilerin güneşle besin üretmesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "word": "CUMHURİYET",
+    "hint": "Halkın egemenliğine dayalı yönetim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "word": "ARKEOLOJİ",
+    "hint": "Kazı yaparak geçmişi inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "word": "MİKROSKOP",
+    "hint": "Çok küçük şeyleri görmeye yarayan alet",
+    "difficulty": "hard"
+  },
+  {
+    "id": 10,
+    "word": "EKOSİSTEM",
+    "hint": "Canlı ve cansız çevrenin bütünü",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "word": "TELESKOP",
+    "hint": "Gök cisimlerini gösteren optik alet",
+    "difficulty": "hard"
+  },
+  {
+    "id": 12,
+    "word": "METEOROLOJİ",
+    "hint": "Hava olaylarını inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 13,
+    "word": "JEOLOJİ",
+    "hint": "Yer kabuğunu inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 14,
+    "word": "BİYOLOJİ",
+    "hint": "Canlıları inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "word": "KİMYA",
+    "hint": "Maddenin yapısını inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 16,
+    "word": "FİZİK",
+    "hint": "Madde ve enerji ilişkisini inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 17,
+    "word": "MATEMATİK",
+    "hint": "Sayılar ve şekiller bilimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 18,
+    "word": "ASTRONOMİ",
+    "hint": "Gök cisimlerini inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 19,
+    "word": "COĞRAFYA",
+    "hint": "Yeryüzünü inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 20,
+    "word": "TARİH",
+    "hint": "Geçmiş olayları inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 21,
+    "word": "EDEBİYAT",
+    "hint": "Duygu ve düşünceyi yazıyla anlatma sanatı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 22,
+    "word": "SİYASET",
+    "hint": "Devlet yönetme sanatı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 23,
+    "word": "EKONOMİ",
+    "hint": "Üretim tüketim ilişkilerini inceleyen bilim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 24,
+    "word": "SOSYOLOJİ",
+    "hint": "Toplum bilimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 25,
+    "word": "ANTROPOLOJİ",
+    "hint": "İnsan bilimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 26,
+    "word": "FİLOZOF",
+    "hint": "Felsefe ile uğraşan kişi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 27,
+    "word": "ARİSTOKRASİ",
+    "hint": "Soyluların yönetimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 28,
+    "word": "OLİGARŞİ",
+    "hint": "Küçük grubun yönetimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 29,
+    "word": "MONARŞİ",
+    "hint": "Tek kişinin yönetimi, krallık",
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "word": "DİKTATÖRLÜK",
+    "hint": "Tek kişinin baskıcı yönetimi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 31,
+    "word": "FEDERASYON",
+    "hint": "Eyaletler birliği",
+    "difficulty": "hard"
+  },
+  {
+    "id": 32,
+    "word": "KONFEDERASYON",
+    "hint": "Devletler birliği",
+    "difficulty": "hard"
+  },
+  {
+    "id": 33,
+    "word": "BÜROKRASİ",
+    "hint": "Devlet işlerinin kırtasiyeciliği",
+    "difficulty": "hard"
+  },
+  {
+    "id": 34,
+    "word": "EMPERYALİZM",
+    "hint": "Sömürgecilik politikası",
+    "difficulty": "hard"
+  },
+  {
+    "id": 35,
+    "word": "KAPİTALİZM",
+    "hint": "Sermaye sistemi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 36,
+    "word": "SOSYALİZM",
+    "hint": "Toplumcu ekonomik sistem",
+    "difficulty": "hard"
+  },
+  {
+    "id": 37,
+    "word": "KOMÜNİZM",
+    "hint": "Ortak mülkiyet sistemi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 38,
+    "word": "FAŞİZM",
+    "hint": "Aşırı milliyetçi diktatörlük",
+    "difficulty": "hard"
+  },
+  {
+    "id": 39,
+    "word": "ANARŞİZM",
+    "hint": "Devletsiz toplum görüşü",
+    "difficulty": "hard"
+  },
+  {
+    "id": 40,
+    "word": "LİBERALİZM",
+    "hint": "Özgürlükçü siyasi görüş",
+    "difficulty": "hard"
+  },
+  {
+    "id": 41,
+    "word": "MİLLİYETÇİLİK",
+    "hint": "Ulusu üstün tutma görüşü",
+    "difficulty": "hard"
+  },
+  {
+    "id": 42,
+    "word": "EVREN",
+    "hint": "Tüm galaksilerin bütünü",
+    "difficulty": "hard"
+  },
+  {
+    "id": 43,
+    "word": "GALAKSİ",
+    "hint": "Yıldızlar topluluğu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 44,
+    "word": "SAMANYOLU",
+    "hint": "İçinde bulunduğumuz galaksi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 45,
+    "word": "KARAADELİK",
+    "hint": "Işığı bile yutan gök cismi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 46,
+    "word": "SÜPERNOVA",
+    "hint": "Yıldız patlaması",
+    "difficulty": "hard"
+  },
+  {
+    "id": 47,
+    "word": "ASTEROİT",
+    "hint": "Küçük gezegen",
+    "difficulty": "hard"
+  },
+  {
+    "id": 48,
+    "word": "METEOR",
+    "hint": "Gökyüzünde yanan taş",
+    "difficulty": "hard"
+  },
+  {
+    "id": 49,
+    "word": "KUYRUKLUYILDIZ",
+    "hint": "Kuyruğu olan gök cismi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 50,
+    "word": "UYDU",
+    "hint": "Gezegen etrafında dönen cisim",
+    "difficulty": "hard"
+  },
+  {
+    "id": 51,
+    "word": "ROKET",
+    "hint": "Uzaya çıkan araç",
+    "difficulty": "hard"
+  },
+  {
+    "id": 52,
+    "word": "MEKİK",
+    "hint": "Tekrar kullanılan uzay aracı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "word": "İSTASYON",
+    "hint": "Uzayda yaşam alanı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "word": "ASTRONOT",
+    "hint": "Uzaya giden kişi",
+    "difficulty": "hard"
+  },
+  { "id": 55, "word": "KOZMİK", "hint": "Uzayla ilgili", "difficulty": "hard" },
+  {
+    "id": 56,
+    "word": "YÖRÜNGE",
+    "hint": "Gök cisminin izlediği yol",
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "word": "YERÇEKİMİ",
+    "hint": "Cisimleri yere çeken kuvvet",
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "word": "MANYETİZMA",
+    "hint": "Mıknatıs özelliği",
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "word": "RADYASYON",
+    "hint": "Işınım yoluyla enerji yayma",
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "word": "NÜKLEER",
+    "hint": "Atom çekirdeği ile ilgili",
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "word": "MOLEKÜL",
+    "hint": "Atomların birleşmiş hali",
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "word": "ELEKTRON",
+    "hint": "Negatif yüklü atom altı parçacık",
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "word": "PROTON",
+    "hint": "Pozitif yüklü atom altı parçacık",
+    "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "word": "NÖTRON",
+    "hint": "Yüksüz atom altı parçacık",
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "word": "KROMOZOM",
+    "hint": "Genetik bilgi taşıyan yapı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "word": "MİTOKONDRİ",
+    "hint": "Hücrenin enerji santrali",
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "word": "KLOROFİL",
+    "hint": "Bitkiye yeşil renk veren madde",
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "word": "ANTİBİYOTİK",
+    "hint": "Bakteri öldüren ilaç",
+    "difficulty": "hard"
+  },
+  { "id": 69, "word": "PANSUMAN", "hint": "Yara bakımı", "difficulty": "hard" },
+  {
+    "id": 70,
+    "word": "ENJEKSİYON",
+    "hint": "Şırınga ile ilaç verme",
+    "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "word": "AMELİYAT",
+    "hint": "Cerrahi müdahale",
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "word": "TEŞHİS",
+    "hint": "Hastalığı belirleme",
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "word": "REÇETE",
+    "hint": "Doktorun yazdığı ilaç listesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "word": "ECZACI",
+    "hint": "İlaç satan kişi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "word": "HEMŞİRE",
+    "hint": "Hastaya bakan sağlıkçı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 76,
+    "word": "CERRAH",
+    "hint": "Ameliyat yapan doktor",
+    "difficulty": "hard"
+  },
+  {
+    "id": 77,
+    "word": "PSİKİYATR",
+    "hint": "Ruh sağlığı doktoru",
+    "difficulty": "hard"
+  },
+  {
+    "id": 78,
+    "word": "ORTOPEDİ",
+    "hint": "Kemik doktorluğu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 79,
+    "word": "KARDİYOLOJİ",
+    "hint": "Kalp doktorluğu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 80,
+    "word": "NÖROLOJİ",
+    "hint": "Sinir sistemi doktorluğu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "word": "DERMATOLOJİ",
+    "hint": "Cilt doktorluğu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 82,
+    "word": "GÖZ DOKTORU",
+    "hint": "Göz hastalıkları uzmanı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 83,
+    "word": "DİŞ HEKİMİ",
+    "hint": "Diş sağlığı uzmanı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 84,
+    "word": "VETERİNER",
+    "hint": "Hayvan doktoru",
+    "difficulty": "hard"
+  },
+  {
+    "id": 85,
+    "word": "LABORATUVAR",
+    "hint": "Deney yapılan yer",
+    "difficulty": "hard"
+  },
+  { "id": 86, "word": "DENEY", "hint": "Bilimsel test", "difficulty": "hard" },
+  {
+    "id": 87,
+    "word": "HİPOTEZ",
+    "hint": "Bilimsel varsayım",
+    "difficulty": "hard"
+  },
+  {
+    "id": 88,
+    "word": "TEORİ",
+    "hint": "Kanıtlanmış bilimsel açıklama",
+    "difficulty": "hard"
+  },
+  { "id": 89, "word": "KANUN", "hint": "Doğa yasası", "difficulty": "hard" },
+  {
+    "id": 90,
+    "word": "FORMÜL",
+    "hint": "Matematiksel ifade",
+    "difficulty": "hard"
+  },
+  {
+    "id": 91,
+    "word": "DENKLEM",
+    "hint": "Eşitlik içeren ifade",
+    "difficulty": "hard"
+  },
+  {
+    "id": 92,
+    "word": "FONKSİYON",
+    "hint": "Girdiyi çıktıya çeviren kural",
+    "difficulty": "hard"
+  },
+  {
+    "id": 93,
+    "word": "LOGARİTMA",
+    "hint": "Üstel fonksiyonun tersi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 94,
+    "word": "İNTEGRAL",
+    "hint": "Matematikte alan hesabı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 95,
+    "word": "TÜREV",
+    "hint": "Matematikte değişim hızı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 96,
+    "word": "PİSAGOR",
+    "hint": "Dik üçgen teoremi bulan matematikçi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 97,
+    "word": "ARŞİMET",
+    "hint": "Suyun kaldırma kuvvetini bulan bilim insanı",
+    "difficulty": "hard"
+  },
+  {
+    "id": 98,
+    "word": "NEWTON",
+    "hint": "Yerçekimini bulan fizikçi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 99,
+    "word": "EİNSTEİN",
+    "hint": "İzafiyet teorisi fizikçisi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 100,
+    "word": "GALİLEO",
+    "hint": "Dünya dönüyor diyen gökbilimci",
+    "difficulty": "hard"
+  },
+  {
+    "id": 101,
+    "word": "TESLA",
+    "hint": "Elektrik dehası mucit",
+    "difficulty": "hard"
+  },
+  {
+    "id": 102,
+    "word": "EDİSON",
+    "hint": "Ampulü bulan mucit",
+    "difficulty": "hard"
+  },
+  {
+    "id": 103,
+    "word": "MARCONİ",
+    "hint": "Radyoyu bulan mucit",
+    "difficulty": "hard"
+  },
+  {
+    "id": 104,
+    "word": "BELL",
+    "hint": "Telefonu bulan mucit",
+    "difficulty": "hard"
+  },
+  {
+    "id": 105,
+    "word": "WRİGHT",
+    "hint": "Uçağı bulan kardeşler",
+    "difficulty": "hard"
+  },
+  {
+    "id": 106,
+    "word": "GUTENBERG",
+    "hint": "Matbaayı bulan kişi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 107,
+    "word": "NOBEL",
+    "hint": "Dinamit ve ödülün mucidi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 108,
+    "word": "PULİTZER",
+    "hint": "Gazetecilik ödülü",
+    "difficulty": "hard"
+  },
+  { "id": 109, "word": "OSCAR", "hint": "Sinema ödülü", "difficulty": "hard" },
+  { "id": 110, "word": "GRAMMY", "hint": "Müzik ödülü", "difficulty": "hard" },
+  {
+    "id": 111,
+    "word": "EMMY",
+    "hint": "Televizyon ödülü",
+    "difficulty": "hard"
+  },
+  { "id": 112, "word": "TONY", "hint": "Tiyatro ödülü", "difficulty": "hard" },
+  {
+    "id": 113,
+    "word": "CANNES",
+    "hint": "Film festivali",
+    "difficulty": "hard"
+  },
+  {
+    "id": 114,
+    "word": "VENEDİK",
+    "hint": "Kanallar şehri",
+    "difficulty": "hard"
+  },
+  {
+    "id": 115,
+    "word": "PARİS",
+    "hint": "Eyfel Kulesi şehri",
+    "difficulty": "hard"
+  },
+  {
+    "id": 116,
+    "word": "LONDRA",
+    "hint": "Big Ben şehri",
+    "difficulty": "hard"
+  },
+  { "id": 117, "word": "ROMA", "hint": "Kolezyum şehri", "difficulty": "hard" },
+  {
+    "id": 118,
+    "word": "ATİNA",
+    "hint": "Akropolis şehri",
+    "difficulty": "hard"
+  },
+  {
+    "id": 119,
+    "word": "MOSKOVA",
+    "hint": "Kremlin şehri",
+    "difficulty": "hard"
+  },
+  { "id": 120, "word": "PEKİN", "hint": "Yasak Şehir", "difficulty": "hard" },
+  {
+    "id": 121,
+    "word": "KAHİRE",
+    "hint": "Piramitler şehri",
+    "difficulty": "hard"
+  },
+  {
+    "id": 122,
+    "word": "SİDNEY",
+    "hint": "Opera binası şehri",
+    "difficulty": "hard"
+  },
+  {
+    "id": 123,
+    "word": "NEW YORK",
+    "hint": "Özgürlük Heykeli şehri",
+    "difficulty": "hard"
+  },
+  { "id": 124, "word": "RİO", "hint": "Karnaval şehri", "difficulty": "hard" },
+  {
+    "id": 125,
+    "word": "MEKSİKA",
+    "hint": "Maya piramitleri ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 126,
+    "word": "KANADA",
+    "hint": "Akçaağaç yaprağı ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 127,
+    "word": "BREZİLYA",
+    "hint": "Amazon ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 128,
+    "word": "ARJANTİN",
+    "hint": "Tango ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 129,
+    "word": "HİNDİSTAN",
+    "hint": "Tac Mahal ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 130,
+    "word": "ÇİN",
+    "hint": "Çin Seddi ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 131,
+    "word": "JAPONYA",
+    "hint": "Sakura ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 132,
+    "word": "ALMANYA",
+    "hint": "Otomobil ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 133,
+    "word": "FRANSA",
+    "hint": "Şarap ve peynir ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 134,
+    "word": "İTALYA",
+    "hint": "Pizza ve makarna ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 135,
+    "word": "İSPANYA",
+    "hint": "Boğa güreşi ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 136,
+    "word": "YUNANİSTAN",
+    "hint": "Mitoloji ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 137,
+    "word": "MISIR",
+    "hint": "Firavunlar ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 138,
+    "word": "İRAN",
+    "hint": "Pers İmparatorluğu ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 139,
+    "word": "IRAK",
+    "hint": "Mezopotamya ülkesi",
+    "difficulty": "hard"
+  },
+  { "id": 140, "word": "SURİYE", "hint": "Şam ülkesi", "difficulty": "hard" },
+  { "id": 141, "word": "İSRAİL", "hint": "Kudüs ülkesi", "difficulty": "hard" },
+  {
+    "id": 142,
+    "word": "RUSYA",
+    "hint": "En geniş yüzölçümlü ülke",
+    "difficulty": "hard"
+  },
+  {
+    "id": 143,
+    "word": "UKRAYNA",
+    "hint": "Buğday ambarı ülke",
+    "difficulty": "hard"
+  },
+  {
+    "id": 144,
+    "word": "POLONYA",
+    "hint": "Chopin ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 145,
+    "word": "İSVEÇ",
+    "hint": "Nobel ödülleri ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 146,
+    "word": "NORVEÇ",
+    "hint": "Fiyortlar ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 147,
+    "word": "FİNLANDİYA",
+    "hint": "Bin göl ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 148,
+    "word": "DANİMARKA",
+    "hint": "Lego ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 149,
+    "word": "HOLLANDA",
+    "hint": "Lale ve yel değirmeni ülkesi",
+    "difficulty": "hard"
+  },
+  {
+    "id": 150,
+    "word": "BELÇİKA",
+    "hint": "Çikolata ülkesi",
+    "difficulty": "hard"
+  }
+]

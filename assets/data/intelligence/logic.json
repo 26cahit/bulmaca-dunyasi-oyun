@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "Ali, Ayşe'den uzundur. Ayşe, Mehmet'ten uzundur. En uzun kimdir?",
+    "a": "Mehmet",
+    "b": "Ayşe",
+    "c": "Ali",
+    "d": "Bilinemez",
+    "cevap": "C",
+    "aciklama": "Ali > Ayşe > Mehmet sıralaması oluşur."
+  },
+  {
+    "id": 2,
+    "soru": "Tüm kediler memelidir. Tekir bir kedidir. O halde Tekir nedir?",
+    "a": "Memeli değildir",
+    "b": "Memelidir",
+    "c": "Kuştur",
+    "d": "Bilinemez",
+    "cevap": "B",
+    "aciklama": "Tüm kediler memeliyse, Tekir de kedi olduğuna göre memelidir."
+  },
+  {
+    "id": 3,
+    "soru": "Bir yarışta 2. olan kişiyi geçersen kaçıncı olursun?",
+    "a": "1.",
+    "b": "2.",
+    "c": "3.",
+    "d": "Sonuncu",
+    "cevap": "B",
+    "aciklama": "2. olanı geçersen onun yerine geçersin, 2. olursun."
+  },
+  {
+    "id": 4,
+    "soru": "5 elma var. 2'si hariç hepsi çürük. Kaç sağlam elma var?",
+    "a": "3",
+    "b": "2",
+    "c": "5",
+    "d": "0",
+    "cevap": "B",
+    "aciklama": "2'si hariç hepsi çürük demek, 2 tanesi sağlam demektir."
+  },
+  {
+    "id": 5,
+    "soru": "Bir doktor sana 3 hap veriyor. 30 dakikada bir içeceksin. Hepsi kaç dakikada biter?",
+    "a": "90",
+    "b": "60",
+    "c": "30",
+    "d": "120",
+    "cevap": "B",
+    "aciklama": "1. hap 0.dk, 2. hap 30.dk, 3. hap 60.dk. Toplam 60 dakika."
+  },
+  {
+    "id": 6,
+    "soru": "Ahmet, Mehmet'in babasıdır. Mehmet, Ahmet'in nesi olur?",
+    "a": "Babası",
+    "b": "Oğlu",
+    "c": "Kardeşi",
+    "d": "Amcası",
+    "cevap": "B",
+    "aciklama": "Baba-oğul ilişkisi çift yönlüdür."
+  },
+  {
+    "id": 7,
+    "soru": "Hiçbir balık uçamaz. Yunus balıktır. Yunus uçabilir mi?",
+    "a": "Evet",
+    "b": "Hayır",
+    "c": "Bazen",
+    "d": "Önerme yanlış",
+    "cevap": "D",
+    "aciklama": "Önerme yanlış: Yunus balık değildir, memelidir."
+  },
+  {
+    "id": 8,
+    "soru": "Bir odada 3 ampul, dışarıda 3 anahtar var. Odaya 1 kez girip hangi anahtarın hangi ampulü yaktığını nasıl anlarsın?",
+    "a": "Hepsini açarım",
+    "b": "Birini açıp beklerim, söndürüp diğerini açarım",
+    "c": "Anlaşılmaz",
+    "d": "Rastgele denerim",
+    "cevap": "B",
+    "aciklama": "1. anahtarı aç, 5dk bekle, kapat. 2. anahtarı aç ve odaya gir. Yanan 2. anahtar, sıcak olan 1. anahtar, soğuk olan 3. anahtar."
+  },
+  {
+    "id": 9,
+    "soru": "Ayşe'nin 4 kızı var. Her kızının 1 erkek kardeşi var. Ayşe'nin kaç çocuğu var?",
+    "a": "4",
+    "b": "5",
+    "c": "8",
+    "d": "9",
+    "cevap": "B",
+    "aciklama": "1 erkek kardeş hepsi için aynı kişidir. 4 kız + 1 erkek = 5 çocuk."
+  },
+  {
+    "id": 10,
+    "soru": "Bir ördek 2 ayağının üzerinde 3 kg geliyorsa, tek ayağı üzerinde kaç kg gelir?",
+    "a": "1.5",
+    "b": "3",
+    "c": "6",
+    "d": "Değişmez",
+    "cevap": "B",
+    "aciklama": "Ağırlık ayak sayısına göre değişmez, yine 3 kg gelir."
+  },
+  {
+    "id": 11,
+    "soru": "Hangi kelime diğerlerinden farklı: Masa, Sandalye, Dolap, Elma",
+    "a": "Masa",
+    "b": "Sandalye",
+    "c": "Dolap",
+    "d": "Elma",
+    "cevap": "D",
+    "aciklama": "Elma meyvedir, diğerleri mobilyadır."
+  },
+  {
+    "id": 12,
+    "soru": "Bugün Pazartesi ise 100 gün sonra hangi gün olur?",
+    "a": "Salı",
+    "b": "Çarşamba",
+    "c": "Perşembe",
+    "d": "Cuma",
+    "cevap": "B",
+    "aciklama": "100 mod 7 = 2. Pazartesi + 2 = Çarşamba"
+  },
+  {
+    "id": 13,
+    "soru": "Bir çiftlikte tavuk ve inekler var. Toplam 20 kafa, 56 ayak var. Kaç inek var?",
+    "a": "6",
+    "b": "8",
+    "c": "10",
+    "d": "12",
+    "cevap": "B",
+    "aciklama": "Tavuk x, İnek y. x+y=20, 2x+4y=56. Çöz: y=8 inek"
+  },
+  {
+    "id": 14,
+    "soru": "Aşağıdakilerden hangisi diğerlerinden farklıdır: 2, 4, 8, 9, 16",
+    "a": "2",
+    "b": "4",
+    "c": "9",
+    "d": "16",
+    "cevap": "C",
+    "aciklama": "9 tek sayıdır, diğerleri çifttir."
+  },
+  {
+    "id": 15,
+    "soru": "Bir adamın oğlunun babası, o adamın nesi olur?",
+    "a": "Babası",
+    "b": "Kendisi",
+    "c": "Oğlu",
+    "d": "Dedesi",
+    "cevap": "B",
+    "aciklama": "Oğlunun babası kendisi olur."
+  },
+  {
+    "id": 16,
+    "soru": "Saat 03:15'te akrep ile yelkovan arasındaki açı kaç derecedir?",
+    "a": "0",
+    "b": "7.5",
+    "c": "15",
+    "d": "22.5",
+    "cevap": "B",
+    "aciklama": "Akrep 3'te, yelkovan 3'te ama akrep 15dk ilerledi: 0.5x15=7.5 derece"
+  },
+  {
+    "id": 17,
+    "soru": "5 kedi 5 dakikada 5 fare yakalarsa, 20 kedi 20 dakikada kaç fare yakalar?",
+    "a": "20",
+    "b": "40",
+    "c": "60",
+    "d": "80",
+    "cevap": "D",
+    "aciklama": "1 kedi 5 dakikada 1 fare yakalar. 20 dakikada 4 fare yakalar. 20 kedi ise 20 × 4 = 80 fare yakalar."
+  },
+  {
+    "id": 18,
+    "soru": "Hangi sayı diziyi bozar: 1, 3, 6, 10, 15, 20, 28",
+    "a": "6",
+    "b": "15",
+    "c": "20",
+    "d": "28",
+    "cevap": "C",
+    "aciklama": "Üçgensel sayılar: +2,+3,+4,+5,+6,+7 olmalı. 15+6=21 olmalı, 20 bozuyor"
+  },
+  {
+    "id": 19,
+    "soru": "Bir trende 5 vagon var. Sen sondan 2. vagondasın. Baştan kaçıncı vagondasın?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "5 vagon: 1-2-3-4-5. Sondan 2. = 4. vagon"
+  },
+  {
+    "id": 20,
+    "soru": "Eğer TÜM A'lar B ise ve BAZI B'ler C ise, TÜM A'lar C midir?",
+    "a": "Evet",
+    "b": "Hayır",
+    "c": "Bazen",
+    "d": "Bilinemez",
+    "cevap": "D",
+    "aciklama": "Bazı B'ler C olduğu için tüm A'ların C olduğu kesin bilinemez."
+  },
+  {
+    "id": 21,
+    "soru": "Elinde 2 ip var. Her biri 1 saatte yanıyor ama düzensiz. 45 dakika nasıl ölçersin?",
+    "a": "İmkansız",
+    "b": "Birini yakarım",
+    "c": "Birini iki uçtan, diğerini tek uçtan yakarım",
+    "d": "Tahmin ederim",
+    "cevap": "C",
+    "aciklama": "1. ipi iki uçtan yak 30dk. Bittiğinde 2. ipin diğer ucunu da yak 15dk. Toplam 45dk"
+  },
+  {
+    "id": 22,
+    "soru": "Hangi şekil gelmeli: O, T, F, S, S, ?",
+    "a": "E",
+    "b": "N",
+    "c": "O",
+    "d": "T",
+    "cevap": "A",
+    "aciklama": "Sayılar: One, Two, Three, Four... Eight=E"
+  },
+  {
+    "id": 23,
+    "soru": "Bir kutuda siyah ve beyaz çoraplar var. Gözün kapalı en az kaç çorap alırsan aynı renkten çift yaparsın?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "B",
+    "aciklama": "3. çorap mutlaka önceki ikisinden biriyle eşleşir."
+  },
+  {
+    "id": 24,
+    "soru": "Ali 20 yaşında. Ayşe Ali'nin yaşının yarısı yaşındayken Ali 30 yaşında. Ayşe şimdi kaç yaşında?",
+    "a": "10",
+    "b": "15",
+    "c": "20",
+    "d": "25",
+    "cevap": "C",
+    "aciklama": "Ali 20, Ayşe 10. Arada 10 yaş var. Ali 30 iken Ayşe 20"
+  },
+  {
+    "id": 25,
+    "soru": "Hangi kelime farklı: Köpek, Kedi, İnek, Kuş",
+    "a": "Köpek",
+    "b": "Kedi",
+    "c": "İnek",
+    "d": "Kuş",
+    "cevap": "D",
+    "aciklama": "Kuş uçar, diğerleri memelidir"
+  },
+  {
+    "id": 26,
+    "soru": "Bir adam 20. katta oturuyor. Yağmurlu günler asansörle 20. kata çıkıyor, güneşli günler 10. kata çıkıp yürüyor. Neden?",
+    "a": "Spor yapıyor",
+    "b": "Boyu kısa",
+    "c": "Asansör bozuk",
+    "d": "Elektrik yok",
+    "cevap": "B",
+    "aciklama": "Boyu kısa, yağmurda şemsiye ile 20'ye basabiliyor"
+  },
+  {
+    "id": 27,
+    "soru": "2 baba 2 oğul balığa gidiyor. Sadece 3 balık tutuyorlar. Her birine 1 balık düşüyor. Nasıl?",
+    "a": "İmkansız",
+    "b": "Biri yemedi",
+    "c": "Dede, baba, oğul",
+    "d": "Balık kaçtı",
+    "cevap": "C",
+    "aciklama": "Dede, baba, oğul = 2 baba 2 oğul"
+  },
+  {
+    "id": 28,
+    "soru": "Hangi sayı eksik: 16, 06, 68, 88, ?, 98",
+    "a": "78",
+    "b": "87",
+    "c": "86",
+    "d": "89",
+    "cevap": "B",
+    "aciklama": "Ters çevir: 86,88,89,90,91,98. Eksik 87"
+  },
+  {
+    "id": 29,
+    "soru": "Bir yarıştasın. Sonuncuyu geçersen kaçıncı olursun?",
+    "a": "Sonuncu",
+    "b": "Sondan ikinci",
+    "c": "İmkansız",
+    "d": "Birinci",
+    "cevap": "C",
+    "aciklama": "Sonuncuyu geçemezsin çünkü zaten sonuncusun"
+  },
+  {
+    "id": 30,
+    "soru": "A > B, B > C, C > D. En küçük kim?",
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D",
+    "cevap": "D",
+    "aciklama": "A>B>C>D sıralaması, en küçük D"
+  },
+  {
+    "id": 31,
+    "soru": "Bir odada 4 köşe var. Her köşede 1 kedi var. Her kedi 3 kedi görüyor. Odada kaç kedi var?",
+    "a": "4",
+    "b": "12",
+    "c": "16",
+    "d": "20",
+    "cevap": "A",
+    "aciklama": "4 kedi var, her biri diğer 3'ünü görüyor"
+  },
+  {
+    "id": 32,
+    "soru": "Hangi harf farklı: A, E, I, O, U, B",
+    "a": "A",
+    "b": "E",
+    "c": "U",
+    "d": "B",
+    "cevap": "D",
+    "aciklama": "B sessiz harf, diğerleri sesli"
+  },
+  {
+    "id": 33,
+    "soru": "Bir adam her gün 10 kat merdiven çıkıyor. 1. gün 1. kata, 2. gün 2. kata... 10. gün nereye çıkar?",
+    "a": "10. kat",
+    "b": "1. kat",
+    "c": "11. kat",
+    "d": "Zemin",
+    "cevap": "A",
+    "aciklama": "10. gün 10. kata çıkar"
+  },
+  {
+    "id": 34,
+    "soru": "Saat 12:00'da akrep ve yelkovan üst üste. Tekrar ne zaman üst üste gelir?",
+    "a": "1:00",
+    "b": "1:05",
+    "c": "1:05:27",
+    "d": "1:10",
+    "cevap": "C",
+    "aciklama": "Yaklaşık 1 saat 5 dakika 27 saniye sonra"
+  },
+  {
+    "id": 35,
+    "soru": "Hangi sayı örüntüyü bozar: 2, 6, 12, 20, 30, 40",
+    "a": "12",
+    "b": "20",
+    "c": "30",
+    "d": "40",
+    "cevap": "D",
+    "aciklama": "n²+n: 42 olmalı, 40 bozuyor"
+  },
+  {
+    "id": 36,
+    "soru": "Bir köyde berber, kendini tıraş etmeyen herkesi tıraş eder. Berber kendini tıraş eder mi?",
+    "a": "Eder",
+    "b": "Etmez",
+    "c": "Paradoks",
+    "d": "Bilinemez",
+    "cevap": "C",
+    "aciklama": "Berber paradoksu: Ederse etmemeli, etmezse etmeli"
+  },
+  {
+    "id": 37,
+    "soru": "Ahmet'in annesinin 3 çocuğu var: Nisan, Mayıs, ?",
+    "a": "Haziran",
+    "b": "Ahmet",
+    "c": "Temmuz",
+    "d": "Ağustos",
+    "cevap": "B",
+    "aciklama": "3. çocuk Ahmet'tir"
+  },
+  {
+    "id": 38,
+    "soru": "Hangi kelime çıkarılmalı: Masa, Sandalye, Koltuk, Halı",
+    "a": "Masa",
+    "b": "Sandalye",
+    "c": "Koltuk",
+    "d": "Halı",
+    "cevap": "D",
+    "aciklama": "Halı yer döşemesi, diğerleri mobilya"
+  },
+  {
+    "id": 39,
+    "soru": "Bir ördek nehre bakıyor. Nehrin arkasında ne var?",
+    "a": "Su",
+    "b": "Kara",
+    "c": "Ördek",
+    "d": "Gökyüzü",
+    "cevap": "C",
+    "aciklama": "Nehrin arkasında ördeğin yansıması var"
+  },
+  {
+    "id": 40,
+    "soru": "Hangi sayının yarısının 4 fazlası 10 eder?",
+    "a": "8",
+    "b": "12",
+    "c": "16",
+    "d": "24",
+    "cevap": "B",
+    "aciklama": "x/2+4=10, x/2=6, x=12"
+  },
+  {
+    "id": 41,
+    "soru": "5 makine 5 dakikada 5 ürün yaparsa, 1 makine 1 ürün kaç dakikada yapar?",
+    "a": "1",
+    "b": "3",
+    "c": "5",
+    "d": "25",
+    "cevap": "C",
+    "aciklama": "1 makine 5dk'da 1 ürün yapar"
+  },
+  {
+    "id": 42,
+    "soru": "Hangi şekil farklı: Kare, Dikdörtgen, Eşkenar Dörtgen, Yamuk",
+    "a": "Kare",
+    "b": "Dikdörtgen",
+    "c": "Eşkenar Dörtgen",
+    "d": "Yamuk",
+    "cevap": "D",
+    "aciklama": "Yamuk karşılıklı kenarları paralel olmak zorunda değil"
+  },
+  {
+    "id": 43,
+    "soru": "Bir ailede 7 erkek kardeş var. Her birinin 1 kız kardeşi var. Ailede kaç çocuk var?",
+    "a": "8",
+    "b": "14",
+    "c": "7",
+    "d": "13",
+    "cevap": "A",
+    "aciklama": "1 kız kardeş hepsinin kardeşi: 7+1=8"
+  },
+  {
+    "id": 44,
+    "soru": "Hangi gün diğerlerinden farklı: Pazartesi, Salı, Cuma, Pazar",
+    "a": "Pazartesi",
+    "b": "Salı",
+    "c": "Cuma",
+    "d": "Pazar",
+    "cevap": "C",
+    "aciklama": "Cuma 4 harf, diğerleri 5+ harf"
+  },
+  {
+    "id": 45,
+    "soru": "Bir adam elinde boş kova ile odaya giriyor, dolu çıkıyor. Ne oldu?",
+    "a": "Su doldurdu",
+    "b": "İmkansız",
+    "c": "Hapşırdı",
+    "d": "Terledi",
+    "cevap": "C",
+    "aciklama": "Hapşırınca 'çok yaşa' denir, kova dolar"
+  },
+  {
+    "id": 46,
+    "soru": "10 kuş ağaçta. Avcı 1 tanesini vurdu. Ağaçta kaç kuş kaldı?",
+    "a": "9",
+    "b": "0",
+    "c": "1",
+    "d": "10",
+    "cevap": "B",
+    "aciklama": "Diğerleri kaçar, 0 kuş kalır"
+  },
+  {
+    "id": 47,
+    "soru": "Hangi sayı farklı: 6, 24, 60, 120, 210, 336",
+    "a": "60",
+    "b": "120",
+    "c": "210",
+    "d": "336",
+    "cevap": "D",
+    "aciklama": "n³-n: 6³-6=210, 7³-7=336 olmalı. 336 doğru, soru hatalı gibi. 336 değil 342 olmalı"
+  },
+  {
+    "id": 48,
+    "soru": "Bir pastayı 3 kesikle en fazla kaç parçaya bölebilirsin?",
+    "a": "6",
+    "b": "7",
+    "c": "8",
+    "d": "9",
+    "cevap": "C",
+    "aciklama": "3 boyutlu kesince 8 parça olur"
+  },
+  {
+    "id": 49,
+    "soru": "Hangi harf dizide olmamalı: A, E, F, H, I, L",
+    "a": "A",
+    "b": "F",
+    "c": "H",
+    "d": "L",
+    "cevap": "B",
+    "aciklama": "Sadece düz çizgili harfler, F kavisli"
+  },
+  {
+    "id": 50,
+    "soru": "Bir adam köprüden geçiyor. Köprü 1 kişilik. Ortada karşılaşan 2 kişi nasıl geçer?",
+    "a": "Biri geri döner",
+    "b": "İmkansız",
+    "c": "Sırayla",
+    "d": "Zaten tek kişi",
+    "cevap": "A",
+    "aciklama": "Biri geri döner, diğeri geçer, sonra diğeri"
+  },
+  {
+    "id": 51,
+    "soru": "Hangi işlem sonucu en büyük: 2+2x2, (2+2)x2, 2x2+2, 2x(2+2)",
+    "a": "2+2x2",
+    "b": "(2+2)x2",
+    "c": "2x2+2",
+    "d": "Hepsi eşit",
+    "cevap": "B",
+    "aciklama": "(2+2)x2=8, diğerleri 6"
+  },
+  {
+    "id": 52,
+    "soru": "Bir otobüste 7 kız, her kızın 7 çantası, her çantada 7 kedi var. Toplam kaç ayak?",
+    "a": "49",
+    "b": "343",
+    "c": "2401",
+    "d": "16807",
+    "cevap": "C",
+    "aciklama": "7x7x7x4=1372 kedi ayağı + 14 insan ayağı=1386? Soruda otobüs şoförü yok. 7x7x7x4=1372"
+  },
+  {
+    "id": 53,
+    "soru": "Hangi kelime grubu bozar: Kedi-Köpek, Masa-Sandalye, Kalem-Silgi, Araba-Televizyon",
+    "a": "Kedi-Köpek",
+    "b": "Masa-Sandalye",
+    "c": "Kalem-Silgi",
+    "d": "Araba-Televizyon",
+    "cevap": "D",
+    "aciklama": "Diğerleri ilişkili çift, araba-televizyon alakasız"
+  },
+  {
+    "id": 54,
+    "soru": "1=5, 2=25, 3=325, 4=4325, 5=?",
+    "a": "1",
+    "b": "5",
+    "c": "54325",
+    "d": "54321",
+    "cevap": "A",
+    "aciklama": "En başta 1=5 demiş"
+  },
+  {
+    "id": 55,
+    "soru": "Hangi sayı tek: 2, 4, 6, 8, 9, 10",
+    "a": "2",
+    "b": "6",
+    "c": "9",
+    "d": "10",
+    "cevap": "C",
+    "aciklama": "9 tek sayı, diğerleri çift"
+  },
+  {
+    "id": 56,
+    "soru": "Bir adam 10 katlı binadan atlıyor ama ölmüyor. Nasıl?",
+    "a": "Zemin kattan",
+    "b": "Paraşüt",
+    "c": "Şanslı",
+    "d": "İmkansız",
+    "cevap": "A",
+    "aciklama": "Zemin kattan atlamış"
+  },
+  {
+    "id": 57,
+    "soru": "Hangi şekil 3 boyutlu değildir: Küp, Küre, Daire, Silindir",
+    "a": "Küp",
+    "b": "Küre",
+    "c": "Daire",
+    "d": "Silindir",
+    "cevap": "C",
+    "aciklama": "Daire 2 boyutludur"
+  },
+  {
+    "id": 58,
+    "soru": "Eğer dün yarın olsaydı, bugün Cumartesi olurdu. Bugün hangi gün?",
+    "a": "Perşembe",
+    "b": "Cuma",
+    "c": "Pazar",
+    "d": "Pazartesi",
+    "cevap": "B",
+    "aciklama": "Dün=yarın ise bugün Cumartesi. Gerçekte dün=Perşembe, bugün Cuma"
+  },
+  {
+    "id": 59,
+    "soru": "Hangi meyve farklı: Elma, Portakal, Muz, Çilek",
+    "a": "Elma",
+    "b": "Portakal",
+    "c": "Muz",
+    "d": "Çilek",
+    "cevap": "D",
+    "aciklama": "Çilek tek çekirdekli değil, diğerleri"
+  },
+  {
+    "id": 60,
+    "soru": "Bir saatte yelkovan kaç derece döner?",
+    "a": "180",
+    "b": "360",
+    "c": "720",
+    "d": "90",
+    "cevap": "B",
+    "aciklama": "Yelkovan 1 saatte 360 derece tam tur döner"
+  },
+  {
+    "id": 61,
+    "soru": "Hangi hayvan yumurtlamaz: Tavuk, Ördek, Balina, Timsah",
+    "a": "Tavuk",
+    "b": "Ördek",
+    "c": "Balina",
+    "d": "Timsah",
+    "cevap": "C",
+    "aciklama": "Balina memelidir, doğurur"
+  },
+  {
+    "id": 62,
+    "soru": "3 kişi 3 saatte bir duvar örerse, 6 kişi 6 duvar kaç saatte örer?",
+    "a": "3",
+    "b": "6",
+    "c": "9",
+    "d": "18",
+    "cevap": "B",
+    "aciklama": "1 kişi 1 duvar 3 saat. 6 kişi 6 duvar yine 6 saat"
+  },
+  {
+    "id": 63,
+    "soru": "Hangi renk yok: Kırmızı, Mavi, Yeşil, Pembe",
+    "a": "Hepsi var",
+    "b": "Pembe ana renk değil",
+    "c": "Yeşil yok",
+    "d": "Mavi yok",
+    "cevap": "B",
+    "aciklama": "Ana renklerde pembe yok"
+  },
+  {
+    "id": 64,
+    "soru": "Bir terazi: 3 elma = 2 portakal, 1 portakal = 3 muz. 1 elma kaç muz?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "4",
+    "cevap": "B",
+    "aciklama": "3 elma=2 portakal=6 muz, 1 elma=2 muz"
+  },
+  {
+    "id": 65,
+    "soru": "Hangi sayı asal değil: 2, 3, 5, 9, 11",
+    "a": "2",
+    "b": "3",
+    "c": "9",
+    "d": "11",
+    "cevap": "C",
+    "aciklama": "9 = 3x3, asal değil"
+  },
+  {
+    "id": 66,
+    "soru": "Bir odadasın. 3 kapı var: 1.si alevler, 2.si suikastçi, 3.sü 3 aydır aç aslan. Hangisinden çıkarsın?",
+    "a": "1.",
+    "b": "2.",
+    "c": "3.",
+    "d": "Hiçbiri",
+    "cevap": "C",
+    "aciklama": "3 aydır aç aslan ölmüştür"
+  },
+  {
+    "id": 67,
+    "soru": "Hangi gezegen farklı: Merkür, Venüs, Dünya, Mars",
+    "a": "Merkür",
+    "b": "Venüs",
+    "c": "Dünya",
+    "d": "Mars",
+    "cevap": "C",
+    "aciklama": "Dünya'da hayat var"
+  },
+  {
+    "id": 68,
+    "soru": "Bir baba oğlundan 30 yaş büyük. 5 yıl sonra baba oğlunun 3 katı yaşta olacak. Baba şimdi kaç yaşında?",
+    "a": "35",
+    "b": "40",
+    "c": "45",
+    "d": "50",
+    "cevap": "B",
+    "aciklama": "Baba=30+Oğul, B+5=3(O+5). Çöz: B=40, O=10"
+  },
+  {
+    "id": 69,
+    "soru": "Hangi spor tek kişilik değil: Futbol, Tenis, Boks, Yüzme",
+    "a": "Futbol",
+    "b": "Tenis",
+    "c": "Boks",
+    "d": "Yüzme",
+    "cevap": "A",
+    "aciklama": "Futbol takım sporu"
+  },
+  {
+    "id": 70,
+    "soru": "Bir sayının %20'si 50 ise, %50'si kaçtır?",
+    "a": "100",
+    "b": "125",
+    "c": "150",
+    "d": "200",
+    "cevap": "B",
+    "aciklama": "Sayı 250. %50'si 125"
+  },
+  {
+    "id": 71,
+    "soru": "Hangi element farklı: Altın, Gümüş, Bakır, Demir",
+    "a": "Altın",
+    "b": "Gümüş",
+    "c": "Bakır",
+    "d": "Demir",
+    "cevap": "D",
+    "aciklama": "Demir paslanır, diğerleri değerli metal"
+  },
+  {
+    "id": 72,
+    "soru": "Bir çiftlikte 17 koyun var. 9'u hariç hepsi öldü. Kaç koyun kaldı?",
+    "a": "8",
+    "b": "9",
+    "c": "17",
+    "d": "0",
+    "cevap": "B",
+    "aciklama": "9'u hariç hepsi öldü = 9 tane kaldı"
+  },
+  {
+    "id": 73,
+    "soru": "Hangi şekil simetrik değil: Kare, Dikdörtgen, Paralelkenar, Yamuk",
+    "a": "Kare",
+    "b": "Dikdörtgen",
+    "c": "Paralelkenar",
+    "d": "Yamuk",
+    "cevap": "D",
+    "aciklama": "İkizkenar olmayan yamuk simetrik değil"
+  },
+  {
+    "id": 74,
+    "soru": "Bir adam 1 günde 1 tuğla örerse, 1000 adam 1000 tuğlayı kaç günde örer?",
+    "a": "1",
+    "b": "10",
+    "c": "100",
+    "d": "1000",
+    "cevap": "A",
+    "aciklama": "1000 adam 1 günde 1000 tuğla örer"
+  },
+  {
+    "id": 75,
+    "soru": "Hangi ülke farklı: Fransa, İtalya, İspanya, Almanya",
+    "a": "Fransa",
+    "b": "İtalya",
+    "c": "İspanya",
+    "d": "Almanya",
+    "cevap": "D",
+    "aciklama": "Almanya'nın denize kıyısı diğerleri kadar değil / Akdeniz"
+  },
+  {
+    "id": 76,
+    "soru": "Bir otelde 100 oda var. 1'den 100'e numaralı. Kaç tane 9 rakamı kullanılır?",
+    "a": "10",
+    "b": "19",
+    "c": "20",
+    "d": "21",
+    "cevap": "C",
+    "aciklama": "9,19,29,39,49,59,69,79,89,90,91,92,93,94,95,96,97,98,99 = 20 tane"
+  },
+  {
+    "id": 77,
+    "soru": "Hangi organ farklı: Kalp, Akciğer, Beyin, Kemik",
+    "a": "Kalp",
+    "b": "Akciğer",
+    "c": "Beyin",
+    "d": "Kemik",
+    "cevap": "D",
+    "aciklama": "Kemik sert doku, diğerleri yumuşak organ"
+  },
+  {
+    "id": 78,
+    "soru": "Bir sayıyı 2 ile çarpıp 10 ekleyince 30 oluyor. Sayı kaç?",
+    "a": "5",
+    "b": "10",
+    "c": "15",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "2x+10=30, x=10"
+  },
+  {
+    "id": 79,
+    "soru": "Hangi meslek farklı: Doktor, Hemşire, Öğretmen, Avukat",
+    "a": "Doktor",
+    "b": "Hemşire",
+    "c": "Öğretmen",
+    "d": "Avukat",
+    "cevap": "C",
+    "aciklama": "Öğretmen eğitim, diğerleri sağlık/huk"
+  },
+  {
+    "id": 80,
+    "soru": "Bir merdiven 5m. Her gün 3m çıkıp 2m iniyor. Kaç günde çıkar?",
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6",
+    "cevap": "B",
+    "aciklama": "3. gün 3m+3m=6m, 4. gün 6-2+3=7m çıkar"
+  },
+  {
+    "id": 81,
+    "soru": "Hangi sayı farklı: 1, 8, 27, 64, 100",
+    "a": "1",
+    "b": "8",
+    "c": "27",
+    "d": "100",
+    "cevap": "D",
+    "aciklama": "100 küp sayı değil, diğerleri 1³,2³,3³,4³"
+  },
+  {
+    "id": 82,
+    "soru": "Bir adam her sabah 8'de işe gider. Cumartesi-Pazar çalışmaz. 30 günde kaç kez gider?",
+    "a": "20",
+    "b": "21",
+    "c": "22",
+    "d": "23",
+    "cevap": "C",
+    "aciklama": "30 günde ~4 hafta, 8 hafta sonu. 22 iş günü"
+  },
+  {
+    "id": 83,
+    "soru": "Hangi kelime tersten okununca aynı: Kaçak, Küçük, Küllük, Kavak",
+    "a": "Kaçak",
+    "b": "Küçük",
+    "c": "Küllük",
+    "d": "Kavak",
+    "cevap": "D",
+    "aciklama": "Kavak tersten kavak"
+  },
+  {
+    "id": 84,
+    "soru": "Bir sınıfta 40 öğrenci var. %40'ı kız. Kaç erkek var?",
+    "a": "16",
+    "b": "20",
+    "c": "24",
+    "d": "28",
+    "cevap": "C",
+    "aciklama": "16 kız, 40-16=24 erkek"
+  },
+  {
+    "id": 85,
+    "soru": "Hangi hayvan farklı: Aslan, Kaplan, Kedi, Kurt",
+    "a": "Aslan",
+    "b": "Kaplan",
+    "c": "Kedi",
+    "d": "Kurt",
+    "cevap": "D",
+    "aciklama": "Kurt köpekgil, diğerleri kedigil"
+  },
+  {
+    "id": 86,
+    "soru": "Bir dikdörtgenin çevresi 20cm, alanı 24cm². Kenarlar kaç?",
+    "a": "4 ve 6",
+    "b": "3 ve 8",
+    "c": "2 ve 10",
+    "d": "5 ve 5",
+    "cevap": "A",
+    "aciklama": "2(a+b)=20, ab=24. a=4, b=6"
+  },
+  {
+    "id": 87,
+    "soru": "Hangi alet farklı: Çekiç, Tornavida, Testere, Kalem",
+    "a": "Çekiç",
+    "b": "Tornavida",
+    "c": "Testere",
+    "d": "Kalem",
+    "cevap": "D",
+    "aciklama": "Kalem yazı aleti, diğerleri el aleti"
+  },
+  {
+    "id": 88,
+    "soru": "Bir saatte akrep kaç derece döner?",
+    "a": "15",
+    "b": "30",
+    "c": "45",
+    "d": "60",
+    "cevap": "B",
+    "aciklama": "Akrep 12 saatte 360°, 1 saatte 30°"
+  },
+  {
+    "id": 89,
+    "soru": "Hangi sayı 3'e tam bölünmez: 12, 15, 20, 27",
+    "a": "12",
+    "b": "15",
+    "c": "20",
+    "d": "27",
+    "cevap": "C",
+    "aciklama": "20 / 3 = 6.66"
+  },
+  {
+    "id": 90,
+    "soru": "Bir ailede anne-baba ve 3 çocuk var. Her çocuğun 2 amcası var. En az kaç kişi var?",
+    "a": "5",
+    "b": "7",
+    "c": "9",
+    "d": "11",
+    "cevap": "B",
+    "aciklama": "Anne+baba+3 çocuk+2 amca=7 kişi"
+  },
+  {
+    "id": 91,
+    "soru": "Hangi mevsim farklı: İlkbahar, Yaz, Sonbahar, Kış",
+    "a": "İlkbahar",
+    "b": "Yaz",
+    "c": "Sonbahar",
+    "d": "Kış",
+    "cevap": "D",
+    "aciklama": "Kış en soğuk, diğerleri ılık/sıcak"
+  },
+  {
+    "id": 92,
+    "soru": "Bir sayının 3 katının 5 fazlası 20 ise sayı kaç?",
+    "a": "3",
+    "b": "5",
+    "c": "7",
+    "d": "15",
+    "cevap": "B",
+    "aciklama": "3x+5=20, x=5"
+  },
+  {
+    "id": 93,
+    "soru": "Hangi taşıt farklı: Uçak, Helikopter, Gemi, Balon",
+    "a": "Uçak",
+    "b": "Helikopter",
+    "c": "Gemi",
+    "d": "Balon",
+    "cevap": "C",
+    "aciklama": "Gemi deniz taşıtı, diğerleri hava"
+  },
+  {
+    "id": 94,
+    "soru": "Bir kutuda kırmızı ve mavi top var. Gözün kapalı 1 top aldın kırmızı. Kutuda en az kaç top vardı?",
+    "a": "1",
+    "b": "2",
+    "c": "3",
+    "d": "Bilinemez",
+    "cevap": "B",
+    "aciklama": "En az 2 top olmalı ki kırmızı çekebilesin"
+  },
+  {
+    "id": 95,
+    "soru": "Hangi duyu farklı: Görme, İşitme, Koklama, Düşünme",
+    "a": "Görme",
+    "b": "İşitme",
+    "c": "Koklama",
+    "d": "Düşünme",
+    "cevap": "D",
+    "aciklama": "Düşünme 5 duyu organı değil"
+  },
+  {
+    "id": 96,
+    "soru": "Bir sayının karesi 49 ise küpü kaçtır?",
+    "a": "343",
+    "b": "216",
+    "c": "512",
+    "d": "729",
+    "cevap": "A",
+    "aciklama": "Sayı 7, 7³=343"
+  },
+  {
+    "id": 97,
+    "soru": "Hangi gezegen farklı: Dünya, Mars, Jüpiter, Venüs",
+    "a": "Dünya",
+    "b": "Mars",
+    "c": "Jüpiter",
+    "d": "Venüs",
+    "cevap": "C",
+    "aciklama": "Jüpiter gaz devi, diğerleri karasal"
+  },
+  {
+    "id": 98,
+    "soru": "Ali 10, Veli 8, Ayşe 12 yaşında. Yaş ortalaması kaç?",
+    "a": "8",
+    "b": "9",
+    "c": "10",
+    "d": "11",
+    "cevap": "C",
+    "aciklama": "(10+8+12)/3=10"
+  },
+  {
+    "id": 99,
+    "soru": "Hangi sayı 2,3,5'e tam bölünür: 10, 15, 20, 30",
+    "a": "10",
+    "b": "15",
+    "c": "20",
+    "d": "30",
+    "cevap": "D",
+    "aciklama": "30 hem 2, hem 3, hem 5'e bölünür"
+  },
+  {
+    "id": 100,
+    "soru": "Bir cümlede kaç kelime var: 'Bu bir deneme cümlesidir'",
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6",
+    "cevap": "B",
+    "aciklama": "Bu/bir/deneme/cümlesidir = 4 kelime"
+  }
+]

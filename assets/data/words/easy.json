@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "word": "ELMA",
+    "hint": "Kırmızı veya yeşil meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "word": "KEDİ",
+    "hint": "Evde beslenen miyavlayan hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "word": "MASA",
+    "hint": "Üzerinde yemek yenilen mobilya",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "word": "SU",
+    "hint": "Hayat kaynağı, renksiz içecek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "word": "EV",
+    "hint": "İçinde yaşadığımız yapı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "word": "TOP",
+    "hint": "Futbol oynanan yuvarlak cisim",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "word": "GÜNEŞ",
+    "hint": "Gündüz gökyüzündeki ısı kaynağı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "word": "AY",
+    "hint": "Geceleri gökyüzünde parlayan gök cismi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "word": "KAPI",
+    "hint": "Odaya giriş çıkış yapılan bölüm",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "word": "KALEM",
+    "hint": "Yazı yazmaya yarayan araç",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "word": "OTOBÜS",
+    "hint": "Toplu taşıma aracı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "word": "BALIK",
+    "hint": "Suda yaşayan pullu hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "word": "EKMEK",
+    "hint": "Undan yapılan temel gıda",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "word": "ÇİÇEK",
+    "hint": "Güzel kokulu bitki",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "word": "ARABA",
+    "hint": "Dört tekerlekli taşıt",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "word": "KUŞ",
+    "hint": "Kanatlı uçan hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "word": "AĞAÇ",
+    "hint": "Gövdesi odun olan büyük bitki",
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "word": "DENİZ",
+    "hint": "Tuzlu büyük su kütlesi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "word": "ATEŞ",
+    "hint": "Yanan, ısı veren olay",
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "word": "KAR",
+    "hint": "Beyaz, soğuk yağış türü",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "word": "YAĞMUR",
+    "hint": "Gökten düşen su damlaları",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "word": "KÖPEK",
+    "hint": "Havlayan sadık hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "word": "TAVUK",
+    "hint": "Yumurta veren kümes hayvanı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "word": "ASLAN",
+    "hint": "Ormanlar kralı vahşi kedi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "word": "KAPLAN",
+    "hint": "Turuncu çizgili büyük kedi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "word": "FİL",
+    "hint": "Hortumlu en büyük kara hayvanı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "word": "MAYMUN",
+    "hint": "Ağaçta yaşayan zeki hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "word": "YILAN",
+    "hint": "Sürünen zehirli hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "word": "KARTAL",
+    "hint": "Keskin gözlü yırtıcı kuş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 30,
+    "word": "GÜL",
+    "hint": "Dikenli güzel kokulu çiçek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 31,
+    "word": "LALE",
+    "hint": "İstanbul sembolü çiçek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "word": "PAPATYA",
+    "hint": "Beyaz yapraklı sarı göbekli çiçek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 33,
+    "word": "KİTAP",
+    "hint": "Okunan bilgi kaynağı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 34,
+    "word": "DEFTER",
+    "hint": "Yazı yazılan sayfalar",
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "word": "SİLGİ",
+    "hint": "Kurşun kalem izini silen araç",
+    "difficulty": "easy"
+  },
+  {
+    "id": 36,
+    "word": "MAKAS",
+    "hint": "Kağıt kesmeye yarayan alet",
+    "difficulty": "easy"
+  },
+  {
+    "id": 37,
+    "word": "ÇANTA",
+    "hint": "Eşya taşımaya yarayan aksesuar",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "word": "AYAK",
+    "hint": "Yürümeye yarayan organ",
+    "difficulty": "easy"
+  },
+  {
+    "id": 39,
+    "word": "KOL",
+    "hint": "Elin bağlı olduğu organ",
+    "difficulty": "easy"
+  },
+  { "id": 40, "word": "GÖZ", "hint": "Görme organı", "difficulty": "easy" },
+  {
+    "id": 41,
+    "word": "BURUN",
+    "hint": "Koku alma organı",
+    "difficulty": "easy"
+  },
+  { "id": 42, "word": "KULAK", "hint": "Duyma organı", "difficulty": "easy" },
+  { "id": 43, "word": "SAÇ", "hint": "Kafadaki kıllar", "difficulty": "easy" },
+  {
+    "id": 44,
+    "word": "DİŞ",
+    "hint": "Ağızda çiğnemeye yarayan kemik",
+    "difficulty": "easy"
+  },
+  {
+    "id": 45,
+    "word": "EL",
+    "hint": "Tutma organı, 5 parmaklı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "word": "BACA",
+    "hint": "Duman çıkan çatı deliği",
+    "difficulty": "easy"
+  },
+  {
+    "id": 47,
+    "word": "ÇATI",
+    "hint": "Evin en üst örtüsü",
+    "difficulty": "easy"
+  },
+  {
+    "id": 48,
+    "word": "HALI",
+    "hint": "Yere serilen dokuma",
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "word": "KOLTUK",
+    "hint": "Oturmak için yumuşak mobilya",
+    "difficulty": "easy"
+  },
+  {
+    "id": 50,
+    "word": "LAMBA",
+    "hint": "Işık veren aydınlatma",
+    "difficulty": "easy"
+  },
+  {
+    "id": 51,
+    "word": "SABUN",
+    "hint": "Temizlik için köpüren madde",
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "word": "TARAK",
+    "hint": "Saç düzeltme aracı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 53,
+    "word": "AYNA",
+    "hint": "Yansıma gösteren cam",
+    "difficulty": "easy"
+  },
+  {
+    "id": 54,
+    "word": "ÇATAL",
+    "hint": "Yemek yerken kullanılan uçlu araç",
+    "difficulty": "easy"
+  },
+  {
+    "id": 55,
+    "word": "KAŞIK",
+    "hint": "Çorba içmeye yarayan araç",
+    "difficulty": "easy"
+  },
+  {
+    "id": 56,
+    "word": "BIÇAK",
+    "hint": "Kesmeye yarayan keskin alet",
+    "difficulty": "easy"
+  },
+  { "id": 57, "word": "BARDAK", "hint": "Su içilen kap", "difficulty": "easy" },
+  {
+    "id": 58,
+    "word": "TABAK",
+    "hint": "Yemek konulan düz kap",
+    "difficulty": "easy"
+  },
+  {
+    "id": 59,
+    "word": "FIRIN",
+    "hint": "Yemek pişirilen cihaz",
+    "difficulty": "easy"
+  },
+  { "id": 60, "word": "BUZ", "hint": "Donmuş su", "difficulty": "easy" },
+  {
+    "id": 61,
+    "word": "ÇAY",
+    "hint": "Demlenerek içilen sıcak içecek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 62,
+    "word": "SÜT",
+    "hint": "İnekten elde edilen beyaz içecek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "word": "BAL",
+    "hint": "Arının yaptığı tatlı yiyecek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "word": "TUZ",
+    "hint": "Yemeğe tat veren beyaz madde",
+    "difficulty": "easy"
+  },
+  {
+    "id": 65,
+    "word": "YAĞ",
+    "hint": "Yemek pişirmede kullanılan sıvı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "word": "ET",
+    "hint": "Hayvandan elde edilen gıda",
+    "difficulty": "easy"
+  },
+  {
+    "id": 67,
+    "word": "ÜZÜM",
+    "hint": "Salkım halinde küçük meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 68,
+    "word": "ARMUT",
+    "hint": "Sulu sarı-yeşil meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 69,
+    "word": "KİRAZ",
+    "hint": "Küçük kırmızı meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 70,
+    "word": "MUZ",
+    "hint": "Sarı kabuklu tropikal meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "word": "KAVUN",
+    "hint": "Yazın yenen sulu meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 72,
+    "word": "CEVİZ",
+    "hint": "Sert kabuklu beyin şeklinde yemiş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 73,
+    "word": "BADEM",
+    "hint": "İnce kabuklu beyaz yemiş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 74,
+    "word": "İNCİR",
+    "hint": "Tatlı, çekirdekli meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 75,
+    "word": "ERİK",
+    "hint": "Ekşi mor-yeşil meyve",
+    "difficulty": "easy"
+  },
+  {
+    "id": 76,
+    "word": "GÜN",
+    "hint": "24 saatlik zaman dilimi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 77,
+    "word": "HAFTA",
+    "hint": "7 günlük zaman dilimi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 78,
+    "word": "YIL",
+    "hint": "365 günlük zaman dilimi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 79,
+    "word": "SAAT",
+    "hint": "60 dakikalık zaman ölçüsü",
+    "difficulty": "easy"
+  },
+  {
+    "id": 80,
+    "word": "KARDEŞ",
+    "hint": "Aynı anne babadan olan çocuk",
+    "difficulty": "easy"
+  },
+  {
+    "id": 81,
+    "word": "ANNE",
+    "hint": "Doğuran kadın ebeveyn",
+    "difficulty": "easy"
+  },
+  { "id": 82, "word": "BABA", "hint": "Erkek ebeveyn", "difficulty": "easy" },
+  {
+    "id": 83,
+    "word": "DE",
+    "hint": "Babanın veya annenin babası",
+    "difficulty": "easy"
+  },
+  {
+    "id": 84,
+    "word": "NİNE",
+    "hint": "Babanın veya annenin annesi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 85,
+    "word": "ABLA",
+    "hint": "Büyük kız kardeş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 86,
+    "word": "AĞABEY",
+    "hint": "Büyük erkek kardeş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "word": "BEBEK",
+    "hint": "Yeni doğmuş insan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 88,
+    "word": "ÇOCUK",
+    "hint": "Küçük yaştaki insan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 89,
+    "word": "ADAM",
+    "hint": "Yetişkin erkek insan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "word": "KADIN",
+    "hint": "Yetişkin dişi insan",
+    "difficulty": "easy"
+  },
+  { "id": 91, "word": "İŞ", "hint": "Çalışma, meslek", "difficulty": "easy" },
+  {
+    "id": 92,
+    "word": "OKUL",
+    "hint": "Eğitim verilen yer",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "word": "SINIF",
+    "hint": "Okulda ders yapılan oda",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "word": "TAHTA",
+    "hint": "Üzerine yazı yazılan yüzey",
+    "difficulty": "easy"
+  },
+  {
+    "id": 95,
+    "word": "TEBEŞİR",
+    "hint": "Tahtaya yazan beyaz çubuk",
+    "difficulty": "easy"
+  },
+  {
+    "id": 96,
+    "word": "ZİL",
+    "hint": "Ders başlangıcını bildiren ses",
+    "difficulty": "easy"
+  },
+  {
+    "id": 97,
+    "word": "OYUN",
+    "hint": "Eğlenmek için yapılan aktivite",
+    "difficulty": "easy"
+  },
+  {
+    "id": 98,
+    "word": "KALE",
+    "hint": "Futbolda gol atılan yer",
+    "difficulty": "easy"
+  },
+  {
+    "id": 99,
+    "word": "KOŞU",
+    "hint": "Hızlı yürüme sporu",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "word": "YÜZME",
+    "hint": "Suda yapılan spor",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "word": "KARGA",
+    "hint": "Siyah zeki kuş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 102,
+    "word": "SERÇE",
+    "hint": "Küçük ötücü kuş",
+    "difficulty": "easy"
+  },
+  {
+    "id": 103,
+    "word": "ARI",
+    "hint": "Bal yapan uçan böcek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 104,
+    "word": "KELEBEK",
+    "hint": "Renkli kanatlı böcek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 105,
+    "word": "KARINCA",
+    "hint": "Çalışkan küçük böcek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 106,
+    "word": "ÖRÜMCEK",
+    "hint": "Ağ ören 8 bacaklı hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 107,
+    "word": "SİNEK",
+    "hint": "Vızıldayan küçük böcek",
+    "difficulty": "easy"
+  },
+  {
+    "id": 108,
+    "word": "KURBAĞA",
+    "hint": "Hem suda hem karada yaşayan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 109,
+    "word": "KAPLUMBAĞA",
+    "hint": "Kabuğu olan yavaş hayvan",
+    "difficulty": "easy"
+  },
+  {
+    "id": 110,
+    "word": "TİMSAH",
+    "hint": "Suda yaşayan yırtıcı sürüngen",
+    "difficulty": "easy"
+  },
+  {
+    "id": 111,
+    "word": "PİL",
+    "hint": "Enerji depolayan parça",
+    "difficulty": "easy"
+  },
+  {
+    "id": 112,
+    "word": "RADYO",
+    "hint": "Ses yayını yapan cihaz",
+    "difficulty": "easy"
+  },
+  {
+    "id": 113,
+    "word": "KUM",
+    "hint": "Plajda bulunan küçük tanecik",
+    "difficulty": "easy"
+  },
+  {
+    "id": 114,
+    "word": "TAŞ",
+    "hint": "Sert doğa parçası",
+    "difficulty": "easy"
+  },
+  {
+    "id": 115,
+    "word": "DAĞ",
+    "hint": "Yüksek yeryüzü şekli",
+    "difficulty": "easy"
+  },
+  { "id": 116, "word": "TEPE", "hint": "Küçük dağ", "difficulty": "easy" },
+  {
+    "id": 117,
+    "word": "GÖL",
+    "hint": "Karada durgun su birikintisi",
+    "difficulty": "easy"
+  },
+  { "id": 118, "word": "NEHİR", "hint": "Akan büyük su", "difficulty": "easy" },
+  {
+    "id": 119,
+    "word": "YOL",
+    "hint": "Araçların gittiği şerit",
+    "difficulty": "easy"
+  },
+  {
+    "id": 120,
+    "word": "KÖPRÜ",
+    "hint": "İki yakayı birleştiren yapı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 121,
+    "word": "TREN",
+    "hint": "Rayda giden taşıt",
+    "difficulty": "easy"
+  },
+  {
+    "id": 122,
+    "word": "GEMİ",
+    "hint": "Denizde yüzen büyük taşıt",
+    "difficulty": "easy"
+  },
+  {
+    "id": 123,
+    "word": "UÇAK",
+    "hint": "Gökyüzünde uçan taşıt",
+    "difficulty": "easy"
+  },
+  {
+    "id": 124,
+    "word": "BULUT",
+    "hint": "Gökteki beyaz su buharı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 125,
+    "word": "RÜZGAR",
+    "hint": "Esen hava akımı",
+    "difficulty": "easy"
+  },
+  {
+    "id": 126,
+    "word": "FIRTINA",
+    "hint": "Şiddetli rüzgar ve yağmur",
+    "difficulty": "easy"
+  },
+  {
+    "id": 127,
+    "word": "GÖK",
+    "hint": "Mavi yukarıdaki boşluk",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "word": "YILDIZ",
+    "hint": "Gece parlayan gök cismi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 129,
+    "word": "KUZEY",
+    "hint": "Pusulanın N yönü",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "word": "GÜNEY",
+    "hint": "Pusulanın S yönü",
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "word": "DOĞU",
+    "hint": "Güneşin doğduğu yön",
+    "difficulty": "easy"
+  },
+  {
+    "id": 132,
+    "word": "BATI",
+    "hint": "Güneşin battığı yön",
+    "difficulty": "easy"
+  },
+  {
+    "id": 133,
+    "word": "ALTIN",
+    "hint": "Sarı değerli maden",
+    "difficulty": "easy"
+  },
+  {
+    "id": 134,
+    "word": "GÜMÜŞ",
+    "hint": "Beyaz değerli maden",
+    "difficulty": "easy"
+  },
+  {
+    "id": 135,
+    "word": "DEMİR",
+    "hint": "Paslanan sert metal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 136,
+    "word": "CAM",
+    "hint": "Şeffaf kırılgan madde",
+    "difficulty": "easy"
+  },
+  {
+    "id": 137,
+    "word": "KAĞIT",
+    "hint": "Yazı yazılan ince tabaka",
+    "difficulty": "easy"
+  },
+  {
+    "id": 138,
+    "word": "İP",
+    "hint": "Bağlamaya yarayan ince sicim",
+    "difficulty": "easy"
+  },
+  {
+    "id": 139,
+    "word": "BOYA",
+    "hint": "Renklendirme maddesi",
+    "difficulty": "easy"
+  },
+  {
+    "id": 140,
+    "word": "FIRÇA",
+    "hint": "Boya sürmeye yarayan araç",
+    "difficulty": "easy"
+  },
+  {
+    "id": 141,
+    "word": "RESİM",
+    "hint": "Çizilerek yapılan sanat",
+    "difficulty": "easy"
+  },
+  {
+    "id": 142,
+    "word": "ŞARKI",
+    "hint": "Sözlü müzik eseri",
+    "difficulty": "easy"
+  },
+  {
+    "id": 143,
+    "word": "DANS",
+    "hint": "Müzikle yapılan hareket",
+    "difficulty": "easy"
+  },
+  {
+    "id": 144,
+    "word": "FİLM",
+    "hint": "Sinemada izlenen eser",
+    "difficulty": "easy"
+  },
+  {
+    "id": 145,
+    "word": "TİYATRO",
+    "hint": "Sahnede oynanan oyun",
+    "difficulty": "easy"
+  },
+  {
+    "id": 146,
+    "word": "SPOR",
+    "hint": "Fiziksel aktivite, egzersiz",
+    "difficulty": "easy"
+  },
+  {
+    "id": 147,
+    "word": "MAÇ",
+    "hint": "Takımlar arası müsabaka",
+    "difficulty": "easy"
+  },
+  {
+    "id": 148,
+    "word": "GOL",
+    "hint": "Futbolda sayı kazanma",
+    "difficulty": "easy"
+  },
+  {
+    "id": 149,
+    "word": "SAYI",
+    "hint": "Matematikte miktar",
+    "difficulty": "easy"
+  },
+  {
+    "id": 150,
+    "word": "RENK",
+    "hint": "Kırmızı, mavi gibi özellik",
+    "difficulty": "easy"
+  }
+]

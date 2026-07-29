@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "Türkiye Cumhuriyeti hangi yılda ilan edildi?",
+    "a": "1919",
+    "b": "1920",
+    "c": "1923",
+    "d": "1925",
+    "cevap": "C",
+    "aciklama": "Türkiye Cumhuriyeti 29 Ekim 1923 tarihinde ilan edilmiştir."
+  },
+  {
+    "id": 2,
+    "soru": "İstanbul hangi padişah döneminde fethedildi?",
+    "a": "Yıldırım Bayezid",
+    "b": "Fatih Sultan Mehmet",
+    "c": "Kanuni Sultan Süleyman",
+    "d": "II. Bayezid",
+    "cevap": "B",
+    "aciklama": "İstanbul 1453 yılında Fatih Sultan Mehmet tarafından fethedildi."
+  },
+  {
+    "id": 3,
+    "soru": "Türkiye Büyük Millet Meclisi hangi tarihte açılmıştır?",
+    "a": "23 Nisan 1920",
+    "b": "19 Mayıs 1919",
+    "c": "29 Ekim 1923",
+    "d": "30 Ağustos 1922",
+    "cevap": "A",
+    "aciklama": "TBMM 23 Nisan 1920'de açılmıştır."
+  },
+  {
+    "id": 4,
+    "soru": "Kurtuluş Savaşı'nın lideri kimdir?",
+    "a": "İsmet İnönü",
+    "b": "Kazım Karabekir",
+    "c": "Mustafa Kemal Atatürk",
+    "d": "Fevzi Çakmak",
+    "cevap": "C",
+    "aciklama": "Kurtuluş Savaşı'nın lideri Mustafa Kemal Atatürk'tür."
+  },
+  {
+    "id": 5,
+    "soru": "Osmanlı Devleti hangi yıl kurulmuştur?",
+    "a": "1071",
+    "b": "1299",
+    "c": "1453",
+    "d": "1517",
+    "cevap": "B",
+    "aciklama": "Osmanlı Devleti 1299 yılında kurulmuştur."
+  },
+  {
+    "id": 6,
+    "soru": "Malazgirt Savaşı hangi yılda yapılmıştır?",
+    "a": "1071",
+    "b": "1453",
+    "c": "1299",
+    "d": "1514",
+    "cevap": "A",
+    "aciklama": "Malazgirt Savaşı 1071 yılında gerçekleşmiştir."
+  },
+  {
+    "id": 7,
+    "soru": "Lozan Antlaşması hangi yılda imzalanmıştır?",
+    "a": "1919",
+    "b": "1921",
+    "c": "1923",
+    "d": "1925",
+    "cevap": "C",
+    "aciklama": "Lozan Antlaşması 24 Temmuz 1923 tarihinde imzalanmıştır."
+  },
+  {
+    "id": 8,
+    "soru": "İlk Türk Devleti hangisidir?",
+    "a": "Hun Devleti",
+    "b": "Göktürk Devleti",
+    "c": "Uygurlar",
+    "d": "Selçuklular",
+    "cevap": "A",
+    "aciklama": "Bilinen ilk Türk devleti Büyük Hun Devleti'dir."
+  },
+  {
+    "id": 9,
+    "soru": "Ankara hangi savaş sonrasında başkent olmuştur?",
+    "a": "I. Dünya Savaşı",
+    "b": "Kurtuluş Savaşı",
+    "c": "Balkan Savaşları",
+    "d": "Kırım Savaşı",
+    "cevap": "B",
+    "aciklama": "Kurtuluş Savaşı sonrasında Ankara başkent olmuştur."
+  },
+  {
+    "id": 10,
+    "soru": "Osmanlı Devleti'nin ilk başkenti neresidir?",
+    "a": "İstanbul",
+    "b": "Edirne",
+    "c": "Bursa",
+    "d": "Söğüt",
+    "cevap": "D",
+    "aciklama": "Osmanlı'nın ilk yönetim merkezi Söğüt'tür."
+  },
+  {
+    "id": 11,
+    "soru": "Türkiye Cumhuriyeti'nin ilk Cumhurbaşkanı kimdir?",
+    "a": "İsmet İnönü",
+    "b": "Celal Bayar",
+    "c": "Mustafa Kemal Atatürk",
+    "d": "Kazım Karabekir",
+    "cevap": "C",
+    "aciklama": "Türkiye Cumhuriyeti'nin ilk Cumhurbaşkanı Mustafa Kemal Atatürk'tür."
+  },
+  {
+    "id": 12,
+    "soru": "Osmanlı Devleti'nin son padişahı kimdir?",
+    "a": "Vahdettin",
+    "b": "II. Abdülhamid",
+    "c": "Sultan Abdülmecid",
+    "d": "Fatih Sultan Mehmet",
+    "cevap": "A",
+    "aciklama": "Osmanlı Devleti'nin son padişahı VI. Mehmet Vahdettin'dir."
+  },
+  {
+    "id": 13,
+    "soru": "Çanakkale Savaşı hangi yıllarda yapılmıştır?",
+    "a": "1912-1913",
+    "b": "1914-1915",
+    "c": "1915-1916",
+    "d": "1918-1919",
+    "cevap": "C",
+    "aciklama": "Çanakkale Savaşları 1915-1916 yıllarında gerçekleşmiştir."
+  },
+  {
+    "id": 14,
+    "soru": "Mustafa Kemal Atatürk hangi şehirde doğmuştur?",
+    "a": "İstanbul",
+    "b": "Selanik",
+    "c": "Samsun",
+    "d": "Ankara",
+    "cevap": "B",
+    "aciklama": "Atatürk 1881 yılında Selanik'te doğmuştur."
+  },
+  {
+    "id": 15,
+    "soru": "İlk TBMM Başkanı kimdir?",
+    "a": "İsmet İnönü",
+    "b": "Mustafa Kemal Atatürk",
+    "c": "Fevzi Çakmak",
+    "d": "Kazım Karabekir",
+    "cevap": "B",
+    "aciklama": "İlk TBMM Başkanı Mustafa Kemal Atatürk'tür."
+  },
+  {
+    "id": 16,
+    "soru": "Cumhuriyet Bayramı hangi tarihte kutlanır?",
+    "a": "23 Nisan",
+    "b": "19 Mayıs",
+    "c": "30 Ağustos",
+    "d": "29 Ekim",
+    "cevap": "D",
+    "aciklama": "Cumhuriyet Bayramı her yıl 29 Ekim'de kutlanır."
+  },
+  {
+    "id": 17,
+    "soru": "Osmanlı Devleti kaç yıl hüküm sürmüştür?",
+    "a": "424",
+    "b": "523",
+    "c": "600'den fazla",
+    "d": "300",
+    "cevap": "C",
+    "aciklama": "Osmanlı Devleti yaklaşık 623 yıl hüküm sürmüştür."
+  },
+  {
+    "id": 18,
+    "soru": "İstanbul'un fethi hangi yılda gerçekleşmiştir?",
+    "a": "1071",
+    "b": "1299",
+    "c": "1453",
+    "d": "1517",
+    "cevap": "C",
+    "aciklama": "İstanbul 1453 yılında fethedilmiştir."
+  },
+  {
+    "id": 19,
+    "soru": "Mondros Ateşkes Antlaşması hangi yılda imzalanmıştır?",
+    "a": "1917",
+    "b": "1918",
+    "c": "1919",
+    "d": "1920",
+    "cevap": "B",
+    "aciklama": "Mondros Ateşkes Antlaşması 30 Ekim 1918'de imzalanmıştır."
+  },
+  {
+    "id": 20,
+    "soru": "Sakarya Meydan Muharebesi'nin komutanı kimdir?",
+    "a": "İsmet İnönü",
+    "b": "Mustafa Kemal Atatürk",
+    "c": "Kazım Karabekir",
+    "d": "Ali Fuat Cebesoy",
+    "cevap": "B",
+    "aciklama": "Başkomutan Mustafa Kemal Atatürk'tür."
+  },
+  {
+    "id": 21,
+    "soru": "Büyük Taarruz hangi tarihte başlamıştır?",
+    "a": "19 Mayıs 1919",
+    "b": "23 Nisan 1920",
+    "c": "26 Ağustos 1922",
+    "d": "29 Ekim 1923",
+    "cevap": "C",
+    "aciklama": "Büyük Taarruz 26 Ağustos 1922 tarihinde başlamıştır."
+  },
+  {
+    "id": 22,
+    "soru": "30 Ağustos Zafer Bayramı hangi zaferi anmak için kutlanır?",
+    "a": "Çanakkale Zaferi",
+    "b": "Başkomutanlık Meydan Muharebesi",
+    "c": "Sakarya Meydan Muharebesi",
+    "d": "İnönü Savaşı",
+    "cevap": "B",
+    "aciklama": "30 Ağustos, Başkomutanlık Meydan Muharebesi'nin kazanılmasını simgeler."
+  },
+  {
+    "id": 23,
+    "soru": "İlk Türk alfabesi hangi devlet döneminde kullanılmıştır?",
+    "a": "Hunlar",
+    "b": "Göktürkler",
+    "c": "Uygurlar",
+    "d": "Selçuklular",
+    "cevap": "B",
+    "aciklama": "Göktürk Alfabesi bilinen ilk Türk alfabesidir."
+  },
+  {
+    "id": 24,
+    "soru": "Osmanlı Devleti'nin resmi dili hangisiydi?",
+    "a": "Arapça",
+    "b": "Farsça",
+    "c": "Osmanlı Türkçesi",
+    "d": "Latince",
+    "cevap": "C",
+    "aciklama": "Osmanlı Devleti'nin resmi dili Osmanlı Türkçesiydi."
+  },
+  {
+    "id": 25,
+    "soru": "Türkiye Cumhuriyeti'nin ilk Başbakanı kimdir?",
+    "a": "Celal Bayar",
+    "b": "İsmet İnönü",
+    "c": "Fethi Okyar",
+    "d": "Kazım Karabekir",
+    "cevap": "B",
+    "aciklama": "Cumhuriyet'in ilk Başbakanı İsmet İnönü'dür."
+  },
+  {
+    "id": 26,
+    "soru": "Mustafa Kemal Atatürk'e 'Gazi' unvanı hangi savaştan sonra verilmiştir?",
+    "a": "İnönü Savaşı",
+    "b": "Sakarya Meydan Muharebesi",
+    "c": "Büyük Taarruz",
+    "d": "Çanakkale Savaşı",
+    "cevap": "B",
+    "aciklama": "Sakarya Zaferi'nden sonra TBMM tarafından Gazi unvanı verilmiştir."
+  },
+  {
+    "id": 27,
+    "soru": "Osmanlı Devleti'nin ilk padişahı kimdir?",
+    "a": "Orhan Gazi",
+    "b": "Osman Gazi",
+    "c": "I. Murad",
+    "d": "Yıldırım Bayezid",
+    "cevap": "B",
+    "aciklama": "Osmanlı Devleti'nin kurucusu ve ilk padişahı Osman Gazi'dir."
+  },
+  {
+    "id": 28,
+    "soru": "Anadolu Selçuklu Devleti'nin başkenti neresidir?",
+    "a": "Sivas",
+    "b": "Konya",
+    "c": "Kayseri",
+    "d": "Amasya",
+    "cevap": "B",
+    "aciklama": "Anadolu Selçuklu Devleti'nin başkenti Konya'dır."
+  },
+  {
+    "id": 29,
+    "soru": "Osmanlı Devleti'nin Avrupa'daki ilk başkenti hangisidir?",
+    "a": "İstanbul",
+    "b": "Bursa",
+    "c": "Edirne",
+    "d": "Sofya",
+    "cevap": "C",
+    "aciklama": "Edirne, Osmanlı'nın Avrupa'daki ilk başkentidir."
+  },
+  {
+    "id": 30,
+    "soru": "Cumhuriyet ilan edildiğinde Türkiye'nin ilk başkenti neresiydi?",
+    "a": "İstanbul",
+    "b": "Bursa",
+    "c": "Ankara",
+    "d": "İzmir",
+    "cevap": "C",
+    "aciklama": "Cumhuriyet ilan edildiğinde başkent Ankara idi."
+  },
+  {
+    "id": 31,
+    "soru": "Osmanlı Devleti'nin en uzun süre tahtta kalan padişahı kimdir?",
+    "a": "Kanuni Sultan Süleyman",
+    "b": "II. Abdülhamid",
+    "c": "IV. Mehmet",
+    "d": "Fatih Sultan Mehmet",
+    "cevap": "B",
+    "aciklama": "II. Abdülhamid yaklaşık 33 yıl tahtta kalmıştır."
+  },
+  {
+    "id": 32,
+    "soru": "İlk düzenli ordunun kurulmasını sağlayan devlet adamı kimdir?",
+    "a": "İsmet İnönü",
+    "b": "Ali Fuat Cebesoy",
+    "c": "İsmet Paşa",
+    "d": "Ali Fethi Okyar",
+    "cevap": "C",
+    "aciklama": "Düzenli ordunun kurulmasında İsmet Paşa önemli görev üstlenmiştir."
+  },
+  {
+    "id": 33,
+    "soru": "Türk Tarih Kurumu hangi yıl kurulmuştur?",
+    "a": "1928",
+    "b": "1931",
+    "c": "1935",
+    "d": "1938",
+    "cevap": "B",
+    "aciklama": "Türk Tarih Kurumu 1931 yılında kurulmuştur."
+  },
+  {
+    "id": 34,
+    "soru": "Türk Dil Kurumu hangi yıl kurulmuştur?",
+    "a": "1932",
+    "b": "1934",
+    "c": "1928",
+    "d": "1938",
+    "cevap": "A",
+    "aciklama": "Türk Dil Kurumu 1932 yılında kurulmuştur."
+  },
+  {
+    "id": 35,
+    "soru": "Fatih Sultan Mehmet İstanbul'u fethettiğinde kaç yaşındaydı?",
+    "a": "19",
+    "b": "21",
+    "c": "25",
+    "d": "30",
+    "cevap": "B",
+    "aciklama": "Fatih Sultan Mehmet İstanbul'u fethettiğinde 21 yaşındaydı."
+  },
+  {
+    "id": 36,
+    "soru": "Osmanlı Devleti'nin ilk deniz savaşı hangi padişah döneminde kazanılmıştır?",
+    "a": "Osman Gazi",
+    "b": "Orhan Gazi",
+    "c": "Yıldırım Bayezid",
+    "d": "Fatih Sultan Mehmet",
+    "cevap": "B",
+    "aciklama": "İlk deniz savaşı Orhan Gazi döneminde kazanılmıştır."
+  },
+  {
+    "id": 37,
+    "soru": "Atatürk'e 'Başöğretmen' unvanı hangi yıl verilmiştir?",
+    "a": "1926",
+    "b": "1928",
+    "c": "1930",
+    "d": "1933",
+    "cevap": "B",
+    "aciklama": "Millet Mektepleri ile birlikte 1928 yılında verilmiştir."
+  },
+  {
+    "id": 38,
+    "soru": "Kurtuluş Savaşı sırasında Batı Cephesi Komutanı kimdir?",
+    "a": "Kazım Karabekir",
+    "b": "İsmet İnönü",
+    "c": "Fevzi Çakmak",
+    "d": "Ali Fuat Cebesoy",
+    "cevap": "B",
+    "aciklama": "Batı Cephesi'nin komutanı İsmet İnönü'dür."
+  },
+  {
+    "id": 39,
+    "soru": "Osmanlı Devleti'nin ilk şeyhülislamı kimdir?",
+    "a": "Molla Fenari",
+    "b": "Ebussuud Efendi",
+    "c": "Akşemseddin",
+    "d": "Sinan Paşa",
+    "cevap": "A",
+    "aciklama": "İlk şeyhülislam Molla Fenari'dir."
+  },
+  {
+    "id": 40,
+    "soru": "Anadolu Ajansı hangi yılda kurulmuştur?",
+    "a": "1919",
+    "b": "1920",
+    "c": "1921",
+    "d": "1923",
+    "cevap": "B",
+    "aciklama": "Anadolu Ajansı 6 Nisan 1920 tarihinde kurulmuştur."
+  },
+  {
+    "id": 41,
+    "soru": "Osmanlı Devleti'nin ilk veziri kimdir?",
+    "a": "Alaeddin Paşa",
+    "b": "Çandarlı Halil Paşa",
+    "c": "Sokullu Mehmet Paşa",
+    "d": "Pargalı İbrahim Paşa",
+    "cevap": "A",
+    "aciklama": "Osmanlı Devleti'nin ilk veziri Alaeddin Paşa'dır."
+  },
+  {
+    "id": 42,
+    "soru": "Kanuni Sultan Süleyman kaçıncı Osmanlı padişahıdır?",
+    "a": "8",
+    "b": "9",
+    "c": "10",
+    "d": "11",
+    "cevap": "C",
+    "aciklama": "Kanuni Sultan Süleyman Osmanlı Devleti'nin 10. padişahıdır."
+  },
+  {
+    "id": 43,
+    "soru": "Osmanlı Devleti hangi savaş sonunda I. Dünya Savaşı'ndan çekilmiştir?",
+    "a": "Sakarya Savaşı",
+    "b": "Mondros Ateşkes Antlaşması",
+    "c": "Lozan Antlaşması",
+    "d": "Mudanya Ateşkesi",
+    "cevap": "B",
+    "aciklama": "Osmanlı Devleti Mondros Ateşkes Antlaşması ile savaştan çekilmiştir."
+  },
+  {
+    "id": 44,
+    "soru": "Cumhuriyet döneminin ilk nüfus sayımı hangi yıl yapılmıştır?",
+    "a": "1925",
+    "b": "1927",
+    "c": "1930",
+    "d": "1933",
+    "cevap": "B",
+    "aciklama": "İlk genel nüfus sayımı 1927 yılında yapılmıştır."
+  },
+  {
+    "id": 45,
+    "soru": "Misak-ı Milli kararları hangi mecliste kabul edilmiştir?",
+    "a": "TBMM",
+    "b": "Son Osmanlı Mebusan Meclisi",
+    "c": "Amasya Kongresi",
+    "d": "Erzurum Kongresi",
+    "cevap": "B",
+    "aciklama": "Misak-ı Milli, Son Osmanlı Mebusan Meclisi tarafından kabul edilmiştir."
+  },
+  {
+    "id": 46,
+    "soru": "Atatürk'ün Samsun'a çıktığı tarih hangisidir?",
+    "a": "23 Nisan 1920",
+    "b": "19 Mayıs 1919",
+    "c": "30 Ağustos 1922",
+    "d": "29 Ekim 1923",
+    "cevap": "B",
+    "aciklama": "Mustafa Kemal Atatürk 19 Mayıs 1919'da Samsun'a çıkmıştır."
+  },
+  {
+    "id": 47,
+    "soru": "Saltanat hangi yıl kaldırılmıştır?",
+    "a": "1920",
+    "b": "1921",
+    "c": "1922",
+    "d": "1923",
+    "cevap": "C",
+    "aciklama": "Saltanat 1 Kasım 1922 tarihinde kaldırılmıştır."
+  },
+  {
+    "id": 48,
+    "soru": "Halifelik hangi yıl kaldırılmıştır?",
+    "a": "1923",
+    "b": "1924",
+    "c": "1925",
+    "d": "1928",
+    "cevap": "B",
+    "aciklama": "Halifelik 3 Mart 1924 tarihinde kaldırılmıştır."
+  },
+  {
+    "id": 49,
+    "soru": "Osmanlı Devleti'nin ilk anayasasının adı nedir?",
+    "a": "Teşkilat-ı Esasiye",
+    "b": "Kanun-i Esasi",
+    "c": "Medeni Kanun",
+    "d": "Misak-ı Milli",
+    "cevap": "B",
+    "aciklama": "Kanun-i Esasi, Osmanlı Devleti'nin ilk anayasasıdır."
+  },
+  {
+    "id": 50,
+    "soru": "Osmanlı Devleti'nin ilk başkenti hangisidir?",
+    "a": "Bursa",
+    "b": "Edirne",
+    "c": "Söğüt",
+    "d": "İstanbul",
+    "cevap": "C",
+    "aciklama": "Osmanlı Devleti'nin ilk yönetim merkezi Söğüt'tür."
+  },
+  {
+    "id": 51,
+    "soru": "Osmanlı Devleti'nde Lale Devri hangi padişah döneminde yaşanmıştır?",
+    "a": "III. Selim",
+    "b": "III. Ahmed",
+    "c": "II. Mahmud",
+    "d": "I. Abdülhamid",
+    "cevap": "B",
+    "aciklama": "Lale Devri, III. Ahmed döneminde yaşanmıştır."
+  },
+  {
+    "id": 52,
+    "soru": "İlk Türk devletlerinde hükümdara verilen unvanlardan biri hangisidir?",
+    "a": "Kral",
+    "b": "Han",
+    "c": "Çar",
+    "d": "İmparator",
+    "cevap": "B",
+    "aciklama": "Eski Türk devletlerinde hükümdarlara Han veya Kağan denirdi."
+  },
+  {
+    "id": 53,
+    "soru": "Osmanlı Devleti'nde ilk matbaa hangi dönemde kurulmuştur?",
+    "a": "Fatih Sultan Mehmet",
+    "b": "III. Ahmed",
+    "c": "Kanuni Sultan Süleyman",
+    "d": "II. Mahmud",
+    "cevap": "B",
+    "aciklama": "İbrahim Müteferrika Matbaası III. Ahmed döneminde kurulmuştur."
+  },
+  {
+    "id": 54,
+    "soru": "Kurtuluş Savaşı'nın ilk düzenli ordusunun kazandığı savaş hangisidir?",
+    "a": "Sakarya",
+    "b": "I. İnönü",
+    "c": "Büyük Taarruz",
+    "d": "Kütahya-Eskişehir",
+    "cevap": "B",
+    "aciklama": "İlk düzenli ordu zaferi I. İnönü Savaşı'dır."
+  },
+  {
+    "id": 55,
+    "soru": "Anadolu'da ilk Türk beylikleri hangi savaştan sonra kurulmuştur?",
+    "a": "Mohaç",
+    "b": "Malazgirt",
+    "c": "Niğbolu",
+    "d": "Kosova",
+    "cevap": "B",
+    "aciklama": "1071 Malazgirt Zaferi sonrasında Anadolu'da Türk beylikleri kurulmuştur."
+  },
+  {
+    "id": 56,
+    "soru": "Osmanlı Devleti'nin ilk donanmasını oluşturan padişah kimdir?",
+    "a": "Osman Gazi",
+    "b": "Orhan Gazi",
+    "c": "Yıldırım Bayezid",
+    "d": "Fatih Sultan Mehmet",
+    "cevap": "B",
+    "aciklama": "İlk Osmanlı donanması Orhan Gazi döneminde oluşturulmuştur."
+  },
+  {
+    "id": 57,
+    "soru": "Atatürk hangi okuldan mezun olmuştur?",
+    "a": "Harp Akademisi",
+    "b": "Harp Okulu",
+    "c": "Mülkiye",
+    "d": "Galatasaray Lisesi",
+    "cevap": "B",
+    "aciklama": "Mustafa Kemal Atatürk Harp Okulu mezunudur."
+  },
+  {
+    "id": 58,
+    "soru": "Osmanlı Devleti'nde ilk kağıt para hangi padişah döneminde basılmıştır?",
+    "a": "II. Mahmud",
+    "b": "Abdülmecid",
+    "c": "Abdülaziz",
+    "d": "II. Abdülhamid",
+    "cevap": "B",
+    "aciklama": "İlk kağıt para Abdülmecid döneminde basılmıştır."
+  },
+  {
+    "id": 59,
+    "soru": "Mudanya Ateşkes Antlaşması hangi yıl imzalanmıştır?",
+    "a": "1920",
+    "b": "1921",
+    "c": "1922",
+    "d": "1923",
+    "cevap": "C",
+    "aciklama": "Mudanya Ateşkes Antlaşması 1922 yılında imzalanmıştır."
+  },
+  {
+    "id": 60,
+    "soru": "Türkiye Cumhuriyeti'nin ilk anayasası hangi yılda kabul edilmiştir?",
+    "a": "1921",
+    "b": "1923",
+    "c": "1924",
+    "d": "1928",
+    "cevap": "C",
+    "aciklama": "1924 Anayasası Cumhuriyet'in ilk anayasasıdır."
+  },
+  {
+    "id": 61,
+    "soru": "Osmanlı Devleti'nin ilk medresesi hangi şehirde açılmıştır?",
+    "a": "İstanbul",
+    "b": "İznik",
+    "c": "Bursa",
+    "d": "Edirne",
+    "cevap": "B",
+    "aciklama": "Osmanlı Devleti'nin ilk medresesi Orhan Gazi döneminde İznik'te açılmıştır."
+  },
+  {
+    "id": 62,
+    "soru": "Kapitülasyonlar ilk kez hangi devlete verilmiştir?",
+    "a": "İngiltere",
+    "b": "Fransa",
+    "c": "Venedik",
+    "d": "Rusya",
+    "cevap": "C",
+    "aciklama": "Osmanlı Devleti ilk kapitülasyonları Venediklilere vermiştir."
+  },
+  {
+    "id": 63,
+    "soru": "Osmanlı Devleti'nin yükselme dönemi hangi padişahla başlamıştır?",
+    "a": "Fatih Sultan Mehmet",
+    "b": "Yıldırım Bayezid",
+    "c": "II. Murad",
+    "d": "Kanuni Sultan Süleyman",
+    "cevap": "A",
+    "aciklama": "Yükselme Dönemi İstanbul'un fethiyle birlikte Fatih Sultan Mehmet döneminde başlamıştır."
+  },
+  {
+    "id": 64,
+    "soru": "Anadolu'da ilk siyasi birliği büyük ölçüde sağlayan Türk devleti hangisidir?",
+    "a": "Osmanlı Devleti",
+    "b": "Anadolu Selçuklu Devleti",
+    "c": "Karahanlılar",
+    "d": "Gazneliler",
+    "cevap": "B",
+    "aciklama": "Anadolu Selçuklu Devleti Anadolu'da siyasi birliği büyük ölçüde sağlamıştır."
+  },
+  {
+    "id": 65,
+    "soru": "Türkiye Cumhuriyeti'nde kadınlara milletvekili seçme ve seçilme hakkı hangi yılda verilmiştir?",
+    "a": "1926",
+    "b": "1930",
+    "c": "1934",
+    "d": "1938",
+    "cevap": "C",
+    "aciklama": "Kadınlara milletvekili seçme ve seçilme hakkı 1934 yılında verilmiştir."
+  },
+  {
+    "id": 66,
+    "soru": "İlk Haçlı Seferi hangi yüzyılda başlamıştır?",
+    "a": "9. yüzyıl",
+    "b": "10. yüzyıl",
+    "c": "11. yüzyıl",
+    "d": "13. yüzyıl",
+    "cevap": "C",
+    "aciklama": "İlk Haçlı Seferi 1096 yılında başlamıştır."
+  },
+  {
+    "id": 67,
+    "soru": "Osmanlı Devleti'nin ilk maliye teşkilatını oluşturan padişah kimdir?",
+    "a": "Osman Gazi",
+    "b": "Orhan Gazi",
+    "c": "I. Murad",
+    "d": "Fatih Sultan Mehmet",
+    "cevap": "B",
+    "aciklama": "Mali teşkilatın temelleri Orhan Gazi döneminde atılmıştır."
+  },
+  {
+    "id": 68,
+    "soru": "Atatürk'ün yazdığı geometri kitabı hangi adla bilinmektedir?",
+    "a": "Geometri",
+    "b": "Matematik",
+    "c": "Hendese",
+    "d": "Fen Bilgisi",
+    "cevap": "A",
+    "aciklama": "Atatürk 1937 yılında 'Geometri' adlı kitabı yazmıştır."
+  },
+  {
+    "id": 69,
+    "soru": "İlk Türk kadın pilot kimdir?",
+    "a": "Sabiha Gökçen",
+    "b": "Halide Edip Adıvar",
+    "c": "Afet İnan",
+    "d": "Türkan Saylan",
+    "cevap": "A",
+    "aciklama": "Sabiha Gökçen dünyanın ilk kadın savaş pilotlarından biridir."
+  },
+  {
+    "id": 70,
+    "soru": "Osmanlı Devleti'nin ilk kütüphanesi hangi şehirde kurulmuştur?",
+    "a": "İstanbul",
+    "b": "Bursa",
+    "c": "İznik",
+    "d": "Edirne",
+    "cevap": "B",
+    "aciklama": "İlk Osmanlı kütüphanesi Bursa'da kurulmuştur."
+  },
+  {
+    "id": 71,
+    "soru": "Türkiye Cumhuriyeti'nin ilk kadın milletvekilleri hangi yıl TBMM'ye girmiştir?",
+    "a": "1930",
+    "b": "1934",
+    "c": "1935",
+    "d": "1938",
+    "cevap": "C",
+    "aciklama": "İlk kadın milletvekilleri 1935 seçimleriyle TBMM'ye girmiştir."
+  },
+  {
+    "id": 72,
+    "soru": "Ankara Savaşı hangi iki hükümdar arasında yapılmıştır?",
+    "a": "Fatih Sultan Mehmet - Uzun Hasan",
+    "b": "Yıldırım Bayezid - Timur",
+    "c": "Kanuni Sultan Süleyman - Şah İsmail",
+    "d": "II. Murad - Vlad Tepeş",
+    "cevap": "B",
+    "aciklama": "1402 yılında Ankara Savaşı Yıldırım Bayezid ile Timur arasında yapılmıştır."
+  },
+  {
+    "id": 73,
+    "soru": "Osmanlı Devleti'nde ilk nüfus sayımı hangi padişah döneminde yapılmıştır?",
+    "a": "II. Mahmud",
+    "b": "Abdülmecid",
+    "c": "III. Selim",
+    "d": "II. Abdülhamid",
+    "cevap": "A",
+    "aciklama": "İlk modern nüfus sayımı II. Mahmud döneminde yapılmıştır."
+  },
+  {
+    "id": 74,
+    "soru": "Aşağıdakilerden hangisi Türk Kurtuluş Savaşı'nın cephelerinden biri değildir?",
+    "a": "Doğu Cephesi",
+    "b": "Batı Cephesi",
+    "c": "Güney Cephesi",
+    "d": "Kuzey Cephesi",
+    "cevap": "D",
+    "aciklama": "Kurtuluş Savaşı'nda Kuzey Cephesi bulunmamaktadır."
+  },
+  {
+    "id": 75,
+    "soru": "İlk Türk denizcisi olarak kabul edilen kişi kimdir?",
+    "a": "Barbaros Hayrettin Paşa",
+    "b": "Piri Reis",
+    "c": "Çaka Bey",
+    "d": "Turgut Reis",
+    "cevap": "C",
+    "aciklama": "Çaka Bey ilk Türk denizcisi kabul edilir."
+  },
+  {
+    "id": 76,
+    "soru": "Osmanlı Devleti'nin ilk tersanesi nerede kurulmuştur?",
+    "a": "İstanbul",
+    "b": "İzmit",
+    "c": "Gelibolu",
+    "d": "Sinop",
+    "cevap": "C",
+    "aciklama": "İlk büyük Osmanlı tersanesi Gelibolu'da kurulmuştur."
+  },
+  {
+    "id": 77,
+    "soru": "Atatürk'e 'Atatürk' soyadı hangi yıl verilmiştir?",
+    "a": "1932",
+    "b": "1933",
+    "c": "1934",
+    "d": "1935",
+    "cevap": "C",
+    "aciklama": "Soyadı Kanunu sonrasında 1934 yılında verilmiştir."
+  },
+  {
+    "id": 78,
+    "soru": "Osmanlı Devleti'nin ilk şeyhülislamı kimdir?",
+    "a": "Ebussuud Efendi",
+    "b": "Akşemseddin",
+    "c": "Molla Fenari",
+    "d": "Sinan Paşa",
+    "cevap": "C",
+    "aciklama": "İlk şeyhülislam Molla Fenari'dir."
+  },
+  {
+    "id": 79,
+    "soru": "Lozan Antlaşması hangi şehirde imzalanmıştır?",
+    "a": "Paris",
+    "b": "Cenevre",
+    "c": "Lozan",
+    "d": "Ankara",
+    "cevap": "C",
+    "aciklama": "Lozan Antlaşması İsviçre'nin Lozan kentinde imzalanmıştır."
+  },
+  {
+    "id": 80,
+    "soru": "Osmanlı Devleti'nin ilk kağıt parası hangi isimle basılmıştır?",
+    "a": "Lira",
+    "b": "Kaime",
+    "c": "Akçe",
+    "d": "Sikke",
+    "cevap": "B",
+    "aciklama": "İlk kağıt para 'Kaime' adıyla basılmıştır."
+  },
+  {
+    "id": 81,
+    "soru": "Amasya Genelgesi hangi tarihte yayımlanmıştır?",
+    "a": "19 Mayıs 1919",
+    "b": "22 Haziran 1919",
+    "c": "23 Temmuz 1919",
+    "d": "4 Eylül 1919",
+    "cevap": "B",
+    "aciklama": "Amasya Genelgesi 22 Haziran 1919 tarihinde yayımlanmıştır."
+  },
+  {
+    "id": 82,
+    "soru": "Erzurum Kongresi hangi tarihte başlamıştır?",
+    "a": "23 Temmuz 1919",
+    "b": "4 Eylül 1919",
+    "c": "19 Mayıs 1919",
+    "d": "29 Ekim 1923",
+    "cevap": "A",
+    "aciklama": "Erzurum Kongresi 23 Temmuz 1919'da başlamıştır."
+  },
+  {
+    "id": 83,
+    "soru": "Sivas Kongresi hangi tarihte yapılmıştır?",
+    "a": "23 Nisan 1920",
+    "b": "4 Eylül 1919",
+    "c": "19 Mayıs 1919",
+    "d": "30 Ağustos 1922",
+    "cevap": "B",
+    "aciklama": "Sivas Kongresi 4 Eylül 1919 tarihinde başlamıştır."
+  },
+  {
+    "id": 84,
+    "soru": "İzmir'in işgali hangi tarihte gerçekleşmiştir?",
+    "a": "19 Mayıs 1919",
+    "b": "15 Mayıs 1919",
+    "c": "23 Temmuz 1919",
+    "d": "11 Ekim 1922",
+    "cevap": "B",
+    "aciklama": "İzmir 15 Mayıs 1919 tarihinde Yunanistan tarafından işgal edilmiştir."
+  },
+  {
+    "id": 85,
+    "soru": "Cumhuriyet döneminde kabul edilen ilk Medeni Kanun hangi ülkeden alınmıştır?",
+    "a": "Fransa",
+    "b": "İsviçre",
+    "c": "İtalya",
+    "d": "Almanya",
+    "cevap": "B",
+    "aciklama": "Türk Medeni Kanunu İsviçre Medeni Kanunu örnek alınarak hazırlanmıştır."
+  },
+  {
+    "id": 86,
+    "soru": "Osmanlı Devleti'nin ilk başkentinden sonra ikinci başkenti neresidir?",
+    "a": "İstanbul",
+    "b": "Bursa",
+    "c": "Edirne",
+    "d": "Ankara",
+    "cevap": "B",
+    "aciklama": "Söğüt'ten sonra Osmanlı Devleti'nin başkenti Bursa olmuştur."
+  },
+  {
+    "id": 87,
+    "soru": "Türklerde ilk yazılı hukuk kurallarını oluşturan devlet hangisidir?",
+    "a": "Hunlar",
+    "b": "Göktürkler",
+    "c": "Uygurlar",
+    "d": "Karahanlılar",
+    "cevap": "B",
+    "aciklama": "Göktürkler döneminde yazılı hukuk kuralları oluşturulmuştur."
+  },
+  {
+    "id": 88,
+    "soru": "Atatürk'ün naaşı Anıtkabir'e hangi yıl taşınmıştır?",
+    "a": "1948",
+    "b": "1950",
+    "c": "1953",
+    "d": "1955",
+    "cevap": "C",
+    "aciklama": "Anıtkabir'e nakil 10 Kasım 1953 tarihinde gerçekleştirilmiştir."
+  },
+  {
+    "id": 89,
+    "soru": "Anıtkabir hangi ilimizde bulunmaktadır?",
+    "a": "İstanbul",
+    "b": "İzmir",
+    "c": "Ankara",
+    "d": "Bursa",
+    "cevap": "C",
+    "aciklama": "Anıtkabir Ankara ilinde yer almaktadır."
+  },
+  {
+    "id": 90,
+    "soru": "Osmanlı Devleti'nin kuruluş döneminde Bizans'tan alınan ilk önemli şehir hangisidir?",
+    "a": "İstanbul",
+    "b": "Bursa",
+    "c": "İznik",
+    "d": "Edirne",
+    "cevap": "B",
+    "aciklama": "Bursa 1326 yılında fethedilmiş ve başkent yapılmıştır."
+  },
+  {
+    "id": 91,
+    "soru": "Osmanlı Devleti'nin son başkenti neresidir?",
+    "a": "Bursa",
+    "b": "Edirne",
+    "c": "İstanbul",
+    "d": "Ankara",
+    "cevap": "C",
+    "aciklama": "Osmanlı Devleti'nin son başkenti İstanbul'dur."
+  },
+  {
+    "id": 92,
+    "soru": "Kurtuluş Savaşı'nın diplomatik başarısı olarak kabul edilen antlaşma hangisidir?",
+    "a": "Mondros Ateşkes Antlaşması",
+    "b": "Lozan Barış Antlaşması",
+    "c": "Sevr Antlaşması",
+    "d": "Mudanya Ateşkesi",
+    "cevap": "B",
+    "aciklama": "Lozan Antlaşması Türkiye'nin bağımsızlığını uluslararası alanda kabul ettirmiştir."
+  },
+  {
+    "id": 93,
+    "soru": "Atatürk'ün doğduğu ev hangi ülkededir?",
+    "a": "Türkiye",
+    "b": "Yunanistan",
+    "c": "Bulgaristan",
+    "d": "Kuzey Makedonya",
+    "cevap": "B",
+    "aciklama": "Atatürk'ün Selanik'teki evi günümüzde Yunanistan sınırları içindedir."
+  },
+  {
+    "id": 94,
+    "soru": "Osmanlı Devleti'nde ilk düzenli ordunun temellerini atan padişah kimdir?",
+    "a": "Osman Gazi",
+    "b": "Orhan Gazi",
+    "c": "I. Murad",
+    "d": "Fatih Sultan Mehmet",
+    "cevap": "B",
+    "aciklama": "Yaya ve Müsellem birlikleri Orhan Gazi döneminde kurulmuştur."
+  },
+  {
+    "id": 95,
+    "soru": "Türkiye Cumhuriyeti'nin ilk kadın belediye başkanı kimdir?",
+    "a": "Müfide İlhan",
+    "b": "Sabiha Gökçen",
+    "c": "Halide Edip Adıvar",
+    "d": "Afet İnan",
+    "cevap": "A",
+    "aciklama": "Müfide İlhan 1950 yılında Mersin Belediye Başkanı seçilmiştir."
+  },
+  {
+    "id": 96,
+    "soru": "Türk tarihinde 'Onluk Ordu Sistemi'ni kuran hükümdar kimdir?",
+    "a": "Bilge Kağan",
+    "b": "Mete Han",
+    "c": "Attila",
+    "d": "Bumin Kağan",
+    "cevap": "B",
+    "aciklama": "Onluk ordu sistemi Mete Han tarafından oluşturulmuştur."
+  },
+  {
+    "id": 97,
+    "soru": "Osmanlı Devleti'nde ilk demiryolu hangi padişah döneminde yapılmıştır?",
+    "a": "II. Mahmud",
+    "b": "Abdülmecid",
+    "c": "Abdülaziz",
+    "d": "II. Abdülhamid",
+    "cevap": "B",
+    "aciklama": "İzmir-Aydın Demiryolu Abdülmecid döneminde yapılmaya başlanmıştır."
+  },
+  {
+    "id": 98,
+    "soru": "Türklerin Anadolu'ya girişini sağlayan savaş hangisidir?",
+    "a": "Pasinler",
+    "b": "Malazgirt",
+    "c": "Miryokefalon",
+    "d": "Dandanakan",
+    "cevap": "B",
+    "aciklama": "1071 Malazgirt Zaferi Anadolu'nun kapılarını Türklere açmıştır."
+  },
+  {
+    "id": 99,
+    "soru": "Osmanlı Devleti'nin yıkılışından sonra kurulan devlet hangisidir?",
+    "a": "Türkiye Cumhuriyeti",
+    "b": "Anadolu Selçuklu Devleti",
+    "c": "Büyük Selçuklu Devleti",
+    "d": "Türkiye Beylikleri",
+    "cevap": "A",
+    "aciklama": "Osmanlı Devleti'nin ardından Türkiye Cumhuriyeti kurulmuştur."
+  },
+  {
+    "id": 100,
+    "soru": "Türkiye Cumhuriyeti'nin ilan edildiği gün hangi tarihtir?",
+    "a": "19 Mayıs 1919",
+    "b": "23 Nisan 1920",
+    "c": "30 Ağustos 1922",
+    "d": "29 Ekim 1923",
+    "cevap": "D",
+    "aciklama": "Türkiye Cumhuriyeti 29 Ekim 1923 tarihinde ilan edilmiştir."
+  }
+]

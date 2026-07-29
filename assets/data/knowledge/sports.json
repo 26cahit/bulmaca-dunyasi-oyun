@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "Futbolda bir takım sahada kaç oyuncu ile oynar?",
+    "a": "9",
+    "b": "10",
+    "c": "11",
+    "d": "12",
+    "cevap": "C",
+    "aciklama": "Futbolda her takım 1 kaleci ve 10 oyuncu olmak üzere 11 kişi ile sahaya çıkar."
+  },
+  {
+    "id": 2,
+    "soru": "Dünya Kupası kaç yılda bir düzenlenir?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "FIFA Dünya Kupası 1930'dan beri 4 yılda bir düzenlenir."
+  },
+  {
+    "id": 3,
+    "soru": "Basketbolda bir atış kaç saniye içinde yapılmalıdır?",
+    "a": "12",
+    "b": "24",
+    "c": "30",
+    "d": "35",
+    "cevap": "B",
+    "aciklama": "FIBA kurallarına göre hücum süresi 24 saniyedir."
+  },
+  {
+    "id": 4,
+    "soru": "Olimpiyat oyunları kaç yılda bir yapılır?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "Yaz ve Kış Olimpiyatları dörder yıl arayla düzenlenir."
+  },
+  {
+    "id": 5,
+    "soru": "Teniste 0 puana ne ad verilir?",
+    "a": "Love",
+    "b": "Zero",
+    "c": "Null",
+    "d": "Blank",
+    "cevap": "A",
+    "aciklama": "Teniste 'sıfır' sayısı yerine 'love' terimi kullanılır."
+  },
+  {
+    "id": 6,
+    "soru": "Voleybolda bir set kaç sayıda biter?",
+    "a": "15",
+    "b": "21",
+    "c": "25",
+    "d": "30",
+    "cevap": "C",
+    "aciklama": "Voleybolda setler 25 sayıda biter, 2 fark gerekir. 5. set 15 sayıdır."
+  },
+  {
+    "id": 7,
+    "soru": "Türkiye Süper Lig'de en çok şampiyon olan takım hangisidir?",
+    "a": "Fenerbahçe",
+    "b": "Beşiktaş",
+    "c": "Galatasaray",
+    "d": "Trabzonspor",
+    "cevap": "C",
+    "aciklama": "Galatasaray 2024 itibariyle 24 şampiyonlukla liderdir."
+  },
+  {
+    "id": 8,
+    "soru": "Formula 1'de en çok şampiyon olan pilot kimdir?",
+    "a": "Ayrton Senna",
+    "b": "Michael Schumacher",
+    "c": "Lewis Hamilton",
+    "d": "Sebastian Vettel",
+    "cevap": "C",
+    "aciklama": "Lewis Hamilton ve Michael Schumacher 7'şer şampiyonlukla rekoru paylaşır."
+  },
+  {
+    "id": 9,
+    "soru": "Maraton koşusu kaç kilometredir?",
+    "a": "40.195 km",
+    "b": "42.195 km",
+    "c": "45.195 km",
+    "d": "50 km",
+    "cevap": "B",
+    "aciklama": "Resmi maraton mesafesi 42 kilometre 195 metredir."
+  },
+  {
+    "id": 10,
+    "soru": "Futbolda 'hat-trick' ne demektir?",
+    "a": "3 asist yapmak",
+    "b": "3 gol atmak",
+    "c": "3 sarı kart görmek",
+    "d": "3 maç oynamak",
+    "cevap": "B",
+    "aciklama": "Bir oyuncunun aynı maçta 3 gol atmasına hat-trick denir."
+  },
+  {
+    "id": 11,
+    "soru": "NBA kaç takımdan oluşur?",
+    "a": "28",
+    "b": "30",
+    "c": "32",
+    "d": "34",
+    "cevap": "B",
+    "aciklama": "NBA'de 30 takım bulunur: 15 Doğu, 15 Batı Konferansı."
+  },
+  {
+    "id": 12,
+    "soru": "Boksta rauntlar arasında kaç dakika mola vardır?",
+    "a": "30 saniye",
+    "b": "1 dakika",
+    "c": "2 dakika",
+    "d": "3 dakika",
+    "cevap": "B",
+    "aciklama": "Profesyonel boksta raunt araları 1 dakikadır."
+  },
+  {
+    "id": 13,
+    "soru": "Türkiye A Milli Futbol Takımı ilk resmi maçını kime karşı oynamıştır?",
+    "a": "Yunanistan",
+    "b": "Romanya",
+    "c": "Bulgaristan",
+    "d": "Macaristan",
+    "cevap": "B",
+    "aciklama": "Türkiye ilk resmi maçını 26 Ekim 1923'te Romanya ile 2-2 berabere kalarak oynamıştır."
+  },
+  {
+    "id": 14,
+    "soru": "Satrançta toplam kaç kare vardır?",
+    "a": "32",
+    "b": "48",
+    "c": "64",
+    "d": "81",
+    "cevap": "C",
+    "aciklama": "Satranç tahtası 8x8 = 64 kareden oluşur."
+  },
+  {
+    "id": 15,
+    "soru": "Futbolda ofsayt kuralı kaldırıldı mı?",
+    "a": "Evet kaldırıldı",
+    "b": "Hayır kaldırılmadı",
+    "c": "Sadece kaleci için kalktı",
+    "d": "VAR gelince kalktı",
+    "cevap": "B",
+    "aciklama": "Ofsayt kuralı halen geçerlidir, kaldırılmamıştır."
+  },
+  {
+    "id": 16,
+    "soru": "Bir futbol maçı normal sürede kaç dakika sürer?",
+    "a": "60",
+    "b": "80",
+    "c": "90",
+    "d": "100",
+    "cevap": "C",
+    "aciklama": "Bir futbol maçı 45'er dakikalık 2 devre, toplam 90 dakikadır."
+  },
+  {
+    "id": 17,
+    "soru": "Yüzmede kaç ana stil vardır?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "Serbest, sırtüstü, kurbağalama ve kelebek olmak üzere 4 ana stil vardır."
+  },
+  {
+    "id": 18,
+    "soru": "Dünyanın en hızlı koşucusu olarak bilinen atlet kimdir?",
+    "a": "Carl Lewis",
+    "b": "Usain Bolt",
+    "c": "Tyson Gay",
+    "d": "Yohan Blake",
+    "cevap": "B",
+    "aciklama": "Usain Bolt 100m dünya rekoru 9.58 ile en hızlı insandır."
+  },
+  {
+    "id": 19,
+    "soru": "Türkiye 2002 Dünya Kupası'nda kaçıncı olmuştur?",
+    "a": "Birinci",
+    "b": "İkinci",
+    "c": "Üçüncü",
+    "d": "Dördüncü",
+    "cevap": "C",
+    "aciklama": "Türkiye 2002 Dünya Kupası'nda Güney Kore'yi yenerek 3. olmuştur."
+  },
+  {
+    "id": 20,
+    "soru": "Galatasaray UEFA Kupası'nı hangi yıl kazanmıştır?",
+    "a": "1999",
+    "b": "2000",
+    "c": "2001",
+    "d": "2002",
+    "cevap": "B",
+    "aciklama": "Galatasaray 17 Mayıs 2000'de Arsenal'i yenerek UEFA Kupası'nı kazanmıştır."
+  },
+  {
+    "id": 21,
+    "soru": "Basketbolda 3 sayı çizgisinin NBA'deki uzaklığı kaçtır?",
+    "a": "6.25 m",
+    "b": "6.75 m",
+    "c": "7.24 m",
+    "d": "7.50 m",
+    "cevap": "C",
+    "aciklama": "NBA'de 3 sayı çizgisi yayın tepesinden 7.24 metredir. FIBA 6.75 m'dir."
+  },
+  {
+    "id": 22,
+    "soru": "Futbolda kırmızı kart gören oyuncu ne olur?",
+    "a": "5 dk çıkar",
+    "b": "Oyundan atılır",
+    "c": "Yedek kulübesine gider",
+    "d": "Sarı kart yer",
+    "cevap": "B",
+    "aciklama": "Kırmızı kart gören oyuncu oyundan atılır ve takımı 10 kişi kalır."
+  },
+  {
+    "id": 23,
+    "soru": "Wimbledon hangi spor dalının turnuvasıdır?",
+    "a": "Golf",
+    "b": "Tenis",
+    "c": "Kriket",
+    "d": "Rugby",
+    "cevap": "B",
+    "aciklama": "Wimbledon dünyanın en eski tenis turnuvasıdır."
+  },
+  {
+    "id": 24,
+    "soru": "Bir golf oyununda standart kaç çukur bulunur?",
+    "a": "9",
+    "b": "12",
+    "c": "18",
+    "d": "24",
+    "cevap": "C",
+    "aciklama": "Standart bir golf sahası 18 çukurludur."
+  },
+  {
+    "id": 25,
+    "soru": "Beyzbol maçında kaç devre vardır?",
+    "a": "7",
+    "b": "8",
+    "c": "9",
+    "d": "10",
+    "cevap": "C",
+    "aciklama": "Profesyonel beyzbolda 9 devre oynanır."
+  },
+  {
+    "id": 26,
+    "soru": "Buz hokeyinde bir takım kaç oyuncuyla oynar?",
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "11",
+    "cevap": "B",
+    "aciklama": "Buz hokeyinde kaleci dahil 6 oyuncu sahadadır."
+  },
+  {
+    "id": 27,
+    "soru": "2020 Tokyo Olimpiyatları hangi yıl yapıldı?",
+    "a": "2020",
+    "b": "2021",
+    "c": "2022",
+    "d": "2019",
+    "cevap": "B",
+    "aciklama": "Covid-19 nedeniyle 2020 Tokyo Olimpiyatları 2021'de yapıldı."
+  },
+  {
+    "id": 28,
+    "soru": "Futbolda 'Ballon d'Or' ödülünü en çok kim kazandı?",
+    "a": "Cristiano Ronaldo",
+    "b": "Lionel Messi",
+    "c": "Johan Cruyff",
+    "d": "Michel Platini",
+    "cevap": "B",
+    "aciklama": "Lionel Messi 8 kez Ballon d'Or kazanarak rekoru elinde tutar."
+  },
+  {
+    "id": 29,
+    "soru": "Türkiye'de 'dört büyükler' hangi takımlardır?",
+    "a": "GS, FB, BJK, TS",
+    "b": "GS, FB, BJK, Bursaspor",
+    "c": "FB, BJK, TS, Başakşehir",
+    "d": "GS, TS, Göztepe, Altay",
+    "cevap": "A",
+    "aciklama": "Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor 'dört büyükler' olarak anılır."
+  },
+  {
+    "id": 30,
+    "soru": "Sumo güreşi hangi ülkeye aittir?",
+    "a": "Çin",
+    "b": "Kore",
+    "c": "Japonya",
+    "d": "Moğolistan",
+    "cevap": "C",
+    "aciklama": "Sumo Japonya'nın ulusal sporudur."
+  },
+  {
+    "id": 31,
+    "soru": "Futbolda penaltı noktası kaleye kaç metre uzaklıktadır?",
+    "a": "9 m",
+    "b": "11 m",
+    "c": "12 m",
+    "d": "16 m",
+    "cevap": "B",
+    "aciklama": "Penaltı noktası kale çizgisine 11 metre uzaklıktadır."
+  },
+  {
+    "id": 32,
+    "soru": "Amerikan futbolunda bir touchdown kaç puandır?",
+    "a": "3",
+    "b": "6",
+    "c": "7",
+    "d": "8",
+    "cevap": "B",
+    "aciklama": "Touchdown 6 puandır, ekstra sayı ile 7 olabilir."
+  },
+  {
+    "id": 33,
+    "soru": "Fenerbahçe hangi yıl kurulmuştur?",
+    "a": "1903",
+    "b": "1905",
+    "c": "1907",
+    "d": "1910",
+    "cevap": "C",
+    "aciklama": "Fenerbahçe Spor Kulübü 1907 yılında kurulmuştur."
+  },
+  {
+    "id": 34,
+    "soru": "Beşiktaş hangi yıl kurulmuştur?",
+    "a": "1903",
+    "b": "1905",
+    "c": "1907",
+    "d": "1911",
+    "cevap": "A",
+    "aciklama": "Beşiktaş Jimnastik Kulübü 1903 yılında kurulmuştur."
+  },
+  {
+    "id": 35,
+    "soru": "Galatasaray hangi yıl kurulmuştur?",
+    "a": "1903",
+    "b": "1905",
+    "c": "1907",
+    "d": "1911",
+    "cevap": "B",
+    "aciklama": "Galatasaray Spor Kulübü 1905 yılında kurulmuştur."
+  },
+  {
+    "id": 36,
+    "soru": "Trabzonspor hangi yıl kurulmuştur?",
+    "a": "1963",
+    "b": "1965",
+    "c": "1967",
+    "d": "1971",
+    "cevap": "C",
+    "aciklama": "Trabzonspor 2 Ağustos 1967'de kurulmuştur."
+  },
+  {
+    "id": 37,
+    "soru": "Hentbolda bir takım kaç oyuncudan oluşur?",
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "11",
+    "cevap": "C",
+    "aciklama": "Hentbolda kaleci dahil sahada 7 oyuncu bulunur."
+  },
+  {
+    "id": 38,
+    "soru": "Bisiklet sporunun en prestijli yarışı hangisidir?",
+    "a": "Giro d'Italia",
+    "b": "Vuelta a España",
+    "c": "Tour de France",
+    "d": "Dünya Şampiyonası",
+    "cevap": "C",
+    "aciklama": "Tour de France bisikletin en prestijli yarışıdır."
+  },
+  {
+    "id": 39,
+    "soru": "Boksta ağır siklet limiti kaç kg üzeridir?",
+    "a": "79.4 kg",
+    "b": "90.7 kg",
+    "c": "95.3 kg",
+    "d": "Limit yok",
+    "cevap": "B",
+    "aciklama": "Profesyonel boksta ağır siklet 90.7 kg yani 200 pound üzeridir."
+  },
+  {
+    "id": 40,
+    "soru": "2024 Avrupa Futbol Şampiyonası nerede düzenlendi?",
+    "a": "Fransa",
+    "b": "İngiltere",
+    "c": "Almanya",
+    "d": "İtalya",
+    "cevap": "C",
+    "aciklama": "EURO 2024 Almanya'da düzenlendi."
+  },
+  {
+    "id": 41,
+    "soru": "Futbolda VAR neyin kısaltmasıdır?",
+    "a": "Video Assistant Referee",
+    "b": "Virtual Action Replay",
+    "c": "Video Analysis Room",
+    "d": "Verified Assistant Referee",
+    "cevap": "A",
+    "aciklama": "VAR: Video Assistant Referee yani Video Yardımcı Hakem."
+  },
+  {
+    "id": 42,
+    "soru": "Türkiye'de ilk basketbol ligi ne zaman kuruldu?",
+    "a": "1946",
+    "b": "1966",
+    "c": "1975",
+    "d": "1983",
+    "cevap": "B",
+    "aciklama": "Türkiye Basketbol Ligi 1966 yılında kurulmuştur."
+  },
+  {
+    "id": 43,
+    "soru": "Michael Jordan kaç NBA şampiyonluğu kazandı?",
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7",
+    "cevap": "C",
+    "aciklama": "Michael Jordan Chicago Bulls ile 6 NBA şampiyonluğu kazandı."
+  },
+  {
+    "id": 44,
+    "soru": "Futbolda kalecinin ceza sahası dışında elle oynaması ne olur?",
+    "a": "Serbest vuruş",
+    "b": "Penaltı",
+    "c": "Kırmızı kart",
+    "d": "Taç",
+    "cevap": "C",
+    "aciklama": "Kaleci ceza sahası dışında elle oynarsa bariz gol şansını engellediği için kırmızı kart görür."
+  },
+  {
+    "id": 45,
+    "soru": "Türkiye kadın voleybol milli takımı lakabı nedir?",
+    "a": "Potanın Perileri",
+    "b": "Filenin Sultanları",
+    "c": "12 Dev Adam",
+    "d": "Bizim Çocuklar",
+    "cevap": "B",
+    "aciklama": "A Milli Kadın Voleybol Takımı 'Filenin Sultanları' olarak anılır."
+  },
+  {
+    "id": 46,
+    "soru": "Atletizmde 100m erkekler dünya rekoru kimdedir?",
+    "a": "Tyson Gay",
+    "b": "Yohan Blake",
+    "c": "Usain Bolt",
+    "d": "Justin Gatlin",
+    "cevap": "C",
+    "aciklama": "Usain Bolt 9.58 saniye ile 100m dünya rekorunu elinde tutar."
+  },
+  {
+    "id": 47,
+    "soru": "Futbolda bir sezonda 3 kupa kazanan takıma ne denir?",
+    "a": "Double",
+    "b": "Treble",
+    "c": "Quadruple",
+    "d": "Grand Slam",
+    "cevap": "B",
+    "aciklama": "Lig, kupa ve Avrupa kupasını aynı sezonda kazanmaya 'treble' denir."
+  },
+  {
+    "id": 48,
+    "soru": "NBA'de bir çeyrek kaç dakika sürer?",
+    "a": "10",
+    "b": "12",
+    "c": "15",
+    "d": "20",
+    "cevap": "B",
+    "aciklama": "NBA'de bir çeyrek 12 dakika, toplam 48 dakikadır."
+  },
+  {
+    "id": 49,
+    "soru": "Futbolda en fazla Dünya Kupası kazanan ülke?",
+    "a": "Almanya",
+    "b": "İtalya",
+    "c": "Arjantin",
+    "d": "Brezilya",
+    "cevap": "D",
+    "aciklama": "Brezilya 5 kez Dünya Kupası kazanmıştır."
+  },
+  {
+    "id": 50,
+    "soru": "Teniste 'Grand Slam' kaç turnuvadan oluşur?",
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6",
+    "cevap": "B",
+    "aciklama": "Avustralya, Fransa, Wimbledon ve Amerika Açık olmak üzere 4 Grand Slam vardır."
+  },
+  {
+    "id": 51,
+    "soru": "Okçulukta hedefteki tam ortadaki puana ne denir?",
+    "a": "Bullseye",
+    "b": "Center",
+    "c": "Gold",
+    "d": "Perfect",
+    "cevap": "A",
+    "aciklama": "Hedefin tam ortası 'bullseye' olarak adlandırılır ve 10 puandır."
+  },
+  {
+    "id": 52,
+    "soru": "Formula 1'de bir sezonda en çok yarış kazanan pilot?",
+    "a": "Sebastian Vettel",
+    "b": "Lewis Hamilton",
+    "c": "Max Verstappen",
+    "d": "Michael Schumacher",
+    "cevap": "C",
+    "aciklama": "Max Verstappen 2023 sezonunda 19 yarış kazanarak rekor kırdı."
+  },
+  {
+    "id": 53,
+    "soru": "Türkiye Basketbol Erkek Milli Takımı lakabı?",
+    "a": "Potanın Perileri",
+    "b": "Filenin Sultanları",
+    "c": "12 Dev Adam",
+    "d": "Bizim Çocuklar",
+    "cevap": "C",
+    "aciklama": "Erkek basketbol milli takımı '12 Dev Adam' olarak bilinir."
+  },
+  {
+    "id": 54,
+    "soru": "Bir satranç oyununda her oyuncu kaç piyonla başlar?",
+    "a": "6",
+    "b": "7",
+    "c": "8",
+    "d": "9",
+    "cevap": "C",
+    "aciklama": "Satrançta her oyuncu 8 piyon ile başlar."
+  },
+  {
+    "id": 55,
+    "soru": "Futbolda 2022 Dünya Kupası'nı kim kazandı?",
+    "a": "Fransa",
+    "b": "Hırvatistan",
+    "c": "Arjantin",
+    "d": "Brezilya",
+    "cevap": "C",
+    "aciklama": "2022 Katar Dünya Kupası'nı Arjantin kazandı."
+  },
+  {
+    "id": 56,
+    "soru": "Voleybolda liberonun forma rengi nasıldır?",
+    "a": "Aynı",
+    "b": "Farklı",
+    "c": "Siyah",
+    "d": "Beyaz",
+    "cevap": "B",
+    "aciklama": "Libero diğer oyunculardan farklı renkte forma giymek zorundadır."
+  },
+  {
+    "id": 57,
+    "soru": "Futbolda 'Panenka' penaltısı nedir?",
+    "a": "Sert vurmak",
+    "b": "Ortaya aşırtmak",
+    "c": "Köşeye vurmak",
+    "d": "Pas vermek",
+    "cevap": "B",
+    "aciklama": "Panenka, penaltıda topu yavaşça ortaya aşırtma tekniğidir."
+  },
+  {
+    "id": 58,
+    "soru": "2024 Paris Olimpiyatları maskotu nedir?",
+    "a": "Horoz",
+    "b": "Frig",
+    "c": "Ayı",
+    "d": "Aslan",
+    "cevap": "B",
+    "aciklama": "2024 Paris Olimpiyat maskotu Frig başlığı 'Phryge'dir."
+  },
+  {
+    "id": 59,
+    "soru": "Türkiye ilk olimpiyat madalyasını hangi yılda aldı?",
+    "a": "1924",
+    "b": "1936",
+    "c": "1948",
+    "d": "1952",
+    "cevap": "B",
+    "aciklama": "Türkiye ilk olimpiyat madalyasını 1936 Berlin'de güreşte aldı."
+  },
+  {
+    "id": 60,
+    "soru": "Basketbolda 'double-double' ne demektir?",
+    "a": "20 sayı atmak",
+    "b": "2 kategoride çift hane",
+    "c": "2 üçlük atmak",
+    "d": "2 maç kazanmak",
+    "cevap": "B",
+    "aciklama": "Sayı, ribaund, asist gibi iki istatistikte 10+ yapmaya double-double denir."
+  },
+  {
+    "id": 61,
+    "soru": "Futbolda Şampiyonlar Ligi'ni en çok kazanan takım?",
+    "a": "Barcelona",
+    "b": "Milan",
+    "c": "Real Madrid",
+    "d": "Bayern Münih",
+    "cevap": "C",
+    "aciklama": "Real Madrid 15 kez ile rekorun sahibidir."
+  },
+  {
+    "id": 62,
+    "soru": "Judoda en yüksek kuşak rengi nedir?",
+    "a": "Siyah",
+    "b": "Kırmızı-Beyaz",
+    "c": "Kırmızı",
+    "d": "Altın",
+    "cevap": "C",
+    "aciklama": "Judoda en yüksek derece kırmızı kuşaktır, 9. ve 10. dan."
+  },
+  {
+    "id": 63,
+    "soru": "Türkiye'de 'Süper Kupa' hangi iki takım arasında oynanır?",
+    "a": "Lig 1. ve 2.",
+    "b": "Lig şampiyonu - Kupa şampiyonu",
+    "c": "Kupa finalistleri",
+    "d": "Avrupa'ya gidenler",
+    "cevap": "B",
+    "aciklama": "Süper Kupa, Süper Lig şampiyonu ile Türkiye Kupası şampiyonu arasında oynanır."
+  },
+  {
+    "id": 64,
+    "soru": "Teniste 'deuce' ne anlama gelir?",
+    "a": "Maç sayısı",
+    "b": "40-40 eşitlik",
+    "c": "Servis hakkı",
+    "d": "Mola",
+    "cevap": "B",
+    "aciklama": "40-40 eşitliğe teniste 'deuce' denir."
+  },
+  {
+    "id": 65,
+    "soru": "FIFA dünya sıralamasında Türkiye'nin en iyi derecesi?",
+    "a": "5",
+    "b": "8",
+    "c": "10",
+    "d": "12",
+    "cevap": "A",
+    "aciklama": "Türkiye 2004'te FIFA sıralamasında 5. sıraya kadar yükseldi."
+  },
+  {
+    "id": 66,
+    "soru": "Futbolda taç atışı ile direkt gol olur mu?",
+    "a": "Evet olur",
+    "b": "Hayır olmaz",
+    "c": "Kaleciye olursa olur",
+    "d": "VAR kararı gerekir",
+    "cevap": "B",
+    "aciklama": "Taç atışından direkt gol olmaz, başka oyuncuya değmesi gerekir."
+  },
+  {
+    "id": 67,
+    "soru": "NBA'de bir maçta en çok sayı atan oyuncu?",
+    "a": "Michael Jordan",
+    "b": "Kobe Bryant",
+    "c": "Wilt Chamberlain",
+    "d": "LeBron James",
+    "cevap": "C",
+    "aciklama": "Wilt Chamberlain 1962'de 100 sayı atarak rekor kırdı."
+  },
+  {
+    "id": 68,
+    "soru": "Futbolda 'El Clasico' hangi takımlar arasındadır?",
+    "a": "Milan-Inter",
+    "b": "Boca-River",
+    "c": "Real Madrid-Barcelona",
+    "d": "ManU-Liverpool",
+    "cevap": "C",
+    "aciklama": "Real Madrid - Barcelona maçlarına El Clasico denir."
+  },
+  {
+    "id": 69,
+    "soru": "Olimpiyatlarda en çok madalya kazanan sporcu?",
+    "a": "Usain Bolt",
+    "b": "Michael Phelps",
+    "c": "Carl Lewis",
+    "d": "Larisa Latynina",
+    "cevap": "B",
+    "aciklama": "Michael Phelps 28 madalya ile rekorun sahibidir."
+  },
+  {
+    "id": 70,
+    "soru": "Futbolda 'Bosman Kuralı' neyi değiştirdi?",
+    "a": "Ofsayt kuralı",
+    "b": "Yabancı oyuncu sınırı",
+    "c": "Sözleşmesi biten oyuncu bonservissiz gider",
+    "d": "VAR geldi",
+    "cevap": "C",
+    "aciklama": "Bosman Kuralı ile sözleşmesi biten oyuncu bonservissiz transfer olabilir."
+  },
+  {
+    "id": 71,
+    "soru": "Türkiye Erkek Voleybol Ligi'nin sponsorlu ismi?",
+    "a": "Sultanlar Ligi",
+    "b": "Efeler Ligi",
+    "c": "Şampiyonlar Ligi",
+    "d": "Pro Ligi",
+    "cevap": "B",
+    "aciklama": "Erkekler Voleybol 1. Ligi'nin adı Efeler Ligi'dir."
+  },
+  {
+    "id": 72,
+    "soru": "Futbolda 'Derbi' ne demektir?",
+    "a": "Final maçı",
+    "b": "Aynı şehrin takımları",
+    "c": "Milli maç",
+    "d": "Dostluk maçı",
+    "cevap": "B",
+    "aciklama": "Aynı şehir veya bölgenin takımları arasındaki maça derbi denir."
+  },
+  {
+    "id": 73,
+    "soru": "2026 Dünya Kupası nerede düzenlenecek?",
+    "a": "Katar",
+    "b": "ABD-Kanada-Meksika",
+    "c": "İspanya-Portekiz",
+    "d": "Fas",
+    "cevap": "B",
+    "aciklama": "2026 Dünya Kupası ABD, Kanada ve Meksika ortaklığında düzenlenecek."
+  },
+  {
+    "id": 74,
+    "soru": "Futbolda kaleci degajdan direkt gol atabilir mi?",
+    "a": "Hayır",
+    "b": "Evet",
+    "c": "Sadece kendi kalesine",
+    "d": "VAR bakmalı",
+    "cevap": "B",
+    "aciklama": "Kaleci degajdan direkt rakip kaleye gol atabilir."
+  },
+  {
+    "id": 75,
+    "soru": "Tenis kortu çeşitlerinden hangisi yoktur?",
+    "a": "Toprak",
+    "b": "Çim",
+    "c": "Sert",
+    "d": "Kum",
+    "cevap": "D",
+    "aciklama": "Tenis toprak, çim ve sert zeminde oynanır. Kum zemin yoktur."
+  },
+  {
+    "id": 76,
+    "soru": "Futbolda '6 pas' olarak bilinen alanın resmi adı?",
+    "a": "Penaltı alanı",
+    "b": "Ceza alanı",
+    "c": "Kale alanı",
+    "d": "Ofsayt alanı",
+    "cevap": "C",
+    "aciklama": "6 pas olarak bilinen alanın resmi adı kale alanıdır."
+  },
+  {
+    "id": 77,
+    "soru": "Türkiye'de ilk kadın futbol ligi ne zaman kuruldu?",
+    "a": "1971",
+    "b": "1993",
+    "c": "2001",
+    "d": "2010",
+    "cevap": "B",
+    "aciklama": "Türkiye Kadınlar Futbol Ligi 1993-1994 sezonunda kuruldu."
+  },
+  {
+    "id": 78,
+    "soru": "NBA'de 'triple-double' ne demektir?",
+    "a": "30 sayı",
+    "b": "3 kategoride çift hane",
+    "c": "3 maç üst üste kazanmak",
+    "d": "3 üçlük atmak",
+    "cevap": "B",
+    "aciklama": "Sayı, ribaund, asist gibi üç kategoride 10+ yapmak triple-double'dır."
+  },
+  {
+    "id": 79,
+    "soru": "Futbolda 'Catenaccio' hangi ülkenin taktiğidir?",
+    "a": "Almanya",
+    "b": "İtalya",
+    "c": "Hollanda",
+    "d": "İngiltere",
+    "cevap": "B",
+    "aciklama": "Catenaccio İtalyan futbolunun savunma ağırlıklı sistemidir."
+  },
+  {
+    "id": 80,
+    "soru": "Olimpiyat bayrağındaki halka sayısı?",
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7",
+    "cevap": "B",
+    "aciklama": "Olimpiyat bayrağında 5 kıtayı temsil eden 5 halka vardır."
+  },
+  {
+    "id": 81,
+    "soru": "Futbolda bir takımda en az kaç oyuncu kalırsa maç tatil edilir?",
+    "a": "6",
+    "b": "7",
+    "c": "8",
+    "d": "9",
+    "cevap": "B",
+    "aciklama": "Bir takımda 7 oyuncudan az kalırsa hakem maçı tatil eder."
+  },
+  {
+    "id": 82,
+    "soru": "Türkiye'de 'Yılın Sporcusu' ödülünü veren kurum?",
+    "a": "TSYD",
+    "b": "GQ",
+    "c": "Milliyet",
+    "d": "TRT Spor",
+    "cevap": "C",
+    "aciklama": "Milliyet Gazetesi 1954'ten beri 'Yılın Sporcusu' anketi düzenler."
+  },
+  {
+    "id": 83,
+    "soru": "Hangi sayı hem çift hem asaldır?",
+    "a": "0",
+    "b": "1",
+    "c": "2",
+    "d": "4",
+    "cevap": "C",
+    "aciklama": "2, çift olan tek asal sayıdır."
+  },
+  {
+    "id": 84,
+    "soru": "'Çalıkuşu' romanının yazarı?",
+    "a": "Halide Edip",
+    "b": "Reşat Nuri Güntekin",
+    "c": "Yakup Kadri",
+    "d": "Peyami Safa",
+    "cevap": "B",
+    "aciklama": "Çalıkuşu, Reşat Nuri Güntekin'in 1922 tarihli romanıdır."
+  },
+  {
+    "id": 85,
+    "soru": "Bir hafta kaç saattir?",
+    "a": "148",
+    "b": "158",
+    "c": "168",
+    "d": "178",
+    "cevap": "C",
+    "aciklama": "7 gün x 24 saat = 168 saat"
+  },
+  {
+    "id": 86,
+    "soru": "Hangi elementin atom numarası 1'dir?",
+    "a": "Helyum",
+    "b": "Hidrojen",
+    "c": "Lityum",
+    "d": "Oksijen",
+    "cevap": "B",
+    "aciklama": "Hidrojen periyodik tabloda 1. elementtir."
+  },
+  {
+    "id": 87,
+    "soru": "Türkiye'de ilk nüfus sayımı ne zaman yapıldı?",
+    "a": "1923",
+    "b": "1927",
+    "c": "1935",
+    "d": "1940",
+    "cevap": "B",
+    "aciklama": "Cumhuriyet dönemi ilk nüfus sayımı 28 Ekim 1927'de yapıldı."
+  },
+  {
+    "id": 88,
+    "soru": "Hangi gezegenin halkası vardır?",
+    "a": "Merkür",
+    "b": "Venüs",
+    "c": "Satürn",
+    "d": "Mars",
+    "cevap": "C",
+    "aciklama": "Satürn'ün belirgin halkaları vardır. Jüpiter, Uranüs, Neptün'ün de var ama en belirgin Satürn."
+  },
+  {
+    "id": 89,
+    "soru": "2, 4, 8, 16, ? Sıradaki sayı?",
+    "a": "20",
+    "b": "24",
+    "c": "32",
+    "d": "64",
+    "cevap": "C",
+    "aciklama": "Her sayı 2 ile çarpılıyor. 16 x 2 = 32"
+  },
+  {
+    "id": 90,
+    "soru": "Türkiye'de ilk kadın bakan kimdir?",
+    "a": "Tansu Çiller",
+    "b": "Türkan Akyol",
+    "c": "Meral Akşener",
+    "d": "İmren Aykut",
+    "cevap": "B",
+    "aciklama": "Türkan Akyol 1971'de Sağlık Bakanı olmuştur."
+  },
+  {
+    "id": 91,
+    "soru": "Bir kilogram kaç gramdır?",
+    "a": "10",
+    "b": "100",
+    "c": "1000",
+    "d": "10000",
+    "cevap": "C",
+    "aciklama": "1 kg = 1000 gram"
+  },
+  {
+    "id": 92,
+    "soru": "Hangi renk ana renk değildir?",
+    "a": "Kırmızı",
+    "b": "Mavi",
+    "c": "Yeşil",
+    "d": "Sarı",
+    "cevap": "D",
+    "aciklama": "Işıkta ana renkler: Kırmızı, Yeşil, Mavi. Boyada: Kırmızı, Mavi, Sarı."
+  },
+  {
+    "id": 93,
+    "soru": "Türkiye'de yerel saat hangi meridyenden alınır?",
+    "a": "26° Doğu",
+    "b": "30° Doğu",
+    "c": "45° Doğu",
+    "d": "36° Doğu",
+    "cevap": "B",
+    "aciklama": "Türkiye 30° Doğu meridyeninin saatini kullanır. GMT+3"
+  },
+  {
+    "id": 94,
+    "soru": "Hangi organ insülin hormonu üretir?",
+    "a": "Karaciğer",
+    "b": "Pankreas",
+    "c": "Böbrek",
+    "d": "Mide",
+    "cevap": "B",
+    "aciklama": "İnsülin pankreasta üretilir ve kan şekerini düzenler."
+  },
+  {
+    "id": 95,
+    "soru": "Bir insan iskeletinde kaç kemik vardır?",
+    "a": "186",
+    "b": "206",
+    "c": "226",
+    "d": "306",
+    "cevap": "B",
+    "aciklama": "Yetişkin insan iskeletinde 206 kemik bulunur."
+  },
+  {
+    "id": 96,
+    "soru": "Hangi sayı 'mükemmel sayı' değildir?",
+    "a": "6",
+    "b": "28",
+    "c": "36",
+    "d": "496",
+    "cevap": "C",
+    "aciklama": "Mükemmel sayı, kendisi hariç bölenleri toplamı kendisine eşittir. 6=1+2+3. 36 değildir."
+  },
+  {
+    "id": 97,
+    "soru": "Türkiye'de 'Altın Portakal' hangi şehirdedir?",
+    "a": "İzmir",
+    "b": "Antalya",
+    "c": "Adana",
+    "d": "Muğla",
+    "cevap": "B",
+    "aciklama": "Altın Portakal Film Festivali Antalya'da düzenlenir."
+  },
+  {
+    "id": 98,
+    "soru": "Hangi hayvanın 3 kalbi vardır?",
+    "a": "Ahtapot",
+    "b": "Balina",
+    "c": "Köpekbalığı",
+    "d": "Yunus",
+    "cevap": "A",
+    "aciklama": "Ahtapotun 3 kalbi ve mavi kanı vardır."
+  },
+  {
+    "id": 99,
+    "soru": "Bir tavla oyununda kaç pul vardır?",
+    "a": "15",
+    "b": "20",
+    "c": "30",
+    "d": "32",
+    "cevap": "C",
+    "aciklama": "Tavlada her oyuncunun 15 pulu, toplam 30 pul vardır."
+  },
+  {
+    "id": 100,
+    "soru": "Hangi ülke Ay'a ilk insan gönderen ülkedir?",
+    "a": "Rusya",
+    "b": "Çin",
+    "c": "ABD",
+    "d": "İngiltere",
+    "cevap": "C",
+    "aciklama": "ABD, 1969 Apollo 11 ile Ay'a ilk insanı gönderdi."
+  }
+]

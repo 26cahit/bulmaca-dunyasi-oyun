@@ -1,0 +1,887 @@
+[
+  {
+    "id": 1,
+    "word": "BİLGİSAYAR",
+    "hint": "Teknolojik işlem yapan cihaz",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "word": "TELEFON",
+    "hint": "Konuşmak için kullanılan cihaz",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "word": "İSTANBUL",
+    "hint": "Türkiye'nin en kalabalık şehri",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "word": "OKYANUS",
+    "hint": "Denizden daha büyük su kütlesi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "word": "GÖZLÜK",
+    "hint": "Görmeye yardımcı araç",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "word": "HASTANE",
+    "hint": "Doktorların çalıştığı sağlık kurumu",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "word": "TATİL",
+    "hint": "Çalışmaya ara verilen zaman",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "word": "MÜZİK",
+    "hint": "Nota ve ritim ile yapılan sanat",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "word": "PENCERE",
+    "hint": "Duvarda dışarıyı gösteren cam",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "word": "BAHÇE",
+    "hint": "Ev dışında çiçek ekilen alan",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "word": "TÜRKİYE",
+    "hint": "Bulunduğumuz ülke",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "word": "ANKARA",
+    "hint": "Türkiye'nin başkenti",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "word": "İZMİR",
+    "hint": "Ege'nin incisi şehir",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "word": "ANTALYA",
+    "hint": "Turizm cenneti şehir",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "word": "BURSA",
+    "hint": "Yeşil şehir, ipek merkezi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "word": "ADANA",
+    "hint": "Kebap ile ünlü güney şehri",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "word": "GAZİANTEP",
+    "hint": "Baklava ve fıstık şehri",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "word": "TRABZON",
+    "hint": "Karadeniz'in önemli şehri",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "word": "KONYA",
+    "hint": "Mevlana şehri",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "word": "KAYSERİ",
+    "hint": "Pastırma ile ünlü şehir",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "word": "DOKTOR",
+    "hint": "Hastaları tedavi eden kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "word": "ÖĞRETMEN",
+    "hint": "Okulda ders anlatan kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "word": "MÜHENDİS",
+    "hint": "Teknik projeler yapan meslek",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "word": "AVUKAT",
+    "hint": "Mahkemede savunan kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "word": "PİLOT",
+    "hint": "Uçak kullanan kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "word": "AŞÇI",
+    "hint": "Yemek yapan meslek",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "word": "ŞOFÖR",
+    "hint": "Araç kullanan kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "word": "POLİS",
+    "hint": "Güvenliği sağlayan görevli",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "word": "ASKER",
+    "hint": "Vatanı koruyan kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "word": "İTFAİYE",
+    "hint": "Yangın söndüren kurum",
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "word": "GAZETE",
+    "hint": "Günlük haber yayını",
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "word": "DERGİ",
+    "hint": "Haftalık/aylık süreli yayın",
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "word": "ROMAN",
+    "hint": "Uzun kurmaca yazı türü",
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "word": "HİKAYE",
+    "hint": "Kısa kurmaca yazı türü",
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "word": "ŞİİR",
+    "hint": "Duygu yüklü ölçülü yazı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "word": "TİYATRO",
+    "hint": "Sahnede canlandırılan oyun",
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "word": "SİNEMA",
+    "hint": "Film izlenen salon",
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "word": "KONSER",
+    "hint": "Canlı müzik etkinliği",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "word": "FESTİVAL",
+    "hint": "Kutlama, şenlik etkinliği",
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "word": "KARNAVAL",
+    "hint": "Renkli sokak eğlencesi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "word": "BİSİKLET",
+    "hint": "İki tekerlekli pedal çevirilen",
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "word": "MOTOSİKLET",
+    "hint": "İki tekerlekli motorlu taşıt",
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "word": "HELİKOPTER",
+    "hint": "Pervaneli dikey kalkan hava aracı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "word": "VAPUR",
+    "hint": "Şehir içi deniz taşıtı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "word": "TAKSİ",
+    "hint": "Ücretli binek taşıt",
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "word": "MİNİBÜS",
+    "hint": "Küçük toplu taşıma aracı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "word": "METRO",
+    "hint": "Yer altı raylı sistem",
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "word": "TRAMVAY",
+    "hint": "Şehir içi elektrikli raylı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "word": "KÖPRÜ",
+    "hint": "İki yakayı birleştiren geçit",
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "word": "TÜNEL",
+    "hint": "Dağ altı geçit",
+    "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "word": "LİMAN",
+    "hint": "Gemilerin yanaştığı yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 52,
+    "word": "HAVALİMANI",
+    "hint": "Uçakların kalktığı yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "word": "GAR",
+    "hint": "Trenlerin kalktığı yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "word": "OTOGAR",
+    "hint": "Otobüslerin kalktığı yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "word": "PAZAR",
+    "hint": "Açıkta kurulan alışveriş yeri",
+    "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "word": "MARKET",
+    "hint": "Gıda satılan kapalı yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 57,
+    "word": "FIRIN",
+    "hint": "Ekmek yapılan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 58,
+    "word": "KASAP",
+    "hint": "Et satılan dükkan",
+    "difficulty": "medium"
+  },
+  {
+    "id": 59,
+    "word": "MANAV",
+    "hint": "Meyve sebze satılan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 60,
+    "word": "BERBER",
+    "hint": "Saç kesilen yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 61,
+    "word": "TERZİ",
+    "hint": "Kıyafet diken kişi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 62,
+    "word": "KUYUMCU",
+    "hint": "Altın satılan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 63,
+    "word": "ECZANE",
+    "hint": "İlaç satılan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 64,
+    "word": "LOKANTA",
+    "hint": "Yemek yenilen yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 65,
+    "word": "KAFE",
+    "hint": "Kahve içilen yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 66,
+    "word": "PASTANE",
+    "hint": "Tatlı satılan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 67,
+    "word": "KÜTÜPHANE",
+    "hint": "Kitap okunan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 68,
+    "word": "MÜZE",
+    "hint": "Eski eserlerin sergilendiği yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 69,
+    "word": "STADYUM",
+    "hint": "Maç yapılan büyük saha",
+    "difficulty": "medium"
+  },
+  {
+    "id": 70,
+    "word": "SPOR SALONU",
+    "hint": "Kapalı spor yapılan yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 71,
+    "word": "HAVUZ",
+    "hint": "Yüzmek için su dolu yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 72,
+    "word": "PLAJ",
+    "hint": "Deniz kenarı kumsal",
+    "difficulty": "medium"
+  },
+  {
+    "id": 73,
+    "word": "ORMAN",
+    "hint": "Ağaçlık geniş alan",
+    "difficulty": "medium"
+  },
+  {
+    "id": 74,
+    "word": "ÇÖL",
+    "hint": "Kumla kaplı kurak alan",
+    "difficulty": "medium"
+  },
+  {
+    "id": 75,
+    "word": "ADA",
+    "hint": "Dört yanı suyla çevrili kara",
+    "difficulty": "medium"
+  },
+  {
+    "id": 76,
+    "word": "YANARDAĞ",
+    "hint": "Lav püskürten dağ",
+    "difficulty": "medium"
+  },
+  {
+    "id": 77,
+    "word": "DEPREM",
+    "hint": "Yer sarsıntısı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 78,
+    "word": "VOLKAN",
+    "hint": "Yanardağ diğer adı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 79,
+    "word": "SEL",
+    "hint": "Taşkın su felaketi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 80,
+    "word": "HEYELAN",
+    "hint": "Toprak kayması",
+    "difficulty": "medium"
+  },
+  {
+    "id": 81,
+    "word": "GÖKKUŞAĞI",
+    "hint": "Yağmur sonrası renkli yay",
+    "difficulty": "medium"
+  },
+  {
+    "id": 82,
+    "word": "ŞİMŞEK",
+    "hint": "Gökyüzünde elektrik boşalması",
+    "difficulty": "medium"
+  },
+  {
+    "id": 83,
+    "word": "YILDIRIM",
+    "hint": "Yere düşen elektrik",
+    "difficulty": "medium"
+  },
+  {
+    "id": 84,
+    "word": "DOLU",
+    "hint": "Buz tanesi yağışı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "word": "SİS",
+    "hint": "Yere yakın bulut",
+    "difficulty": "medium"
+  },
+  {
+    "id": 86,
+    "word": "NEM",
+    "hint": "Havadaki su oranı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 87,
+    "word": "BASINÇ",
+    "hint": "Havanın ağırlığı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 88,
+    "word": "MEVSİM",
+    "hint": "İlkbahar yaz gibi dönem",
+    "difficulty": "medium"
+  },
+  {
+    "id": 89,
+    "word": "İLKBAHAR",
+    "hint": "Kıştan sonra gelen mevsim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 90,
+    "word": "SONBAHAR",
+    "hint": "Yazdan sonra gelen mevsim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 91,
+    "word": "PAZARTESİ",
+    "hint": "Haftanın ilk günü",
+    "difficulty": "medium"
+  },
+  {
+    "id": 92,
+    "word": "CUMA",
+    "hint": "Haftanın 5. günü",
+    "difficulty": "medium"
+  },
+  {
+    "id": 93,
+    "word": "CUMARTESİ",
+    "hint": "Hafta sonu ilk günü",
+    "difficulty": "medium"
+  },
+  {
+    "id": 94,
+    "word": "PAZAR GÜNÜ",
+    "hint": "Hafta sonunun ikinci günü",
+    "difficulty": "medium"
+  },
+  { "id": 95, "word": "OCAK", "hint": "Yılın ilk ayı", "difficulty": "medium" },
+  {
+    "id": 96,
+    "word": "ŞUBAT",
+    "hint": "28-29 gün çeken ay",
+    "difficulty": "medium"
+  },
+  {
+    "id": 97,
+    "word": "NİSAN",
+    "hint": "23 Nisan bayramı olan ay",
+    "difficulty": "medium"
+  },
+  {
+    "id": 98,
+    "word": "MAYIS",
+    "hint": "19 Mayıs olan ay",
+    "difficulty": "medium"
+  },
+  {
+    "id": 99,
+    "word": "AĞUSTOS",
+    "hint": "30 Ağustos zaferi olan ay",
+    "difficulty": "medium"
+  },
+  {
+    "id": 100,
+    "word": "EKİM",
+    "hint": "29 Ekim Cumhuriyet ayı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 101,
+    "word": "KASIM",
+    "hint": "10 Kasım Atatürk'ü anma ayı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "word": "ARALIK",
+    "hint": "Yılın son ayı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "word": "TAKVİM",
+    "hint": "Gün ay gösteren çizelge",
+    "difficulty": "medium"
+  },
+  {
+    "id": 104,
+    "word": "HARİTA",
+    "hint": "Yer şekillerini gösteren çizim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 105,
+    "word": "PUSULA",
+    "hint": "Yön gösteren alet",
+    "difficulty": "medium"
+  },
+  {
+    "id": 106,
+    "word": "DÜRBÜN",
+    "hint": "Uzağı yakın gösteren alet",
+    "difficulty": "medium"
+  },
+  {
+    "id": 107,
+    "word": "TELESKOP",
+    "hint": "Gök cisimlerini gösteren alet",
+    "difficulty": "medium"
+  },
+  {
+    "id": 108,
+    "word": "TERMOMETRE",
+    "hint": "Sıcaklık ölçen alet",
+    "difficulty": "medium"
+  },
+  {
+    "id": 109,
+    "word": "SAAT",
+    "hint": "Zamanı gösteren alet",
+    "difficulty": "medium"
+  },
+  {
+    "id": 110,
+    "word": "AJANDA",
+    "hint": "Günlük planların yazıldığı defter",
+    "difficulty": "medium"
+  },
+  {
+    "id": 111,
+    "word": "HESAP",
+    "hint": "Matematik işlemi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 112,
+    "word": "TOPLAMA",
+    "hint": "Sayıları birleştirme işlemi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 113,
+    "word": "ÇIKARMA",
+    "hint": "Sayıları eksiltme işlemi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 114,
+    "word": "ÇARPMA",
+    "hint": "Sayıları katlama işlemi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "word": "BÖLME",
+    "hint": "Sayıları paylaştırma işlemi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "word": "KESİR",
+    "hint": "Pay ve paydadan oluşan sayı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "word": "ONDALIK",
+    "hint": "Virgüllü sayı",
+    "difficulty": "medium"
+  },
+  { "id": 118, "word": "YÜZDE", "hint": "Yüzde birim", "difficulty": "medium" },
+  {
+    "id": 119,
+    "word": "GEOMETRİ",
+    "hint": "Şekiller bilimi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 120,
+    "word": "KARE",
+    "hint": "Dört eşit kenarlı şekil",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "word": "DAİRE",
+    "hint": "Yuvarlak şekil",
+    "difficulty": "medium"
+  },
+  {
+    "id": 122,
+    "word": "ÜÇGEN",
+    "hint": "Üç kenarlı şekil",
+    "difficulty": "medium"
+  },
+  {
+    "id": 123,
+    "word": "KÜP",
+    "hint": "Altı kare yüzeyli cisim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 124,
+    "word": "SİLİNDİR",
+    "hint": "Boruya benzer cisim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "word": "KÜRE",
+    "hint": "Top şeklinde cisim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "word": "PRİZMA",
+    "hint": "Tabanları çokgen cisim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 127,
+    "word": "PİRAMİT",
+    "hint": "Mısır'daki üçgen yapı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 128,
+    "word": "AÇI",
+    "hint": "İki ışının birleşimi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 129,
+    "word": "DİK AÇI",
+    "hint": "90 derecelik açı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 130,
+    "word": "ÇEMBER",
+    "hint": "Dairenin çevresi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 131,
+    "word": "YARIÇAP",
+    "hint": "Merkezden çembere uzaklık",
+    "difficulty": "medium"
+  },
+  {
+    "id": 132,
+    "word": "ÇAP",
+    "hint": "Çemberi iki eşit bölen",
+    "difficulty": "medium"
+  },
+  { "id": 133, "word": "ALAN", "hint": "Yüzey ölçüsü", "difficulty": "medium" },
+  {
+    "id": 134,
+    "word": "HACİM",
+    "hint": "Cisimlerin kapladığı yer",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "word": "UZUNLUK",
+    "hint": "Metre ile ölçülen",
+    "difficulty": "medium"
+  },
+  {
+    "id": 136,
+    "word": "AĞIRLIK",
+    "hint": "Kilogram ile ölçülen",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "word": "SICAKLIK",
+    "hint": "Derece ile ölçülen",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "word": "HIZ",
+    "hint": "Km/saat ile ölçülen",
+    "difficulty": "medium"
+  },
+  {
+    "id": 139,
+    "word": "ENERJİ",
+    "hint": "İş yapabilme yetisi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 140,
+    "word": "IŞIK",
+    "hint": "Görmeyi sağlayan enerji",
+    "difficulty": "medium"
+  },
+  {
+    "id": 141,
+    "word": "SES",
+    "hint": "Kulağın duyduğu titreşim",
+    "difficulty": "medium"
+  },
+  {
+    "id": 142,
+    "word": "ELEKTRİK",
+    "hint": "Prizden gelen enerji",
+    "difficulty": "medium"
+  },
+  {
+    "id": 143,
+    "word": "MANYETİK",
+    "hint": "Mıknatıs özelliği",
+    "difficulty": "medium"
+  },
+  {
+    "id": 144,
+    "word": "YERÇEKİMİ",
+    "hint": "Cisimleri yere çeken kuvvet",
+    "difficulty": "medium"
+  },
+  {
+    "id": 145,
+    "word": "ATOM",
+    "hint": "Maddenin en küçük yapıtaşı",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "word": "MOLEKÜL",
+    "hint": "Atomların birleşimi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 147,
+    "word": "HÜCRE",
+    "hint": "Canlının en küçük birimi",
+    "difficulty": "medium"
+  },
+  {
+    "id": 148,
+    "word": "BAKTERİ",
+    "hint": "Tek hücreli mikroorganizma",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "word": "VİRÜS",
+    "hint": "Hastalık yapan mikrop",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "word": "AŞI",
+    "hint": "Bağışıklık kazandıran sıvı",
+    "difficulty": "medium"
+  }
+]

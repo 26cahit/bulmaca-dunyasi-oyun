@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "Mona Lisa tablosunu kim yapmıştır?",
+    "a": "Michelangelo",
+    "b": "Leonardo da Vinci",
+    "c": "Rafael",
+    "d": "Botticelli",
+    "cevap": "B",
+    "aciklama": "Mona Lisa, Leonardo da Vinci tarafından yapılmış dünyaca ünlü bir tablodur."
+  },
+  {
+    "id": 2,
+    "soru": "'Yıldızlı Gece' adlı tablo hangi ressama aittir?",
+    "a": "Vincent van Gogh",
+    "b": "Claude Monet",
+    "c": "Pablo Picasso",
+    "d": "Edvard Munch",
+    "cevap": "A",
+    "aciklama": "Yıldızlı Gece (The Starry Night), Vincent van Gogh'un en tanınmış eserlerinden biridir."
+  },
+  {
+    "id": 3,
+    "soru": "'Çığlık' adlı ünlü tablo kime aittir?",
+    "a": "Edvard Munch",
+    "b": "Salvador Dalí",
+    "c": "Gustav Klimt",
+    "d": "Henri Matisse",
+    "cevap": "A",
+    "aciklama": "Çığlık (The Scream), Norveçli ressam Edvard Munch tarafından yapılmıştır."
+  },
+  {
+    "id": 4,
+    "soru": "Sistine Şapeli'nin tavanını kim boyamıştır?",
+    "a": "Leonardo da Vinci",
+    "b": "Rafael",
+    "c": "Michelangelo",
+    "d": "Donatello",
+    "cevap": "C",
+    "aciklama": "Michelangelo, Sistine Şapeli'nin tavanını yıllarca süren bir çalışmayla boyamıştır."
+  },
+  {
+    "id": 5,
+    "soru": "Kübizm akımının öncülerinden biri kimdir?",
+    "a": "Pablo Picasso",
+    "b": "Claude Monet",
+    "c": "Rembrandt",
+    "d": "Caravaggio",
+    "cevap": "A",
+    "aciklama": "Pablo Picasso, Georges Braque ile birlikte Kübizm akımının öncülerinden biridir."
+  },
+  {
+    "id": 6,
+    "soru": "Empresyonizm (İzlenimcilik) akımının öncüsü kabul edilen ressam kimdir?",
+    "a": "Claude Monet",
+    "b": "Salvador Dalí",
+    "c": "Andy Warhol",
+    "d": "Jackson Pollock",
+    "cevap": "A",
+    "aciklama": "Claude Monet, İzlenimcilik akımının en önemli temsilcilerinden ve öncülerinden biridir."
+  },
+  {
+    "id": 7,
+    "soru": "'Guernica' adlı tabloyu kim yapmıştır?",
+    "a": "Salvador Dalí",
+    "b": "Pablo Picasso",
+    "c": "Joan Miró",
+    "d": "Diego Rivera",
+    "cevap": "B",
+    "aciklama": "Guernica, Pablo Picasso'nun İspanya İç Savaşı'ndaki bombardımanı konu alan ünlü tablosudur."
+  },
+  {
+    "id": 8,
+    "soru": "Sürrealizm akımının önemli temsilcilerinden biri kimdir?",
+    "a": "Salvador Dalí",
+    "b": "Claude Monet",
+    "c": "Rembrandt",
+    "d": "Titian",
+    "cevap": "A",
+    "aciklama": "Salvador Dalí, sürrealizm akımının en tanınmış sanatçılarından biridir."
+  },
+  {
+    "id": 9,
+    "soru": "'Düşünen Adam' (Le Penseur) heykeli hangi sanatçıya aittir?",
+    "a": "Auguste Rodin",
+    "b": "Michelangelo",
+    "c": "Donatello",
+    "d": "Antonio Canova",
+    "cevap": "A",
+    "aciklama": "Düşünen Adam heykeli, Fransız heykeltıraş Auguste Rodin tarafından yapılmıştır."
+  },
+  {
+    "id": 10,
+    "soru": "Louvre Müzesi hangi ülkededir?",
+    "a": "İtalya",
+    "b": "İspanya",
+    "c": "Fransa",
+    "d": "İngiltere",
+    "cevap": "C",
+    "aciklama": "Louvre Müzesi, Fransa'nın Paris kentinde bulunmaktadır."
+  },
+  {
+    "id": 11,
+    "soru": "Pop Art akımının öncülerinden biri kimdir?",
+    "a": "Andy Warhol",
+    "b": "Rembrandt",
+    "c": "El Greco",
+    "d": "Titian",
+    "cevap": "A",
+    "aciklama": "Andy Warhol, Pop Art akımının en tanınmış temsilcilerindendir."
+  },
+  {
+    "id": 12,
+    "soru": "'David' heykelini kim yapmıştır?",
+    "a": "Leonardo da Vinci",
+    "b": "Michelangelo",
+    "c": "Rafael",
+    "d": "Bernini",
+    "cevap": "B",
+    "aciklama": "David heykeli, Michelangelo'nun Rönesans döneminde yaptığı ünlü bir mermer heykeldir."
+  },
+  {
+    "id": 13,
+    "soru": "Rönesans döneminin başladığı ülke hangisidir?",
+    "a": "Fransa",
+    "b": "İtalya",
+    "c": "İspanya",
+    "d": "Almanya",
+    "cevap": "B",
+    "aciklama": "Rönesans, 14. yüzyılda İtalya'da başlayıp daha sonra Avrupa'ya yayılan bir sanat ve düşünce hareketidir."
+  },
+  {
+    "id": 14,
+    "soru": "'Son Akşam Yemeği' (The Last Supper) freskini kim yapmıştır?",
+    "a": "Michelangelo",
+    "b": "Leonardo da Vinci",
+    "c": "Rafael",
+    "d": "Giotto",
+    "cevap": "B",
+    "aciklama": "Son Akşam Yemeği freski, Leonardo da Vinci tarafından Milano'da yapılmıştır."
+  },
+  {
+    "id": 15,
+    "soru": "Soyut Ekspresyonizm akımının önemli temsilcilerinden biri kimdir?",
+    "a": "Jackson Pollock",
+    "b": "Caravaggio",
+    "c": "Vermeer",
+    "d": "Botticelli",
+    "cevap": "A",
+    "aciklama": "Jackson Pollock, damlatma tekniğiyle tanınan Soyut Ekspresyonizm akımının önemli isimlerindendir."
+  },
+  {
+    "id": 16,
+    "soru": "'İnci Küpeli Kız' tablosu hangi ressama aittir?",
+    "a": "Johannes Vermeer",
+    "b": "Rembrandt",
+    "c": "Jan van Eyck",
+    "d": "Frans Hals",
+    "cevap": "A",
+    "aciklama": "İnci Küpeli Kız, Hollandalı ressam Johannes Vermeer'in en tanınmış eseridir."
+  },
+  {
+    "id": 17,
+    "soru": "Barok sanat akımı hangi yüzyılda gelişmiştir?",
+    "a": "14. yüzyıl",
+    "b": "15. yüzyıl",
+    "c": "17. yüzyıl",
+    "d": "19. yüzyıl",
+    "cevap": "C",
+    "aciklama": "Barok sanat, 17. yüzyılda Avrupa'da gelişen dramatik ve gösterişli bir sanat akımıdır."
+  },
+  {
+    "id": 18,
+    "soru": "'Nilüferler' (Water Lilies) serisi hangi ressama aittir?",
+    "a": "Claude Monet",
+    "b": "Edgar Degas",
+    "c": "Pierre-Auguste Renoir",
+    "d": "Paul Cézanne",
+    "cevap": "A",
+    "aciklama": "Nilüferler serisi, Claude Monet'in bahçesindeki gölet temalı ünlü tablolarından oluşur."
+  },
+  {
+    "id": 19,
+    "soru": "Fovizm akımının öncüsü sayılan ressam kimdir?",
+    "a": "Henri Matisse",
+    "b": "Paul Gauguin",
+    "c": "Georges Seurat",
+    "d": "Edouard Manet",
+    "cevap": "A",
+    "aciklama": "Henri Matisse, canlı ve saf renklerin kullanıldığı Fovizm akımının öncüsü kabul edilir."
+  },
+  {
+    "id": 20,
+    "soru": "Venüs'ün Doğuşu (The Birth of Venus) tablosu kime aittir?",
+    "a": "Sandro Botticelli",
+    "b": "Titian",
+    "c": "Giorgione",
+    "d": "Raphael",
+    "cevap": "A",
+    "aciklama": "Venüs'ün Doğuşu, İtalyan Rönesans ressamı Sandro Botticelli'nin ünlü eseridir."
+  },
+  {
+    "id": 21,
+    "soru": "Uffizi Galerisi hangi şehirde bulunur?",
+    "a": "Roma",
+    "b": "Milano",
+    "c": "Floransa",
+    "d": "Venedik",
+    "cevap": "C",
+    "aciklama": "Uffizi Galerisi, İtalya'nın Floransa şehrinde bulunan önemli bir sanat müzesidir."
+  },
+  {
+    "id": 22,
+    "soru": "'Amerikan Gotiği' (American Gothic) tablosu kime aittir?",
+    "a": "Grant Wood",
+    "b": "Edward Hopper",
+    "c": "Norman Rockwell",
+    "d": "Georgia O'Keeffe",
+    "cevap": "A",
+    "aciklama": "American Gothic, Amerikalı ressam Grant Wood'un en tanınmış eserlerinden biridir."
+  },
+  {
+    "id": 23,
+    "soru": "Chiaroscuro tekniği sanatta neyi ifade eder?",
+    "a": "Renklerin karıştırılması",
+    "b": "Işık ve gölge kontrastının kullanımı",
+    "c": "Perspektif çizimi",
+    "d": "Duvar resmi tekniği",
+    "cevap": "B",
+    "aciklama": "Chiaroscuro, resimde ışık ve gölge arasındaki güçlü kontrastın kullanıldığı bir tekniktir."
+  },
+  {
+    "id": 24,
+    "soru": "'Vitruvius Adamı' çizimini kim yapmıştır?",
+    "a": "Michelangelo",
+    "b": "Leonardo da Vinci",
+    "c": "Rafael",
+    "d": "Dürer",
+    "cevap": "B",
+    "aciklama": "Vitruvius Adamı, Leonardo da Vinci'nin insan vücudu oranlarını incelediği ünlü bir çizimdir."
+  },
+  {
+    "id": 25,
+    "soru": "Art Nouveau akımının önemli ressamlarından biri kimdir?",
+    "a": "Gustav Klimt",
+    "b": "Caravaggio",
+    "c": "Jan van Eyck",
+    "d": "Diego Velázquez",
+    "cevap": "A",
+    "aciklama": "Gustav Klimt, Art Nouveau akımının süslemeci ve altın yaldızlı üslubuyla tanınan sanatçısıdır."
+  },
+  {
+    "id": 26,
+    "soru": "'Öpücük' (The Kiss) adlı tablo hangi sanatçıya aittir?",
+    "a": "Gustav Klimt",
+    "b": "Edvard Munch",
+    "c": "Egon Schiele",
+    "d": "Amedeo Modigliani",
+    "cevap": "A",
+    "aciklama": "Öpücük (The Kiss), Gustav Klimt'in altın yaldız kullanımıyla ünlü tablosudur."
+  },
+  {
+    "id": 27,
+    "soru": "Prado Müzesi hangi şehirde bulunur?",
+    "a": "Barselona",
+    "b": "Madrid",
+    "c": "Lizbon",
+    "d": "Sevilla",
+    "cevap": "B",
+    "aciklama": "Prado Müzesi, İspanya'nın başkenti Madrid'de yer alan önemli bir sanat müzesidir."
+  },
+  {
+    "id": 28,
+    "soru": "'Las Meninas' tablosu hangi ressama aittir?",
+    "a": "Diego Velázquez",
+    "b": "Francisco Goya",
+    "c": "El Greco",
+    "d": "Francisco de Zurbarán",
+    "cevap": "A",
+    "aciklama": "Las Meninas, İspanyol Barok ressamı Diego Velázquez'in en ünlü eserlerindendir."
+  },
+  {
+    "id": 29,
+    "soru": "Gece Nöbeti (The Night Watch) tablosu hangi ressama aittir?",
+    "a": "Rembrandt",
+    "b": "Vermeer",
+    "c": "Frans Hals",
+    "d": "Jan van Eyck",
+    "cevap": "A",
+    "aciklama": "Gece Nöbeti, Hollandalı ressam Rembrandt'ın en tanınmış eserlerinden biridir."
+  },
+  {
+    "id": 30,
+    "soru": "Heykel sanatında kullanılan ve mermer, taş gibi malzemeleri yontarak şekil verme işlemine ne denir?",
+    "a": "Döküm",
+    "b": "Oyma (yontma)",
+    "c": "Kabartma",
+    "d": "Kalıplama",
+    "cevap": "B",
+    "aciklama": "Oyma (yontma), sert malzemelerden parça koparılarak şekil verilen bir heykel tekniğidir."
+  },
+  {
+    "id": 31,
+    "soru": "'Terden Doğan Venüs' de dahil pek çok Rönesans eserinin sergilendiği İtalyan galeri hangisidir?",
+    "a": "Uffizi Galerisi",
+    "b": "Louvre",
+    "c": "Prado",
+    "d": "Hermitage",
+    "cevap": "A",
+    "aciklama": "Uffizi Galerisi, Floransa'da bulunan ve pek çok Rönesans başyapıtını barındıran bir müzedir."
+  },
+  {
+    "id": 32,
+    "soru": "Empresyonizm terimi hangi tablodan esinlenerek ortaya çıkmıştır?",
+    "a": "Nilüferler",
+    "b": "İzlenim, Gün Doğumu (Impression, Sunrise)",
+    "c": "Yıldızlı Gece",
+    "d": "Guernica",
+    "cevap": "B",
+    "aciklama": "Empresyonizm terimi, Claude Monet'nin 'İzlenim, Gün Doğumu' adlı tablosundan esinlenerek ortaya çıkmıştır."
+  },
+  {
+    "id": 33,
+    "soru": "Pointilizm (noktacılık) tekniğiyle tanınan ressam kimdir?",
+    "a": "Georges Seurat",
+    "b": "Paul Cézanne",
+    "c": "Edouard Manet",
+    "d": "Camille Pissarro",
+    "cevap": "A",
+    "aciklama": "Georges Seurat, küçük renkli noktalarla resim yapma tekniği olan pointilizmin öncüsüdür."
+  },
+  {
+    "id": 34,
+    "soru": "Dadaizm akımı hangi dönemde ortaya çıkmıştır?",
+    "a": "18. yüzyıl",
+    "b": "1. Dünya Savaşı sırasında",
+    "c": "Rönesans döneminde",
+    "d": "2. Dünya Savaşı sonrasında",
+    "cevap": "B",
+    "aciklama": "Dadaizm, 1. Dünya Savaşı sırasında savaşa ve geleneksel sanata bir tepki olarak ortaya çıkmıştır."
+  },
+  {
+    "id": 35,
+    "soru": "'Amerikan Gotiği' benzeri realist tarzıyla tanınan ve gece kafelerini resmeden ressam kimdir?",
+    "a": "Edward Hopper",
+    "b": "Norman Rockwell",
+    "c": "Jackson Pollock",
+    "d": "Mark Rothko",
+    "cevap": "A",
+    "aciklama": "Edward Hopper, 'Nighthawks' gibi eserleriyle Amerikan kentsel yaşamını yalnızlık temasıyla resmetmiştir."
+  },
+  {
+    "id": 36,
+    "soru": "Fresk tekniği nedir?",
+    "a": "Yağlıboya ile tuval üzerine resim yapma",
+    "b": "Islak sıva üzerine boyama tekniği",
+    "c": "Ahşap üzerine oyma",
+    "d": "Mozaik döşeme tekniği",
+    "cevap": "B",
+    "aciklama": "Fresk, ıslak sıva üzerine pigmentlerle yapılan bir duvar resmi tekniğidir."
+  },
+  {
+    "id": 37,
+    "soru": "'Terracotta Ordusu' hangi ülkede bulunmuştur?",
+    "a": "Mısır",
+    "b": "Çin",
+    "c": "Yunanistan",
+    "d": "Hindistan",
+    "cevap": "B",
+    "aciklama": "Terracotta Ordusu, Çin'de İlk Çin İmparatoru'nun mezarını korumak amacıyla yapılmış binlerce heykelden oluşur."
+  },
+  {
+    "id": 38,
+    "soru": "Empresyonist ressam Edgar Degas hangi konuları işlemesiyle tanınır?",
+    "a": "Balerinler ve dans sahneleri",
+    "b": "Savaş sahneleri",
+    "c": "Din temalı freskler",
+    "d": "Soyut kompozisyonlar",
+    "cevap": "A",
+    "aciklama": "Edgar Degas, özellikle balerinleri ve dans sahnelerini konu alan eserleriyle tanınır."
+  },
+  {
+    "id": 39,
+    "soru": "Kolaj tekniğini modern sanatta ilk kullananlardan biri kimdir?",
+    "a": "Pablo Picasso",
+    "b": "Rembrandt",
+    "c": "Titian",
+    "d": "Caravaggio",
+    "cevap": "A",
+    "aciklama": "Pablo Picasso ve Georges Braque, kolaj tekniğini modern sanatta öncü şekilde kullanmıştır."
+  },
+  {
+    "id": 40,
+    "soru": "'Kalıcı Bellek' (The Persistence of Memory) tablosundaki erimiş saatler hangi sanatçıya aittir?",
+    "a": "Salvador Dalí",
+    "b": "René Magritte",
+    "c": "Max Ernst",
+    "d": "Joan Miró",
+    "cevap": "A",
+    "aciklama": "Kalıcı Bellek, Salvador Dalí'nin erimiş saatleri betimlediği sürrealist başyapıtıdır."
+  },
+  {
+    "id": 41,
+    "soru": "'Bu Bir Pipo Değildir' (The Treachery of Images) tablosu kime aittir?",
+    "a": "René Magritte",
+    "b": "Salvador Dalí",
+    "c": "Marcel Duchamp",
+    "d": "Joan Miró",
+    "cevap": "A",
+    "aciklama": "Bu tablo, Belçikalı sürrealist ressam René Magritte'e aittir."
+  },
+  {
+    "id": 42,
+    "soru": "Hangi sanat akımı, nesnelerin geometrik parçalara ayrılarak farklı açılardan gösterilmesini temel alır?",
+    "a": "Kübizm",
+    "b": "Empresyonizm",
+    "c": "Barok",
+    "d": "Rokoko",
+    "cevap": "A",
+    "aciklama": "Kübizm, nesneleri geometrik formlara ayırıp farklı açılardan aynı anda göstermeyi amaçlayan bir akımdır."
+  },
+  {
+    "id": 43,
+    "soru": "Ünlü heykel 'Venüs de Milo' hangi döneme aittir?",
+    "a": "Antik Yunan",
+    "b": "Rönesans",
+    "c": "Barok",
+    "d": "Modern dönem",
+    "cevap": "A",
+    "aciklama": "Venüs de Milo, Antik Yunan döneminden kalma ünlü bir mermer heykeldir."
+  },
+  {
+    "id": 44,
+    "soru": "Hermitage Müzesi hangi ülkede bulunur?",
+    "a": "Rusya",
+    "b": "Almanya",
+    "c": "Polonya",
+    "d": "Avusturya",
+    "cevap": "A",
+    "aciklama": "Hermitage Müzesi, Rusya'nın Saint Petersburg şehrinde bulunan dünyanın en büyük sanat müzelerinden biridir."
+  },
+  {
+    "id": 45,
+    "soru": "Op Art (optik sanat) akımı neyi vurgular?",
+    "a": "Görsel yanılsamalar yaratan desenler",
+    "b": "Dini figürler",
+    "c": "Doğa manzaraları",
+    "d": "Tarihi olaylar",
+    "cevap": "A",
+    "aciklama": "Op Art, geometrik desenler ve kontrastlarla görsel yanılsamalar yaratmayı amaçlayan bir akımdır."
+  },
+  {
+    "id": 46,
+    "soru": "'Terra Amata' gibi ilk mağara resimleri hangi dönemde yapılmıştır?",
+    "a": "Orta Çağ",
+    "b": "Paleolitik dönem (Taş Devri)",
+    "c": "Rönesans",
+    "d": "Antik Roma dönemi",
+    "cevap": "B",
+    "aciklama": "En eski mağara resimleri, Paleolitik dönemde (Taş Devri) yapılmıştır."
+  },
+  {
+    "id": 47,
+    "soru": "Lascaux Mağarası hangi ülkede bulunur?",
+    "a": "İspanya",
+    "b": "Fransa",
+    "c": "İtalya",
+    "d": "Almanya",
+    "cevap": "B",
+    "aciklama": "Lascaux Mağarası, Fransa'da bulunan ve prehistorik duvar resimleriyle ünlü bir mağaradır."
+  },
+  {
+    "id": 48,
+    "soru": "Rokoko sanat akımı hangi yüzyılda gelişmiştir?",
+    "a": "16. yüzyıl",
+    "b": "17. yüzyıl",
+    "c": "18. yüzyıl",
+    "d": "20. yüzyıl",
+    "cevap": "C",
+    "aciklama": "Rokoko, 18. yüzyılda Fransa'da gelişen süslü ve zarif bir sanat akımıdır."
+  },
+  {
+    "id": 49,
+    "soru": "'Ayçiçekleri' (Sunflowers) serisi hangi ressama aittir?",
+    "a": "Vincent van Gogh",
+    "b": "Paul Gauguin",
+    "c": "Henri Toulouse-Lautrec",
+    "d": "Georges Seurat",
+    "cevap": "A",
+    "aciklama": "Ayçiçekleri serisi, Vincent van Gogh'un renkli ve dokulu fırça darbeleriyle tanınan tablolarındandır."
+  },
+  {
+    "id": 50,
+    "soru": "Hangi sanat akımı, geleneksel estetik değerlere karşı çıkarak anlamsızlığı ve tesadüfü savunur?",
+    "a": "Dadaizm",
+    "b": "Klasisizm",
+    "c": "Neoklasizm",
+    "d": "Rönesans",
+    "cevap": "A",
+    "aciklama": "Dadaizm, geleneksel sanat anlayışına karşı çıkarak anlamsızlığı ve tesadüfü ön plana çıkaran bir akımdır."
+  },
+  {
+    "id": 51,
+    "soru": "'Özgürlük Halka Yol Gösteriyor' (Liberty Leading the People) tablosu kime aittir?",
+    "a": "Eugène Delacroix",
+    "b": "Théodore Géricault",
+    "c": "Jacques-Louis David",
+    "d": "Jean-Auguste-Dominique Ingres",
+    "cevap": "A",
+    "aciklama": "Bu tablo, Fransız Romantik ressam Eugène Delacroix'ya aittir."
+  },
+  {
+    "id": 52,
+    "soru": "'Napolyon'un Taç Giymesi' tablosunu kim yapmıştır?",
+    "a": "Jacques-Louis David",
+    "b": "Eugène Delacroix",
+    "c": "Jean-Auguste-Dominique Ingres",
+    "d": "Antoine-Jean Gros",
+    "cevap": "A",
+    "aciklama": "Napolyon'un Taç Giymesi, Neoklasik ressam Jacques-Louis David tarafından resmedilmiştir."
+  },
+  {
+    "id": 53,
+    "soru": "Bir sanat eserinde perspektif kullanımı ilk olarak hangi dönemde gelişmiştir?",
+    "a": "Antik Mısır",
+    "b": "Rönesans",
+    "c": "Orta Çağ",
+    "d": "Barok",
+    "cevap": "B",
+    "aciklama": "Doğrusal perspektif tekniği, Rönesans döneminde sistematik olarak geliştirilmiştir."
+  },
+  {
+    "id": 54,
+    "soru": "'Bahar' (Primavera) tablosu hangi ressama aittir?",
+    "a": "Sandro Botticelli",
+    "b": "Titian",
+    "c": "Rafael",
+    "d": "Giorgione",
+    "cevap": "A",
+    "aciklama": "Bahar (Primavera), Sandro Botticelli'nin Rönesans dönemine ait ünlü bir tablosudur."
+  },
+  {
+    "id": 55,
+    "soru": "Modern heykel sanatında 'ready-made' (hazır nesne) kavramını ortaya atan sanatçı kimdir?",
+    "a": "Marcel Duchamp",
+    "b": "Auguste Rodin",
+    "c": "Constantin Brâncuși",
+    "d": "Henry Moore",
+    "cevap": "A",
+    "aciklama": "Marcel Duchamp, gündelik nesneleri sanat eseri olarak sunduğu 'ready-made' kavramını geliştirmiştir."
+  },
+  {
+    "id": 56,
+    "soru": "Ünlü 'Pisan' (Eğik) Kulesi mimari olarak hangi ülkede bulunur?",
+    "a": "İspanya",
+    "b": "İtalya",
+    "c": "Yunanistan",
+    "d": "Fransa",
+    "cevap": "B",
+    "aciklama": "Pisa Kulesi, İtalya'nın Pisa şehrinde bulunan ünlü eğik bir kuledir."
+  },
+  {
+    "id": 57,
+    "soru": "Metropolitan Sanat Müzesi (The Met) hangi şehirde bulunur?",
+    "a": "Chicago",
+    "b": "New York",
+    "c": "Los Angeles",
+    "d": "Washington",
+    "cevap": "B",
+    "aciklama": "Metropolitan Sanat Müzesi, ABD'nin New York şehrinde bulunan dünyanın en büyük sanat müzelerinden biridir."
+  },
+  {
+    "id": 58,
+    "soru": "'Arnolfini Evliliği' tablosu hangi ressama aittir?",
+    "a": "Jan van Eyck",
+    "b": "Hans Holbein",
+    "c": "Albrecht Dürer",
+    "d": "Pieter Bruegel",
+    "cevap": "A",
+    "aciklama": "Arnolfini Evliliği, Flaman ressam Jan van Eyck'in ayrıntılı gerçekçiliğiyle tanınan bir eseridir."
+  },
+  {
+    "id": 59,
+    "soru": "Sanatta 'still life' (natürmort) terimi neyi ifade eder?",
+    "a": "Portre resmi",
+    "b": "Cansız nesnelerin resmi",
+    "c": "Manzara resmi",
+    "d": "Hareketli figürlerin resmi",
+    "cevap": "B",
+    "aciklama": "Natürmort (still life), meyve, çiçek gibi cansız nesnelerin resmedildiği bir sanat türüdür."
+  },
+  {
+    "id": 60,
+    "soru": "Constantin Brâncuși hangi sanat dalıyla tanınır?",
+    "a": "Heykel",
+    "b": "Fotoğrafçılık",
+    "c": "Mimarlık",
+    "d": "Grafik tasarım",
+    "cevap": "A",
+    "aciklama": "Constantin Brâncuși, sadeleştirilmiş formlarıyla tanınan modern heykel sanatçısıdır."
+  },
+  {
+    "id": 61,
+    "soru": "'Judith Holofernes'in Başını Keserken' tablosu hangi Barok ressama aittir?",
+    "a": "Artemisia Gentileschi",
+    "b": "Caravaggio",
+    "c": "Peter Paul Rubens",
+    "d": "Georges de La Tour",
+    "cevap": "A",
+    "aciklama": "Bu güçlü kompozisyon, İtalyan Barok ressamı Artemisia Gentileschi'ye aittir."
+  },
+  {
+    "id": 62,
+    "soru": "Michelangelo, Leonardo da Vinci ve Rafael hangi dönemin sanatçılarıdır?",
+    "a": "Rönesans",
+    "b": "Barok",
+    "c": "Rokoko",
+    "d": "Modern dönem",
+    "cevap": "A",
+    "aciklama": "Bu üç usta, İtalyan Rönesans döneminin en önemli sanatçılarındandır."
+  },
+  {
+    "id": 63,
+    "soru": "Yağlıboya resim tekniğinin Kuzey Avrupa'da yaygınlaşmasında öncü olan ressam kimdir?",
+    "a": "Jan van Eyck",
+    "b": "Titian",
+    "c": "Rafael",
+    "d": "Giotto",
+    "cevap": "A",
+    "aciklama": "Jan van Eyck, yağlıboya tekniğinin gelişiminde ve yaygınlaşmasında önemli bir figürdür."
+  },
+  {
+    "id": 64,
+    "soru": "Bir sanat eserinde 'kompozisyon' terimi neyi ifade eder?",
+    "a": "Eserdeki renklerin ismi",
+    "b": "Öğelerin düzenlenme biçimi",
+    "c": "Kullanılan malzeme türü",
+    "d": "Eserin boyutu",
+    "cevap": "B",
+    "aciklama": "Kompozisyon, bir sanat eserindeki öğelerin (şekil, renk, çizgi vb.) düzenlenme biçimini ifade eder."
+  },
+  {
+    "id": 65,
+    "soru": "El Greco hangi ülkede sanat kariyerinin büyük bölümünü geçirmiştir?",
+    "a": "İspanya",
+    "b": "Yunanistan",
+    "c": "İtalya",
+    "d": "Fransa",
+    "cevap": "A",
+    "aciklama": "El Greco, Girit doğumlu olmasına rağmen sanat kariyerinin büyük bölümünü İspanya'da geçirmiştir."
+  },
+  {
+    "id": 66,
+    "soru": "Neoklasizm akımı hangi dönemin sanatından ilham almıştır?",
+    "a": "Antik Yunan ve Roma",
+    "b": "Orta Çağ",
+    "c": "Rönesans sonrası Barok",
+    "d": "Modern dönem",
+    "cevap": "A",
+    "aciklama": "Neoklasizm, Antik Yunan ve Roma sanatının form ve değerlerinden ilham alan bir akımdır."
+  },
+  {
+    "id": 67,
+    "soru": "'Büyük Dalga' (The Great Wave off Kanagawa) tahta baskısı hangi sanatçıya aittir?",
+    "a": "Katsushika Hokusai",
+    "b": "Utagawa Hiroshige",
+    "c": "Kitagawa Utamaro",
+    "d": "Hishikawa Moronobu",
+    "cevap": "A",
+    "aciklama": "Büyük Dalga, Japon sanatçı Katsushika Hokusai'nin ünlü ukiyo-e tahta baskısıdır."
+  },
+  {
+    "id": 68,
+    "soru": "Ukiyo-e sanatı hangi ülkeye aittir?",
+    "a": "Çin",
+    "b": "Japonya",
+    "c": "Kore",
+    "d": "Hindistan",
+    "cevap": "B",
+    "aciklama": "Ukiyo-e, Japonya'da gelişen ve tahta baskı tekniğiyle yapılan bir sanat türüdür."
+  },
+  {
+    "id": 69,
+    "soru": "Mozaik sanatı en çok hangi dönem ve uygarlıkla özdeşleştirilir?",
+    "a": "Antik Roma ve Bizans",
+    "b": "Modern dönem",
+    "c": "Rönesans",
+    "d": "Barok",
+    "cevap": "A",
+    "aciklama": "Mozaik sanatı, özellikle Antik Roma ve Bizans dönemlerinde büyük gelişim göstermiştir."
+  },
+  {
+    "id": 70,
+    "soru": "Ayasofya'nın içindeki ünlü mozaikler hangi döneme aittir?",
+    "a": "Bizans dönemi",
+    "b": "Rönesans dönemi",
+    "c": "Osmanlı erken dönemi",
+    "d": "Antik Yunan dönemi",
+    "cevap": "A",
+    "aciklama": "Ayasofya'daki ünlü mozaikler, Bizans dönemine aittir."
+  },
+  {
+    "id": 71,
+    "soru": "'Kadın Portresi' tarzı eserleriyle tanınan ve uzun boyunlu figürleriyle bilinen ressam kimdir?",
+    "a": "Amedeo Modigliani",
+    "b": "Egon Schiele",
+    "c": "Gustav Klimt",
+    "d": "Henri Rousseau",
+    "cevap": "A",
+    "aciklama": "Amedeo Modigliani, uzun boyunlu ve stilize figürleriyle tanınan bir ressamdır."
+  },
+  {
+    "id": 72,
+    "soru": "Henri Rousseau hangi tarzıyla tanınır?",
+    "a": "Naif (primitif) sanat",
+    "b": "Kübizm",
+    "c": "Barok",
+    "d": "Empresyonizm",
+    "cevap": "A",
+    "aciklama": "Henri Rousseau, kendine özgü naif (primitif) tarzıyla, özellikle orman ve doğa sahneleriyle tanınır."
+  },
+  {
+    "id": 73,
+    "soru": "'Kırmızı, Sarı ve Mavi Kompozisyon' gibi soyut geometrik eserleriyle tanınan ressam kimdir?",
+    "a": "Piet Mondrian",
+    "b": "Wassily Kandinsky",
+    "c": "Kazimir Malevich",
+    "d": "Theo van Doesburg",
+    "cevap": "A",
+    "aciklama": "Piet Mondrian, temel renkler ve geometrik formlarla oluşturduğu soyut kompozisyonlarıyla tanınır."
+  },
+  {
+    "id": 74,
+    "soru": "Soyut sanatın öncülerinden kabul edilen ve renklerle müzikal bir uyum aramış ressam kimdir?",
+    "a": "Wassily Kandinsky",
+    "b": "Pablo Picasso",
+    "c": "Salvador Dalí",
+    "d": "Marc Chagall",
+    "cevap": "A",
+    "aciklama": "Wassily Kandinsky, soyut sanatın öncülerinden olup renk ve müzik arasında ilişki kurmaya çalışmıştır."
+  },
+  {
+    "id": 75,
+    "soru": "Marc Chagall'ın eserlerinde sıkça görülen tema hangisidir?",
+    "a": "Rüya benzeri, fantastik köy sahneleri",
+    "b": "Savaş sahneleri",
+    "c": "Geometrik soyutlamalar",
+    "d": "Endüstriyel manzaralar",
+    "cevap": "A",
+    "aciklama": "Marc Chagall'ın eserleri, genellikle rüya benzeri, fantastik ve köy yaşamına dair sahneler içerir."
+  },
+  {
+    "id": 76,
+    "soru": "'Amerikan Ressamı' olarak bilinen ve büyük çiçek tablolarıyla tanınan sanatçı kimdir?",
+    "a": "Georgia O'Keeffe",
+    "b": "Mary Cassatt",
+    "c": "Frida Kahlo",
+    "d": "Berthe Morisot",
+    "cevap": "A",
+    "aciklama": "Georgia O'Keeffe, büyük ölçekli çiçek resimleri ve Amerikan Güneybatı manzaralarıyla tanınır."
+  },
+  {
+    "id": 77,
+    "soru": "Kendi otoportrelerinde acı ve kimlik temalarını işleyen Meksikalı ressam kimdir?",
+    "a": "Frida Kahlo",
+    "b": "Diego Rivera",
+    "c": "Georgia O'Keeffe",
+    "d": "Remedios Varo",
+    "cevap": "A",
+    "aciklama": "Frida Kahlo, kendi yaşamındaki acı ve kimlik temalarını işleyen otoportreleriyle tanınır."
+  },
+  {
+    "id": 78,
+    "soru": "Diego Rivera hangi sanat türüyle özellikle tanınır?",
+    "a": "Duvar resmi (mural)",
+    "b": "Heykel",
+    "c": "Fotoğrafçılık",
+    "d": "Gravür",
+    "cevap": "A",
+    "aciklama": "Diego Rivera, Meksika'da toplumsal ve tarihi temaları işleyen büyük duvar resimleriyle (mural) tanınır."
+  },
+  {
+    "id": 79,
+    "soru": "Bir tablo üzerine ince katmanlar halinde saydam boya uygulama tekniğine ne denir?",
+    "a": "İmpasto",
+    "b": "Glazing (sırlama)",
+    "c": "Fresk",
+    "d": "Grisaille",
+    "cevap": "B",
+    "aciklama": "Glazing (sırlama), yağlıboyada saydam katmanlar uygulayarak derinlik ve parlaklık kazandırma tekniğidir."
+  },
+  {
+    "id": 80,
+    "soru": "Boyanın tuval üzerine kalın ve dokulu şekilde uygulanması tekniğine ne denir?",
+    "a": "İmpasto",
+    "b": "Glazing",
+    "c": "Akrilik boyama",
+    "d": "Suluboya",
+    "cevap": "A",
+    "aciklama": "İmpasto tekniğinde boya kalın katmanlar halinde uygulanarak dokulu bir yüzey elde edilir."
+  },
+  {
+    "id": 81,
+    "soru": "'Amerikan Realizmi' akımının önemli bir figürü olarak Norman Rockwell hangi tür eserleriyle tanınır?",
+    "a": "Amerikan gündelik yaşamını betimleyen illüstrasyonlar",
+    "b": "Soyut kompozisyonlar",
+    "c": "Dini freskler",
+    "d": "Antik mitolojik sahneler",
+    "cevap": "A",
+    "aciklama": "Norman Rockwell, Amerikan gündelik yaşamını sıcak ve detaylı bir üslupla betimleyen illüstrasyonlarıyla tanınır."
+  },
+  {
+    "id": 82,
+    "soru": "Bauhaus, hangi ülkede kurulmuş bir sanat ve tasarım okuludur?",
+    "a": "Almanya",
+    "b": "Fransa",
+    "c": "İtalya",
+    "d": "Hollanda",
+    "cevap": "A",
+    "aciklama": "Bauhaus, 1919'da Almanya'da kurulan ve modern tasarım anlayışını şekillendiren etkili bir sanat okuludur."
+  },
+  {
+    "id": 83,
+    "soru": "Walter Gropius hangi kurumla özdeşleşmiştir?",
+    "a": "Bauhaus",
+    "b": "Louvre",
+    "c": "Uffizi",
+    "d": "Prado",
+    "cevap": "A",
+    "aciklama": "Walter Gropius, Bauhaus sanat ve tasarım okulunun kurucusudur."
+  },
+  {
+    "id": 84,
+    "soru": "Minimalizm akımı sanatta neyi savunur?",
+    "a": "Karmaşık ve süslü kompozisyonlar",
+    "b": "Sadelik ve gereksiz öğelerin çıkarılması",
+    "c": "Dini figürlerin ön plana çıkarılması",
+    "d": "Gerçekçi portreler",
+    "cevap": "B",
+    "aciklama": "Minimalizm, sadelik ilkesini benimseyerek gereksiz öğeleri ortadan kaldırmayı amaçlayan bir akımdır."
+  },
+  {
+    "id": 85,
+    "soru": "Mark Rothko hangi tür eserleriyle tanınır?",
+    "a": "Büyük renk alanlı soyut tablolar",
+    "b": "Gerçekçi portreler",
+    "c": "Heykel",
+    "d": "Fotoğraf sanatı",
+    "cevap": "A",
+    "aciklama": "Mark Rothko, büyük renk alanlarından oluşan soyut ekspresyonist tablolarıyla tanınır."
+  },
+  {
+    "id": 86,
+    "soru": "Grafiti sanatının en tanınmış isimlerinden biri olan ve kimliği gizli kalan sanatçı kimdir?",
+    "a": "Banksy",
+    "b": "Jean-Michel Basquiat",
+    "c": "Keith Haring",
+    "d": "Shepard Fairey",
+    "cevap": "A",
+    "aciklama": "Banksy, kimliği gizli kalan ve toplumsal eleştiri içeren sokak sanatı eserleriyle tanınan bir sanatçıdır."
+  },
+  {
+    "id": 87,
+    "soru": "Jean-Michel Basquiat hangi sanat akımıyla ilişkilendirilir?",
+    "a": "Neo-Ekspresyonizm",
+    "b": "Rönesans",
+    "c": "Barok",
+    "d": "Rokoko",
+    "cevap": "A",
+    "aciklama": "Jean-Michel Basquiat, grafiti kökenli üslubuyla Neo-Ekspresyonizm akımıyla ilişkilendirilir."
+  },
+  {
+    "id": 88,
+    "soru": "Bir heykelin dökümünde en sık kullanılan geleneksel malzeme hangisidir?",
+    "a": "Bronz",
+    "b": "Cam",
+    "c": "Kağıt",
+    "d": "Plastik",
+    "cevap": "A",
+    "aciklama": "Bronz, tarih boyunca heykel dökümünde en yaygın kullanılan malzemelerden biridir."
+  },
+  {
+    "id": 89,
+    "soru": "Antik Yunan mimarisinde sıkça kullanılan ve üç ana düzeni olan sütun tarzları hangileridir?",
+    "a": "Dor, İyon, Korint",
+    "b": "Gotik, Barok, Rokoko",
+    "c": "Roman, Bizans, Osmanlı",
+    "d": "Toskana, Kompozit, Norman",
+    "cevap": "A",
+    "aciklama": "Antik Yunan mimarisinde Dor, İyon ve Korint olmak üzere üç temel sütun düzeni bulunur."
+  },
+  {
+    "id": 90,
+    "soru": "Gotik mimarinin en belirgin özelliklerinden biri hangisidir?",
+    "a": "Sivri kemerler ve yüksek tavanlar",
+    "b": "Düz çatılar",
+    "c": "Yuvarlak kubbeler yalnızca",
+    "d": "Alçak tavanlar",
+    "cevap": "A",
+    "aciklama": "Gotik mimari, sivri kemerler, yüksek tavanlar ve büyük vitray pencerelerle karakterizedir."
+  },
+  {
+    "id": 91,
+    "soru": "Notre-Dame Katedrali hangi şehirde bulunur?",
+    "a": "Paris",
+    "b": "Roma",
+    "c": "Londra",
+    "d": "Madrid",
+    "cevap": "A",
+    "aciklama": "Notre-Dame Katedrali, Fransa'nın Paris kentinde bulunan ünlü bir Gotik katedraldir."
+  },
+  {
+    "id": 92,
+    "soru": "Antoni Gaudí en çok hangi şehirdeki mimari eserleriyle tanınır?",
+    "a": "Barselona",
+    "b": "Madrid",
+    "c": "Sevilla",
+    "d": "Valensiya",
+    "cevap": "A",
+    "aciklama": "Antoni Gaudí, Barselona'daki Sagrada Familia gibi özgün mimari eserleriyle tanınır."
+  },
+  {
+    "id": 93,
+    "soru": "Sagrada Familia bazilikasının mimarı kimdir?",
+    "a": "Antoni Gaudí",
+    "b": "Le Corbusier",
+    "c": "Frank Lloyd Wright",
+    "d": "Zaha Hadid",
+    "cevap": "A",
+    "aciklama": "Sagrada Familia, İspanyol mimar Antoni Gaudí tarafından tasarlanmıştır ve hâlâ yapımı sürmektedir."
+  },
+  {
+    "id": 94,
+    "soru": "Frank Lloyd Wright'ın tasarladığı ve doğayla iç içe geçen ünlü ev hangisidir?",
+    "a": "Fallingwater",
+    "b": "Villa Savoye",
+    "c": "Casa Milà",
+    "d": "Farnsworth Evi",
+    "cevap": "A",
+    "aciklama": "Fallingwater, Frank Lloyd Wright'ın bir şelalenin üzerine inşa ettiği ünlü organik mimari örneğidir."
+  },
+  {
+    "id": 95,
+    "soru": "Le Corbusier hangi mimari akımla özdeşleşmiştir?",
+    "a": "Modernizm",
+    "b": "Gotik",
+    "c": "Barok",
+    "d": "Rokoko",
+    "cevap": "A",
+    "aciklama": "Le Corbusier, işlevselliği ve sadeliği öne çıkaran Modernist mimari akımın öncülerindendir."
+  },
+  {
+    "id": 96,
+    "soru": "Bir resimde 'perspektif' terimi neyi ifade eder?",
+    "a": "Nesnelerin derinlik ve mesafe illüzyonuyla gösterilmesi",
+    "b": "Kullanılan renk sayısı",
+    "c": "Fırça darbelerinin yönü",
+    "d": "Tuvalin boyutu",
+    "cevap": "A",
+    "aciklama": "Perspektif, iki boyutlu bir yüzeyde derinlik ve mesafe illüzyonu yaratma tekniğidir."
+  },
+  {
+    "id": 97,
+    "soru": "Suluboya resim tekniğinin en belirgin özelliği nedir?",
+    "a": "Su bazlı, şeffaf ve hızlı kuruyan bir boya olması",
+    "b": "Kalın ve opak boya katmanları oluşturması",
+    "c": "Yalnızca duvarlara uygulanması",
+    "d": "Yalnızca siyah beyaz kullanılması",
+    "cevap": "A",
+    "aciklama": "Suluboya, su bazlı ve genellikle şeffaf, hızlı kuruyan bir boya tekniğidir."
+  },
+  {
+    "id": 98,
+    "soru": "Bir sanat eserinin özgünlüğünü ve sahibini kanıtlayan belgeye ne denir?",
+    "a": "Provenans (köken belgesi)",
+    "b": "Katalog",
+    "c": "Sertifika",
+    "d": "Lisans",
+    "cevap": "A",
+    "aciklama": "Provenans, bir sanat eserinin geçmiş sahiplerini ve kökenini gösteren belgedir."
+  },
+  {
+    "id": 99,
+    "soru": "MoMA (Museum of Modern Art) hangi şehirde bulunur?",
+    "a": "New York",
+    "b": "Chicago",
+    "c": "Boston",
+    "d": "San Francisco",
+    "cevap": "A",
+    "aciklama": "MoMA, ABD'nin New York şehrinde bulunan modern sanata adanmış önemli bir müzedir."
+  },
+  {
+    "id": 100,
+    "soru": "'Kara Kare' (Black Square) tablosu hangi sanatçıya aittir?",
+    "a": "Kazimir Malevich",
+    "b": "Piet Mondrian",
+    "c": "Wassily Kandinsky",
+    "d": "El Lissitzky",
+    "cevap": "A",
+    "aciklama": "Kara Kare, Rus sanatçı Kazimir Malevich'in Süprematizm akımının simgesi olan tablosudur."
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "İnsan vücudundaki en büyük organ hangisidir?",
+    "a": "Karaciğer",
+    "b": "Deri",
+    "c": "Akciğer",
+    "d": "Beyin",
+    "cevap": "B",
+    "aciklama": "İnsan vücudundaki en büyük organ deridir."
+  },
+  {
+    "id": 2,
+    "soru": "Suyun kimyasal formülü nedir?",
+    "a": "CO2",
+    "b": "NaCl",
+    "c": "H2O",
+    "d": "O2",
+    "cevap": "C",
+    "aciklama": "Su, iki hidrojen ve bir oksijen atomundan oluşur; formülü H2O'dur."
+  },
+  {
+    "id": 3,
+    "soru": "Güneş sistemindeki en büyük gezegen hangisidir?",
+    "a": "Satürn",
+    "b": "Jüpiter",
+    "c": "Neptün",
+    "d": "Dünya",
+    "cevap": "B",
+    "aciklama": "Jüpiter, Güneş sistemindeki en büyük gezegendir."
+  },
+  {
+    "id": 4,
+    "soru": "DNA'nın açılımı nedir?",
+    "a": "Deoksiribonükleik asit",
+    "b": "Dinükleik asit",
+    "c": "Deoksi ribozom asidi",
+    "d": "Difosfat nükleik asit",
+    "cevap": "A",
+    "aciklama": "DNA, deoksiribonükleik asidin kısaltmasıdır."
+  },
+  {
+    "id": 5,
+    "soru": "Periyodik tabloda 'Fe' sembolü hangi elementi temsil eder?",
+    "a": "Flor",
+    "b": "Fermiyum",
+    "c": "Demir",
+    "d": "Fosfor",
+    "cevap": "C",
+    "aciklama": "Fe sembolü, Latince 'ferrum' kelimesinden gelen demir elementini temsil eder."
+  },
+  {
+    "id": 6,
+    "soru": "İnsan vücudunda kaç kemik bulunur (yetişkinlerde)?",
+    "a": "186",
+    "b": "206",
+    "c": "226",
+    "d": "246",
+    "cevap": "B",
+    "aciklama": "Yetişkin bir insan vücudunda toplam 206 kemik bulunur."
+  },
+  {
+    "id": 7,
+    "soru": "Fotosentez sırasında bitkiler hangi gazı alır?",
+    "a": "Oksijen",
+    "b": "Azot",
+    "c": "Karbondioksit",
+    "d": "Hidrojen",
+    "cevap": "C",
+    "aciklama": "Bitkiler fotosentez sırasında karbondioksit alıp oksijen salgılar."
+  },
+  {
+    "id": 8,
+    "soru": "Işık hızı yaklaşık olarak saniyede kaç kilometredir?",
+    "a": "150.000 km",
+    "b": "300.000 km",
+    "c": "450.000 km",
+    "d": "600.000 km",
+    "cevap": "B",
+    "aciklama": "Işık boşlukta saniyede yaklaşık 300.000 kilometre hızla ilerler."
+  },
+  {
+    "id": 9,
+    "soru": "Kan hücrelerinin üretildiği yer neresidir?",
+    "a": "Karaciğer",
+    "b": "Dalak",
+    "c": "Kemik iliği",
+    "d": "Böbrek",
+    "cevap": "C",
+    "aciklama": "Kan hücreleri kemik iliğinde üretilir."
+  },
+  {
+    "id": 10,
+    "soru": "Atomun çekirdeğinde hangi parçacıklar bulunur?",
+    "a": "Proton ve elektron",
+    "b": "Proton ve nötron",
+    "c": "Elektron ve nötron",
+    "d": "Sadece elektron",
+    "cevap": "B",
+    "aciklama": "Atom çekirdeğinde proton ve nötronlar bulunur; elektronlar çekirdek etrafında dolanır."
+  },
+  {
+    "id": 11,
+    "soru": "Dünya'nın uydusu hangisidir?",
+    "a": "Mars",
+    "b": "Ay",
+    "c": "Venüs",
+    "d": "Titan",
+    "cevap": "B",
+    "aciklama": "Dünya'nın tek doğal uydusu Ay'dır."
+  },
+  {
+    "id": 12,
+    "soru": "Hangi element periyodik tabloda en hafif elementtir?",
+    "a": "Helyum",
+    "b": "Oksijen",
+    "c": "Hidrojen",
+    "d": "Lityum",
+    "cevap": "C",
+    "aciklama": "Hidrojen, periyodik tablodaki en hafif ve en basit elementtir."
+  },
+  {
+    "id": 13,
+    "soru": "İnsan kalbinde kaç oda (bölme) bulunur?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "İnsan kalbi 2 kulakçık ve 2 karıncık olmak üzere 4 odacıktan oluşur."
+  },
+  {
+    "id": 14,
+    "soru": "Hangi bilim insanı evrim teorisini ortaya atmıştır?",
+    "a": "Isaac Newton",
+    "b": "Charles Darwin",
+    "c": "Albert Einstein",
+    "d": "Gregor Mendel",
+    "cevap": "B",
+    "aciklama": "Charles Darwin, doğal seçilim yoluyla evrim teorisini geliştirmiştir."
+  },
+  {
+    "id": 15,
+    "soru": "Suyun donma noktası kaç derece Celsius'tur?",
+    "a": "-10°C",
+    "b": "0°C",
+    "c": "10°C",
+    "d": "100°C",
+    "cevap": "B",
+    "aciklama": "Su, deniz seviyesinde 0 derece Celsius'ta donar."
+  },
+  {
+    "id": 16,
+    "soru": "Vücutta oksijeni taşıyan kan hücresi hangisidir?",
+    "a": "Alyuvar (eritrosit)",
+    "b": "Akyuvar (lökosit)",
+    "c": "Trombosit",
+    "d": "Plazma",
+    "cevap": "A",
+    "aciklama": "Alyuvarlar (eritrositler) içerdikleri hemoglobin sayesinde oksijeni taşır."
+  },
+  {
+    "id": 17,
+    "soru": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+    "a": "Venüs",
+    "b": "Mars",
+    "c": "Jüpiter",
+    "d": "Merkür",
+    "cevap": "B",
+    "aciklama": "Mars, yüzeyindeki demir oksit nedeniyle kızıl renkte görünür ve 'Kızıl Gezegen' olarak anılır."
+  },
+  {
+    "id": 18,
+    "soru": "Newton'un hareket yasaları toplamda kaç tanedir?",
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5",
+    "cevap": "B",
+    "aciklama": "Isaac Newton, klasik mekaniğin temelini oluşturan 3 hareket yasasını ortaya koymuştur."
+  },
+  {
+    "id": 19,
+    "soru": "İnsan vücudunda solunumu sağlayan ana organ hangisidir?",
+    "a": "Kalp",
+    "b": "Akciğer",
+    "c": "Diyafram",
+    "d": "Karaciğer",
+    "cevap": "B",
+    "aciklama": "Solunum işlemi esas olarak akciğerlerde gerçekleşir."
+  },
+  {
+    "id": 20,
+    "soru": "Hangi element periyodik tabloda 'Au' sembolüyle gösterilir?",
+    "a": "Gümüş",
+    "b": "Altın",
+    "c": "Alüminyum",
+    "d": "Arsenik",
+    "cevap": "B",
+    "aciklama": "Au sembolü, Latince 'aurum' kelimesinden gelen altın elementini temsil eder."
+  },
+  {
+    "id": 21,
+    "soru": "Işık yılı hangi tür bir birimdir?",
+    "a": "Zaman birimi",
+    "b": "Mesafe birimi",
+    "c": "Ağırlık birimi",
+    "d": "Hız birimi",
+    "cevap": "B",
+    "aciklama": "Işık yılı, ışığın bir yılda kat ettiği mesafeyi ifade eden bir uzaklık birimidir, zaman birimi değildir."
+  },
+  {
+    "id": 22,
+    "soru": "Eksikliğinde iskorbüt hastalığına yol açan vitamin hangisidir?",
+    "a": "Vitamin A",
+    "b": "Vitamin C",
+    "c": "Vitamin D",
+    "d": "Vitamin K",
+    "cevap": "B",
+    "aciklama": "C vitamini eksikliği iskorbüt hastalığına neden olur."
+  },
+  {
+    "id": 23,
+    "soru": "Hangi organ vücuttaki zararlı maddeleri süzerek idrar oluşturur?",
+    "a": "Karaciğer",
+    "b": "Böbrek",
+    "c": "Mide",
+    "d": "Dalak",
+    "cevap": "B",
+    "aciklama": "Böbrekler kanı süzerek atık maddeleri idrar yoluyla vücuttan uzaklaştırır."
+  },
+  {
+    "id": 24,
+    "soru": "Enerjinin korunumu yasasına göre enerji ne olur?",
+    "a": "Yok olur",
+    "b": "Yoktan var olur",
+    "c": "Bir türden diğerine dönüşür, yok olmaz",
+    "d": "Sürekli azalır",
+    "cevap": "C",
+    "aciklama": "Termodinamiğin birinci yasasına göre enerji yoktan var edilemez, var olan enerji yok edilemez; sadece bir formdan diğerine dönüşür."
+  },
+  {
+    "id": 25,
+    "soru": "Hangi gaz canlıların solunumunda temel olarak kullanılır?",
+    "a": "Azot",
+    "b": "Oksijen",
+    "c": "Helyum",
+    "d": "Metan",
+    "cevap": "B",
+    "aciklama": "Canlılar hücresel solunum için oksijen kullanır."
+  },
+  {
+    "id": 26,
+    "soru": "İnsan gözünde ışığı algılayan tabaka hangisidir?",
+    "a": "Kornea",
+    "b": "İris",
+    "c": "Retina",
+    "d": "Lens",
+    "cevap": "C",
+    "aciklama": "Retina, gözün arka kısmında bulunan ve ışığı algılayan sinir tabakasıdır."
+  },
+  {
+    "id": 27,
+    "soru": "Hangi bilim insanı görelilik teorisini geliştirmiştir?",
+    "a": "Niels Bohr",
+    "b": "Albert Einstein",
+    "c": "Stephen Hawking",
+    "d": "Max Planck",
+    "cevap": "B",
+    "aciklama": "Albert Einstein, özel ve genel görelilik teorilerini geliştirmiştir."
+  },
+  {
+    "id": 28,
+    "soru": "Bitkilerde suyun kökten yapraklara taşındığı doku hangisidir?",
+    "a": "Ksilem",
+    "b": "Floem",
+    "c": "Epidermis",
+    "d": "Parankima",
+    "cevap": "A",
+    "aciklama": "Ksilem doku, su ve mineralleri kökten yapraklara taşır."
+  },
+  {
+    "id": 29,
+    "soru": "Sesin boşlukta yayılamamasının nedeni nedir?",
+    "a": "Boşlukta sıcaklık olmaması",
+    "b": "Ses için ortam (madde) gerekmesi",
+    "c": "Boşlukta ışık olmaması",
+    "d": "Boşlukta yerçekimi olmaması",
+    "cevap": "B",
+    "aciklama": "Ses dalgaları yayılmak için maddesel bir ortama ihtiyaç duyar; boşlukta ortam bulunmadığı için ses yayılamaz."
+  },
+  {
+    "id": 30,
+    "soru": "Periyodik tabloyu ilk düzenleyen bilim insanı kimdir?",
+    "a": "Dmitri Mendeleev",
+    "b": "Marie Curie",
+    "c": "John Dalton",
+    "d": "Antoine Lavoisier",
+    "cevap": "A",
+    "aciklama": "Dmitri Mendeleev, elementleri atom ağırlıklarına göre sıralayarak periyodik tabloyu oluşturmuştur."
+  },
+  {
+    "id": 31,
+    "soru": "İnsan vücudunda sindirimin başladığı organ hangisidir?",
+    "a": "Mide",
+    "b": "Ağız",
+    "c": "İnce bağırsak",
+    "d": "Kalın bağırsak",
+    "cevap": "B",
+    "aciklama": "Sindirim, ağızda tükürük enzimleri ve çiğneme ile başlar."
+  },
+  {
+    "id": 32,
+    "soru": "Hangi element oda sıcaklığında sıvı halde bulunan tek metaldir?",
+    "a": "Sodyum",
+    "b": "Cıva",
+    "c": "Potasyum",
+    "d": "Bakır",
+    "cevap": "B",
+    "aciklama": "Cıva, oda sıcaklığında sıvı halde bulunan tek metaldir."
+  },
+  {
+    "id": 33,
+    "soru": "Dünyanın atmosferinde en fazla bulunan gaz hangisidir?",
+    "a": "Oksijen",
+    "b": "Karbondioksit",
+    "c": "Azot",
+    "d": "Hidrojen",
+    "cevap": "C",
+    "aciklama": "Atmosferin yaklaşık %78'ini azot gazı oluşturur."
+  },
+  {
+    "id": 34,
+    "soru": "Hücrenin enerji üretim merkezi olan organel hangisidir?",
+    "a": "Ribozom",
+    "b": "Mitokondri",
+    "c": "Golgi cisimciği",
+    "d": "Çekirdek",
+    "cevap": "B",
+    "aciklama": "Mitokondri, hücrenin enerji üretim merkezi olup ATP üretir."
+  },
+  {
+    "id": 35,
+    "soru": "Bir cismin ağırlığını değil kütlesini ölçen alet hangisidir?",
+    "a": "Dinamometre",
+    "b": "Terazi",
+    "c": "Barometre",
+    "d": "Termometre",
+    "cevap": "B",
+    "aciklama": "Terazi, kütleyi karşılaştırma yoluyla ölçen bir alettir; dinamometre ise ağırlığı ölçer."
+  },
+  {
+    "id": 36,
+    "soru": "Radyoaktivite kavramını keşfeden bilim insanı kimdir?",
+    "a": "Marie Curie",
+    "b": "Isaac Newton",
+    "c": "Louis Pasteur",
+    "d": "Gregor Mendel",
+    "cevap": "A",
+    "aciklama": "Marie Curie, radyoaktivite üzerine yaptığı çalışmalarla tanınır ve iki Nobel Ödülü kazanmıştır."
+  },
+  {
+    "id": 37,
+    "soru": "Kalıtımın temel birimi nedir?",
+    "a": "Hücre",
+    "b": "Kromozom",
+    "c": "Gen",
+    "d": "Protein",
+    "cevap": "C",
+    "aciklama": "Genler, kalıtımın temel birimleridir ve canlıların özelliklerini nesilden nesile taşır."
+  },
+  {
+    "id": 38,
+    "soru": "Hangisi bir asit örneğidir?",
+    "a": "Sodyum hidroksit",
+    "b": "Sirke (asetik asit)",
+    "c": "Amonyak",
+    "d": "Kireç suyu",
+    "cevap": "B",
+    "aciklama": "Sirke, asetik asit içerdiği için asidik özellik gösterir."
+  },
+  {
+    "id": 39,
+    "soru": "Dünya, Güneş etrafındaki turunu yaklaşık kaç günde tamamlar?",
+    "a": "24 saat",
+    "b": "30 gün",
+    "c": "365 gün",
+    "d": "12 ay tam olarak",
+    "cevap": "C",
+    "aciklama": "Dünya, Güneş etrafındaki tam turunu yaklaşık 365 günde (bir yılda) tamamlar."
+  },
+  {
+    "id": 40,
+    "soru": "Vücutta antikor üreten hücreler hangileridir?",
+    "a": "Alyuvarlar",
+    "b": "Akyuvarlar",
+    "c": "Trombositler",
+    "d": "Nöronlar",
+    "cevap": "B",
+    "aciklama": "Akyuvarlar (lökositler), bağışıklık sisteminin bir parçası olarak antikor üretir."
+  },
+  {
+    "id": 41,
+    "soru": "Bir maddenin katı halden doğrudan gaz haline geçmesine ne denir?",
+    "a": "Erime",
+    "b": "Yoğuşma",
+    "c": "Süblimleşme",
+    "d": "Donma",
+    "cevap": "C",
+    "aciklama": "Katı bir maddenin sıvı hale geçmeden doğrudan gaz haline geçmesine süblimleşme denir."
+  },
+  {
+    "id": 42,
+    "soru": "İnsan vücudunda en uzun kemik hangisidir?",
+    "a": "Kaburga kemiği",
+    "b": "Uyluk kemiği (femur)",
+    "c": "Köprücük kemiği",
+    "d": "Kol kemiği",
+    "cevap": "B",
+    "aciklama": "Uyluk kemiği (femur), insan vücudundaki en uzun ve en güçlü kemiktir."
+  },
+  {
+    "id": 43,
+    "soru": "Hangi bilim dalı canlıların sınıflandırılmasıyla ilgilenir?",
+    "a": "Taksonomi",
+    "b": "Jeoloji",
+    "c": "Astronomi",
+    "d": "Meteoroloji",
+    "cevap": "A",
+    "aciklama": "Taksonomi, canlıları ortak özelliklerine göre sınıflandıran bilim dalıdır."
+  },
+  {
+    "id": 44,
+    "soru": "Elektrik akımının birimi nedir?",
+    "a": "Volt",
+    "b": "Watt",
+    "c": "Amper",
+    "d": "Ohm",
+    "cevap": "C",
+    "aciklama": "Elektrik akımı şiddeti amper birimiyle ölçülür."
+  },
+  {
+    "id": 45,
+    "soru": "Hangi gezegen halkalarıyla en çok bilinir?",
+    "a": "Mars",
+    "b": "Satürn",
+    "c": "Merkür",
+    "d": "Venüs",
+    "cevap": "B",
+    "aciklama": "Satürn, belirgin ve geniş halka sistemiyle tanınan gezegendir."
+  },
+  {
+    "id": 46,
+    "soru": "İnsan vücudunda vitamin D üretimini tetikleyen faktör nedir?",
+    "a": "Su içmek",
+    "b": "Güneş ışığı",
+    "c": "Egzersiz",
+    "d": "Uyku",
+    "cevap": "B",
+    "aciklama": "Güneş ışığına maruz kalma, deride D vitamini sentezini tetikler."
+  },
+  {
+    "id": 47,
+    "soru": "Bir çözeltinin asit ya da baz olduğunu gösteren ölçek nedir?",
+    "a": "pH skalası",
+    "b": "Richter ölçeği",
+    "c": "Kelvin skalası",
+    "d": "Beaufort ölçeği",
+    "cevap": "A",
+    "aciklama": "pH skalası, bir çözeltinin asitlik veya bazlık derecesini gösterir."
+  },
+  {
+    "id": 48,
+    "soru": "Hücre bölünmesiyle vücut hücrelerinin çoğalmasını sağlayan bölünme türü hangisidir?",
+    "a": "Mitoz",
+    "b": "Mayoz",
+    "c": "Fotosentez",
+    "d": "Fermantasyon",
+    "cevap": "A",
+    "aciklama": "Mitoz bölünme, vücut hücrelerinin çoğalmasını ve büyümeyi sağlar."
+  },
+  {
+    "id": 49,
+    "soru": "Üreme hücrelerini oluşturan bölünme türü hangisidir?",
+    "a": "Mitoz",
+    "b": "Mayoz",
+    "c": "Osmoz",
+    "d": "Difüzyon",
+    "cevap": "B",
+    "aciklama": "Mayoz bölünme, kromozom sayısını yarıya indirerek üreme hücrelerini oluşturur."
+  },
+  {
+    "id": 50,
+    "soru": "Havada yaklaşık %21 oranında bulunan ve solunum için hayati olan gaz hangisidir?",
+    "a": "Azot",
+    "b": "Oksijen",
+    "c": "Argon",
+    "d": "Karbondioksit",
+    "cevap": "B",
+    "aciklama": "Atmosferde yaklaşık %21 oranında bulunan oksijen, solunum için hayati öneme sahiptir."
+  },
+  {
+    "id": 51,
+    "soru": "Ay'ın Dünya etrafındaki dönüş süresi yaklaşık ne kadardır?",
+    "a": "1 hafta",
+    "b": "27-28 gün",
+    "c": "3 ay",
+    "d": "1 yıl",
+    "cevap": "B",
+    "aciklama": "Ay, Dünya etrafındaki turunu yaklaşık 27-28 günde tamamlar."
+  },
+  {
+    "id": 52,
+    "soru": "Hangi bilim insanı kalıtım yasalarının temelini atmıştır?",
+    "a": "Gregor Mendel",
+    "b": "Charles Darwin",
+    "c": "Robert Hooke",
+    "d": "Louis Pasteur",
+    "cevap": "A",
+    "aciklama": "Gregor Mendel, bezelye bitkileri üzerindeki çalışmalarıyla kalıtım yasalarının temelini oluşturmuştur."
+  },
+  {
+    "id": 53,
+    "soru": "Vücutta sinir sisteminin temel yapı taşı nedir?",
+    "a": "Nöron",
+    "b": "Miyosit",
+    "c": "Osteosit",
+    "d": "Eritrosit",
+    "cevap": "A",
+    "aciklama": "Nöronlar, sinir sisteminin temel işlevsel ve yapısal birimleridir."
+  },
+  {
+    "id": 54,
+    "soru": "Bir maddenin birim hacmindeki kütlesine ne denir?",
+    "a": "Ağırlık",
+    "b": "Yoğunluk",
+    "c": "Basınç",
+    "d": "Hacim",
+    "cevap": "B",
+    "aciklama": "Yoğunluk, bir maddenin birim hacimdeki kütlesidir."
+  },
+  {
+    "id": 55,
+    "soru": "Hangi gezegen Güneş'e en yakın gezegendir?",
+    "a": "Venüs",
+    "b": "Dünya",
+    "c": "Merkür",
+    "d": "Mars",
+    "cevap": "C",
+    "aciklama": "Merkür, Güneş sistemindeki Güneş'e en yakın gezegendir."
+  },
+  {
+    "id": 56,
+    "soru": "Bitkilerde fotosentez hangi organelde gerçekleşir?",
+    "a": "Mitokondri",
+    "b": "Kloroplast",
+    "c": "Ribozom",
+    "d": "Vakuol",
+    "cevap": "B",
+    "aciklama": "Fotosentez, bitki hücrelerindeki kloroplast organelinde gerçekleşir."
+  },
+  {
+    "id": 57,
+    "soru": "İnsan vücudundaki en büyük iç organ hangisidir?",
+    "a": "Böbrek",
+    "b": "Karaciğer",
+    "c": "Mide",
+    "d": "Dalak",
+    "cevap": "B",
+    "aciklama": "Karaciğer, insan vücudundaki en büyük iç organdır."
+  },
+  {
+    "id": 58,
+    "soru": "Hangi bilim insanı penisilini keşfetmiştir?",
+    "a": "Alexander Fleming",
+    "b": "Louis Pasteur",
+    "c": "Edward Jenner",
+    "d": "Robert Koch",
+    "cevap": "A",
+    "aciklama": "Alexander Fleming, 1928 yılında penisilini keşfetmiştir."
+  },
+  {
+    "id": 59,
+    "soru": "Elektrik yükü aynı olan cisimler birbirine nasıl etki eder?",
+    "a": "Çekerler",
+    "b": "İterler",
+    "c": "Hiçbir etki yapmazlar",
+    "d": "Birbirini yok ederler",
+    "cevap": "B",
+    "aciklama": "Aynı işaretli elektrik yükleri birbirini iter, zıt yükler ise birbirini çeker."
+  },
+  {
+    "id": 60,
+    "soru": "Kütle çekim yasasını formüle eden bilim insanı kimdir?",
+    "a": "Galileo Galilei",
+    "b": "Isaac Newton",
+    "c": "Johannes Kepler",
+    "d": "Nicolaus Copernicus",
+    "cevap": "B",
+    "aciklama": "Isaac Newton, evrensel kütle çekim yasasını formüle etmiştir."
+  },
+  {
+    "id": 61,
+    "soru": "Güneş'in merkezinde enerji hangi süreçle üretilir?",
+    "a": "Fisyon",
+    "b": "Füzyon",
+    "c": "Yanma",
+    "d": "Buharlaşma",
+    "cevap": "B",
+    "aciklama": "Güneş'in çekirdeğinde hidrojen atomları füzyon yoluyla helyuma dönüşerek enerji üretir."
+  },
+  {
+    "id": 62,
+    "soru": "İnsan vücudunda protein sentezi hangi organelde gerçekleşir?",
+    "a": "Ribozom",
+    "b": "Lizozom",
+    "c": "Golgi cisimciği",
+    "d": "Sentrozom",
+    "cevap": "A",
+    "aciklama": "Ribozomlar, hücrede protein sentezinin gerçekleştiği organellerdir."
+  },
+  {
+    "id": 63,
+    "soru": "Dünyanın katmanlarından en dışta bulunanı hangisidir?",
+    "a": "Çekirdek",
+    "b": "Manto",
+    "c": "Kabuk (kabuk tabakası)",
+    "d": "Astenosfer",
+    "cevap": "C",
+    "aciklama": "Yer kabuğu (kabuk tabakası), Dünya'nın en dış katmanıdır."
+  },
+  {
+    "id": 64,
+    "soru": "Sesin şiddeti hangi birimle ölçülür?",
+    "a": "Hertz",
+    "b": "Desibel",
+    "c": "Newton",
+    "d": "Watt",
+    "cevap": "B",
+    "aciklama": "Sesin şiddeti desibel (dB) birimiyle ölçülür."
+  },
+  {
+    "id": 65,
+    "soru": "Sesin frekansı hangi birimle ölçülür?",
+    "a": "Desibel",
+    "b": "Hertz",
+    "c": "Joule",
+    "d": "Pascal",
+    "cevap": "B",
+    "aciklama": "Sesin frekansı Hertz (Hz) birimiyle ölçülür."
+  },
+  {
+    "id": 66,
+    "soru": "Hangi kan grubu 'evrensel verici' olarak bilinir?",
+    "a": "AB Rh+",
+    "b": "O Rh-",
+    "c": "A Rh+",
+    "d": "B Rh-",
+    "cevap": "B",
+    "aciklama": "O Rh negatif kan grubu, hemen hemen tüm kan gruplarına verilebildiği için evrensel verici olarak bilinir."
+  },
+  {
+    "id": 67,
+    "soru": "Hangi kan grubu 'evrensel alıcı' olarak bilinir?",
+    "a": "AB Rh+",
+    "b": "O Rh-",
+    "c": "A Rh+",
+    "d": "B Rh-",
+    "cevap": "A",
+    "aciklama": "AB Rh pozitif kan grubu, tüm kan gruplarından kan alabildiği için evrensel alıcı olarak bilinir."
+  },
+  {
+    "id": 68,
+    "soru": "Bir cismin hareketine karşı gösterdiği dirence ne denir?",
+    "a": "Sürtünme kuvveti",
+    "b": "Yerçekimi",
+    "c": "Basınç",
+    "d": "İvme",
+    "cevap": "A",
+    "aciklama": "Sürtünme kuvveti, temas eden yüzeyler arasında harekete karşı oluşan dirençtir."
+  },
+  {
+    "id": 69,
+    "soru": "İnsan vücudunda büyüme hormonu hangi bezden salgılanır?",
+    "a": "Tiroid",
+    "b": "Hipofiz",
+    "c": "Pankreas",
+    "d": "Böbrek üstü bezi",
+    "cevap": "B",
+    "aciklama": "Büyüme hormonu, beyindeki hipofiz bezinden salgılanır."
+  },
+  {
+    "id": 70,
+    "soru": "Kan şekerini düzenleyen insülin hormonu hangi organdan salgılanır?",
+    "a": "Karaciğer",
+    "b": "Pankreas",
+    "c": "Böbrek",
+    "d": "Dalak",
+    "cevap": "B",
+    "aciklama": "İnsülin hormonu, pankreastaki beta hücreleri tarafından salgılanır."
+  },
+  {
+    "id": 71,
+    "soru": "Bir atomun kimliğini belirleyen temel özellik nedir?",
+    "a": "Nötron sayısı",
+    "b": "Proton sayısı",
+    "c": "Elektron sayısı",
+    "d": "Kütle numarası",
+    "cevap": "B",
+    "aciklama": "Bir atomun proton sayısı (atom numarası), o elementin kimliğini belirler."
+  },
+  {
+    "id": 72,
+    "soru": "Hangi gaz sera etkisine en çok katkıda bulunan gazlardan biridir?",
+    "a": "Azot",
+    "b": "Karbondioksit",
+    "c": "Argon",
+    "d": "Neon",
+    "cevap": "B",
+    "aciklama": "Karbondioksit, sera etkisine önemli katkı sağlayan başlıca sera gazlarından biridir."
+  },
+  {
+    "id": 73,
+    "soru": "İlk yapay uydu olan Sputnik 1 hangi yıl uzaya gönderilmiştir?",
+    "a": "1947",
+    "b": "1957",
+    "c": "1967",
+    "d": "1977",
+    "cevap": "B",
+    "aciklama": "Sputnik 1, 1957 yılında Sovyetler Birliği tarafından uzaya gönderilen ilk yapay uydudur."
+  },
+  {
+    "id": 74,
+    "soru": "Aya ilk ayak basan astronot kimdir?",
+    "a": "Buzz Aldrin",
+    "b": "Yuri Gagarin",
+    "c": "Neil Armstrong",
+    "d": "John Glenn",
+    "cevap": "C",
+    "aciklama": "Neil Armstrong, 1969 yılında Ay'a ayak basan ilk insan olmuştur."
+  },
+  {
+    "id": 75,
+    "soru": "Uzaya çıkan ilk insan kimdir?",
+    "a": "Neil Armstrong",
+    "b": "Yuri Gagarin",
+    "c": "Buzz Aldrin",
+    "d": "Alan Shepard",
+    "cevap": "B",
+    "aciklama": "Yuri Gagarin, 1961 yılında uzaya çıkan ilk insan olmuştur."
+  },
+  {
+    "id": 76,
+    "soru": "İnsan vücudunda oksijeni akciğerlerden hücrelere taşıyan protein nedir?",
+    "a": "Kollajen",
+    "b": "Hemoglobin",
+    "c": "Keratin",
+    "d": "İnsülin",
+    "cevap": "B",
+    "aciklama": "Hemoglobin, alyuvarlarda bulunan ve oksijeni taşıyan bir proteindir."
+  },
+  {
+    "id": 77,
+    "soru": "Hangi element canlıların temel yapı taşı olan organik bileşiklerin ana bileşenidir?",
+    "a": "Karbon",
+    "b": "Silikon",
+    "c": "Demir",
+    "d": "Kalsiyum",
+    "cevap": "A",
+    "aciklama": "Karbon, organik bileşiklerin temel yapı taşı olan bir elementtir."
+  },
+  {
+    "id": 78,
+    "soru": "Bir maddenin kimyasal özelliklerini taşıyan en küçük yapı birimine ne denir?",
+    "a": "Molekül",
+    "b": "Atom",
+    "c": "Hücre",
+    "d": "İyon",
+    "cevap": "B",
+    "aciklama": "Atom, bir elementin kimyasal özelliklerini taşıyan en küçük yapı birimidir."
+  },
+  {
+    "id": 79,
+    "soru": "Termometre hangi fiziksel büyüklüğü ölçmek için kullanılır?",
+    "a": "Basınç",
+    "b": "Sıcaklık",
+    "c": "Nem",
+    "d": "Yoğunluk",
+    "cevap": "B",
+    "aciklama": "Termometre, sıcaklığı ölçmek için kullanılan bir alettir."
+  },
+  {
+    "id": 80,
+    "soru": "Barometre hangi fiziksel büyüklüğü ölçer?",
+    "a": "Atmosfer basıncı",
+    "b": "Sıcaklık",
+    "c": "Nem oranı",
+    "d": "Rüzgar hızı",
+    "cevap": "A",
+    "aciklama": "Barometre, atmosfer basıncını ölçmek için kullanılır."
+  },
+  {
+    "id": 81,
+    "soru": "HIV virüsünün bağışıklık sistemini çökerttiği ileri evre hastalık hangisidir?",
+    "a": "Hepatit",
+    "b": "AIDS",
+    "c": "Tüberküloz",
+    "d": "Sıtma",
+    "cevap": "B",
+    "aciklama": "AIDS, HIV virüsünün bağışıklık sistemini çökertmesiyle ortaya çıkan hastalıktır."
+  },
+  {
+    "id": 82,
+    "soru": "Bitkilerin köklerinden su alımını sağlayan fiziksel olay nedir?",
+    "a": "Ozmoz",
+    "b": "Difüzyon",
+    "c": "Buharlaşma",
+    "d": "Yoğuşma",
+    "cevap": "A",
+    "aciklama": "Bitkiler, kök hücrelerindeki ozmoz olayı ile topraktan su alır."
+  },
+  {
+    "id": 83,
+    "soru": "Deprem şiddetini ölçen alet hangisidir?",
+    "a": "Barometre",
+    "b": "Sismograf",
+    "c": "Anemometre",
+    "d": "Higrometre",
+    "cevap": "B",
+    "aciklama": "Sismograf, deprem dalgalarını kaydeden ve şiddetini ölçen bir alettir."
+  },
+  {
+    "id": 84,
+    "soru": "Rüzgar hızını ölçen alet hangisidir?",
+    "a": "Anemometre",
+    "b": "Barometre",
+    "c": "Higrometre",
+    "d": "Sismograf",
+    "cevap": "A",
+    "aciklama": "Anemometre, rüzgar hızını ölçmek için kullanılan bir alettir."
+  },
+  {
+    "id": 85,
+    "soru": "Çiçek hastalığına karşı ilk aşıyı geliştiren bilim insanı kimdir?",
+    "a": "Edward Jenner",
+    "b": "Louis Pasteur",
+    "c": "Alexander Fleming",
+    "d": "Robert Koch",
+    "cevap": "A",
+    "aciklama": "Edward Jenner, çiçek hastalığına karşı ilk aşıyı geliştiren bilim insanıdır."
+  },
+  {
+    "id": 86,
+    "soru": "Kuduz aşısını geliştiren bilim insanı kimdir?",
+    "a": "Louis Pasteur",
+    "b": "Edward Jenner",
+    "c": "Robert Koch",
+    "d": "Alexander Fleming",
+    "cevap": "A",
+    "aciklama": "Louis Pasteur, kuduz aşısını geliştiren ve mikrobiyolojiye önemli katkılar sağlayan bilim insanıdır."
+  },
+  {
+    "id": 87,
+    "soru": "Hangi organ vücutta safra üretir?",
+    "a": "Pankreas",
+    "b": "Karaciğer",
+    "c": "Dalak",
+    "d": "Böbrek",
+    "cevap": "B",
+    "aciklama": "Karaciğer, sindirime yardımcı olan safrayı üretir."
+  },
+  {
+    "id": 88,
+    "soru": "Bir cismin sıvı içinde kaldırma kuvvetiyle ilgili prensip kimin adıyla anılır?",
+    "a": "Newton prensibi",
+    "b": "Arşimet prensibi",
+    "c": "Pascal prensibi",
+    "d": "Bernoulli prensibi",
+    "cevap": "B",
+    "aciklama": "Arşimet prensibi, bir cismin sıvı içinde yer değiştirdiği sıvı ağırlığı kadar kaldırma kuvveti hissettiğini açıklar."
+  },
+  {
+    "id": 89,
+    "soru": "Kapalı bir kapta sıvıya uygulanan basıncın her yöne eşit iletildiğini açıklayan prensip hangisidir?",
+    "a": "Arşimet prensibi",
+    "b": "Pascal prensibi",
+    "c": "Bernoulli prensibi",
+    "d": "Newton'un üçüncü yasası",
+    "cevap": "B",
+    "aciklama": "Pascal prensibine göre kapalı bir sıvıya uygulanan basınç her yöne eşit şekilde iletilir."
+  },
+  {
+    "id": 90,
+    "soru": "İnsan vücudunda tat alma organı hangisidir?",
+    "a": "Burun",
+    "b": "Dil",
+    "c": "Deri",
+    "d": "Kulak",
+    "cevap": "B",
+    "aciklama": "Dil üzerindeki tat tomurcukları, tat alma duyusunu sağlar."
+  },
+  {
+    "id": 91,
+    "soru": "İnsan vücudunda denge duyusundan sorumlu yapı hangi organın içindedir?",
+    "a": "Göz",
+    "b": "Kulak",
+    "c": "Burun",
+    "d": "Deri",
+    "cevap": "B",
+    "aciklama": "İç kulakta bulunan yarım daire kanalları, denge duyusundan sorumludur."
+  },
+  {
+    "id": 92,
+    "soru": "Evrende en bol bulunan element hangisidir?",
+    "a": "Helyum",
+    "b": "Hidrojen",
+    "c": "Oksijen",
+    "d": "Karbon",
+    "cevap": "B",
+    "aciklama": "Hidrojen, evrende en bol bulunan ve kütlece en hafif elementtir."
+  },
+  {
+    "id": 93,
+    "soru": "Kuyruklu yıldızların temel bileşeni nedir?",
+    "a": "Sadece metal",
+    "b": "Buz ve toz",
+    "c": "Sıvı su",
+    "d": "Gaz halinde hidrojen",
+    "cevap": "B",
+    "aciklama": "Kuyruklu yıldızlar, buz, toz ve donmuş gazlardan oluşan gök cisimleridir."
+  },
+  {
+    "id": 94,
+    "soru": "Vücutta sindirilen besinlerin emildiği ana bölge neresidir?",
+    "a": "Mide",
+    "b": "İnce bağırsak",
+    "c": "Kalın bağırsak",
+    "d": "Yemek borusu",
+    "cevap": "B",
+    "aciklama": "Besinlerin büyük çoğunluğu ince bağırsakta emilerek kana karışır."
+  },
+  {
+    "id": 95,
+    "soru": "Ozon tabakası atmosferin hangi katmanında bulunur?",
+    "a": "Troposfer",
+    "b": "Stratosfer",
+    "c": "Mezosfer",
+    "d": "Termosfer",
+    "cevap": "B",
+    "aciklama": "Ozon tabakası, atmosferin stratosfer katmanında yoğunlaşmış olarak bulunur."
+  },
+  {
+    "id": 96,
+    "soru": "Kemik ve dişlerin sağlıklı gelişimi için gerekli olan element hangisidir?",
+    "a": "Kalsiyum",
+    "b": "Potasyum",
+    "c": "Sodyum",
+    "d": "Klor",
+    "cevap": "A",
+    "aciklama": "Kalsiyum, kemik ve dişlerin yapı taşlarından biridir ve gelişimleri için gereklidir."
+  },
+  {
+    "id": 97,
+    "soru": "Hangi bilim dalı yer kabuğu, kayaçlar ve depremleri inceler?",
+    "a": "Jeoloji",
+    "b": "Meteoroloji",
+    "c": "Astronomi",
+    "d": "Botanik",
+    "cevap": "A",
+    "aciklama": "Jeoloji, Dünya'nın yapısını, kayaçlarını ve jeolojik olayları inceleyen bilim dalıdır."
+  },
+  {
+    "id": 98,
+    "soru": "Bitkilerin yeşil rengini veren pigment hangisidir?",
+    "a": "Karoten",
+    "b": "Klorofil",
+    "c": "Antosiyanin",
+    "d": "Melanin",
+    "cevap": "B",
+    "aciklama": "Klorofil, bitkilere yeşil rengini veren ve fotosentezde görev alan pigmenttir."
+  },
+  {
+    "id": 99,
+    "soru": "İnsan derisine rengini veren pigment hangisidir?",
+    "a": "Klorofil",
+    "b": "Melanin",
+    "c": "Karoten",
+    "d": "Hemoglobin",
+    "cevap": "B",
+    "aciklama": "Melanin, insan derisine, saçına ve gözlerine rengini veren pigmenttir."
+  },
+  {
+    "id": 100,
+    "soru": "Hangi gezegen parlaklığı nedeniyle 'Sabah Yıldızı' veya 'Akşam Yıldızı' olarak da bilinir?",
+    "a": "Mars",
+    "b": "Venüs",
+    "c": "Jüpiter",
+    "d": "Satürn",
+    "cevap": "B",
+    "aciklama": "Venüs, parlaklığı nedeniyle gökyüzünde sabah ya da akşam görülebildiği için bu isimlerle anılır."
+  }
+]

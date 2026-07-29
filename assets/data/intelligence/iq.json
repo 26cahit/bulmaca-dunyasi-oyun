@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "soru": "2, 4, 8, 16, ?",
+    "a": "18",
+    "b": "24",
+    "c": "32",
+    "d": "36",
+    "cevap": "C",
+    "aciklama": "Her sayı iki katına çıkmaktadır: 16 x 2 = 32"
+  },
+  {
+    "id": 2,
+    "soru": "1, 1, 2, 3, 5, 8, ?",
+    "a": "11",
+    "b": "13",
+    "c": "15",
+    "d": "16",
+    "cevap": "B",
+    "aciklama": "Fibonacci dizisi: 5 + 8 = 13"
+  },
+  {
+    "id": 3,
+    "soru": "A, C, E, G, ?",
+    "a": "H",
+    "b": "I",
+    "c": "J",
+    "d": "K",
+    "cevap": "B",
+    "aciklama": "Alfabede birer harf atlayarak ilerliyor: G'den sonra I"
+  },
+  {
+    "id": 4,
+    "soru": "5, 10, 20, 40, ?",
+    "a": "60",
+    "b": "70",
+    "c": "80",
+    "d": "100",
+    "cevap": "C",
+    "aciklama": "Her sayı 2 ile çarpılıyor: 40 x 2 = 80"
+  },
+  {
+    "id": 5,
+    "soru": "3, 6, 9, 12, ?",
+    "a": "14",
+    "b": "15",
+    "c": "16",
+    "d": "18",
+    "cevap": "B",
+    "aciklama": "Üçer üçer artıyor: 12 + 3 = 15"
+  },
+  {
+    "id": 6,
+    "soru": "81, 27, 9, 3, ?",
+    "a": "1",
+    "b": "0",
+    "c": "-1",
+    "d": "1/3",
+    "cevap": "A",
+    "aciklama": "Her sayı 3'e bölünüyor: 3 / 3 = 1"
+  },
+  {
+    "id": 7,
+    "soru": "Z, Y, X, W, ?",
+    "a": "U",
+    "b": "V",
+    "c": "T",
+    "d": "S",
+    "cevap": "B",
+    "aciklama": "Alfabe tersten gidiyor: W'dan sonra V"
+  },
+  {
+    "id": 8,
+    "soru": "2, 6, 12, 20, 30, ?",
+    "a": "36",
+    "b": "40",
+    "c": "42",
+    "d": "48",
+    "cevap": "C",
+    "aciklama": "Farklar +4, +6, +8, +10 diye gidiyor. 30 + 12 = 42"
+  },
+  {
+    "id": 9,
+    "soru": "Hangi sayı farklıdır: 3, 5, 11, 14, 17",
+    "a": "3",
+    "b": "5",
+    "c": "14",
+    "d": "17",
+    "cevap": "C",
+    "aciklama": "14 çift sayıdır, diğerleri asaldır"
+  },
+  {
+    "id": 10,
+    "soru": "1, 4, 9, 16, 25, ?",
+    "a": "30",
+    "b": "35",
+    "c": "36",
+    "d": "49",
+    "cevap": "C",
+    "aciklama": "Kare sayılar: 6x6 = 36"
+  },
+  {
+    "id": 11,
+    "soru": "Mavi, Kırmızı, Sarı, Mavi, Kırmızı, ?",
+    "a": "Mavi",
+    "b": "Sarı",
+    "c": "Yeşil",
+    "d": "Kırmızı",
+    "cevap": "B",
+    "aciklama": "Örüntü tekrar ediyor: Mavi-Kırmızı-Sarı"
+  },
+  {
+    "id": 12,
+    "soru": "11, 13, 17, 19, 23, ?",
+    "a": "25",
+    "b": "27",
+    "c": "29",
+    "d": "31",
+    "cevap": "C",
+    "aciklama": "Asal sayılar dizisi, 23'ten sonraki asal 29"
+  },
+  {
+    "id": 13,
+    "soru": "Eğer DAİRE → 5, ÜÇGEN → 5, KARE → ?",
+    "a": "3",
+    "b": "4",
+    "c": "5",
+    "d": "6",
+    "cevap": "B",
+    "aciklama": "Harf sayısı: KARE 4 harf"
+  },
+  {
+    "id": 14,
+    "soru": "100, 95, 85, 70, 50, ?",
+    "a": "20",
+    "b": "25",
+    "c": "30",
+    "d": "35",
+    "cevap": "B",
+    "aciklama": "Farklar -5, -10, -15, -20 diye artıyor. 50-25=25"
+  },
+  {
+    "id": 15,
+    "soru": "Kalem kağıda, fırça ?",
+    "a": "Boya",
+    "b": "Tuval",
+    "c": "Resim",
+    "d": "Su",
+    "cevap": "B",
+    "aciklama": "Kalem kağıda yazılır, fırça tuvale resim yapar"
+  },
+  {
+    "id": 16,
+    "soru": "1, 8, 27, 64, ?",
+    "a": "81",
+    "b": "100",
+    "c": "125",
+    "d": "144",
+    "cevap": "C",
+    "aciklama": "Küp sayılar: 5x5x5 = 125"
+  },
+  {
+    "id": 17,
+    "soru": "Pazartesi, Çarşamba, Cuma, ?",
+    "a": "Cumartesi",
+    "b": "Pazar",
+    "c": "Salı",
+    "d": "Perşembe",
+    "cevap": "B",
+    "aciklama": "Birer gün atlayarak: Pazar"
+  },
+  {
+    "id": 18,
+    "soru": "4, 4, 8, 24, 96, ?",
+    "a": "192",
+    "b": "384",
+    "c": "480",
+    "d": "576",
+    "cevap": "C",
+    "aciklama": "x1, x2, x3, x4, x5: 96x5=480"
+  },
+  {
+    "id": 19,
+    "soru": "Hangi şekil farklıdır: Kare, Dikdörtgen, Üçgen, Daire",
+    "a": "Kare",
+    "b": "Dikdörtgen",
+    "c": "Üçgen",
+    "d": "Daire",
+    "cevap": "D",
+    "aciklama": "Daire köşesizdir, diğerlerinin köşesi var"
+  },
+  {
+    "id": 20,
+    "soru": "A1, C3, E5, G7, ?",
+    "a": "I9",
+    "b": "H8",
+    "c": "J10",
+    "d": "I8",
+    "cevap": "A",
+    "aciklama": "Harf 2 ileri, sayı 2 artıyor: I9"
+  },
+  {
+    "id": 21,
+    "soru": "6, 11, 18, 27, 38, ?",
+    "a": "47",
+    "b": "49",
+    "c": "51",
+    "d": "53",
+    "cevap": "C",
+    "aciklama": "Farklar +5,+7,+9,+11,+13: 38+13=51"
+  },
+  {
+    "id": 22,
+    "soru": "El : Eldiven = Ayak : ?",
+    "a": "Çorap",
+    "b": "Ayakkabı",
+    "c": "Terlik",
+    "d": "Pantolon",
+    "cevap": "B",
+    "aciklama": "Ele eldiven giyilir, ayağa ayakkabı"
+  },
+  {
+    "id": 23,
+    "soru": "0, 3, 8, 15, 24, ?",
+    "a": "30",
+    "b": "32",
+    "c": "35",
+    "d": "36",
+    "cevap": "C",
+    "aciklama": "n²-1 örüntüsü: 6x6-1=35"
+  },
+  {
+    "id": 24,
+    "soru": "Kedi yavrusu Kedi ise, Köpek yavrusu ?",
+    "a": "Yavru",
+    "b": "Enik",
+    "c": "Kuzu",
+    "d": "Tay",
+    "cevap": "B",
+    "aciklama": "Köpek yavrusuna enik denir"
+  },
+  {
+    "id": 25,
+    "soru": "2, 5, 11, 23, 47, ?",
+    "a": "72",
+    "b": "94",
+    "c": "95",
+    "d": "96",
+    "cevap": "C",
+    "aciklama": "2x2+1, 5x2+1, 11x2+1... 47x2+1=95"
+  },
+  {
+    "id": 26,
+    "soru": "Büyük : Küçük = Şişman : ?",
+    "a": "Uzun",
+    "b": "Kısa",
+    "c": "Zayıf",
+    "d": "İnce",
+    "cevap": "C",
+    "aciklama": "Zıt anlamlı: Şişmanın zıttı zayıf"
+  },
+  {
+    "id": 27,
+    "soru": "3, 3, 6, 18, 72, ?",
+    "a": "144",
+    "b": "216",
+    "c": "360",
+    "d": "432",
+    "cevap": "C",
+    "aciklama": "x1, x2, x3, x4, x5: 72x5=360"
+  },
+  {
+    "id": 28,
+    "soru": "Saat 12:00'yi gösteriyorsa 50 saat sonra kaçı gösterir?",
+    "a": "12:00",
+    "b": "14:00",
+    "c": "10:00",
+    "d": "02:00",
+    "cevap": "B",
+    "aciklama": "50 mod 24 = 2. 12:00 + 2 saat = 14:00"
+  },
+  {
+    "id": 29,
+    "soru": "AB, CD, EF, GH, ?",
+    "a": "IJ",
+    "b": "JK",
+    "c": "KL",
+    "d": "IK",
+    "cevap": "A",
+    "aciklama": "Harfler ikişer atlayarak: IJ"
+  },
+  {
+    "id": 30,
+    "soru": "5 günde 5 makine 5 ürün yaparsa, 100 günde 100 makine kaç ürün yapar?",
+    "a": "100",
+    "b": "500",
+    "c": "1000",
+    "d": "2000",
+    "cevap": "D",
+    "aciklama": "1 makine 5 günde 1 ürün üretir. 100 günde 20 ürün üretir. 100 makine ise 100 × 20 = 2000 ürün üretir."
+  },
+  {
+    "id": 31,
+    "soru": "7, 10, 8, 11, 9, 12, ?",
+    "a": "8",
+    "b": "10",
+    "c": "13",
+    "d": "15",
+    "cevap": "B",
+    "aciklama": "İki dizi: 7,8,9,10 ve 10,11,12... Sıradaki 10"
+  },
+  {
+    "id": 32,
+    "soru": "Doktor : Hastane = Öğretmen : ?",
+    "a": "Sınıf",
+    "b": "Öğrenci",
+    "c": "Okul",
+    "d": "Kitap",
+    "cevap": "C",
+    "aciklama": "Doktor hastanede, öğretmen okulda çalışır"
+  },
+  {
+    "id": 33,
+    "soru": "16, 06, 68, 88, ?, 98",
+    "a": "78",
+    "b": "87",
+    "c": "86",
+    "d": "80",
+    "cevap": "B",
+    "aciklama": "Ters çevirince 86, 88, 89, 90, 91... Sayı 87"
+  },
+  {
+    "id": 34,
+    "soru": "A, D, G, J, ?",
+    "a": "K",
+    "b": "L",
+    "c": "M",
+    "d": "N",
+    "cevap": "C",
+    "aciklama": "3'er atlayarak: J'den sonra M"
+  },
+  {
+    "id": 35,
+    "soru": "1, 2, 6, 24, 120, ?",
+    "a": "240",
+    "b": "480",
+    "c": "600",
+    "d": "720",
+    "cevap": "D",
+    "aciklama": "Faktöriyel: 6! = 720"
+  },
+  {
+    "id": 36,
+    "soru": "Araba tekerleğe, kuş ?",
+    "a": "Gaga",
+    "b": "Kanat",
+    "c": "Yuva",
+    "d": "Tüy",
+    "cevap": "B",
+    "aciklama": "Araba tekerlekle gider, kuş kanatla uçar"
+  },
+  {
+    "id": 37,
+    "soru": "2, 3, 5, 7, 11, 13, ?",
+    "a": "15",
+    "b": "17",
+    "c": "19",
+    "d": "21",
+    "cevap": "B",
+    "aciklama": "Asal sayılar: 13'ten sonra 17"
+  },
+  {
+    "id": 38,
+    "soru": "Hangi kelime farklı: Elma, Armut, Havuç, Kiraz",
+    "a": "Elma",
+    "b": "Armut",
+    "c": "Havuç",
+    "d": "Kiraz",
+    "cevap": "C",
+    "aciklama": "Havuç sebze, diğerleri meyve"
+  },
+  {
+    "id": 39,
+    "soru": "4, 12, 36, 108, ?",
+    "a": "216",
+    "b": "324",
+    "c": "432",
+    "d": "540",
+    "cevap": "B",
+    "aciklama": "3 ile çarpılıyor: 108x3=324"
+  },
+  {
+    "id": 40,
+    "soru": "Yukarı : Aşağı = Sağ : ?",
+    "a": "Üst",
+    "b": "Alt",
+    "c": "Sol",
+    "d": "Orta",
+    "cevap": "C",
+    "aciklama": "Zıt yön: Sağın zıttı sol"
+  },
+  {
+    "id": 41,
+    "soru": "1, 11, 21, 1211, 111221, ?",
+    "a": "312211",
+    "b": "13112221",
+    "c": "11133211",
+    "d": "3112211",
+    "cevap": "A",
+    "aciklama": "Bak ve söyle dizisi: 312211"
+  },
+  {
+    "id": 42,
+    "soru": "Balık : Solungaç = İnsan : ?",
+    "a": "Burun",
+    "b": "Ağız",
+    "c": "Akciğer",
+    "d": "Kulak",
+    "cevap": "C",
+    "aciklama": "Balık solungaçla, insan akciğerle nefes alır"
+  },
+  {
+    "id": 43,
+    "soru": "121, 144, 169, 196, ?",
+    "a": "210",
+    "b": "216",
+    "c": "225",
+    "d": "256",
+    "cevap": "C",
+    "aciklama": "11²,12²,13²,14²,15²=225"
+  },
+  {
+    "id": 44,
+    "soru": "Sabah : Öğle = Akşam : ?",
+    "a": "Gece",
+    "b": "İkindi",
+    "c": "Sabah",
+    "d": "Gündüz",
+    "cevap": "A",
+    "aciklama": "Sabah-öğle, akşam-gece sıralaması"
+  },
+  {
+    "id": 45,
+    "soru": "6, 8, 10, 11, 14, 14, ?",
+    "a": "16",
+    "b": "18",
+    "c": "20",
+    "d": "22",
+    "cevap": "B",
+    "aciklama": "Harf sayısı: Altı:3, Sekiz:5, On:2... Onsekiz:7. Sıra: 3,5,2,5,2,7"
+  },
+  {
+    "id": 46,
+    "soru": "Göz : Görmek = Kulak : ?",
+    "a": "Duymak",
+    "b": "Koklamak",
+    "c": "Tatmak",
+    "d": "Dokunmak",
+    "cevap": "A",
+    "aciklama": "Göz görür, kulak duyar"
+  },
+  {
+    "id": 47,
+    "soru": "10, 20, 30, 42, 56, ?",
+    "a": "70",
+    "b": "72",
+    "c": "74",
+    "d": "78",
+    "cevap": "B",
+    "aciklama": "n²+n: 8²+8=72"
+  },
+  {
+    "id": 48,
+    "soru": "Kitap sayfaya, Ağaç ?",
+    "a": "Dal",
+    "b": "Yaprak",
+    "c": "Kök",
+    "d": "Orman",
+    "cevap": "B",
+    "aciklama": "Kitap sayfalardan, ağaç yapraklardan oluşur"
+  },
+  {
+    "id": 49,
+    "soru": "13, 17, 19, 23, 29, ?",
+    "a": "31",
+    "b": "33",
+    "c": "35",
+    "d": "37",
+    "cevap": "A",
+    "aciklama": "Asal sayılar: 29'dan sonra 31"
+  },
+  {
+    "id": 50,
+    "soru": "Sıcak : Soğuk = Islak : ?",
+    "a": "Nemli",
+    "b": "Kuru",
+    "c": "Sulu",
+    "d": "Buz",
+    "cevap": "B",
+    "aciklama": "Zıt anlam: Islağın zıttı kuru"
+  },
+  {
+    "id": 51,
+    "soru": "2, 12, 30, 56, 90, ?",
+    "a": "120",
+    "b": "132",
+    "c": "140",
+    "d": "156",
+    "cevap": "B",
+    "aciklama": "n²+n dizisi x2: 11x12=132"
+  },
+  {
+    "id": 52,
+    "soru": "Yüzük : Parmak = Kolye : ?",
+    "a": "Bilek",
+    "b": "Boyun",
+    "c": "Kulak",
+    "d": "Bel",
+    "cevap": "B",
+    "aciklama": "Yüzük parmağa, kolye boyna takılır"
+  },
+  {
+    "id": 53,
+    "soru": "3, 7, 15, 31, 63, ?",
+    "a": "94",
+    "b": "124",
+    "c": "127",
+    "d": "129",
+    "cevap": "C",
+    "aciklama": "2^n-1: 2⁷-1=127"
+  },
+  {
+    "id": 54,
+    "soru": "Oda : Ev = Yaprak : ?",
+    "a": "Dal",
+    "b": "Ağaç",
+    "c": "Orman",
+    "d": "Kök",
+    "cevap": "B",
+    "aciklama": "Oda evin parçası, yaprak ağacın parçası"
+  },
+  {
+    "id": 55,
+    "soru": "5, 6, 10, 19, 35, ?",
+    "a": "50",
+    "b": "60",
+    "c": "65",
+    "d": "70",
+    "cevap": "B",
+    "aciklama": "Farklar: +1,+4,+9,+16,+25: 35+25=60"
+  },
+  {
+    "id": 56,
+    "soru": "Arı : Kovan = İnsan : ?",
+    "a": "Oda",
+    "b": "Ev",
+    "c": "Şehir",
+    "d": "Ülke",
+    "cevap": "B",
+    "aciklama": "Arı kovanda, insan evde yaşar"
+  },
+  {
+    "id": 57,
+    "soru": "8, 24, 12, 36, 18, ?",
+    "a": "9",
+    "b": "27",
+    "c": "54",
+    "d": "72",
+    "cevap": "C",
+    "aciklama": "x3, /2: 18x3=54"
+  },
+  {
+    "id": 58,
+    "soru": "Kış : Kar = Yaz : ?",
+    "a": "Güneş",
+    "b": "Deniz",
+    "c": "Sıcak",
+    "d": "Tatil",
+    "cevap": "A",
+    "aciklama": "Kış karla, yaz güneşle anılır"
+  },
+  {
+    "id": 59,
+    "soru": "1, 2, 4, 7, 11, 16, ?",
+    "a": "20",
+    "b": "22",
+    "c": "23",
+    "d": "25",
+    "cevap": "B",
+    "aciklama": "Farklar +1,+2,+3,+4,+5,+6: 16+6=22"
+  },
+  {
+    "id": 60,
+    "soru": "Şeker : Tatlı = Limon : ?",
+    "a": "Sarı",
+    "b": "Ekşi",
+    "c": "Yuvarlak",
+    "d": "Sulu",
+    "cevap": "B",
+    "aciklama": "Şeker tatlıdır, limon ekşidir"
+  },
+  {
+    "id": 61,
+    "soru": "10, 7, 8, 5, 6, 3, ?",
+    "a": "1",
+    "b": "2",
+    "c": "4",
+    "d": "5",
+    "cevap": "C",
+    "aciklama": "-3,+1,-3,+1: 3+1=4"
+  },
+  {
+    "id": 62,
+    "soru": "Kalem : Yazmak = Bıçak : ?",
+    "a": "Yemek",
+    "b": "Kesmek",
+    "c": "Pişirmek",
+    "d": "Doğramak",
+    "cevap": "B",
+    "aciklama": "Kalem yazmaya, bıçak kesmeye yarar"
+  },
+  {
+    "id": 63,
+    "soru": "2, 9, 28, 65, 126, ?",
+    "a": "216",
+    "b": "217",
+    "c": "218",
+    "d": "219",
+    "cevap": "B",
+    "aciklama": "n³+1: 6³+1=217"
+  },
+  {
+    "id": 64,
+    "soru": "Gece : Ay = Gündüz : ?",
+    "a": "Yıldız",
+    "b": "Bulut",
+    "c": "Güneş",
+    "d": "Gökyüzü",
+    "cevap": "C",
+    "aciklama": "Gece ay, gündüz güneş"
+  },
+  {
+    "id": 65,
+    "soru": "15, 12, 14, 11, 13, 10, ?",
+    "a": "9",
+    "b": "11",
+    "c": "12",
+    "d": "14",
+    "cevap": "C",
+    "aciklama": "-3,+2: 10+2=12"
+  },
+  {
+    "id": 66,
+    "soru": "Radyo : Dinlemek = Televizyon : ?",
+    "a": "Bakmak",
+    "b": "İzlemek",
+    "c": "Duymak",
+    "d": "Oynamak",
+    "cevap": "B",
+    "aciklama": "Radyo dinlenir, televizyon izlenir"
+  },
+  {
+    "id": 67,
+    "soru": "3, 9, 21, 45, 93, ?",
+    "a": "180",
+    "b": "186",
+    "c": "189",
+    "d": "195",
+    "cevap": "C",
+    "aciklama": "x2+3: 93x2+3=189"
+  },
+  {
+    "id": 68,
+    "soru": "Kuş : Yuva = İnsan : ?",
+    "a": "Araba",
+    "b": "İş",
+    "c": "Ev",
+    "d": "Aile",
+    "cevap": "C",
+    "aciklama": "Kuş yuvada, insan evde yaşar"
+  },
+  {
+    "id": 69,
+    "soru": "1, 4, 10, 22, 46, ?",
+    "a": "92",
+    "b": "94",
+    "c": "96",
+    "d": "98",
+    "cevap": "B",
+    "aciklama": "x2+2: 46x2+2=94"
+  },
+  {
+    "id": 70,
+    "soru": "Buz : Soğuk = Ateş : ?",
+    "a": "Kırmızı",
+    "b": "Sıcak",
+    "c": "Duman",
+    "d": "Işık",
+    "cevap": "B",
+    "aciklama": "Buz soğuktur, ateş sıcaktır"
+  },
+  {
+    "id": 71,
+    "soru": "6, 14, 30, 62, 126, ?",
+    "a": "250",
+    "b": "252",
+    "c": "254",
+    "d": "256",
+    "cevap": "C",
+    "aciklama": "x2+2: 126x2+2=254"
+  },
+  {
+    "id": 72,
+    "soru": "Ayakkabı : Ayak = Şapka : ?",
+    "a": "Saç",
+    "b": "Baş",
+    "c": "Yüz",
+    "d": "Boyun",
+    "cevap": "B",
+    "aciklama": "Ayakkabı ayağa, şapka başa giyilir"
+  },
+  {
+    "id": 73,
+    "soru": "2, 6, 14, 30, 62, ?",
+    "a": "124",
+    "b": "126",
+    "c": "128",
+    "d": "130",
+    "cevap": "B",
+    "aciklama": "x2+2: 62x2+2=126"
+  },
+  {
+    "id": 74,
+    "soru": "Tren : Ray = Gemi : ?",
+    "a": "Liman",
+    "b": "Deniz",
+    "c": "Kaptan",
+    "d": "Yelken",
+    "cevap": "B",
+    "aciklama": "Tren rayda, gemi denizde gider"
+  },
+  {
+    "id": 75,
+    "soru": "5, 11, 23, 47, 95, ?",
+    "a": "190",
+    "b": "191",
+    "c": "192",
+    "d": "195",
+    "cevap": "B",
+    "aciklama": "x2+1: 95x2+1=191"
+  },
+  {
+    "id": 76,
+    "soru": "Çekiç : Çivi = Tornavida : ?",
+    "a": "Tahta",
+    "b": "Vida",
+    "c": "Duvar",
+    "d": "Somun",
+    "cevap": "B",
+    "aciklama": "Çekiç çivi çakar, tornavida vida sıkar"
+  },
+  {
+    "id": 77,
+    "soru": "4, 7, 15, 29, 59, ?",
+    "a": "115",
+    "b": "117",
+    "c": "118",
+    "d": "119",
+    "cevap": "B",
+    "aciklama": "x2-1: 59x2-1=117"
+  },
+  {
+    "id": 78,
+    "soru": "Koyun : Yün = İnek : ?",
+    "a": "Et",
+    "b": "Süt",
+    "c": "Deri",
+    "d": "Boynuz",
+    "cevap": "B",
+    "aciklama": "Koyundan yün, inekten süt elde edilir"
+  },
+  {
+    "id": 79,
+    "soru": "1, 5, 13, 29, 61, ?",
+    "a": "121",
+    "b": "122",
+    "c": "123",
+    "d": "125",
+    "cevap": "D",
+    "aciklama": "x2+3: 61x2+3=125"
+  },
+  {
+    "id": 80,
+    "soru": "Balık : Yüzmek = Kuş : ?",
+    "a": "Yuva",
+    "b": "Uçmak",
+    "c": "Gaga",
+    "d": "Tüy",
+    "cevap": "B",
+    "aciklama": "Balık yüzer, kuş uçar"
+  },
+  {
+    "id": 81,
+    "soru": "3, 8, 18, 38, 78, ?",
+    "a": "156",
+    "b": "158",
+    "c": "160",
+    "d": "162",
+    "cevap": "B",
+    "aciklama": "x2+2: 78x2+2=158"
+  },
+  {
+    "id": 82,
+    "soru": "Sabah : Kahvaltı = Öğle : ?",
+    "a": "Kahve",
+    "b": "Yemek",
+    "c": "Çay",
+    "d": "Uyku",
+    "cevap": "B",
+    "aciklama": "Sabah kahvaltı, öğle yemek yenir"
+  },
+  {
+    "id": 83,
+    "soru": "7, 16, 34, 70, 142, ?",
+    "a": "284",
+    "b": "286",
+    "c": "288",
+    "d": "290",
+    "cevap": "B",
+    "aciklama": "x2+2: 142x2+2=286"
+  },
+  {
+    "id": 84,
+    "soru": "Gül : Diken = Arı : ?",
+    "a": "Bal",
+    "b": "Kovan",
+    "c": "İğne",
+    "d": "Çiçek",
+    "cevap": "C",
+    "aciklama": "Gülün dikeni, arının iğnesi var"
+  },
+  {
+    "id": 85,
+    "soru": "2, 7, 17, 37, 77, ?",
+    "a": "152",
+    "b": "154",
+    "c": "156",
+    "d": "157",
+    "cevap": "D",
+    "aciklama": "x2+3: 77x2+3=157"
+  },
+  {
+    "id": 86,
+    "soru": "Öğretmen : Tebeşir = Ressam : ?",
+    "a": "Tuval",
+    "b": "Boya",
+    "c": "Fırça",
+    "d": "Resim",
+    "cevap": "C",
+    "aciklama": "Öğretmen tebeşir, ressam fırça kullanır"
+  },
+  {
+    "id": 87,
+    "soru": "5, 13, 29, 61, 125, ?",
+    "a": "250",
+    "b": "251",
+    "c": "252",
+    "d": "253",
+    "cevap": "D",
+    "aciklama": "x2+3: 125x2+3=253"
+  },
+  {
+    "id": 88,
+    "soru": "Makas : Kesmek = İğne : ?",
+    "a": "Batmak",
+    "b": "Dikmek",
+    "c": "İplik",
+    "d": "Kumaş",
+    "cevap": "B",
+    "aciklama": "Makas keser, iğne diker"
+  },
+  {
+    "id": 89,
+    "soru": "4, 11, 25, 53, 109, ?",
+    "a": "217",
+    "b": "218",
+    "c": "219",
+    "d": "221",
+    "cevap": "D",
+    "aciklama": "x2+3: 109x2+3=221"
+  },
+  {
+    "id": 90,
+    "soru": "Köpek : Havlamak = Kedi : ?",
+    "a": "Koşmak",
+    "b": "Miyavlamak",
+    "c": "Uyumak",
+    "d": "Tırmalamak",
+    "cevap": "B",
+    "aciklama": "Köpek havlar, kedi miyavlar"
+  },
+  {
+    "id": 91,
+    "soru": "6, 15, 33, 69, 141, ?",
+    "a": "282",
+    "b": "285",
+    "c": "288",
+    "d": "291",
+    "cevap": "B",
+    "aciklama": "x2+3: 141x2+3=285"
+  },
+  {
+    "id": 92,
+    "soru": "Güneş : Gündüz = Ay : ?",
+    "a": "Yıldız",
+    "b": "Gece",
+    "c": "Karanlık",
+    "d": "Gökyüzü",
+    "cevap": "B",
+    "aciklama": "Güneş gündüz, ay gece görünür"
+  },
+  {
+    "id": 93,
+    "soru": "3, 10, 24, 52, 108, ?",
+    "a": "216",
+    "b": "220",
+    "c": "224",
+    "d": "228",
+    "cevap": "B",
+    "aciklama": "x2+4: 108x2+4=220"
+  },
+  {
+    "id": 94,
+    "soru": "Toprak : Solucan = Su : ?",
+    "a": "Yosun",
+    "b": "Balık",
+    "c": "Dalga",
+    "d": "Gemi",
+    "cevap": "B",
+    "aciklama": "Solucan toprakta, balık suda yaşar"
+  },
+  {
+    "id": 95,
+    "soru": "8, 19, 41, 85, 173, ?",
+    "a": "346",
+    "b": "348",
+    "c": "350",
+    "d": "349",
+    "cevap": "D",
+    "aciklama": "x2+3: 173x2+3=349"
+  },
+  {
+    "id": 96,
+    "soru": "Kış : Atkı = Yaz : ?",
+    "a": "Deniz",
+    "b": "Güneş",
+    "c": "Şapka",
+    "d": "Tatil",
+    "cevap": "C",
+    "aciklama": "Kışın atkı, yazın şapka takılır"
+  },
+  {
+    "id": 97,
+    "soru": "5, 14, 32, 68, 140, ?",
+    "a": "280",
+    "b": "284",
+    "c": "288",
+    "d": "292",
+    "cevap": "B",
+    "aciklama": "x2+4: 140x2+4=284"
+  },
+  {
+    "id": 98,
+    "soru": "Ağaç : Orman = Yıldız : ?",
+    "a": "Ay",
+    "b": "Güneş",
+    "c": "Galaksi",
+    "d": "Gökyüzü",
+    "cevap": "C",
+    "aciklama": "Ağaçlar ormanı, yıldızlar galaksiyi oluşturur"
+  },
+  {
+    "id": 99,
+    "soru": "7, 18, 40, 84, 172, ?",
+    "a": "344",
+    "b": "348",
+    "c": "350",
+    "d": "352",
+    "cevap": "B",
+    "aciklama": "x2+4: 172x2+4=348"
+  },
+  {
+    "id": 100,
+    "soru": "Yumurta : Tavuk = Tohum : ?",
+    "a": "Toprak",
+    "b": "Su",
+    "c": "Bitki",
+    "d": "Meyve",
+    "cevap": "C",
+    "aciklama": "Yumurtadan tavuk, tohumdan bitki çıkar"
+  }
+]
