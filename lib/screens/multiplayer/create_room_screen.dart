@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:provider/provider.dart';
@@ -15,9 +13,7 @@ class CreateRoomScreen extends StatefulWidget {
 }
 
 class _CreateRoomScreenState extends State<CreateRoomScreen> {
-  final Random random = Random();
   final DatabaseReference roomsRef = FirebaseDatabase.instance.ref('rooms');
-  late String roomCode;
 
   String selectedGame = 'Kelime Dünyası';
 
@@ -28,22 +24,6 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
     'Zeka Dünyası',
     'Bilgi Dünyası',
   ];
-
-  @override
-  void initState() {
-    super.initState();
-
-    createRoomCode();
-  }
-
-  void createRoomCode() {
-    const characters = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
-
-    roomCode = List.generate(
-      6,
-      (index) => characters[random.nextInt(characters.length)],
-    ).join();
-  }
 
   Future<void> startGame() async {
     try {
@@ -62,19 +42,29 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
         );
         return;
       }
-      final DatabaseReference roomRef = roomsRef.child(roomCode);
+      final DatabaseReference roomRef = roomsRef.push();
 
+      final String roomId = roomRef.key!;
+      final String hostPlayerId = roomRef.child("players").push().key!;
       await roomRef.set({
-        'roomCode': roomCode,
+        'roomId': roomId,
+
+        'roomName': "$playerName'in Odası",
         'game': selectedGame,
         'maxPlayers': selectedPlayerCount,
         'status': 'waiting',
+        "round": 1,
+        "currentTurn": hostPlayerId,
+        "winner": "",
         'createdAt': ServerValue.timestamp,
         'players': {
-          'player1': {
+          hostPlayerId: {
             'name': playerName,
             'avatar': player.avatar,
             'score': 0,
+            'online': true,
+            'status': 'playing',
+            'ready': false,
             'isHost': true,
             'joinedAt': ServerValue.timestamp,
           },
@@ -89,7 +79,7 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
         context,
         MaterialPageRoute(
           builder: (context) =>
-              RoomLobbyScreen(roomCode: roomCode, playerId: "player1"),
+              RoomLobbyScreen(roomCode: roomId, playerId: hostPlayerId),
         ),
       );
     } catch (error, stackTrace) {
@@ -141,40 +131,37 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
                       color: const Color(0xFF1E293B),
                       borderRadius: BorderRadius.circular(24),
                     ),
-                    child: Column(
+                    child: const Column(
                       children: [
-                        const Icon(
-                          Icons.meeting_room,
+                        Icon(
+                          Icons.groups_rounded,
                           color: Colors.amber,
-                          size: 52,
+                          size: 60,
                         ),
-                        const SizedBox(height: 14),
-                        const Text(
-                          'Oda Kodun',
-                          style: TextStyle(color: Colors.white70, fontSize: 18),
-                        ),
-                        const SizedBox(height: 8),
-                        FittedBox(
-                          fit: BoxFit.scaleDown,
-                          child: Text(
-                            roomCode,
-                            style: const TextStyle(
-                              color: Colors.amber,
-                              fontSize: 42,
-                              fontWeight: FontWeight.bold,
-                              letterSpacing: 8,
-                            ),
+
+                        SizedBox(height: 15),
+
+                        Text(
+                          "Oluşturacağın oda\nAktif Odalar listesinde yayınlanacaktır.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        const SizedBox(height: 10),
-                        const Text(
-                          'Arkadaşların bu kod ile odana katılabilir.',
+
+                        SizedBox(height: 12),
+
+                        Text(
+                          "Oyuncular artık oda kodu girmeden\nAktif Odalar ekranından odana katılabilecek.",
                           textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.white70, fontSize: 16),
+                          style: TextStyle(color: Colors.white70, fontSize: 15),
                         ),
                       ],
                     ),
                   ),
+
                   const SizedBox(height: 22),
                   Container(
                     width: double.infinity,

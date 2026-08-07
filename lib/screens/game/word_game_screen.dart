@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -55,7 +57,14 @@ class _WordGameScreenState extends State<WordGameScreen> {
   StreamSubscription<DatabaseEvent>? roomListener;
 
   bool gameFinished = false;
+  bool myTurn = false;
 
+  String currentTurn = "";
+
+  int currentRound = 1;
+
+  Map<String, dynamic> livePlayers = {};
+  int multiplayerScore = 0;
   final TextEditingController guessController = TextEditingController();
 
   @override
@@ -75,7 +84,7 @@ class _WordGameScreenState extends State<WordGameScreen> {
     await loadPlayerData();
 
     if (widget.isMultiplayer) {
-      await _createNewGame();
+      await _loadOrCreateGame();
     } else {
       await _loadOrCreateGame();
     }
@@ -163,6 +172,9 @@ class _WordGameScreenState extends State<WordGameScreen> {
   }
 
   Future<void> _createNewGame() async {
+    if (widget.isMultiplayer) {
+      return;
+    }
     final List<WordItem> sourceWords = _getDifficultyWords();
 
     questionOrder = List<int>.generate(sourceWords.length, (index) => index);
@@ -238,31 +250,173 @@ class _WordGameScreenState extends State<WordGameScreen> {
       final Map<dynamic, dynamic> players = Map<dynamic, dynamic>.from(
         event.snapshot.value as Map,
       );
+      int leftPlayers = 0;
 
+      for (final player in players.values) {
+        final data = Map<dynamic, dynamic>.from(player);
+
+        if (data["status"] == "left") {
+          leftPlayers++;
+        }
+      }
+      for (final entry in players.entries) {
+        final player = Map<dynamic, dynamic>.from(entry.value);
+
+        if (!livePlayers.containsKey(entry.key.toString())) {
+          livePlayers[entry.key.toString()] = player;
+        } else {
+          livePlayers[entry.key.toString()] = player;
+        }
+      }
+
+      if (mounted) {
+        setState(() {});
+      }
+      livePlayers = Map<String, dynamic>.from(players);
+
+      currentTurn = currentTurn =
+          (await roomRef!.child("currentTurn").get()).value?.toString() ?? "";
+
+      final roomSnapshot = await roomRef!.get();
+
+      if (roomSnapshot.exists) {
+        final roomData = Map<dynamic, dynamic>.from(roomSnapshot.value as Map);
+
+        if (roomData["currentWord"] != null &&
+            roomData["currentWord"] != currentWord) {
+          currentWord = roomData["currentWord"];
+
+          currentHint = roomData["currentHint"] ?? "";
+
+          prepareHiddenWord();
+        }
+
+        final maxPlayers = (roomData["maxPlayers"] as num?)?.toInt() ?? 2;
+
+        myTurn = currentTurn == widget.playerId;
+
+        currentRound =
+            ((await roomRef!.child("round").get()).value as num?)?.toInt() ?? 1;
+
+        if (maxPlayers == 2 && leftPlayers >= 1) {
+          if (!gameFinished) {
+            gameFinished = true;
+
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                duration: Duration(seconds: 5),
+                backgroundColor: Colors.green,
+                content: Text(
+                  "🏆 Diğer oyuncu oyundan ayrıldı.\nTebrikler, oyunu kazandınız.",
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            );
+          }
+
+          return;
+        }
+      }
       final int playerCount = players.length;
+      if (playerCount == 0) {
+        return;
+      }
 
-      if (playerCount <= 1) {
+      if (playerCount == 1 && !gameFinished) {
         gameFinished = true;
+
+        int countdown = 3;
+
+        while (countdown > 0) {
+          if (!mounted) return;
+
+          ScaffoldMessenger.of(context).hideCurrentSnackBar();
+
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              duration: const Duration(seconds: 1),
+              backgroundColor: Colors.orange,
+              content: Text(
+                "⚠️ Oyuncu ayrıldı.\n$countdown saniye içinde dönmezse oyunu kazanacaksınız.",
+                textAlign: TextAlign.center,
+              ),
+            ),
+          );
+
+          await Future.delayed(const Duration(seconds: 1));
+
+          final check = await roomRef!.child("players").get();
+
+          if (!check.exists) {
+            return;
+          }
+
+          final latestPlayers = Map<dynamic, dynamic>.from(check.value as Map);
+
+          if (latestPlayers.length > 1) {
+            gameFinished = false;
+
+            ScaffoldMessenger.of(context).hideCurrentSnackBar();
+
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                backgroundColor: Colors.green,
+                content: Text(
+                  "✅ Oyuncu tekrar bağlandı.\nOyun devam ediyor.",
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            );
+
+            return;
+          }
+
+          countdown--;
+        }
 
         if (!mounted) return;
 
+        ScaffoldMessenger.of(context).hideCurrentSnackBar();
+
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text("Diğer oyuncu oyundan ayrıldı. Kazandın!"),
+            duration: Duration(seconds: 5),
+            backgroundColor: Colors.green,
+            content: Text(
+              "🏆 Tebrikler!\nDiğer oyuncu oyundan ayrıldığı için oyunu kazandınız.",
+              textAlign: TextAlign.center,
+            ),
           ),
         );
 
         final player = Provider.of<PlayerProvider>(context, listen: false);
 
         await player.addReward(addXp: 100, addCoins: 50);
-      }
-    });
-  }
+
+        multiplayerScore++;
+
+        await roomRef!.child("players").child(widget.playerId!).update({
+          "score": multiplayerScore,
+        });
+      } // if (playerCount == 1)
+    }); // roomListener.listen
+  } // listenPlayers
 
   @override
   void dispose() {
-    roomListener?.cancel();
+    if (widget.isMultiplayer && roomRef != null && widget.playerId != null) {
+      roomRef!.child("players").child(widget.playerId!).remove().then((
+        _,
+      ) async {
+        final room = await roomRef!.child("players").get();
 
+        if (!room.exists || room.children.isEmpty) {
+          await roomRef!.remove();
+        }
+      });
+    }
+
+    roomListener?.cancel();
     guessController.dispose();
 
     super.dispose();
@@ -282,7 +436,19 @@ class _WordGameScreenState extends State<WordGameScreen> {
     setState(() {});
   }
 
-  void loadCurrentWord() {
+  Future<void> loadCurrentWord() async {
+    if (widget.isMultiplayer && roomRef != null && widget.playerId != null) {
+      final room = await roomRef!.get();
+
+      if (!room.exists) return;
+
+      final roomData = Map<dynamic, dynamic>.from(room.value as Map);
+
+      if (roomData["gameState"] != "playing") {
+        return;
+      }
+    }
+
     if (shuffledWords.isEmpty) {
       return;
     }
@@ -325,12 +491,21 @@ class _WordGameScreenState extends State<WordGameScreen> {
       return;
     }
 
-    loadCurrentWord();
+    await loadCurrentWord();
 
     await _saveProgress();
   }
 
   Future<void> guessWord() async {
+    if (!myTurn) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          backgroundColor: Colors.orange,
+          content: Text("Sıra diğer oyuncuda.", textAlign: TextAlign.center),
+        ),
+      );
+      return;
+    }
     if (guessChance == 0) {
       return;
     }
@@ -376,6 +551,9 @@ class _WordGameScreenState extends State<WordGameScreen> {
   }
 
   Future<void> guessLetter(String letter) async {
+    if (!myTurn) {
+      return;
+    }
     if (letter.isEmpty) {
       return;
     }
@@ -431,7 +609,59 @@ class _WordGameScreenState extends State<WordGameScreen> {
     final player = Provider.of<PlayerProvider>(context, listen: false);
 
     await player.addReward(addXp: rewardXP, addCoins: rewardCoins);
+    if (widget.isMultiplayer && roomRef != null && widget.playerId != null) {
+      multiplayerScore++;
 
+      await roomRef!.child("players").child(widget.playerId!).update({
+        "score": multiplayerScore,
+      });
+
+      final snapshot = await roomRef!.child("players").get();
+
+      if (snapshot.exists) {
+        final players = Map<dynamic, dynamic>.from(snapshot.value as Map);
+
+        final ids = players.keys.map((e) => e.toString()).toList();
+
+        ids.sort();
+
+        int index = ids.indexOf(widget.playerId!);
+
+        if (index == -1) return;
+
+        int nextIndex = index + 1;
+
+        if (nextIndex >= ids.length) {
+          nextIndex = 0;
+
+          final round =
+              ((await roomRef!.child("round").get()).value as num?)?.toInt() ??
+              1;
+
+          await roomRef!.update({"round": round + 1});
+        }
+
+        await roomRef!.update({"currentTurn": ids[nextIndex]});
+        final nextWordIndex = currentWordIndex + 1;
+
+        if (nextWordIndex < shuffledWords.length) {
+          final nextItem = shuffledWords[nextWordIndex];
+
+          await roomRef!.update({
+            "currentWord": nextItem.word,
+
+            "currentHint": nextItem.hint,
+          });
+        }
+        await roomRef!.child("players").child(widget.playerId!).update({
+          "status": "waiting",
+        });
+
+        await roomRef!.child("players").child(ids[nextIndex]).update({
+          "status": "playing",
+        });
+      }
+    }
     if (!mounted) {
       return;
     }
@@ -516,6 +746,50 @@ class _WordGameScreenState extends State<WordGameScreen> {
                 Navigator.pop(dialogContext);
 
                 await nextWord();
+                if (widget.isMultiplayer &&
+                    roomRef != null &&
+                    widget.playerId != null) {
+                  final playersSnapshot = await roomRef!.child("players").get();
+
+                  if (playersSnapshot.exists) {
+                    final players = Map<dynamic, dynamic>.from(
+                      playersSnapshot.value as Map,
+                    );
+
+                    final ids = players.keys.map((e) => e.toString()).toList();
+
+                    ids.sort();
+
+                    int current = ids.indexOf(widget.playerId!);
+
+                    if (current != -1) {
+                      int next = current + 1;
+
+                      if (next >= ids.length) {
+                        next = 0;
+
+                        final round =
+                            ((await roomRef!.child("round").get()).value
+                                    as num?)
+                                ?.toInt() ??
+                            1;
+
+                        await roomRef!.update({"round": round + 1});
+                      }
+
+                      await roomRef!.update({"currentTurn": ids[next]});
+
+                      await roomRef!
+                          .child("players")
+                          .child(widget.playerId!)
+                          .update({"status": "waiting"});
+
+                      await roomRef!.child("players").child(ids[next]).update({
+                        "status": "playing",
+                      });
+                    }
+                  }
+                }
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.amber,
@@ -538,6 +812,12 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
   @override
   Widget build(BuildContext context) {
+    Map<dynamic, dynamic> onlinePlayers = livePlayers;
+    onlinePlayers.removeWhere((key, value) {
+      final player = Map<dynamic, dynamic>.from(value);
+
+      return player["status"] == "left";
+    });
     if (loadingGame) {
       return const Scaffold(
         backgroundColor: Color(0xFF0F172A),
@@ -611,6 +891,155 @@ class _WordGameScreenState extends State<WordGameScreen> {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      if (widget.isMultiplayer)
+                        Container(
+                          width: double.infinity,
+                          margin: const EdgeInsets.only(bottom: 12),
+                          padding: const EdgeInsets.all(14),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFF1E293B),
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              const Text(
+                                "🏆 Canlı Puan Durumu",
+                                style: TextStyle(
+                                  color: Colors.amber,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 10),
+
+                              Text(
+                                "🎮 Tur : $currentRound",
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+
+                              const SizedBox(height: 5),
+
+                              Text(
+                                myTurn
+                                    ? "🟢 Sıra Sende"
+                                    : "🟡 Diğer Oyuncu Oynuyor",
+                                style: TextStyle(
+                                  color: myTurn ? Colors.green : Colors.orange,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+
+                              const Divider(color: Colors.white24),
+                              ...onlinePlayers.entries.map((entry) {
+                                final data = Map<dynamic, dynamic>.from(
+                                  entry.value,
+                                );
+
+                                return Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                    vertical: 4,
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Row(
+                                        children: [
+                                          Icon(
+                                            entry.key.toString() == currentTurn
+                                                ? Icons.play_circle_fill
+                                                : Icons.circle,
+                                            color:
+                                                entry.key.toString() ==
+                                                    currentTurn
+                                                ? Colors.green
+                                                : Colors.orange,
+                                            size: 16,
+                                          ),
+                                          const SizedBox(width: 8),
+                                          Expanded(
+                                            child: Row(
+                                              children: [
+                                                Icon(
+                                                  data["status"] == "left"
+                                                      ? Icons.cancel
+                                                      : Icons.circle,
+                                                  color:
+                                                      data["status"] == "left"
+                                                      ? Colors.red
+                                                      : Colors.green,
+                                                  size: 14,
+                                                ),
+
+                                                const SizedBox(width: 8),
+
+                                                Expanded(
+                                                  child: Text(
+                                                    data["name"] ?? "",
+                                                    style: const TextStyle(
+                                                      color: Colors.white,
+                                                      fontSize: 16,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.end,
+                                        children: [
+                                          Column(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.end,
+                                            children: [
+                                              Text(
+                                                "${data["score"] ?? 0} Puan",
+                                                style: const TextStyle(
+                                                  color: Colors.amber,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
+
+                                              Text(
+                                                data["status"] == "left"
+                                                    ? "🔴 Ayrıldı"
+                                                    : data["status"] ==
+                                                          "playing"
+                                                    ? "🎮 Oynuyor"
+                                                    : "⏳ Bekliyor",
+                                                style: TextStyle(
+                                                  color:
+                                                      data["status"] == "left"
+                                                      ? Colors.red
+                                                      : data["status"] ==
+                                                            "playing"
+                                                      ? Colors.green
+                                                      : Colors.orange,
+                                                  fontSize: 12,
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              }),
+                            ],
+                          ),
+                        ),
                       Container(
                         width: double.infinity,
                         padding: EdgeInsets.all(cardPadding),
@@ -741,6 +1170,19 @@ class _WordGameScreenState extends State<WordGameScreen> {
                           textCapitalization: TextCapitalization.characters,
                           textInputAction: TextInputAction.done,
                           onSubmitted: (_) {
+                            if (!myTurn) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  backgroundColor: Colors.orange,
+                                  content: Text(
+                                    "Sıra diğer oyuncuda.",
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              );
+                              return;
+                            }
+
                             if (guessChance > 0) {
                               guessWord();
                             }
@@ -785,7 +1227,9 @@ class _WordGameScreenState extends State<WordGameScreen> {
                         width: responsive.clampWidth(0.62, min: 200, max: 280),
                         height: buttonHeight,
                         child: ElevatedButton.icon(
-                          onPressed: guessChance > 0 ? guessWord : null,
+                          onPressed: myTurn
+                              ? (guessChance > 0 ? guessWord : null)
+                              : null,
                           icon: Icon(Icons.edit, size: responsive.font(20)),
                           label: FittedBox(
                             fit: BoxFit.scaleDown,
@@ -816,6 +1260,18 @@ class _WordGameScreenState extends State<WordGameScreen> {
                         currentWord: currentWord,
                         usedLetters: usedLetters,
                         onLetterSelected: (letter) async {
+                          if (!myTurn) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                backgroundColor: Colors.orange,
+                                content: Text(
+                                  "Sıra diğer oyuncuda.",
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            );
+                            return;
+                          }
                           await guessLetter(letter);
 
                           if (!mounted) {

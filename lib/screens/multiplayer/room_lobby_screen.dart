@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:flutter/services.dart';
 
 import '../game/word_game_screen.dart';
 import '../intelligence/intelligence_home_screen.dart';
@@ -28,6 +27,8 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
 
   bool gameOpened = false;
   bool iAmReady = false;
+  int previousPlayerCount = 0;
+  Map<String, String> previousPlayers = {};
   @override
   void initState() {
     super.initState();
@@ -46,16 +47,50 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
       if (!event.snapshot.exists) {
         return;
       }
+      final playerCount = event.snapshot.child("players").children.length;
 
+      if (playerCount == 0) {
+        await roomRef.remove();
+        return;
+      }
       final Map<dynamic, dynamic> roomData = Map<dynamic, dynamic>.from(
         event.snapshot.value as Map,
       );
 
-      final String game = roomData['game']?.toString() ?? '';
       final Map<dynamic, dynamic> players = roomData['players'] == null
           ? {}
           : Map<dynamic, dynamic>.from(roomData['players'] as Map);
-      if (!gameOpened && players.length == 2) {
+      final Map<String, String> currentPlayers = {};
+
+      for (final entry in players.entries) {
+        final data = Map<dynamic, dynamic>.from(entry.value);
+
+        currentPlayers[entry.key.toString()] =
+            data["name"]?.toString() ?? "Oyuncu";
+      }
+
+      if (previousPlayers.isNotEmpty) {
+        for (final oldPlayer in previousPlayers.entries) {
+          if (!currentPlayers.containsKey(oldPlayer.key)) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                backgroundColor: Colors.red,
+                content: Text(
+                  "⚠️ ${oldPlayer.value} odadan ayrıldı.",
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            );
+            break;
+          }
+        }
+      }
+
+      previousPlayers = Map<String, String>.from(currentPlayers);
+      final int maxPlayers = (roomData['maxPlayers'] as num?)?.toInt() ?? 2;
+
+      previousPlayerCount = players.length;
+      if (!gameOpened && players.length >= maxPlayers) {
         bool everyoneReady = true;
 
         for (final player in players.values) {
@@ -68,36 +103,72 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
         }
 
         if (everyoneReady) {
-          gameOpened = true;
+          if (players.length < maxPlayers) {
+            return;
+          }
 
-          await roomRef.update({"status": "ready"});
-
-          await roomSubscription?.cancel();
-
-          if (!mounted) return;
-
-          FocusManager.instance.primaryFocus?.unfocus();
-
-          await Future.delayed(const Duration(milliseconds: 300));
-
-          if (!mounted) return;
-
-          openGame(game);
+          await roomRef.update({
+            "status": "starting",
+            "round": 1,
+            "currentTurn": players.keys.first.toString(),
+            "gameState": "loading",
+          });
         }
       }
     });
   }
 
   Future<void> setReady() async {
+    if (iAmReady) return;
+
     await roomRef.child("players").child(widget.playerId).update({
       "ready": true,
     });
+    final room = await roomRef.get();
+
+    if (!room.exists) return;
+
+    final roomData = Map<dynamic, dynamic>.from(room.value as Map);
+
+    final players = Map<dynamic, dynamic>.from(roomData["players"]);
+
+    final maxPlayers = (roomData["maxPlayers"] as num?)?.toInt() ?? 2;
+
+    if (players.length < maxPlayers) {
+      if (!mounted) return;
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          backgroundColor: Colors.orange,
+          content: Text("Oyuncu bekleniyor...", textAlign: TextAlign.center),
+        ),
+      );
+
+      return;
+    }
+    final snapshot = await roomRef.get();
+
+    if (!snapshot.exists) return;
+
+    // ignore: unused_local_variable
+    bool everyoneReady = true;
+
+    for (final player in players.values) {
+      final data = Map<dynamic, dynamic>.from(player);
+
+      if (data["ready"] != true) {
+        everyoneReady = false;
+        break;
+      }
+    }
 
     if (!mounted) return;
 
     setState(() {
       iAmReady = true;
     });
+    roomRef.onDisconnect().remove();
+    roomRef.onDisconnect().cancel();
   }
 
   @override
@@ -209,7 +280,15 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
                 (roomData['maxPlayers'] as num?)?.toInt() ?? 2;
 
             final String status = roomData['status']?.toString() ?? 'waiting';
+            if (status == "starting" && !gameOpened) {
+              WidgetsBinding.instance.addPostFrameCallback((_) {
+                if (!mounted || gameOpened) return;
 
+                gameOpened = true;
+
+                openGame(game);
+              });
+            }
             final Map<dynamic, dynamic> players = roomData['players'] == null
                 ? {}
                 : Map<dynamic, dynamic>.from(roomData['players'] as Map);
@@ -228,73 +307,52 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
                     child: Column(
                       children: [
                         const Icon(Icons.groups, color: Colors.amber, size: 58),
+
                         const SizedBox(height: 14),
-                        const Text(
-                          'Oda Kodu',
-                          style: TextStyle(color: Colors.white70, fontSize: 18),
-                        ),
-                        const SizedBox(height: 8),
-                        InkWell(
-                          borderRadius: BorderRadius.circular(16),
-                          onTap: () async {
-                            await Clipboard.setData(
-                              ClipboardData(text: widget.roomCode),
-                            );
 
-                            if (!context.mounted) {
-                              return;
-                            }
-
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text(
-                                  'Oda kodu kopyalandı.',
-                                  textAlign: TextAlign.center,
-                                ),
-                                backgroundColor: Color(0xFF1E293B),
-                              ),
-                            );
-                          },
-                          child: Padding(
-                            padding: const EdgeInsets.all(8),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Text(
-                                  widget.roomCode,
-                                  style: const TextStyle(
-                                    color: Colors.amber,
-                                    fontSize: 34,
-                                    fontWeight: FontWeight.bold,
-                                    letterSpacing: 5,
-                                  ),
-                                ),
-                                const SizedBox(width: 10),
-                                const Icon(
-                                  Icons.copy,
-                                  color: Colors.amber,
-                                  size: 30,
-                                ),
-                              ],
-                            ),
+                        Text(
+                          roomData["roomName"] ?? "Oda",
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(
+                            color: Colors.amber,
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        const SizedBox(height: 8),
-                        const Text(
-                          'Kopyalamak için oda koduna dokun',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.white54, fontSize: 15),
-                        ),
-                        const SizedBox(height: 18),
+
+                        const SizedBox(height: 12),
+
                         Text(
                           game,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                             color: Colors.white,
-                            fontSize: 23,
+                            fontSize: 22,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
+
+                        const SizedBox(height: 10),
+
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 8,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Colors.green,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Text(
+                            "$maxPlayers Kişilik Oda",
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+
+                        const SizedBox(height: 18),
                       ],
                     ),
                   ),
@@ -446,7 +504,9 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
                         Text(
                           status == 'waiting'
                               ? 'Oyuncular bekleniyor...'
-                              : 'Oyun açılıyor...',
+                              : status == 'starting'
+                              ? 'Oyun açılıyor...'
+                              : 'Hazırlanıyor...',
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 17,
@@ -479,65 +539,6 @@ class _RoomLobbyScreenState extends State<RoomLobbyScreen> {
               ),
             );
           },
-        ),
-      ),
-    );
-  }
-}
-
-class GamePlaceholderScreen extends StatelessWidget {
-  final String gameName;
-  final IconData icon;
-
-  const GamePlaceholderScreen({
-    super.key,
-    required this.gameName,
-    required this.icon,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFF0F172A),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF0F172A),
-        foregroundColor: Colors.white,
-        centerTitle: true,
-        title: Text(
-          gameName,
-          style: const TextStyle(fontWeight: FontWeight.bold),
-        ),
-      ),
-      body: Center(
-        child: Container(
-          margin: const EdgeInsets.all(24),
-          padding: const EdgeInsets.all(30),
-          decoration: BoxDecoration(
-            color: const Color(0xFF1E293B),
-            borderRadius: BorderRadius.circular(24),
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Icon(icon, color: Colors.amber, size: 80),
-              const SizedBox(height: 24),
-              Text(
-                gameName,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 14),
-              const Text(
-                'Çok oyunculu oyun ekranı hazırlanıyor.',
-                textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.white70, fontSize: 17),
-              ),
-            ],
-          ),
         ),
       ),
     );
