@@ -55,10 +55,10 @@ class _WordGameScreenState extends State<WordGameScreen> {
   DatabaseReference? roomRef;
 
   StreamSubscription<DatabaseEvent>? roomListener;
-
+  StreamSubscription<DatabaseEvent>? roomStateListener;
   bool gameFinished = false;
   bool myTurn = false;
-
+  bool hadTwoPlayers = false;
   String currentTurn = "";
 
   int currentRound = 1;
@@ -75,27 +75,28 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
     if (widget.isMultiplayer && widget.roomCode != null) {
       roomRef = FirebaseDatabase.instance.ref("rooms/${widget.roomCode}");
-
+      setupDisconnectHandler();
       listenPlayers();
+      listenRoomState();
     }
   }
 
   Future<void> _initializeGame() async {
-    await loadPlayerData();
+    try {
+      await loadPlayerData();
 
-    if (widget.isMultiplayer) {
+      // Multiplayer olsun olmasın kelimeleri yükle
       await _loadOrCreateGame();
-    } else {
-      await _loadOrCreateGame();
+    } catch (e) {
+      debugPrint("Oyun başlatma hatası: $e");
+    } finally {
+      // Ne olursa olsun loading bitsin
+      if (mounted) {
+        setState(() {
+          loadingGame = false;
+        });
+      }
     }
-
-    if (!mounted) {
-      return;
-    }
-
-    setState(() {
-      loadingGame = false;
-    });
   }
 
   List<WordItem> _getDifficultyWords() {
@@ -172,9 +173,9 @@ class _WordGameScreenState extends State<WordGameScreen> {
   }
 
   Future<void> _createNewGame() async {
-    if (widget.isMultiplayer) {
-      return;
-    }
+    // if (widget.isMultiplayer) {
+    //   return;
+    // }
     final List<WordItem> sourceWords = _getDifficultyWords();
 
     questionOrder = List<int>.generate(sourceWords.length, (index) => index);
@@ -190,6 +191,16 @@ class _WordGameScreenState extends State<WordGameScreen> {
     guessChance = 2;
 
     loadCurrentWord();
+
+    // Multiplayer ise ilk kelimeyi Firebase’e yaz
+    if (widget.isMultiplayer && roomRef != null && shuffledWords.isNotEmpty) {
+      final first = shuffledWords[0];
+      await roomRef!.update({
+        "currentWord": first.word,
+        "currentHint": first.hint,
+        "gameState": "playing",
+      });
+    }
 
     await _saveProgress();
   }
@@ -239,168 +250,195 @@ class _WordGameScreenState extends State<WordGameScreen> {
     );
   }
 
+  void setupDisconnectHandler() {
+    if (!widget.isMultiplayer || roomRef == null || widget.playerId == null) {
+      return;
+    }
+
+    final playerRef = roomRef!.child("players").child(widget.playerId!);
+
+    playerRef.onDisconnect().update({"status": "disconnected"});
+  }
+
   void listenPlayers() {
     roomListener = roomRef?.child("players").onValue.listen((event) async {
       if (!mounted) return;
-
-      if (gameFinished) return;
 
       if (!event.snapshot.exists) return;
 
       final Map<dynamic, dynamic> players = Map<dynamic, dynamic>.from(
         event.snapshot.value as Map,
       );
-      int leftPlayers = 0;
 
-      for (final player in players.values) {
-        final data = Map<dynamic, dynamic>.from(player);
+      livePlayers = players.map(
+        (key, value) =>
+            MapEntry(key.toString(), Map<dynamic, dynamic>.from(value)),
+      );
 
-        if (data["status"] == "left") {
-          leftPlayers++;
-        }
-      }
-      for (final entry in players.entries) {
-        final player = Map<dynamic, dynamic>.from(entry.value);
+      // İki oyuncunun gerçekten aynı anda odada olduğunu gördük.
+      if (players.length >= 2) {
+        hadTwoPlayers = true;
 
-        if (!livePlayers.containsKey(entry.key.toString())) {
-          livePlayers[entry.key.toString()] = player;
-        } else {
-          livePlayers[entry.key.toString()] = player;
+        // Daha önce "oyuncu ayrıldı" durumu oluştuysa
+        // oyuncu geri geldiğinde oyunu tekrar aktif et.
+        if (gameFinished) {
+          gameFinished = false;
+
+          ScaffoldMessenger.of(context).hideCurrentSnackBar();
+
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              backgroundColor: Colors.green,
+              content: Text(
+                "✅ Oyuncu tekrar bağlandı.\nOyun devam ediyor.",
+                textAlign: TextAlign.center,
+              ),
+            ),
+          );
         }
       }
 
       if (mounted) {
         setState(() {});
       }
-      livePlayers = Map<String, dynamic>.from(players);
 
-      currentTurn = currentTurn =
-          (await roomRef!.child("currentTurn").get()).value?.toString() ?? "";
+      /*
+     * ÖNEMLİ:
+     *
+     * currentTurn
+     * myTurn
+     * currentRound
+     * currentWord
+     * currentHint
+     *
+     * artık burada değiştirilmiyor.
+     *
+     * Bunların tamamını listenRoomState() yönetiyor.
+     */
 
-      final roomSnapshot = await roomRef!.get();
+      // Gerçekten ayrılmış bir oyuncu var mı?
+      String? leftPlayerId;
 
-      if (roomSnapshot.exists) {
-        final roomData = Map<dynamic, dynamic>.from(roomSnapshot.value as Map);
+      for (final entry in players.entries) {
+        final player = Map<dynamic, dynamic>.from(entry.value);
 
-        if (roomData["currentWord"] != null &&
-            roomData["currentWord"] != currentWord) {
-          currentWord = roomData["currentWord"];
+        final playerId = entry.key.toString();
 
-          currentHint = roomData["currentHint"] ?? "";
-
-          prepareHiddenWord();
-        }
-
-        final maxPlayers = (roomData["maxPlayers"] as num?)?.toInt() ?? 2;
-
-        myTurn = currentTurn == widget.playerId;
-
-        currentRound =
-            ((await roomRef!.child("round").get()).value as num?)?.toInt() ?? 1;
-
-        if (maxPlayers == 2 && leftPlayers >= 1) {
-          if (!gameFinished) {
-            gameFinished = true;
-
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                duration: Duration(seconds: 5),
-                backgroundColor: Colors.green,
-                content: Text(
-                  "🏆 Diğer oyuncu oyundan ayrıldı.\nTebrikler, oyunu kazandınız.",
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            );
-          }
-
-          return;
+        if (playerId != widget.playerId &&
+            (player["status"] == "left" ||
+                player["status"] == "disconnected")) {
+          leftPlayerId = playerId;
+          break;
         }
       }
-      final int playerCount = players.length;
-      if (playerCount == 0) {
-        return;
-      }
 
-      if (playerCount == 1 && !gameFinished) {
+      // Oyuncu gerçekten "left" olarak işaretlenmişse bildir.
+      if (leftPlayerId != null && !gameFinished) {
         gameFinished = true;
-
-        int countdown = 3;
-
-        while (countdown > 0) {
-          if (!mounted) return;
-
-          ScaffoldMessenger.of(context).hideCurrentSnackBar();
-
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              duration: const Duration(seconds: 1),
-              backgroundColor: Colors.orange,
-              content: Text(
-                "⚠️ Oyuncu ayrıldı.\n$countdown saniye içinde dönmezse oyunu kazanacaksınız.",
-                textAlign: TextAlign.center,
-              ),
-            ),
-          );
-
-          await Future.delayed(const Duration(seconds: 1));
-
-          final check = await roomRef!.child("players").get();
-
-          if (!check.exists) {
-            return;
-          }
-
-          final latestPlayers = Map<dynamic, dynamic>.from(check.value as Map);
-
-          if (latestPlayers.length > 1) {
-            gameFinished = false;
-
-            ScaffoldMessenger.of(context).hideCurrentSnackBar();
-
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                backgroundColor: Colors.green,
-                content: Text(
-                  "✅ Oyuncu tekrar bağlandı.\nOyun devam ediyor.",
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            );
-
-            return;
-          }
-
-          countdown--;
-        }
-
-        if (!mounted) return;
 
         ScaffoldMessenger.of(context).hideCurrentSnackBar();
 
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             duration: Duration(seconds: 5),
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.orange,
             content: Text(
-              "🏆 Tebrikler!\nDiğer oyuncu oyundan ayrıldığı için oyunu kazandınız.",
+              "⚠️ Diğer oyuncunun bağlantısı koptu veya oyundan ayrıldı.",
               textAlign: TextAlign.center,
             ),
           ),
         );
 
-        final player = Provider.of<PlayerProvider>(context, listen: false);
+        return;
+      }
 
-        await player.addReward(addXp: 100, addCoins: 50);
+      /*
+     * İki oyuncuyu daha önce gördükten sonra
+     * oyuncu sayısı tekrar 1'e düşerse bu gerçek bir
+     * bağlantı kopması / odadan ayrılma olabilir.
+     *
+     * İlk açılışta tek oyuncu görünürse artık
+     * yanlışlıkla "oyuncu ayrıldı" demeyecek.
+     */
+      if (hadTwoPlayers && players.length < 2 && !gameFinished) {
+        gameFinished = true;
 
-        multiplayerScore++;
+        ScaffoldMessenger.of(context).hideCurrentSnackBar();
 
-        await roomRef!.child("players").child(widget.playerId!).update({
-          "score": multiplayerScore,
-        });
-      } // if (playerCount == 1)
-    }); // roomListener.listen
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            duration: Duration(seconds: 5),
+            backgroundColor: Colors.orange,
+            content: Text(
+              "⚠️ Diğer oyuncunun bağlantısı koptu veya oyundan ayrıldı.",
+              textAlign: TextAlign.center,
+            ),
+          ),
+        );
+
+        return;
+      }
+    });
   } // listenPlayers
+
+  void listenRoomState() {
+    roomStateListener = roomRef?.onValue.listen((event) {
+      if (!mounted) return;
+      if (!event.snapshot.exists) return;
+
+      final roomData = Map<dynamic, dynamic>.from(event.snapshot.value as Map);
+
+      final firebaseTurn = roomData["currentTurn"]?.toString() ?? "";
+
+      final firebaseWord = roomData["currentWord"]?.toString() ?? "";
+
+      final firebaseHint = roomData["currentHint"]?.toString() ?? "";
+
+      final firebaseRound = (roomData["round"] as num?)?.toInt() ?? 1;
+
+      final firebaseGuessChance =
+          (roomData["guessChance"] as num?)?.toInt() ?? 2;
+
+      final firebaseUsedLetters = roomData["usedLetters"];
+
+      final Set<String> newUsedLetters = {};
+
+      if (firebaseUsedLetters is List) {
+        for (final letter in firebaseUsedLetters) {
+          newUsedLetters.add(letter.toString());
+        }
+      }
+
+      currentTurn = firebaseTurn;
+      myTurn = currentTurn == widget.playerId;
+      currentRound = firebaseRound;
+      guessChance = firebaseGuessChance;
+
+      if (firebaseWord.isNotEmpty && firebaseWord != currentWord) {
+        currentWord = firebaseWord;
+        currentHint = firebaseHint;
+        prepareHiddenWord();
+      } else if (firebaseHint.isNotEmpty) {
+        currentHint = firebaseHint;
+      }
+
+      usedLetters = newUsedLetters;
+
+      if (currentWord.isNotEmpty) {
+        prepareHiddenWord();
+
+        for (final letter in usedLetters) {
+          for (int i = 0; i < currentWord.length; i++) {
+            if (currentWord[i] == letter) {
+              hiddenWord[i] = letter;
+            }
+          }
+        }
+      }
+
+      setState(() {});
+    });
+  }
 
   @override
   void dispose() {
@@ -417,8 +455,8 @@ class _WordGameScreenState extends State<WordGameScreen> {
     }
 
     roomListener?.cancel();
+    roomStateListener?.cancel();
     guessController.dispose();
-
     super.dispose();
   }
 
@@ -437,34 +475,50 @@ class _WordGameScreenState extends State<WordGameScreen> {
   }
 
   Future<void> loadCurrentWord() async {
-    if (widget.isMultiplayer && roomRef != null && widget.playerId != null) {
-      final room = await roomRef!.get();
+    debugPrint("STEP-1 loadCurrentWord başladı");
 
-      if (!room.exists) return;
+    if (widget.isMultiplayer && roomRef != null) {
+      try {
+        final room = await roomRef!.get();
+        if (!room.exists) {
+          debugPrint("Oda yok");
+          return;
+        }
 
-      final roomData = Map<dynamic, dynamic>.from(room.value as Map);
+        final roomData = Map<dynamic, dynamic>.from(room.value as Map);
+        debugPrint(
+          "STEP-2 roomData okundu → gameState: ${roomData["gameState"]}",
+        );
 
-      if (roomData["gameState"] != "playing") {
-        return;
+        // Firebase'den gelen kelimeyi öncelikli kullan
+        if (roomData["currentWord"] != null) {
+          currentWord = roomData["currentWord"].toString();
+          currentHint = roomData["currentHint"]?.toString() ?? "";
+          prepareHiddenWord();
+          usedLetters.clear();
+          guessChance = 2;
+          guessController.clear();
+
+          if (mounted) setState(() {});
+          return; // Firebase kelimesi geldi, çık
+        }
+      } catch (e) {
+        debugPrint("loadCurrentWord multiplayer hata: $e");
       }
     }
 
+    // Normal (tek oyunculu) yol
     if (shuffledWords.isEmpty) {
+      debugPrint("shuffledWords boş");
       return;
     }
 
     currentItem = shuffledWords[currentWordIndex];
-
     currentWord = currentItem!.word;
-
     currentHint = currentItem!.hint;
-
     prepareHiddenWord();
-
     usedLetters.clear();
-
     guessChance = 2;
-
     guessController.clear();
 
     if (mounted) {
@@ -473,6 +527,13 @@ class _WordGameScreenState extends State<WordGameScreen> {
   }
 
   Future<void> nextWord() async {
+    // Multiplayer'da kelimeyi Firebase belirliyor.
+    // completeWord() zaten sırayı ve oyun durumunu Firebase'e yazdı.
+    if (widget.isMultiplayer && roomRef != null) {
+      return;
+    }
+
+    // Tek oyunculu oyun
     if (shuffledWords.isEmpty) {
       return;
     }
@@ -487,12 +548,10 @@ class _WordGameScreenState extends State<WordGameScreen> {
       );
 
       await _createNewGame();
-
       return;
     }
 
     await loadCurrentWord();
-
     await _saveProgress();
   }
 
@@ -526,7 +585,9 @@ class _WordGameScreenState extends State<WordGameScreen> {
       await completeWord();
     } else {
       guessChance--;
-
+      if (widget.isMultiplayer && roomRef != null) {
+        await roomRef!.update({"guessChance": guessChance});
+      }
       guessController.clear();
 
       setState(() {});
@@ -552,8 +613,15 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
   Future<void> guessLetter(String letter) async {
     if (!myTurn) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          backgroundColor: Colors.orange,
+          content: Text("Sıra diğer oyuncuda.", textAlign: TextAlign.center),
+        ),
+      );
       return;
     }
+
     if (letter.isEmpty) {
       return;
     }
@@ -567,12 +635,19 @@ class _WordGameScreenState extends State<WordGameScreen> {
     for (int i = 0; i < currentWord.length; i++) {
       if (currentWord[i] == letter) {
         hiddenWord[i] = letter;
-
         found = true;
       }
     }
 
     usedLetters.add(letter);
+
+    if (widget.isMultiplayer && roomRef != null) {
+      await roomRef!.update({"usedLetters": usedLetters.toList()});
+    }
+
+    if (!mounted) {
+      return;
+    }
 
     setState(() {});
 
@@ -580,7 +655,6 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
     if (hiddenWord.join("") == currentWord) {
       await completeWord();
-
       return;
     }
 
@@ -591,24 +665,22 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
   Future<void> completeWord() async {
     int rewardXP = 20;
-
     int rewardCoins = 10;
 
     if (widget.difficulty == "medium") {
       rewardXP = 40;
-
       rewardCoins = 20;
     }
 
     if (widget.difficulty == "hard") {
       rewardXP = 80;
-
       rewardCoins = 40;
     }
 
     final player = Provider.of<PlayerProvider>(context, listen: false);
 
     await player.addReward(addXp: rewardXP, addCoins: rewardCoins);
+
     if (widget.isMultiplayer && roomRef != null && widget.playerId != null) {
       multiplayerScore++;
 
@@ -625,43 +697,59 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
         ids.sort();
 
-        int index = ids.indexOf(widget.playerId!);
+        final currentIndex = ids.indexOf(widget.playerId!);
 
-        if (index == -1) return;
+        if (currentIndex != -1 && ids.length > 1) {
+          int nextIndex = currentIndex + 1;
 
-        int nextIndex = index + 1;
-
-        if (nextIndex >= ids.length) {
-          nextIndex = 0;
-
-          final round =
+          int round =
               ((await roomRef!.child("round").get()).value as num?)?.toInt() ??
               1;
 
-          await roomRef!.update({"round": round + 1});
-        }
+          if (nextIndex >= ids.length) {
+            nextIndex = 0;
+            round++;
+          }
 
-        await roomRef!.update({"currentTurn": ids[nextIndex]});
-        final nextWordIndex = currentWordIndex + 1;
+          /*
+         * Sadece burada sıra değişiyor.
+         * Artık completeWord() içinde sıra değiştikten sonra
+         * tekrar Sonraki Kelime butonunda sıra değiştirmiyoruz.
+         */
 
-        if (nextWordIndex < shuffledWords.length) {
-          final nextItem = shuffledWords[nextWordIndex];
+          final nextWordIndex = currentWordIndex + 1;
+
+          String nextWord = currentWord;
+          String nextHint = currentHint;
+
+          if (nextWordIndex < shuffledWords.length) {
+            final nextItem = shuffledWords[nextWordIndex];
+
+            nextWord = nextItem.word;
+            nextHint = nextItem.hint;
+          }
 
           await roomRef!.update({
-            "currentWord": nextItem.word,
+            "currentTurn": ids[nextIndex],
+            "round": round,
+            "currentWord": nextWord,
+            "currentHint": nextHint,
+            "usedLetters": <String>[],
+            "guessChance": 2,
+            "gameState": "playing",
+          });
 
-            "currentHint": nextItem.hint,
+          await roomRef!.child("players").child(widget.playerId!).update({
+            "status": "waiting",
+          });
+
+          await roomRef!.child("players").child(ids[nextIndex]).update({
+            "status": "playing",
           });
         }
-        await roomRef!.child("players").child(widget.playerId!).update({
-          "status": "waiting",
-        });
-
-        await roomRef!.child("players").child(ids[nextIndex]).update({
-          "status": "playing",
-        });
       }
     }
+
     if (!mounted) {
       return;
     }
@@ -683,9 +771,7 @@ class _WordGameScreenState extends State<WordGameScreen> {
                 "Kelimeyi doğru bildin!",
                 style: TextStyle(color: Colors.white70),
               ),
-
               const SizedBox(height: 5),
-
               Text(
                 "⭐ XP +$rewardXP",
                 style: const TextStyle(
@@ -694,9 +780,7 @@ class _WordGameScreenState extends State<WordGameScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
               const SizedBox(height: 10),
-
               Text(
                 "🪙 Jeton +$rewardCoins",
                 style: const TextStyle(
@@ -705,13 +789,9 @@ class _WordGameScreenState extends State<WordGameScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
               const SizedBox(height: 10),
-
               const Divider(color: Colors.white24),
-
               const SizedBox(height: 10),
-
               const Row(
                 children: [
                   Icon(Icons.school, color: Colors.amber),
@@ -726,9 +806,7 @@ class _WordGameScreenState extends State<WordGameScreen> {
                   ),
                 ],
               ),
-
               const SizedBox(height: 12),
-
               Text(
                 currentItem?.info ?? "",
                 textAlign: TextAlign.center,
@@ -742,61 +820,15 @@ class _WordGameScreenState extends State<WordGameScreen> {
           ),
           actions: [
             ElevatedButton(
-              onPressed: () async {
+              onPressed: () {
                 Navigator.pop(dialogContext);
-
-                await nextWord();
-                if (widget.isMultiplayer &&
-                    roomRef != null &&
-                    widget.playerId != null) {
-                  final playersSnapshot = await roomRef!.child("players").get();
-
-                  if (playersSnapshot.exists) {
-                    final players = Map<dynamic, dynamic>.from(
-                      playersSnapshot.value as Map,
-                    );
-
-                    final ids = players.keys.map((e) => e.toString()).toList();
-
-                    ids.sort();
-
-                    int current = ids.indexOf(widget.playerId!);
-
-                    if (current != -1) {
-                      int next = current + 1;
-
-                      if (next >= ids.length) {
-                        next = 0;
-
-                        final round =
-                            ((await roomRef!.child("round").get()).value
-                                    as num?)
-                                ?.toInt() ??
-                            1;
-
-                        await roomRef!.update({"round": round + 1});
-                      }
-
-                      await roomRef!.update({"currentTurn": ids[next]});
-
-                      await roomRef!
-                          .child("players")
-                          .child(widget.playerId!)
-                          .update({"status": "waiting"});
-
-                      await roomRef!.child("players").child(ids[next]).update({
-                        "status": "playing",
-                      });
-                    }
-                  }
-                }
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.amber,
                 foregroundColor: Colors.black,
               ),
               child: const Text(
-                "Sonraki Kelime",
+                "Devam Et",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -812,12 +844,13 @@ class _WordGameScreenState extends State<WordGameScreen> {
 
   @override
   Widget build(BuildContext context) {
-    Map<dynamic, dynamic> onlinePlayers = livePlayers;
-    onlinePlayers.removeWhere((key, value) {
-      final player = Map<dynamic, dynamic>.from(value);
+    // Güvenli kopya
+    final Map<dynamic, dynamic> onlinePlayers =
+        Map<dynamic, dynamic>.from(livePlayers)..removeWhere((key, value) {
+          final player = Map<dynamic, dynamic>.from(value);
+          return player["status"] == "left";
+        });
 
-      return player["status"] == "left";
-    });
     if (loadingGame) {
       return const Scaffold(
         backgroundColor: Color(0xFF0F172A),
@@ -826,34 +859,8 @@ class _WordGameScreenState extends State<WordGameScreen> {
     }
 
     final responsive = Responsive(context);
-
     final double screenWidth = responsive.width;
-
-    final double safeHeight = responsive.safeHeight;
-
     final double contentWidth = screenWidth.clamp(280.0, 520.0);
-
-    final bool isShortScreen = safeHeight < 700;
-
-    final bool isVeryShortScreen = safeHeight < 620;
-
-    final double cardPadding = responsive.clampWidth(0.04, min: 12, max: 18);
-
-    final double sectionGap = isVeryShortScreen
-        ? 4.0
-        : isShortScreen
-        ? 6.0
-        : 8.0;
-
-    final double wordBoxHeight = responsive.clampHeight(
-      0.075,
-      min: 56,
-      max: 72,
-    );
-
-    final double inputHeight = responsive.clampHeight(0.060, min: 48, max: 56);
-
-    final double buttonHeight = responsive.clampHeight(0.055, min: 44, max: 52);
 
     return Scaffold(
       backgroundColor: const Color(0xFF0F172A),
@@ -862,433 +869,234 @@ class _WordGameScreenState extends State<WordGameScreen> {
         backgroundColor: const Color(0xFF0F172A),
         elevation: 0,
         centerTitle: true,
-        toolbarHeight: responsive.clampHeight(0.065, min: 50, max: 64),
-        title: FittedBox(
-          fit: BoxFit.scaleDown,
-          child: Text(
-            "Kelime Oyunu",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: responsive.font(24),
-              fontWeight: FontWeight.bold,
-            ),
+        title: const Text(
+          "Kelime Oyunu",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
           ),
         ),
       ),
       body: SafeArea(
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            return SingleChildScrollView(
-              keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
-              padding: EdgeInsets.only(
-                left: responsive.horizontalPadding,
-                right: responsive.horizontalPadding,
-                bottom: responsive.mediumGap,
-              ),
-              child: Center(
-                child: ConstrainedBox(
-                  constraints: BoxConstraints(maxWidth: contentWidth),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      if (widget.isMultiplayer)
-                        Container(
-                          width: double.infinity,
-                          margin: const EdgeInsets.only(bottom: 12),
-                          padding: const EdgeInsets.all(14),
-                          decoration: BoxDecoration(
-                            color: const Color(0xFF1E293B),
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              const Text(
-                                "🏆 Canlı Puan Durumu",
-                                style: TextStyle(
-                                  color: Colors.amber,
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              const SizedBox(height: 10),
-
-                              Text(
-                                "🎮 Tur : $currentRound",
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-
-                              const SizedBox(height: 5),
-
-                              Text(
-                                myTurn
-                                    ? "🟢 Sıra Sende"
-                                    : "🟡 Diğer Oyuncu Oynuyor",
-                                style: TextStyle(
-                                  color: myTurn ? Colors.green : Colors.orange,
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-
-                              const Divider(color: Colors.white24),
-                              ...onlinePlayers.entries.map((entry) {
-                                final data = Map<dynamic, dynamic>.from(
-                                  entry.value,
-                                );
-
-                                return Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                    vertical: 4,
-                                  ),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Row(
-                                        children: [
-                                          Icon(
-                                            entry.key.toString() == currentTurn
-                                                ? Icons.play_circle_fill
-                                                : Icons.circle,
-                                            color:
-                                                entry.key.toString() ==
-                                                    currentTurn
-                                                ? Colors.green
-                                                : Colors.orange,
-                                            size: 16,
-                                          ),
-                                          const SizedBox(width: 8),
-                                          Expanded(
-                                            child: Row(
-                                              children: [
-                                                Icon(
-                                                  data["status"] == "left"
-                                                      ? Icons.cancel
-                                                      : Icons.circle,
-                                                  color:
-                                                      data["status"] == "left"
-                                                      ? Colors.red
-                                                      : Colors.green,
-                                                  size: 14,
-                                                ),
-
-                                                const SizedBox(width: 8),
-
-                                                Expanded(
-                                                  child: Text(
-                                                    data["name"] ?? "",
-                                                    style: const TextStyle(
-                                                      color: Colors.white,
-                                                      fontSize: 16,
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                    ),
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                      Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.end,
-                                        children: [
-                                          Column(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.end,
-                                            children: [
-                                              Text(
-                                                "${data["score"] ?? 0} Puan",
-                                                style: const TextStyle(
-                                                  color: Colors.amber,
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                              ),
-
-                                              Text(
-                                                data["status"] == "left"
-                                                    ? "🔴 Ayrıldı"
-                                                    : data["status"] ==
-                                                          "playing"
-                                                    ? "🎮 Oynuyor"
-                                                    : "⏳ Bekliyor",
-                                                style: TextStyle(
-                                                  color:
-                                                      data["status"] == "left"
-                                                      ? Colors.red
-                                                      : data["status"] ==
-                                                            "playing"
-                                                      ? Colors.green
-                                                      : Colors.orange,
-                                                  fontSize: 12,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                );
-                              }),
-                            ],
-                          ),
-                        ),
-                      Container(
-                        width: double.infinity,
-                        padding: EdgeInsets.all(cardPadding),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFF1E293B),
-                          borderRadius: BorderRadius.circular(18),
-                        ),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              children: [
-                                Icon(
-                                  Icons.category,
-                                  color: Colors.amber,
-                                  size: responsive.font(22),
-                                ),
-                                SizedBox(width: responsive.smallGap),
-                                Text(
-                                  "Kategori",
-                                  style: TextStyle(
-                                    color: Colors.white70,
-                                    fontSize: responsive.font(15),
-                                  ),
-                                ),
-                              ],
-                            ),
-
-                            SizedBox(height: responsive.smallGap),
-
-                            FittedBox(
-                              fit: BoxFit.scaleDown,
-                              alignment: Alignment.centerLeft,
-                              child: Text(
-                                currentItem?.category ?? "",
-                                maxLines: 1,
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: responsive.font(20),
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-
-                            SizedBox(height: sectionGap),
-
-                            const Divider(
-                              color: Colors.white12,
-                              thickness: 1,
-                              height: 1,
-                            ),
-
-                            SizedBox(height: sectionGap),
-
-                            Row(
-                              children: [
-                                Icon(
-                                  Icons.lightbulb,
-                                  color: Colors.amber,
-                                  size: responsive.font(22),
-                                ),
-                                SizedBox(width: responsive.smallGap),
-                                Text(
-                                  "İpucu",
-                                  style: TextStyle(
-                                    color: Colors.white70,
-                                    fontSize: responsive.font(15),
-                                  ),
-                                ),
-                              ],
-                            ),
-
-                            SizedBox(height: responsive.smallGap),
-
-                            Text(
-                              currentHint,
-                              maxLines: 3,
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: responsive.font(15),
-                                height: 1.2,
-                              ),
-                            ),
-                          ],
-                        ),
+        child: SingleChildScrollView(
+          padding: EdgeInsets.symmetric(
+            horizontal: responsive.horizontalPadding,
+            vertical: 12,
+          ),
+          child: Center(
+            child: ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: contentWidth),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  // === Canlı Puan Durumu ===
+                  if (widget.isMultiplayer)
+                    Container(
+                      width: double.infinity,
+                      margin: const EdgeInsets.only(bottom: 12),
+                      padding: const EdgeInsets.all(14),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF1E293B),
+                        borderRadius: BorderRadius.circular(16),
                       ),
-
-                      SizedBox(height: sectionGap),
-
-                      Container(
-                        width: double.infinity,
-                        height: wordBoxHeight,
-                        padding: EdgeInsets.symmetric(
-                          horizontal: responsive.smallGap,
-                        ),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFF172238),
-                          borderRadius: BorderRadius.circular(18),
-                          border: Border.all(color: Colors.white12, width: 1),
-                        ),
-                        child: Center(
-                          child: FittedBox(
-                            fit: BoxFit.scaleDown,
-                            child: Text(
-                              hiddenWord.join(" "),
-                              maxLines: 1,
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: responsive.font(30),
-                                fontWeight: FontWeight.bold,
-                                letterSpacing: 3,
-                                height: 1,
-                              ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Text(
+                            "🏆 Canlı Puan Durumu",
+                            style: TextStyle(
+                              color: Colors.amber,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
-                        ),
-                      ),
-
-                      SizedBox(height: sectionGap),
-
-                      SizedBox(
-                        height: inputHeight,
-                        child: TextField(
-                          controller: guessController,
-                          textCapitalization: TextCapitalization.characters,
-                          textInputAction: TextInputAction.done,
-                          onSubmitted: (_) {
-                            if (!myTurn) {
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
-                                  backgroundColor: Colors.orange,
-                                  content: Text(
-                                    "Sıra diğer oyuncuda.",
-                                    textAlign: TextAlign.center,
+                          const SizedBox(height: 10),
+                          Text(
+                            "🎮 Tur : $currentRound",
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const SizedBox(height: 5),
+                          Text(
+                            myTurn
+                                ? "🟢 Sıra Sende"
+                                : "🟡 Diğer Oyuncu Oynuyor",
+                            style: TextStyle(
+                              color: myTurn ? Colors.green : Colors.orange,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const Divider(color: Colors.white24),
+                          ...onlinePlayers.entries.map((entry) {
+                            final data = Map<dynamic, dynamic>.from(
+                              entry.value,
+                            );
+                            return Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 4),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      data["name"] ?? "",
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                   ),
-                                ),
-                              );
-                              return;
-                            }
+                                  Text(
+                                    "${data["score"] ?? 0} Puan",
+                                    style: const TextStyle(
+                                      color: Colors.amber,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            );
+                          }),
+                        ],
+                      ),
+                    ),
 
-                            if (guessChance > 0) {
-                              guessWord();
-                            }
-                          },
-                          decoration: InputDecoration(
-                            hintText: "Kelimeyi Tahmin Et",
-                            filled: true,
-                            fillColor: const Color(0xFF1E293B),
-                            hintStyle: TextStyle(
-                              color: Colors.white54,
-                              fontSize: responsive.font(15),
-                            ),
-                            contentPadding: EdgeInsets.symmetric(
-                              horizontal: responsive.mediumGap,
-                              vertical: 0,
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: const BorderSide(
-                                color: Colors.white12,
-                              ),
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: const BorderSide(
-                                color: Colors.deepPurpleAccent,
-                                width: 2,
-                              ),
-                            ),
-                          ),
-                          style: TextStyle(
+                  // === Kategori + İpucu ===
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFF1E293B),
+                      borderRadius: BorderRadius.circular(18),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text(
+                          "Kategori",
+                          style: TextStyle(color: Colors.white70, fontSize: 15),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          currentItem?.category ?? "",
+                          style: const TextStyle(
                             color: Colors.white,
-                            fontSize: responsive.font(16),
+                            fontSize: 20,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                      ),
-
-                      SizedBox(height: sectionGap),
-
-                      SizedBox(
-                        width: responsive.clampWidth(0.62, min: 200, max: 280),
-                        height: buttonHeight,
-                        child: ElevatedButton.icon(
-                          onPressed: myTurn
-                              ? (guessChance > 0 ? guessWord : null)
-                              : null,
-                          icon: Icon(Icons.edit, size: responsive.font(20)),
-                          label: FittedBox(
-                            fit: BoxFit.scaleDown,
-                            child: Text(
-                              "Tahmin Et ($guessChance Hak)",
-                              style: TextStyle(
-                                fontSize: responsive.font(16),
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.amber,
-                            foregroundColor: Colors.black,
-                            padding: EdgeInsets.symmetric(
-                              horizontal: responsive.mediumGap,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(14),
-                            ),
+                        const Divider(color: Colors.white12),
+                        const Text(
+                          "İpucu",
+                          style: TextStyle(color: Colors.white70, fontSize: 15),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          currentHint,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                            height: 1.3,
                           ),
                         ),
-                      ),
-
-                      SizedBox(height: sectionGap),
-
-                      WheelWidget(
-                        currentWord: currentWord,
-                        usedLetters: usedLetters,
-                        onLetterSelected: (letter) async {
-                          if (!myTurn) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                backgroundColor: Colors.orange,
-                                content: Text(
-                                  "Sıra diğer oyuncuda.",
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                            );
-                            return;
-                          }
-                          await guessLetter(letter);
-
-                          if (!mounted) {
-                            return;
-                          }
-                        },
-                      ),
-
-                      SizedBox(
-                        height: responsive.clampHeight(0.08, min: 60, max: 90),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
+
+                  const SizedBox(height: 16),
+
+                  // === Gizli Kelime ===
+                  Container(
+                    width: double.infinity,
+                    height: 64,
+                    decoration: BoxDecoration(
+                      color: const Color(0xFF172238),
+                      borderRadius: BorderRadius.circular(18),
+                      border: Border.all(color: Colors.white12),
+                    ),
+                    child: Center(
+                      child: Text(
+                        hiddenWord.join(" "),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 4,
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  const SizedBox(height: 16),
+
+                  // === Tahmin Kutusu ===
+                  TextField(
+                    controller: guessController,
+                    textCapitalization: TextCapitalization.characters,
+                    textInputAction: TextInputAction.done,
+                    onSubmitted: (_) {
+                      if (myTurn && guessChance > 0) guessWord();
+                    },
+                    decoration: InputDecoration(
+                      hintText: "Kelimeyi Tahmin Et",
+                      filled: true,
+                      fillColor: const Color(0xFF1E293B),
+                      hintStyle: const TextStyle(color: Colors.white54),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide.none,
+                      ),
+                    ),
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+
+                  const SizedBox(height: 12),
+
+                  // === Tahmin Butonu ===
+                  SizedBox(
+                    width: double.infinity,
+                    height: 50,
+                    child: ElevatedButton.icon(
+                      onPressed: guessWord,
+                      icon: const Icon(Icons.edit),
+                      label: Text("Tahmin Et ($guessChance Hak)"),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.amber,
+                        foregroundColor: Colors.black,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(14),
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  const SizedBox(height: 20),
+
+                  // === Harf Çarkı ===
+                  WheelWidget(
+                    currentWord: currentWord,
+                    usedLetters: usedLetters,
+                    onLetterSelected: (letter) async {
+                      if (!myTurn) return;
+                      await guessLetter(letter);
+                    },
+                  ),
+
+                  const SizedBox(height: 40),
+                ],
               ),
-            );
-          },
+            ),
+          ),
         ),
       ),
     );

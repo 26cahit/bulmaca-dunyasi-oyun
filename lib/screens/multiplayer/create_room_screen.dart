@@ -13,6 +13,7 @@ class CreateRoomScreen extends StatefulWidget {
 }
 
 class _CreateRoomScreenState extends State<CreateRoomScreen> {
+  bool _creatingRoom = false;
   final DatabaseReference roomsRef = FirebaseDatabase.instance.ref('rooms');
 
   String selectedGame = 'Kelime Dünyası';
@@ -26,7 +27,12 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
   ];
 
   Future<void> startGame() async {
+    if (_creatingRoom) return;
+
+    _creatingRoom = true;
+
     try {
+      debugPrint("1-startGame başladı");
       final player = context.read<PlayerProvider>();
 
       final String playerName = player.playerName.trim();
@@ -42,39 +48,42 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
         );
         return;
       }
+      debugPrint("2-yeni oda hazırlanıyor");
+      debugPrint("3-yeni oda oluşturuluyor");
+
       final DatabaseReference roomRef = roomsRef.push();
 
       final String roomId = roomRef.key!;
       final String hostPlayerId = roomRef.child("players").push().key!;
-      await roomRef.set({
-        'roomId': roomId,
 
-        'roomName': "$playerName'in Odası",
-        'game': selectedGame,
-        'maxPlayers': selectedPlayerCount,
-        'status': 'waiting',
+      final Map<String, dynamic> roomData = {
+        "roomId": roomId,
+        "roomName": "$playerName'in Odası",
+        "game": selectedGame,
+        "maxPlayers": selectedPlayerCount,
+        "status": "waiting",
         "round": 1,
         "currentTurn": hostPlayerId,
         "winner": "",
-        'createdAt': ServerValue.timestamp,
-        'players': {
+        "createdAt": ServerValue.timestamp,
+        "players": {
           hostPlayerId: {
-            'name': playerName,
-            'avatar': player.avatar,
-            'score': 0,
-            'online': true,
-            'status': 'playing',
-            'ready': false,
-            'isHost': true,
-            'joinedAt': ServerValue.timestamp,
+            "name": playerName,
+            "avatar": player.avatar,
+            "score": 0,
+            "online": true,
+            "status": "playing",
+            "ready": false,
+            "isHost": true,
+            "joinedAt": ServerValue.timestamp,
           },
         },
-      });
+      };
 
-      if (!mounted) {
-        return;
-      }
+      debugPrint("4-firebase yazılıyor");
 
+      await roomRef.set(roomData);
+      debugPrint("5-lobby ekranına geçiliyor");
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -100,6 +109,8 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
           backgroundColor: Colors.red,
         ),
       );
+    } finally {
+      _creatingRoom = false;
     }
   }
 

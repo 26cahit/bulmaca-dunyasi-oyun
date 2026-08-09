@@ -28,14 +28,12 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
 
     try {
       final player = context.read<PlayerProvider>();
-
       final String playerName = player.playerName.trim();
 
       if (playerName.isEmpty) {
         setState(() {
           joining = false;
         });
-
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text(
@@ -51,13 +49,12 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
         "rooms/$roomId",
       );
 
-      final DataSnapshot snapshot = await roomRef.get();
+      final DatabaseEvent event = await roomRef.once();
 
-      if (!snapshot.exists) {
+      if (!event.snapshot.exists) {
         setState(() {
           joining = false;
         });
-
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text(
@@ -69,9 +66,22 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
         return;
       }
 
-      final Map<dynamic, dynamic> data = Map<dynamic, dynamic>.from(
-        snapshot.value as Map,
-      );
+      final data = Map<dynamic, dynamic>.from(event.snapshot.value as Map);
+
+      if (data["status"] != "waiting") {
+        setState(() {
+          joining = false;
+        });
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              "Oda artık katılmaya kapalı.",
+              textAlign: TextAlign.center,
+            ),
+          ),
+        );
+        return;
+      }
 
       final Map<dynamic, dynamic> players = data["players"] == null
           ? {}
@@ -79,13 +89,10 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
 
       final int maxPlayers = (data["maxPlayers"] as num?)?.toInt() ?? 2;
 
-      final int currentPlayers = players.length;
-
-      if (currentPlayers >= maxPlayers) {
+      if (players.length >= maxPlayers) {
         setState(() {
           joining = false;
         });
-
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             backgroundColor: Colors.red,
@@ -95,13 +102,12 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
             ),
           ),
         );
-
         return;
       }
 
-      final DatabaseReference newPlayer = roomRef.child("players").push();
+      final DatabaseReference newPlayerRef = roomRef.child("players").push();
 
-      await newPlayer.set({
+      await newPlayerRef.set({
         "name": playerName,
         "avatar": player.avatar,
         "score": 0,
@@ -112,20 +118,22 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
         "joinedAt": ServerValue.timestamp,
       });
 
+      // Oyuncu kopunca kendini silsin
+      newPlayerRef.onDisconnect().remove();
+
       if (!mounted) return;
 
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
           builder: (_) =>
-              RoomLobbyScreen(roomCode: roomId, playerId: newPlayer.key!),
+              RoomLobbyScreen(roomCode: roomId, playerId: newPlayerRef.key!),
         ),
       );
     } catch (e) {
       setState(() {
         joining = false;
       });
-
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           backgroundColor: Colors.red,
@@ -133,11 +141,6 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
         ),
       );
     }
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
   }
 
   @override
@@ -156,7 +159,11 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
       ),
       body: SafeArea(
         child: StreamBuilder<DatabaseEvent>(
-          stream: roomsRef.onValue,
+          stream: roomsRef
+              .orderByChild("status")
+              .equalTo("waiting")
+              .limitToLast(20)
+              .onValue,
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const Center(
@@ -176,30 +183,46 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
             final Map<dynamic, dynamic> rooms = Map<dynamic, dynamic>.from(
               snapshot.data!.snapshot.value as Map,
             );
-            final now = DateTime.now().millisecondsSinceEpoch;
 
+            final int now = DateTime.now().millisecondsSinceEpoch;
+
+            // Eski ve boş odaları temizle
             rooms.removeWhere((key, value) {
               final data = Map<dynamic, dynamic>.from(value);
-
-              final created = (data["createdAt"] as num?)?.toInt() ?? now;
-
+              final createdAt = (data["createdAt"] as num?)?.toInt() ?? 0;
               final players = data["players"] == null
                   ? {}
                   : Map<dynamic, dynamic>.from(data["players"]);
 
-              if (players.isEmpty) {
-                roomsRef.child(key.toString()).remove();
+              if (now - createdAt > 300000 || players.isEmpty) {
+                roomsRef.child(key).remove();
                 return true;
               }
-
-              if (now - created > 600000) {
-                roomsRef.child(key.toString()).remove();
-                return true;
-              }
-
               return false;
             });
-            final roomList = rooms.entries.toList();
+
+            final roomList = rooms.entries.where((entry) {
+              final room = Map<dynamic, dynamic>.from(entry.value);
+
+              if (room["status"] != "waiting") return false;
+
+              final players = room["players"] == null
+                  ? {}
+                  : Map<dynamic, dynamic>.from(room["players"]);
+
+              if (players.isEmpty) return false;
+
+              bool hostExists = false;
+              for (final p in players.values) {
+                final player = Map<dynamic, dynamic>.from(p);
+                if (player["isHost"] == true) {
+                  hostExists = true;
+                  break;
+                }
+              }
+              return hostExists;
+            }).toList();
+
             roomList.sort((a, b) {
               final roomA = Map<dynamic, dynamic>.from(a.value);
               final roomB = Map<dynamic, dynamic>.from(b.value);
@@ -207,14 +230,12 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
               final playersA = roomA["players"] == null
                   ? {}
                   : Map<dynamic, dynamic>.from(roomA["players"]);
-
               final playersB = roomB["players"] == null
                   ? {}
                   : Map<dynamic, dynamic>.from(roomB["players"]);
 
               final currentA = playersA.length;
               final currentB = playersB.length;
-
               final maxA = (roomA["maxPlayers"] as num?)?.toInt() ?? 2;
               final maxB = (roomB["maxPlayers"] as num?)?.toInt() ?? 2;
 
@@ -224,69 +245,42 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
               if (fullA == fullB) {
                 return currentB.compareTo(currentA);
               }
-
               return fullA ? 1 : -1;
             });
+
             return ListView.builder(
               padding: const EdgeInsets.all(15),
               itemCount: roomList.length,
               itemBuilder: (context, index) {
                 final room = roomList[index];
-
                 final String roomId = room.key.toString();
-
                 final Map<dynamic, dynamic> roomData =
                     Map<dynamic, dynamic>.from(room.value);
 
-                if (roomData["status"] != "waiting") {
-                  return const SizedBox();
-                }
-                final int createdAt =
-                    (roomData["createdAt"] as num?)?.toInt() ?? 0;
-
-                final int now = DateTime.now().millisecondsSinceEpoch;
-
-                if (now - createdAt > 300000) {
-                  roomsRef.child(roomId).remove();
-                  return const SizedBox();
-                }
                 final Map<dynamic, dynamic> players =
                     roomData["players"] == null
                     ? {}
                     : Map<dynamic, dynamic>.from(roomData["players"]);
 
                 final int currentPlayers = players.length;
-
                 final int maxPlayers =
                     (roomData["maxPlayers"] as num?)?.toInt() ?? 2;
-
                 final bool full = currentPlayers >= maxPlayers;
 
                 String hostName = "Oda";
-
-                for (final p in players.values) {
-                  final Map<dynamic, dynamic> data = Map<dynamic, dynamic>.from(
-                    p,
-                  );
-
-                  if (data["isHost"] == true) {
-                    hostName = data["name"] ?? "Oda";
-                    break;
-                  }
-                }
                 String hostAvatar = "🙂";
 
                 for (final p in players.values) {
                   final Map<dynamic, dynamic> data = Map<dynamic, dynamic>.from(
                     p,
                   );
-
                   if (data["isHost"] == true) {
                     hostName = data["name"] ?? "Oda";
                     hostAvatar = data["avatar"] ?? "🙂";
                     break;
                   }
                 }
+
                 return Card(
                   color: const Color(0xff1E293B),
                   margin: const EdgeInsets.only(bottom: 15),
@@ -308,25 +302,17 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
                                 style: const TextStyle(fontSize: 24),
                               ),
                             ),
-
                             const SizedBox(width: 12),
-
                             Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    "$hostName'in Odası",
-                                    style: const TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ],
+                              child: Text(
+                                "$hostName'in Odası",
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
-
                             Container(
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 10,
@@ -346,9 +332,7 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
                             ),
                           ],
                         ),
-
                         const SizedBox(height: 10),
-
                         Container(
                           padding: const EdgeInsets.symmetric(
                             horizontal: 12,
@@ -366,15 +350,11 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
                             ),
                           ),
                         ),
-
                         const SizedBox(height: 8),
-
                         Row(
                           children: [
                             const Icon(Icons.people, color: Colors.white70),
-
                             const SizedBox(width: 8),
-
                             Text(
                               "$currentPlayers / $maxPlayers Oyuncu",
                               style: const TextStyle(
@@ -383,22 +363,20 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-
-                            const Spacer(),
                           ],
                         ),
-
                         const SizedBox(height: 15),
-
                         SizedBox(
                           width: double.infinity,
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
                               backgroundColor: full ? Colors.red : Colors.green,
                             ),
-                            onPressed: () {
-                              joinRoom(roomId, roomData);
-                            },
+                            onPressed: full
+                                ? null
+                                : () {
+                                    joinRoom(roomId, roomData);
+                                  },
                             child: Text(
                               full ? "ODA DOLU" : "KATIL",
                               style: const TextStyle(
