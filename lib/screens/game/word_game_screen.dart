@@ -569,13 +569,13 @@ class _WordGameScreenState extends State<WordGameScreen> {
       return;
     }
 
-    final String guess = guessController.text.trim().toUpperCase();
+    final String guess = guessController.text.trim();
 
     if (guess.isEmpty) {
       return;
     }
 
-    if (guess == currentWord) {
+    if (guess.toUpperCase() == currentWord.trim().toUpperCase()) {
       guessController.clear();
 
       hiddenWord = currentWord.split("");
