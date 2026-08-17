@@ -16,8 +16,8 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
 
   int? _lastWidth;
 
-  static const String _testBannerAdUnitId =
-      'ca-app-pub-3940256099942544/9214589741';
+  static const String _bannerAdUnitId =
+      'ca-app-pub-3473720329862425/2959782351';
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -68,7 +68,7 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
     }
 
     final BannerAd bannerAd = BannerAd(
-      adUnitId: _testBannerAdUnitId,
+      adUnitId: _bannerAdUnitId,
       request: const AdRequest(),
       size: adaptiveSize,
       listener: BannerAdListener(
